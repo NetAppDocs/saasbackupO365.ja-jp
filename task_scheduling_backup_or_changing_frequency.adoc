@@ -1,0 +1,66 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_backup_or_changing_frequency.html 
+keywords: netapp, saas backup, microsoft 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+summary: 新しいバックアップのスケジュールを設定する場合も、現在のバックアップの頻度に変更する場合も、同じ手順で行います。 
+---
+= バックアップのスケジュール設定またはバックアップ頻度の変更
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+保護されていないデータをバックアップポリシーに割り当てることでバックアップできます。保護されていないデータがバックアップポリシーに割り当てられると、そのデータは、割り当てられたポリシーに対してスケジュールされた次のバックアップが実行されるまで「 * pending * 」状態になり、その後、そのバックアップが * protected * 状態になります。保護対象データのバックアップ頻度を変更する場合は、データを別のバックアップポリシー階層に割り当てることができます。
+
+.手順
+. ダッシュボードで、変更するサービスのボックスの上の * protected * または * unprotected * をクリックします。保護されているデータのバックアップ頻度を変更する場合は、 [* 保護されている *] をクリックします。新たに検出されたメールボックス、サイト、または個人サイトをバックアップする場合は、 [ 保護されていない *] を選択します。
++
+image:number_protected_unprotected.gif[""]
+
+. バックアップオプションを選択します。
++
+.. が必要です
++
+*** 共有メールボックス（ Tier 3 のみ）をバックアップする場合は、「 * shared * 」タブをクリックします。
+*** アーカイブメールボックス（ Tier 3 のみ）をバックアップする場合は、「 * archive * 」タブをクリックします。
+*** 通常のメールボックスをバックアップまたは変更する場合は、 *user* タブに残ります。
+
+
+.. SharePoint の場合
++
+*** サイトのバックアップ・ポリシーをバックアップまたは変更する場合は、 [*sites *] タブに残ります。
+
+
+.. OneDrive に対応
++
+*** ユーザーのバックアップ・ポリシーをバックアップまたは変更する場合は、 [*user*] タブに残ります。
+
+
+.. Microsoft 365 グループの場合
++
+*** グループをバックアップする場合（ Tier 3 のみ）は、 *groups * タブに残ります。
+*** チームをバックアップする場合は（ Tier 3 のみ）、 * Teams * タブをクリックします。
+
+
+
+
+. バックアップする項目を選択します。
+. [* グループ *] メニューをクリックします。
++
+image:groups_menu.gif["グループメニュー"]
+
+. バックアップ用の新しいポリシー階層を選択します。
++
+
+NOTE: Microsoft 365 のグループとアーカイブメールボックスは、階層 3 のポリシーにのみ移動できます。
+
+. [ 適用（ Apply ） ] をクリックします。
+

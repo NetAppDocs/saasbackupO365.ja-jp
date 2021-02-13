@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: task_downloading_data.html 
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, downloading 
+summary: SaaS Backup のアクティビティとジョブ履歴のログを表示またはダウンロードできます。 
+---
+= ログをダウンロードしています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 では、ジョブ履歴のログが SaaS Backup に保存されます。ジョブ履歴と完了したジョブのリストをダウンロードできます。
+
+
+
+== アクティビティログのダウンロード
+
+SaaS Backup for Microsoft 365 内で発生するすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは .csv ファイルにダウンロードできます。
+
+.手順
+. をクリックします image:reporting.gif["レポートボタンのスクリーンショット"] をクリックします。
+. [ アクティビティログ * （ Activity Log * ） ] タブをクリックします。すべての SaaS Backup for Microsoft 365 アクティビティのリストが表示されます。
+. をクリックします image:download_activitylog.gif["アクティビティログの右隅にあるダウンロードボタンのスクリーンショット"]。アクティビティログは .csv ファイルとしてダウンロードされます。
+
+
+
+
+== 完了したジョブのログをダウンロードしています
+
+正常に完了したジョブの Excel スプレッドシートをダウンロードできます。
+
+.手順
+. 左側のナビゲーションペインで [* ジョブ ] をクリックします
++
+image:jobs_button.gif["ジョブボタンのスクリーンショット"]
+
+. ダウンロードする最近完了したジョブをクリックします。
+. 正常に完了したジョブの数の下にある [ 成功しました ] をクリックします。
++
+image:completed_jobs.gif["完了したジョブのスクリーンショット"]
+
+. 右上の「 * ダウンロード」をクリックします。ログがダウンロードされます
+

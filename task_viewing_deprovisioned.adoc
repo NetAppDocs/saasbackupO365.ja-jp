@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deprovisioned.html 
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+summary: 削除されたメールボックスまたはユーザアカウントのリストを表示できます。 
+---
+= プロビジョニング解除された項目のリストを表示します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+プロビジョニング解除されたメールボックスまたはユーザアカウントのリストを表示できます。
+
+.手順
+. 左側のナビゲーションペインで [*SERVICES *] をクリックします。
+. 必要なサービスで、保護されていない項目の数をクリックします。
+. [* プロビジョニング解除 * ] タブをクリックします。
+

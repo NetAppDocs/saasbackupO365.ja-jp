@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_purged.html 
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, purged, deleted, accounts, mailboxes, sites, mysites 
+summary: パージされたメールボックスまたはユーザアカウントのリストを表示できます。 
+---
+= パージされたデータのリストを表示します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+パージされたメールボックスまたはユーザアカウントのリストを表示できます。
+
+.手順
+. 設定アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] をクリックします。
+. 「 * アカウント設定 * 」を選択します。
+. [* retain and purge] をクリックします。
+. ［ * パージデータ * ］ で、 ［ * パージされたリストを表示 * ］ をクリックします。
++
+パージが予定されているアイテムのリストと ' すでにパージされているアイテムのリストを表示できます
+
+

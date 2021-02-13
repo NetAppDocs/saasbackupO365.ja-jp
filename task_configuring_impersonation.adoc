@@ -1,0 +1,58 @@
+---
+sidebar: sidebar 
+permalink: task_configuring_impersonation.html 
+keywords: netapp, saas backup, microsoft 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts, 
+summary: SaaS Backup for Microsoft 365 の導入にあたっては、データのバックアップに使用するストレージのタイプの決定、関連情報の収集、 Microsoft 365 サービスアカウントの作成、ユーザ権限の割り当てなどを行います。 
+---
+= Microsoft Exchange Online の偽装を設定しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。偽装を使用すると、 Microsoft 365 サービスアカウントがユーザーアカウントを偽装し、関連するアクセス許可にアクセスできるようになります。
+
+
+
+== 偽装を自動的に構成します
+
+偽装を自動的に構成するには、を実行します https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell コマンドです"]。
+
+
+
+== 偽装を手動で設定する
+
+偽装を手動で構成するには、次の手順に従います。
+
+.手順
+. Exchange Admin Center または管理者アカウントを使用して、 Microsoft 365 サービスアカウントにログインします。
+. [*Exchange] タブを選択します。
+. 左側の [ ダッシュボード ] で、 [* アクセス許可 *] を選択します。
+. [ 管理者ロール ] をクリックします。
+. 右側のペインでダブルクリックして、 [* Discovery management* （検出管理 * ） ] を選択します。
+. [* 役割 ] の下で、 * + * 記号をクリックします。
++
+image:screen_shot_write_scope.gif["偽装を構成するときのライトスコープウィンドウのスクリーンショット Microsoft Exchange Online の略"]
+
+. ドロップダウンメニューから * ApplicationImpersonation * を選択します。
+. [ 追加（ Add ） ] をクリックします。
+. [OK] をクリックします。
+. * 役割 * の下に * ApplicationImpersonation * が追加されていることを確認します。
+. メンバー（ Members ）で、 * + * 記号をクリックします。
++
+image:screen_shot_members.gif["Microsoft の偽装を構成するときのメンバーウィンドウのスクリーンショット Exchange Online"]新しいウィンドウが表示されます
+
+. ユーザ名を選択します。
+. [ 追加（ Add ） ] をクリックします。
+. [OK] をクリックします。
+. ユーザー名が * Members * （メンバー * ）セクションに表示されていることを確認します。
+. [ 保存（ Save ） ] をクリックします。
+

@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_activating_a_service.html 
+keywords: netapp, saas backup, microsoft 365, activating, service 
+summary: 必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスをアクティブ化できます。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。 
+---
+= サービスをアクティブ化しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスをアクティブ化できます。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。
+
+.手順
+. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. [Microsoft 365] リンクをクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. アクティブ化するサービスの横にある [Activate *] をクリックします。
+. [* 確認 *] をクリックします。
+

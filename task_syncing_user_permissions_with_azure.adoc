@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_syncing_user_permissions_with_azure.html 
+keywords: netapp, saas backup, microsoft 365, synchronizing, granting, permissions, azure, active directory 
+summary: NetApp SaaS Backup for Microsoft 365 では、 Azure Active Directory を使用して権限を管理できます。 
+---
+= ユーザ権限を Azure Active Directory と同期する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 から、ユーザ権限を Azure Active Directory と手動で同期できます。
+
+.手順
+. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. [Microsoft 365] リンクをクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. [* アクセス許可の再検出 * ] をクリックします。
++
+image:rediscover_permissions.gif["権限の再検出アイコン"]
+
++
+サービスの権限が検出された場合は、オプションを active にしてサービスが表示されます。
+
+

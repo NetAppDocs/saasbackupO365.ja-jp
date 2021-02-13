@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_updating_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: バックアップ設定を更新して、さまざまなバックアップオプションを制御できます。使用可能なバックアップ設定はサービスによって異なります。 
+---
+= バックアップ設定を更新しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+を更新できます <<concept_backup_settings.adoc#backup-settings,バックアップ設定>> 各種バックアップオプションを制御するため。利用可能 <<concept_backup_settings.adoc#backup-settings,バックアップ設定>> サービスによって異なります。
+
+.手順
+. 左側のナビゲーションペインで [*Services] をクリックします。
++
+image:services.gif["サービスボタンのスクリーンショット"]
+
+. [Microsoft 365] をクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. [ サービスの管理 ] で、 [ バックアップ設定 ] アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] をクリックします。選択したサービスで使用できるバックアップ設定のリストが表示されます。
+. 目的のバックアップ設定を選択します。
+. [* 確認 *] をクリックします。
+

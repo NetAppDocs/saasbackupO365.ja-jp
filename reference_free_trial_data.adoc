@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: reference_free_trial_data.html 
+keywords: free, trial, data, saas, backup, microsoft 365 
+summary: ライセンス版の SaaS Backup for Microsoft 365 にアップグレードしない場合、無償トライアル期間中に使用されたデータは削除されます。 
+---
+= 無料トライアルデータの削除
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+ライセンス版の SaaS Backup for Microsoft 365 にアップグレードしない場合、無償トライアル期間中に使用されたデータは次のように削除されます。
+
+|===
+| SaaS Backup の無償トライアル | トライアル終了後の日数 | データは ... 
+
+
+| 期限切れ | 1 ～ 15 日 | Available ：管理者は通常アクセスが可能で、手動によるバックアップおよびリストアを実行できます。SaaS Backup では引き続きアラートが表示され、通知が送信されます。 
+
+
+| 無効 | 16 ～ 30 日 | Deactivated ：管理者は SaaS Backup ポータルにアクセスできません。この期間にサブスクリプションが更新された場合は、データを再アクティブ化できます。 
+
+
+| プロビジョニング解除 | 31 日以上 | Deleted ：すべてのデータが削除され、テナントアカウントが削除されます。 
+|===

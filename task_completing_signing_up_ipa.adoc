@@ -1,0 +1,36 @@
+---
+sidebar: sidebar 
+permalink: task_completing_signing_up_ipa.html 
+keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version 
+summary: Microsoft 365 サービスアカウントまたはネットアップの SSO アカウントを使用して、 SaaS Backup for Microsoft 365 にサインアップできます。 
+---
+= 有料メンバーシップでサインアップ
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ネットアップからライセンスを購入した場合は、サブスクリプションタイプが表示されます。次の手順に従って、サインアッププロセスを完了します。
+
+.手順
+. サブスクリプションタイプとして [*Licensed*] を選択します。
+. 必要な情報を入力し、サブスクリプションを検証します。
+. 「 * 次へ * 」をクリックします。
+. バックアップストレージオプションを選択します。
++
+.. [*SaaS Backup Provided Storage*] をクリックします。
+.. Amazon S3 * または * Azure Blob * ストレージオプションを選択します。
+.. バックアップの * AWS S3 * または * Azure Blob * リージョンを選択します。バックアップするデータの物理的な場所に最も近いリージョンを選択してください。
+.. 「 * 次へ * 」をクリックします。
+.. 設定を確認し、 * Save * をクリックします。
+
+
+

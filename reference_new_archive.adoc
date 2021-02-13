@@ -1,0 +1,101 @@
+---
+sidebar: sidebar 
+permalink: reference_new_archived.html 
+keywords: what's new, features, new, release notes, enhancements 
+summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、およびバグ修正を提供する新しいリリースが定期的に導入されています。 
+---
+= 新機能と更新 - アーカイブされました
+:toc: macro
+:hardbreaks:
+:toclevels: 2
+:toc: 
+:toclevels: 2
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+以下は、 SaaS Backup for Microsoft 365 に追加された新機能のアーカイブ一覧です。
+
+
+
+== 2018年12月
+
+* SaaS Backup for Microsoft 365 は AppDirect Marketplace と CANCOM Marketplace を通じて購入できるようになりました。
+
+
+
+
+== 2018 年 8 月
+
+* ユーザインターフェイスが再設計され、ユーザエクスペリエンスと効率が向上しました。
+* データ保持ポリシーが更新され、データを 3 年間保持できるようになりました。<<concept_backup_policies.adoc#backup_policies,バックアップポリシー>>
+
+
+
+
+== 2018 年 5 月
+
+* NetApp Cloud Control は、 NetApp SaaS Backup for Microsoft 365 に名称が変更されました。
+* ユーザ、サイトコレクション、 Microsoft 365 グループをパージし、関連するデータをすべて SaaS Backup for Microsoft 365 から完全に削除できるようになりました。<<task_purging.adoc#purging-a-user-site-collection-or-office-365-group,ユーザー、サイトコレクション、または Microsoft 365 グループをパージする>>
+* SaaS Backup で、 Microsoft 365 グループのパブリックグループとプライベートグループの両方が検出されるようになりました。
+
+
+
+
+== 2018 年 4 月
+
+* SaaS Backup for Microsoft 365 で、 Microsoft Office Exchange Online の共有メールボックスがサポートされるようになりました。
++
+共有メールボックスは、自動的に作成されたサービスアカウントを使用して検出されます。この更新プログラムの前に Microsoft Office Exchange Online のサービスをアクティブ化していない場合、 Microsoft Office Exchange Online をアクティブ化すると、共有メールボックスの自動サービスアカウントが SaaS Backup によって作成されます。Microsoft Office Exchange Online のサービスが既に有効になっている場合は、共有メールボックスを検出してバックアップできるように、自動サービスアカウントを作成するための SaaS Backup 権限を付与する必要があります。 <<task_granting_permissions_to_enable_shared_mailboxes.adoc#granting-permissions-to-enable-shared-mailboxes,共有メールボックスを有効にする権限を付与しています>>
+
++
+自動サービスアカウントが作成されると、次回のユーザーアカウントのスケジュールされた同期中に、共有メールボックスが自動的に検出されます。共有メールボックスをすぐに検出する場合は、次の操作を実行できます <<task_discovering_new.adoc#sdiscovering-new-mailboxes-sites-and-groups,ユーザアカウントをすぐに検出します>>。
+
+
+
+
+
+== 2018 年 3 月
+
+無償トライアルのアクティベーションコードを入力する場所は、サービスプロバイダの追加ウィザードに移動されました。
+
+image:subscription_types_free_trial.jpg["無料トライアルが選択されている場合に、サブスクリプションページでアクティベーションコードを入力する場所を示すスクリーンショット。"]
+
+
+
+== 2018 年 2 月
+
+* テンプレート ID に基づくフィルタリングが Microsoft SharePoint Online で使用できるようになりました。<<task_creating_user_defined_filter.adoc#creating-a-user-defined-filer,ユーザ定義フィルタの作成>>
+* SaaS Backup for Microsoft 365 のユーザアカウントアクティビティログを .csv ファイルにダウンロードできるようになりました。<<task_viewing_and_downloading_data.adoc#downloading-the-activity-log,アクティビティログのダウンロード>>
+* SaaS Backup for Microsoft 365 とサービス間のユーザアカウント、サイト、グループの同期がデフォルトで有効になりました。
+* バックアップバージョン履歴を含める機能がデフォルトで有効になりました。デフォルトのバージョン数は 20 です。<<task_updating_backup_settings.adoc#updating-backup-settings,バックアップ設定を更新しています>>
+
+
+
+
+== 2018 年 1 月
+
+* アクティビティログに、 SaaS Backup for Microsoft 365 で実行された各アクションに関連付けられたユーザ ID の名前が表示されるようになりました。
+* SaaS Backup for Microsoft 365 から、ユーザ権限と Azure Active Directory を手動で同期できるようになりました。
+* Microsoft Exchange Online では、フォルダ・レベルでのリストア用に PST へのエクスポートがサポートされるようになりました。
+
+
+
+
+== 2017 年 11 月
+
+* SaaS Backup for Microsoft 365 で、 SaaS Backup のストレージオプションとして Azure Blob がサポートされるようになりました。
+* SaaS Backup for Microsoft 365 で、バックアップとリストア用に Microsoft 365 グループがサポートされるようになりました。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。Microsoft 365 グループは、階層 3 のバックアップポリシーでのみ保護できます。
+* Microsoft Exchange Online では、メールボックスレベルでのリストアのために PST へのエクスポートがサポートされるようになりました。
+
+
+
+
+== 2017 年 10 月
+
+* 事前に選択した条件に基づいて、ユーザを自動的にバックアップ階層に移動するルールを作成できます。Microsoft Exchange Online と Microsoft OneDrive for Business のルールを作成できます。Microsoft SharePoint Online のルールは作成できません。<<task_creating_rules.adoc#creating-rules,ルールの作成>>
+

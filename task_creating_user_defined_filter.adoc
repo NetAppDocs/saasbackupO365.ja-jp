@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_creating_user_defined_filter.html 
+keywords: netapp, saas backup, microsoft 365, viewing, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+summary: メールボックス、サイト、または個人用サイトの表示をフィルタリングして、特定の条件を満たす結果のみを表示できます。 
+---
+= ユーザ定義フィルタの作成
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+メールボックス、サイト、または個人用サイトの表示をフィルタリングして、特定の条件を満たす結果のみを表示できます。たとえば、特定の国のメールボックスだけを表示するようにフィルタを設定したり、その国の特定の部門を表示したりできます。
+
+.手順
+. ダッシュボードで、フィルタを作成するサービスのボックスの上の * protected * または * unprotected * をクリックします。上記の保護されている数は、バックアップ・ポリシーによって現在保護されているメールボックス、個人用サイト、またはグループの数を示します。保護されていない上記の数は、バックアップポリシーで保護されていないメールボックス、個人用サイト、またはグループの数を示します。
++
+image:number_protected_unprotected.gif[""]
+
+. [* フィルタ * （ Filter * ） ] をクリック
++
+image:filter.gif["フィルタのドロップダウンメニューボタンのスクリーンショット"]
+
+. [ * Select * ] ドロップダウンメニューをクリックして、任意のフィルタを選択します。
++
+Microsoft SharePoint Online の場合は、テンプレート ID でフィルタできます。検索するテンプレート ID を入力するか、ドロップダウンメニューから選択できます。
+
++
+その他のサービスについては、グループ、国、オフィス、部署、役職、ドメイン、国でフィルタリングできます。セキュリティグループがある場合は、フィルタリングオプションとしても表示されます。
+
++
+2 つ目のドロップダウンメニューには、選択したフィルタに基づいて選択内容が表示されます。たとえば、最初のフィルタとして Group を選択した場合は、いずれかのバックアップポリシーグループ階層をセカンダリフィルタとして選択できます。
+
++
+image:select_filter.gif["フィルタオプションの最初のセットのスクリーンショット"]
+
++
+検索フィールドが表示されます。
+
+. 検索条件を入力します。
+. フィルタをさらに追加する場合は、 [ フィルタを追加（ Add Filter ） ] をクリックし、選択を行います。
+. [ フィルタを適用（ Apply Filter ） ] をクリックする。フィルタ結果が表示されます。
+

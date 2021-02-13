@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_granting_permissions_to_enable_shared_mailboxes.html 
+keywords: netapp, saas backup, microsoft 365, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
+summary: NetApp SaaS Backup for Microsoft 365 では、共有メールボックスを有効にする権限を付与できます。 
+---
+= 共有メールボックスを有効にする権限を付与しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+NetApp SaaS Backup for Microsoft 365 内の共有メールボックスを有効にする権限を付与できます。
+
+.手順
+. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. [Microsoft 365] リンクをクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. [Grant conント *] をクリックします。
++
+image:grant_consent.gif["承認承諾のアイコンのスクリーンショット"]
+
++
+Azure 認証の許可ページが表示されます。
+
+. テナントアカウントを選択します。
+. * 権限を受け入れます。共有メールボックスは、次のスケジュールの * 自動同期 * 中に検出されます。または、 * 今すぐ同期 * を実行できます。[ 今すぐ同期 ] を使用している場合は、共有メールボックスが検出されるまで数分かかります。
+. * 自動同期 * または * 今すぐ同期 * 後に共有メールボックスにアクセスするには、次の手順に従います。
++
+.. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+.. [Microsoft Exchange Online] をクリックします。
+.. 保護されていないメールボックスの数をクリックします。
+.. [*Shared*] タブをクリックします。
+
+
+

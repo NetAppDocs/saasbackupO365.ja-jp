@@ -1,0 +1,34 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_rules.html 
+keywords: netapp, saas backup, microsoft 365, deleting, removing, rules 
+summary: 既存のルールが不要になった場合は削除できます。また、ルールで使用されているセキュリティグループを削除する必要がある場合は、事前にセキュリティグループを削除しておく必要があります。 
+---
+= ルールを削除する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+既存のルールが不要になった場合は削除できます。また、ルールで使用されているセキュリティグループを削除する必要がある場合は、事前にセキュリティグループを削除しておく必要があります。
+
+.手順
+. ダッシュボードで、ルールを作成するサービスのボックスで、上の * 非保護 * の番号をクリックします。
++
+image:number_protected_unprotected.gif[""]
+
+. [* フィルタ * （ Filter * ） ] をクリック
++
+image:filter.gif["フィルタのドロップダウンメニューボタンのスクリーンショット"]
+
+. * ルール * をクリックします。既存のルールが表示されます。
+. ゴミ箱をクリックします image:trash_can_icon.gif["削除アイコンのスクリーンショット"] ルールを削除します。ルールが以前適用されていた項目のステータスは、ルールを削除しても変更されません。
+

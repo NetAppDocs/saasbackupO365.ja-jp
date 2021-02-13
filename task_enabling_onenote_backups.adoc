@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: task_enabling_onenote_backups.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, enabling, onenote 
+summary: OneNote ノートブックのバックアップを有効にすることができます。 
+---
+= OneNote のバックアップを有効にする
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+既定では、 OneNote ノートブックのバックアップはノートが有効になっています。OneNote ノートブックをバックアップする場合は、目的のサービスでバックアップを有効にする必要があります。
+
+.手順
+. 左側のナビゲーションペインで [*Services] をクリックします。
++
+image:services.gif["サービスボタンのスクリーンショット"]
+
+. [Microsoft 365] をクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. [ サービスの管理 ] で、 [ バックアップ設定 ] アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] をクリックします。
++
+選択したサービスで使用できるバックアップ設定のリストが表示されます。
+
+. [* OneNote バックアップを有効にする * ] を選択します。
+. [* 確認 *] をクリックします。ノートブックは、次のスケジュールされたバックアップに含まれます。すぐにバックアップする場合は、を実行します link:task_performing_immediate_backup_of_service.html["即時バックアップ"]。
+

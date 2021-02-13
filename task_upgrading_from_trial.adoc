@@ -1,0 +1,80 @@
+---
+sidebar: sidebar 
+permalink: task_upgrading_from_trial.html 
+keywords: netapp, saas backup, microsoft 365, activating service, deactivating, synchronizing, user accounts, sites, groups, adding, license, granting, permissions, enabling shared mailboxes, azure, active directory 
+summary: 試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合、試用版データは、バックアップストレージの保存先を変更しない限り保持されません。 
+---
+= 試用版サブスクリプションからアップグレードする
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合は、同じバックアップストレージのデスティネーションタイプと同じバックアップストレージ領域を使用している場合にのみ、試用版データが保持されます。
+
+* バックアップ保存先タイプを変更すると、トライアルデータは失われます。バックアップ先のリージョンが変更されると、も変更されます データ損失。 *
+
+|===
+| トライアル契約のバックアップ先 | ライセンス契約のバックアップ先 | 試用版のデータ 
+
+
+| Amazon S3 が SaaS Backup で提供されます | Amazon S3 が SaaS Backup で提供されます | 維持されます 
+
+
+| SaaS Backup が提供する Azure Blob です | SaaS Backup が提供する Azure Blob です | 維持されます 
+|===
+.手順
+. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. [Microsoft 365] リンクをクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. [ サブスクリプションの詳細 * ] で、をクリックします image:upgrade.gif["アップグレードボタンのスクリーンショット"]。
+. アップグレードオプションを選択し、 * 次へ * をクリックします。AWS Marketplace から購入する場合は、「 * AWS Marketplace * 」を選択します。それ以外の場合は、「 * NetApp License * 」を選択します。
+. 「 * NetApp License * 」を選択した場合：
++
+.. ライセンス情報を入力し、 * サブスクリプションの検証 * をクリックします。ライセンス情報の確認が表示されます。
+.. 「 * 次へ * 」をクリックします。サブスクリプションストレージの情報が表示され、ストレージのデスティネーションとリージョンが表示されます。
+.. デスティネーションストレージタイプまたはデスティネーションストレージ領域を変更する場合は、次の手順を実行します。
++
+... 新しいデスティネーションストレージのタイプまたはリージョンを選択します。
++
+
+NOTE: ストレージまたはデスティネーションリージョンを変更した場合、 NetApp SaaS Backup for Microsoft 365 で試用版データは移行されません。続行するには同意する必要があります。
+
+... 保存先のストレージタイプを変更する場合は、必要な情報を入力し、 * 接続のテスト * をクリックします。
+... 「 * 次へ * 」をクリックします。
+... 設定を確認し、 * Save * をクリックします。
+
+
+.. デスティネーションストレージのタイプとデスティネーションストレージのリージョンを同じにする場合は、設定を確認して、「 * 保存 * 」をクリックします。
+
+
+. 「 * aws * 」、「 * AppDirect * 」、または「 * StreamOne * 」を選択した場合：
++
+.. リンクをクリックして、選択した Marketplace に移動します。
+.. Marketplace の指示に従います。
++
+
+NOTE: AWS Marketplace でのライセンスサブスクリプションは、 SaaS Backup が提供する Amazon S3 ストレージのみを使用できます。
+
+.. Microsoft 365 アカウントで SaaS Backup for Microsoft 365 にサインインします。
+.. [Microsoft 365 設定 ] アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"]。
+.. [ サブスクリプションの詳細 ] で、をクリックします image:activate.gif["アクティブ化ボタンのスクリーンショット"]。トライアルサブスクリプションとは異なるバックアップストレージを選択した場合は、警告が表示されます。SaaS Backup for Microsoft 365 では、試用版データは新しい移行先に移行されません。続行するには同意する必要があります。
++
+
+NOTE: ライセンスサブスクリプションのユーザー数をトライアルサブスクリプションのユーザー数よりも少なくすることを選択した場合、ライセンスサブスクリプションがアクティブ化されると、すべてのユーザーアカウントが保護されていない階層に移動します。アクティブ化したら、目的のアカウントを保護された階層に手動で移動する必要があります。
+
+.. [ 保存（ Save ） ] をクリックします。
+.. まだ行っていない場合は、 link:task_activate_support.html["サポートを有効にします"]。
+
+
+

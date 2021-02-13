@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_registering_for_free_trial_activation_code.html 
+keywords: netapp, saas backup, microsoft 365, getting started, free trial, registering, activation, code 
+summary: SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。 
+---
+= 無償トライアルアクティベーションコードを登録しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。アクティベーションコードは、チャネルパートナーまたは営業担当者から提供されている場合があります。登録されていない場合は、登録して受信する必要があります。
+
+手順
+
+. をクリックします https://www.netapp.com/us/products/cloud-storage/saas-backup-office-365.aspx["こちらをご覧ください"] をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。
+. 必要な登録情報を入力し、 * Submit * をクリックします。無料トライアルのアクティベーションコードが記載された電子メールが届きます。
+

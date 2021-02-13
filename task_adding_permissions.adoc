@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_adding_permissions.html 
+keywords: netapp, saas backup, microsoft 365, adding, permissions, service, account 
+summary: NetApp SaaS Backup for Microsoft 365 では、サービスアカウントの管理、新たに追加されたアカウントの検出、アカウント通知の設定を行うことができます。 
+---
+= サービスアカウントに権限を追加しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+サービスアカウントの管理、新しく追加されたアカウントの検出、およびアカウント通知の設定を行うことができます。
+
+必要に応じて、サービスアカウントユーザに権限を追加できます。サービスアカウントは、同時にバックアップを効率的に実行するために使用されます。
+
+.手順
+. 左側のナビゲーションペインで Services をクリックします。image:services.gif["サービスボタンのスクリーンショット"]
+. [Microsoft 365] リンクをクリックします。image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+. サービスアカウントの管理 * の横にある * + * アイコンをクリックします。
+. Microsoft 365 のサインインページにリダイレクトして権限を付与するには、 [* 確認 ] をクリックします。
+

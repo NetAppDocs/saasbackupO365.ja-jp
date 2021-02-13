@@ -1,0 +1,37 @@
+---
+sidebar: sidebar 
+permalink: task_viewing_deleted.html 
+keywords: netapp, saas backup, microsoft 365, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
+summary: 削除したアイテムを [ サービスの設定 ] からオンにすると、すべてのサービスから削除したアイテムを表示できます。 
+---
+= 削除されたアイテムを表示する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+[ サービス設定 ] で [ 削除されたアイテムを表示する *] をオンにすると、すべてのサービスで削除されたアイテムをいつでも表示できます。これにより、時間を節約できます。削除したアイテムを別のバックアップで参照する代わりに、スイッチをオンにして、削除したアイテムをすぐに検索することができます。
+
+デフォルトでは、スイッチはオフになっています。
+
+.手順
+. 左側のナビゲーションペインで [*SERVICES *] をクリックします。
+. [ 設定 ] アイコンをクリックします image:settings_icon.gif["設定アイコンが表示された画像"]。
++
+image:show_deleted_items_switch_off.gif["画像は、削除されたアイテムがオフになっていることを示し"]
+
+. [Show Deleted Items*] スイッチをオンにします。
++
+image:show_deleted_items_switch_on.gif["画像は、削除された項目のオンとバックアップの設定を示しています を更新しました"]
+
+. 左側のナビゲーションペインで [* ジョブ ] をクリックします。
+. 最新のバックアップを開いて、削除済みアイテムを確認します。
+

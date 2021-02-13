@@ -1,0 +1,29 @@
+---
+sidebar: sidebar 
+permalink: task_monitoring_data.html 
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, monitoring, monitor, user, data, user data, email, url, mailbox, license, licenses, discovery state, discovery, backup status, backup tier 
+summary: SaaS Backup for Microsoft Office 365 では、 E メールアドレスや URL アドレス、メールボックスタイプ、ライセンス使用状況、検出状態、前回の検出、バックアップステータス、バックアップ階層など、すべてのサービスのユーザデータを監視できます。 
+---
+= ユーザデータを監視しています
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Microsoft Office 365 では、 E メールアドレスや URL アドレス、メールボックスタイプ、ライセンス使用状況、検出状態、前回の検出、バックアップステータス、バックアップ階層など、すべてのサービスのユーザデータを監視できます。
+
+.手順
+. [*Services] をクリックします。
+. ユーザデータをエクスポートするサービスをクリックします。
++
+.. Microsoft Exchange Online の場合は、保護されているメールボックス、保留中のメールボックス、または保護されていないメールボックスの数をクリックします。
+.. Microsoft SharePoint Online の場合は、保護されているサイト、保留中のサイト、または保護されていないサイトの数をクリックします。
+.. Microsoft OneDrive for Business の場合は、保護されている個人サイト、保留中の個人用サイト、保護されていない個人用サイトの数をクリックします。
+.. Microsoft Office 365 グループの場合は、保護されているグループ、保留中のグループ、または保護されていないグループの数をクリックします。
+
+
+. [ ダウンロード ] をクリックして、それぞれのサービスのユーザーデータの Excel ファイルをエクスポートします。
+

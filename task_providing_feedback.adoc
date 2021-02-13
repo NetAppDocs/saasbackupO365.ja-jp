@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_providing_feedback.html 
+keywords: netapp, saas backup, microsoft 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, 
+summary: ご意見をお寄せください。 
+---
+= フィードバックを提供する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+NetApp SaaS Backup for Microsoft 365 製品に関するご意見をお寄せください。SaaS Backup for Microsoft 365 の情報については、こちらからご意見をお寄せください。
+
+
+toc::[]
+.手順
+. をクリックします image:support.png[""] をクリックします。
+. [ * フィードバック * ] を選択します。
+. 簡単なフィードバックアンケートにご協力ください。
+. [Submit （送信） ] をクリックします。
+
+
+GA/FCS 版の製品マニュアルの初回リリース時や既存マニュアルへの重要な変更があった場合のご案内を希望される場合は、 Twitter アカウント @NetAppDoc をフォローしてください。

@@ -1,0 +1,56 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_policies.html 
+keywords: netapp, saas backup, microsoft 365, backup, policies, byos, provides, storage, tiers, tier 1, tier 2, tier 3, frequency, default, data, retention, 
+summary: SaaS Backup for Microsoft 365 には、 3 つのバックアップポリシー階層があらかじめ定義されています。これらのポリシー階層は、 SaaS Backup のストレージと BYOS のどちらを使用しているかによって、バックアップ頻度とデータ保持期間が異なります。 
+---
+= バックアップポリシー
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 には、 3 つのバックアップポリシー階層があらかじめ定義されています。これらのポリシー階層は、 SaaS Backup のストレージと BYOS のどちらを使用しているかによって、バックアップ頻度とデータ保持期間が異なります。
+
+3 つのポリシー間でデータを移動することはできますが、新しいポリシーを作成したり、事前定義された階層のパラメータを変更したりすることはできません。
+
+
+
+== SaaS Backup のストレージ用のバックアップポリシー
+
+|===
+| バックアップポリシー | バックアップ頻度 | デフォルトのデータ保持期間 
+
+
+| ティア 1 | 12 時間に 1 回 | 3 年 
+
+
+| ティア 2 | 18 時間に 1 回 | 3 年 
+
+
+| ティア 3 | 24 時間に 1 回 | 3 年 
+|===
+
+NOTE: 管理者は、 SaaS Backup が提供するストレージのデータ保持期間を最大無制限に変更できます。サブスクリプションがアクティブな場合、 SaaS Backup はバックアップデータを保持して保持期間を設定します。
+
+
+
+== BYOS のバックアップポリシー
+
+BYOS は既存のお客様のみを対象としています。
+
+|===
+| バックアップポリシー | バックアップ頻度 | デフォルトのデータ保持期間 
+
+
+| ティア 1 | 12 時間に 1 回 | 無制限 
+
+
+| ティア 2 | 18 時間に 1 回 | 無制限 
+
+
+| ティア 3 | 24 時間に 1 回 | 無制限 
+|===

@@ -1,0 +1,87 @@
+---
+sidebar: sidebar 
+permalink: concept_supported_templates_and_apps.html 
+keywords: netapp, saas backup, microsoft 365, backup, supported, templates, apps 
+summary: Microsoft SharePoint Online では、特定のテンプレートとアプリのみがサポートされています。 
+---
+= Microsoft SharePoint Online のバックアップでサポートされているテンプレートとアプリ
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+Microsoft SharePoint Online のバックアップでは、特定のテンプレートと特定のアプリケーションのみがサポートされます。
+
+
+
+== サポートされているテンプレート
+
+Microsoft SharePoint Online のバックアップでは、次のテンプレートのみがサポートされています。
+
+* STS-0 （チームサイト）
+* ブログ #0 （ブログサイト）
+* 開発番号 0 （開発者サイト）
+* PROJECTSITER#0 ( プロジェクトサイト )
+* コミュニティ #0 （コミュニティサイト）
+* BDR#0 （ドキュメントセンター）
+* COMMUNITYPORTAL#0 （コミュニティポータル）
+* エンタープライズワイキキ #0 ( エンタープライズ wiki )
+* EHS #1 （ルートサイト）
+* EHS #0 （ルートサイト）
+* SITEPAGEEPUBLISHING #0 ( 通信サイト )
+* グループ #0 ( グループサイトコレクションプレフィックス )
+* STS#1 （空白サイト）
+* STS#2 （ドキュメントワークスペース）
+* STS #3 （現代チームサイト）
+* アプリケーション #0 （アプリケーションテンプレート）
+
+
+
+
+== サポートされているアプリケーション
+
+Microsoft SharePoint Online のバックアップでは、次のアプリケーションがサポートされています。
+
+* カスタムリスト
+* バッジ（コミュニティサイト）
+* ドキュメントライブラリ
+* スタイルライブラリ
+* アンケート
+* リンク
+* お知らせ
+* 連絡先
+* カレンダー
+* ディスカッションボード
+* 写真
+* ピクチャライブラリ
+* コンテンツ Web パーツ
+* テンプレートギャラリーを一覧表示します
+* マスターページギャラリー
+* サイトページ
+* データセットビューのカスタムリスト
+* ソリューションギャラリー
+* テーマギャラリー
+* 構成された外観
+* プロモートされたリンク
+* タスク
+* 投稿（ブログサイト）
+* コメント（ブログサイト）
+* コミュニティディスカッション（コミュニティサイト）
+* カテゴリ（ブログサイト）
+* コミュニティカテゴリ（コミュニティサイト）
+* レポート
+* Wiki ページ
+* サイトコレクションイメージ
+* コミュニティメンバー（コミュニティサイト）
+* 問題の追跡
+* レコードライブラリ
+* リンクの共有
+

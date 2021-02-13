@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_deleting_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, security, groups 
+summary: ユーザ定義ルールでセキュリティグループを使用している場合は、そのセキュリティグループを削除できません。ユーザ定義ルールを削除してから、セキュリティグループを削除する必要があります。 
+---
+= セキュリティグループを削除する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ユーザ定義ルールでセキュリティグループを使用している場合は、そのセキュリティグループを削除できません。ユーザ定義ルールを削除してから、セキュリティグループを削除する必要があります。<<task_deleting_rules.adoc#deleting-rules,ルールを削除する>>
+
+.手順
+. 「 * アカウント設定 * 」をクリックします。
+. セキュリティグループ * をクリックします。
+. 削除するグループの横にある削除アイコンをクリックします。
+

@@ -1,0 +1,35 @@
+---
+sidebar: sidebar 
+permalink: task_activate_support.html 
+keywords: netapp, saas backup, microsoft 365, activating, activate, support, entitlement, marketplace 
+summary: サポートをアクティブにすると、電話、オンラインチャット、または Web チケット発行システム経由でテクニカルサポートにアクセスできます。 
+---
+= サポートのアクティブ化
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ネットアップから SaaS Backup を購入した場合は、デフォルトでサポートが有効になります。AWS などのクラウドマーケットプレイスから SaaS Backup を購入した場合は、サポートを有効にする必要があります。サポートをアクティブにすると、電話、オンラインチャット、または Web チケット発行システム経由でテクニカルサポートにアクセスできます。
+
+試用版の SaaS Backup からアップグレードする場合は、アップグレードプロセスの実行前または完了後にサポートをアクティブ化できます。
+
+サポートを有効にするには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます http://register.netapp.com[""] をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。
+
+.手順
+. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. 設定アイコンをクリックします image:configure_icon.gif["MS サービス設定アイコン"]。
+. [ サポートを活動化（ Activate Support ） ] ボックスで、 [ 活動化（ Activate ） ] をクリックします。
+. ネットアップ SSO のユーザ名とパスワードを入力します。
+. [Activate （有効化） ] をクリックします
+
+
+サポートステータスは「 * Active * 」になります。

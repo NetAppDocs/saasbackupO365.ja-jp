@@ -1,0 +1,39 @@
+---
+sidebar: sidebar 
+permalink: task_assigning_admin_roles_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, granting 
+summary: 管理者ロールをユーザアカウントに割り当てて、選択したユーザに 1 つ以上のサービスに対する管理者権限を付与できます。 
+---
+= ユーザアカウントに管理ロールを割り当てます
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+管理者ロールをユーザアカウントに割り当てて、選択したユーザに 1 つ以上のサービスに対する管理者権限を付与できます。
+
+ユーザには次のロールを割り当てることができます。
+
+* グローバルテナント：すべてのサービス、ストレージターゲット、およびライセンスの更新（更新 / アップグレード）に管理権限を付与します。
+* Exchange Administrator ： Microsoft Exchange Online のみに管理者権限を付与します。他のサービスは表示または変更できません。
+* OneDrive Administrator ： Microsoft OneDrive for Business のみに管理者権限を付与します。他のサービスは表示または変更できません。
+* SharePoint Administrator ： Microsoft SharePoint Online のみに管理者権限を付与します。他のサービスは表示または変更できません。
+
+
+.手順
+. 設定アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] 画面左上のユーザー ID の横に表示されます。
+. 「 * アカウント設定 * 」をクリックします。
+. [* 役割管理 * ] をクリックします。
+. をクリックします image:bluecircle_icon.gif["アイコンのスクリーンショットをクリックしてユーザロールのオプションを表示しました"] をクリックします。
+. 追加するユーザの E メールアドレスを入力します。
+. ドロップダウンメニューをクリックして、ロールを選択します。ユーザには 1 つ以上のロールを割り当てることができます。
+. [* 確認 *] をクリックします。
+

@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: task_performing_immediate_backup_of_service.html 
+keywords: netapp, saas backup, microsoft 365, performing, immediate, backup, service 
+summary: 必要に応じて、任意の Microsoft 365 サービスのバックアップをすぐに実行できます。 
+---
+= サービスの即時バックアップを実行する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+必要に応じて、任意の Microsoft 365 サービスのバックアップをすぐに実行できます。
+
+.手順
+. ダッシュボードで、即時バックアップを実行するサービスのボックスの上の * 保護されている * の数をクリックします。
+. バックアップオプションを選択します。
++
+.. が必要です
++
+*** 共有メールボックスをバックアップする場合は、 [*shared*] タブをクリックします。
+*** アーカイブメールボックスをバックアップする場合は、 *ARCHIVE * タブをクリックします。
+*** 通常のメールボックスをバックアップする場合は、 *user* タブに残ります。
+
+
+.. SharePoint の場合
++
+*** サイトをバックアップする場合は、 [*sites *] タブに残ります。
+
+
+.. OneDrive に対応
++
+*** ユーザーをバックアップする場合は、 * ユーザー * タブに残ります。
+
+
+.. Microsoft 365 グループの場合
++
+*** グループをバックアップする場合は、 *groups * タブに残ります。
+*** チームをバックアップする場合は、 [*Teams] タブをクリックします。
++
+
+NOTE: TeamsChat メッセージは、設定で TeamsChat が有効になっている場合にのみバックアップされます。連絡先 link:https://mysupport.netapp.com/["サポート"] この機能を有効にします。
+
++
+
+NOTE: API の制限により、 SaaS バックアップではパブリックチャネルとプライベートチャネルを区別できません。
+
+
+
+
+
+. バックアップする項目を選択します。
+. [ 今すぐバックアップ ] をクリックします。
++
+image:backup_now.gif["[ 今すぐバックアップ ] ボタン"]
+
++
+選択したサービスがバックアップのジョブキューに登録されることを示すメッセージが表示されます。
+
+. [* 確認 *] をクリックします。バックアップジョブが作成されたことを示すメッセージが表示されます。
+. [ * ジョブの進捗状況の表示 * ] をクリックして、バックアップの進行状況を監視します。
+

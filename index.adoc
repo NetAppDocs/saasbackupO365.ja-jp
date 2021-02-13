@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: index.html 
+summary: NetApp SaaS Backup for Microsoft 365 のドキュメントポータルへようこそ。 
+---
+= NetApp SaaS Backup for Microsoft 365 のドキュメント
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:keywords: ontap, cloud, amazon web services, saas backup, microsoft 365, microsoft office exchange, onedrive for business, sharepoint online, groups, teams, saas restore, documentation
+
+
+NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレージと Microsoft Azure Blob Storage にバックアップする、 Web ベースのセキュアなソフトウェアサービス（ SaaS ）です。
+
+
+
+== 新機能をご紹介します
+
+* link:reference_new_saasbackupO365.html["SaaS Backup for Microsoft 365 の新機能"]
+
+
+
+
+== はじめに
+
+* link:concept_paid_subscription_workflow.html["有料購読の開始"]
+* link:concept_free_trial_workflow.html["無料トライアルを開始する"]
+* link:task_upgrading_from_trial.html["無償トライアルからアップグレードしています"]
+
+
+
+
+== フィードバックを提供するか、ヘルプを入手するか、詳細を確認します
+
+* link:task_providing_feedback.html["フィードバックを提供する"]
+* link:concept_get_help_find_info.html["ヘルプを参照したり、詳細情報を参照したりするには"]
+* link:https://cloud.netapp.com/saas-backup["製品ページ"]
+* link:https://cloud.netapp.com/hubfs/NetApp%20SaaS%20Backup%20for%20Microsoft%20365.pdf?hsCtaTracking=486aae2e-33b3-489b-89c0-aff2c8adf7d1%7C37e522a7-0826-4a5f-8a79-85f565ff4592["ソリューション概要"]
+* link:https://docs.netapp.com/us-en/salesforce/["SaaS Backup for Salesforce のドキュメント"]
+

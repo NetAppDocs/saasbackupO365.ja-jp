@@ -1,0 +1,70 @@
+---
+sidebar: sidebar 
+permalink: task_signing_up_for_saasbkup_paid_subscription.html 
+keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version 
+summary: Microsoft 365 サービスアカウントまたはネットアップの SSO アカウントを使用して、 SaaS Backup for Microsoft 365 にサインアップできます。 
+---
+= SaaS Backup for の有料サブスクリプションへの登録 Microsoft 365
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Microsoft 365 サービスアカウントまたはネットアップの SSO アカウントを使用して、 SaaS Backup for Microsoft 365 にサインアップできます。
+
+
+
+== Microsoft 365 で有料サブスクリプションに登録する サービスアカウント
+
+.手順
+. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[""]
+. 地域を選択します。選択した領域にテナンシーが作成されます。データはそのデータセンターの場所に保存され、あとで変更することはできません。
+. ランディング・ページの下部にある [* サインアップ * ] をクリックします。
+. エンドユーザライセンス契約に同意します。
+. [ * Office 365 でサインアップ * ] をクリックします。image:sign_up_0365.gif["SaaS Backup のサインインボタンのスクリーンショット Microsoft 365 サービスアカウントを使用して Microsoft 365 を管理"]
+. Microsoft 365 グローバル管理者サービスアカウントの電子メールアドレスとパスワードを入力し、 * サインイン * をクリックします。SaaS Backup for Microsoft 365 によって要求された権限のリストが表示されます。
+. [* 同意する * ] をクリックします。
+. 必要なユーザ情報を入力します。
+. [ サインアップ ] をクリックします。ユーザ名と SaaS Backup for Microsoft 365 に付与された権限のリストが表示されます。
+. 「 * 次へ * 」をクリックします。使用可能な Microsoft 365 サービスのリストが表示されます。
+. アクティブ化する Microsoft 365 サービスを選択します。
+. 「 * 次へ * 」をクリックします。
+. ネットアップからライセンスを購入した場合は、サブスクリプションタイプが Click と表示されます link:task_completing_signing_up_ipa.html["こちらをご覧ください"] を参照してください。
+. AWS などのクラウドマーケットプレイスからライセンスを購入した場合は、ライセンス情報が表示されます。をクリックします link:task_completing_signing_up_marketplace.html["こちらをご覧ください"] を参照してください。
+
+
+
+
+== NetApp SSO での有料サブスクリプションへの登録 アカウント
+
+.手順
+. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[""]
+. ランディングページの下部にある [ サインアップ ] をクリックします。
+. エンドユーザライセンス契約に同意します。
+. [*Sign Up with NetApp SSO* （ NetApp SSO でサインアップ） ] をクリックしimage:sign_up_sso.gif["SaaS Backup のサインインボタンのスクリーンショット ネットアップの SSO アカウントを使用した Microsoft 365"]
+. ネットアップの SSO とパスワードを入力し、 * login * をクリックします。
+. 要求されたユーザー情報を入力し、 [ サインアップ ] をクリックします。
+. [*Services] をクリックします image:bluecircle_icon.gif["SaaS Backup for Microsoft 365 のサービスアイコンのスクリーンショット"] をクリックします。
+. Microsoft 365 をクリックします image:O365_icon.gif["Microsoft 365 のアイコン"] アイコンをクリックして SaaS サービスを選択します。
+. [Microsoft Office 365 アカウントの追加 *] をクリックします。
+. Microsoft 365 グローバル管理者サービスアカウントの電子メールアドレスとパスワードを入力し、 * サインイン * をクリックします。SaaS Backup for Microsoft 365 によって要求された権限のリストが表示されます。
+. [* 同意する * ] をクリックします。
+. 「 * 次へ * 」をクリックします。使用可能な Microsoft 365 サービスのリストが表示されます。
+. アクティブ化する Microsoft 365 サービスを選択します。
+. 「 * 次へ * 」をクリックします。
+. サブスクリプションタイプとして [*Licensed*] を選択します。
+. 必要な情報を入力し、サブスクリプションを検証します。
+. 「 * 次へ * 」をクリックします。
+. バックアップストレージオプションを選択します。
++
+.. [*SaaS Backup Provided Storage*] をクリックします。
+.. Amazon S3 * または * Azure Blob * ストレージオプションを選択します。
+.. バックアップの * AWS S3 * または * Azure Blob * リージョンを選択します。バックアップするデータの物理的な場所に最も近いリージョンを選択してください。
+.. 「 * 次へ * 」をクリックします。
+.. 設定を確認し、 * Save * をクリックします。
+
+
+

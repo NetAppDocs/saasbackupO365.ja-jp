@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_canceling_job.html 
+keywords: netapp, saas backup, microsoft 365, canceling, jobs, backup, restore, immediate 
+summary: 即時バックアップまたは即時リストアを開始したが、完了する前にキャンセルする必要がある場合は、それを行うことができます。 
+---
+= ジョブをキャンセルしています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+即時バックアップまたは即時リストアを開始したが、完了する前にキャンセルする必要がある場合は、それを行うことができます。
+
+.手順
+. をクリックします image:jobs_button.gif["ジョブボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. 「最近実行したジョブ」で、キャンセルするジョブをクリックします。
+. [ キャンセル（ Cancel ） ] をクリックします。キャンセルされたジョブの進行状況は、「最近完了したジョブ」の下に表示されます。
+

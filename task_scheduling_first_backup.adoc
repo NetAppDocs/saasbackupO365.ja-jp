@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_scheduling_first_backup.html 
+keywords: netapp, saas backup, microsoft 365, getting started, scheduling, first, performing 
+summary: SaaS Backup for Microsoft 365 をセットアップすると、デフォルトではデータは保護されず、バックアップのスケジュールは設定されません。最初のバックアップを開始するには、データを保護された階層に移動する必要があります。 
+---
+= 最初のバックアップのスケジュール設定
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 を設定すると、デフォルトではデータは保護されません。選択した階層のスケジュールされた次回のバックアップ時にデータがバックアップされるように、保護されていない階層から保護されている階層のいずれかにデータを移動する必要があります。
+
+.手順
+. ダッシュボードで、保護されていないデータが含まれているサービスを選択します。
+. 保護されていないメールボックス ' 個人用サイト ' サイト ' グループの数の横にある *view* をクリックします
+. 保護する項目を選択します。
+. [* グループ *] メニューをクリックします。image:groups_menu.gif["SaaS Backup Groups Menu ボタンのスクリーンショット"]
+. 割り当てるバックアップポリシーの * 階層 * を選択します。を参照してください link:concept_backup_policies.html["バックアップポリシー"] バックアップポリシー階層の説明。
+. [ 適用（ Apply ） ] をクリックします。
+

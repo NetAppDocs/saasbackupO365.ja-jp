@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: task_updating_subscription_information.html 
+keywords: netapp, saas backup, renew, updating, add-on, add, on, license, subscription, extension 
+summary: ライセンスを更新、追加、または更新できます。 
+---
+= サブスクリプション情報を更新しています
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+アドオンライセンスまたはサブスクリプション延長を購入した後は、 SaaS Backup でサブスクリプションの詳細を更新できます。
+
+
+NOTE: 保護されているか保護されていないかに関係なく、通常のユーザメールボックスがライセンスを消費します。共有メールボックスはライセンスを消費しません。
+
+.手順
+. 左側のナビゲーションペインで [*Services] をクリックします。
+. をクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] アイコンをクリックします。
+. [ サブスクリプションの詳細 ] の横にある [*Update*] をクリックします。
+. 初回のサインアップ時に使用したのと同じユーザ名とパスワードを入力します。
+. [Submit （送信） ] をクリックします。
+

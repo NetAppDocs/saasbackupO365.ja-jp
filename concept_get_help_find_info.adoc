@@ -1,0 +1,22 @@
+---
+sidebar: sidebar 
+permalink: concept_get_help_find_info.html 
+keywords: where to find more information, help, support 
+summary: NetApp SaaS Backup for Microsoft 365 コミュニティフォーラムやナレッジベースの記事で、サポートを受けたり、詳しい情報を参照したりできます。 
+---
+= ヘルプを参照したり、詳細情報を参照したりするには
+:toc: macro
+:hardbreaks:
+:toc: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+NetApp SaaS Backup for Microsoft 365 コミュニティフォーラムやナレッジベースの記事で、サポートを受けたり、詳しい情報を参照したりできます。
+
+これらのリソースには、ナビゲーションメニューの * Support * リンクから SaaS Backup 内でアクセスできます。
+
+SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com から E メールでお問い合わせいただくこともできます。

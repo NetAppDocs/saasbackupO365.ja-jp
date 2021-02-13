@@ -1,0 +1,51 @@
+---
+sidebar: sidebar 
+permalink: task_creating_rules.html 
+keywords: netapp, saas backup, microsoft 365, creating, rules, adding, applying 
+summary: ルールを使用すると、事前に選択した条件に基づいてユーザを自動的にバックアップ階層に移動できます。 
+---
+= 新しいルールを作成しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ルールを使用すると、事前に選択した条件に基づいてユーザを自動的にバックアップ階層に移動できます。
+
+Microsoft Exchange Online 、 OneDrive for Business 、 SharePoint Online 、 Microsoft Office 365 グループのルールを作成できます。
+
+ルールを作成する前に、データにユーザ定義フィルタを適用する必要があります。適用されたフィルタは、 * フィルタ * アイコンの下に表示されます。NetApp SaaS Backup for Microsoft 365 のデフォルトフィルタはグレーで表示されます。ユーザー定義のフィルタが薄い青で表示されます。image:rules.gif["ユーザー定義フィルタと SaaS Backup 定義フィルタの例 ルールの作成"]
+
+<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,ユーザ定義フィルタの作成>>
+
+複数のルールを作成できます。ルールは、 * ルールの管理 * リストに表示される順序で適用されます。
+
+.手順
+. ダッシュボードで、ルールを作成するサービスのボックスで、上の * 非保護 * の番号をクリックします。
++
+image:number_protected_unprotected.gif[""]
+
++
+ユーザが作成したフィルタが適用されていない場合は、 image:create_rule.gif["ルールの作成ボタンのスクリーンショット"] 表示されません。
+
+. [* フィルタ * （ Filter * ） ] をクリック
++
+image:filter.gif["フィルタボタン"]
+
+. [ * Select * ] ドロップダウン・メニューをクリックして、フィルタを選択します。検索フィールドが表示されます。
+. 検索条件を入力します。
+. [ フィルタを適用（ Apply Filter ） ] をクリックする。
+. ［ * ルールの作成 * ］ をクリックします。
+. ルールの名前を入力します。
+. [* 宛先グループ *] で、ルールの条件を満たすユーザーを移動する階層を選択します。
+. 保護されていないすべての項目にルールをすぐに適用する場合は、「 * 既存の項目に適用する * 」を選択します。選択しなかった場合は、次に新しい項目が検出されたときに、新しく検出された項目と保護されていない項目にルールが適用されます。
+. ルールが複数ある場合は、をクリックします image:up_down_rules_icon.gif["ルールを優先度の上または下に移動するためのボタン"] ルールをリスト内で上下に移動します。ルールは、リストに表示される順序で適用されます。
+

@@ -1,0 +1,46 @@
+---
+sidebar: sidebar 
+permalink: task_browsing_backups.html 
+keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected instances, backup, backed up items, backups, browse, browsing, OneDrive, SharePoint, Exchange, Microsoft 365 Groups, date range, days, items, user, users, group, groups 
+summary: すべての Microsoft 365 サービスでバックアップを参照できます。 
+---
+= バックアップを参照する
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+保護されたインスタンスは、最新のバックアップで参照することも、 Microsoft 365 Exchange 、 SharePoint 、 OneDrive for Business 、 Groups のすべてのバックアップで参照することもできます。
+
+
+NOTE: デフォルトの参照設定は、 *Showing Last 5 Days Backup* です。5 日を選択した場合は、過去 5 日間にバックアップされたアイテムのみが表示されます。期間は必要に応じて変更できます。
+
+目的の情報が見つかったことを確認するには、期間のドロップダウンメニューの左側にある日付を確認します。
+
+image:8_october_last_5_days_backup_highlight_date_&_count.png["画像は、の閲覧の日付と回数を強調表示します ユーザメールボックス"]
+
+.手順
+. * ダッシュボード * で、バックアップを参照するサービスを選択し、保護されたインスタンスを選択します。
++
+image:number_protected_unprotected_highlight_protected.gif["保護された Exchange インスタンスが強調表示され"]
+
+. 参照するアカウントを選択します。
+. 参照するバックアップアイテムの時間範囲を選択します。
++
+image:date_range_browse_feature.gif["バックアップを参照するための時間範囲オプションを示す図"]
+
++
+
+NOTE: * バックアップ履歴の表示 * バックアップのカレンダー・ビューが表示されます[ * バックアップ履歴の表示 * ] を選択し、現在の日付より前の日付を選択すると、表示されるバックアップの時間範囲が変更されます。たとえば、今日が 10 月 8 日の場合は、カレンダー表示で 10 月 5 日を選択し、 10 月 5 日から最後の 5 日間を参照するように選択すると、 10 月 1 日から 10 月 5 日までの期間が表示されます。
+
+. メール、予定表、タスク、連絡先、ファイル、コンテンツ、またはその他の表示するアイテムの種類をクリックします。
+. バックアップされたアイテムを参照します。
+

@@ -1,0 +1,72 @@
+---
+sidebar: sidebar 
+permalink: reference_teams_data_locations.html 
+keywords: netapp, saas backup, microsoft 365, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: テーブルリファレンスに、 SaaS Backup でチームデータをどこに配置するかが示されています。 
+---
+= データの場所をチーム化
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Microsoft のデータチームごとに、 SaaS Backup for Microsoft 365 の場所は異なります。
+
+この表には、 SaaS Backup でチームデータをどこに配置するかが示されています。
+
+[cols="12,64a"]
+|===
+| チームデータ | SaaS Backup の場所 
+
+
+| チーム E メール  a| 
+Microsoft 365 グループ > チーム > SampleTeam > メールボックス
+
+
+
+| チームチャネル  a| 
+Microsoft 365 グループ > チーム > SampleTeam > チャネル
+
+
+
+| チームの標準チャネルドキュメント  a| 
+Microsoft 365 グループ > チーム > SampleTeam > SharePoint サイト > ［ ドキュメント ］ > ［ SampleTeam - StdChannel ］ の順にクリックします
+
+
+
+| チームスタンダードチャネルチャット  a| 
+* Microsoft 365 グループ > チーム > SampleTeam > メールボックス > [ 会話 ]>[ チームチャット ] の順にクリックします
+* Microsoft 365 グループ > チーム > SampleTeam > メールボックス > ［ メール ］ > ［ 会話履歴 ］ > ［ チームチャット ］ （実際の場所）
+
+
+
+
+| チームのプライベートチャネルドキュメント  a| 
+[SharePoint] > [SampleTeam] - [SampleTeam] - [PrivChannel] - [Documents] - [SampleTeam] - [PrivChannel]
+
+
+NOTE: 「 < チーム名–プライベートチャネル名 > 」という名前の別のサイトコレクションがあります。テンプレート ID:TEAMCHANNEL#0 では、これらのサイトコレクションをフィルタできます。
+
+
+
+| チームプライベートチャネルチャット  a| 
+* Exchange > 「 User in Private Channel 」 > 「 Mail 」 > 「 Conversations 」の順に選択します > チームチャット
+* ［ Exchange ］ > ［ User in Private Channel ］ > ［ Mail ］ > ［ Conversation ］ の順に選択します ［ 履歴 ］ > ［ チームチャット ］ （実際の場所）
+
+
+
+
+| 個々のユーザチャットおよびグループチャット  a| 
+* ［ Exchange ］ > ［ User ］ > ［ Mail ］ > ［ Conversations ］ > ［ Team Chat ］ の順に選択します
+* ［ Exchange ］ > ［ User ］ > ［ Mail ］ > ［ Conversation History ］ > ［ Team ］ の順に選択します チャット（実際の場所）
+
+
+
+
+| 個々のユーザチャットおよびグループチャットで共有されているファイル  a| 
+OneDrive > [ ユーザー ] > [ ファイル ] > [Microsoft Teams Chat Files] の順に選択します
+
+|===

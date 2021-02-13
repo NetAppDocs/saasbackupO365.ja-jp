@@ -1,0 +1,119 @@
+---
+sidebar: sidebar 
+permalink: concept_backup_settings.html 
+keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+summary: バックアップ設定を更新して、さまざまなバックアップオプションを制御できます。使用可能なバックアップ設定はサービスによって異なります。 
+---
+= バックアップ設定
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+バックアップ設定を更新して、さまざまなバックアップオプションを制御できます。使用可能なバックアップ設定はサービスによって異なります。
+
+
+
+== サービスごとのバックアップ設定
+
+[cols="12,64,24,24"]
+|===
+| バックアップ設定 | 説明 | 有効 | 使用可能な場所 
+
+
+| 自動同期  a| 
+新しく追加または削除されたユーザ、 OneDrives 、またはサイトコレクションのスケジュールされた自動同期を 24 時間ごとに有効にします。
+| デフォルトでは  a| 
+* Microsoft Exchange Online の略
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business の場合
+* Microsoft 365 グループ
+
+
+
+
+| OneNote バックアップを有効にします  a| 
+OneNote ノートブックのバックアップを有効にします。
+| 手動で実行する  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business の場合
+
+
+
+
+| 回復可能なアイテムの復元を有効にします  a| 
+Microsoft Exchange の回復可能なアイテムを復元できます。
+| 手動で実行する  a| 
+* Microsoft Exchange Online の略
+
+
+
+
+| リカバリ可能なアイテムのバックアップを有効にします  a| 
+Microsoft Exchange のリカバリ可能なアイテムのバックアップを有効にします。リカバリ可能なアイテムのバックアップを許可できるのは、階層 1 のバックアップポリシーだけです。
+| 手動で実行する  a| 
+* Microsoft Exchange Online の略
+
+
+
+
+| ワークフローを含める  a| 
+バックアップのワークフローが含まれます。
+| 手動で実行する  a| 
+* Microsoft SharePoint Online
+* Microsoft 365 グループ
+
+
+
+
+| リストビューを含む（ Include List Views  a| 
+バックアップのリストビューを含みます。
+| 手動で実行する  a| 
+* Microsoft SharePoint Online
+* Microsoft 365 グループ
+
+
+
+
+| バージョン履歴を含める  a| 
+バックアップ内の複数のファイルバージョンを保守できるようにします。
+
+
+NOTE: この設定は、個々のファイルにのみ適用されます。フォルダ、階層、サービス全体には適用されません。
+| デフォルトでは  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business の場合
+* Microsoft 365 グループ
+
+
+
+
+| バージョンの数  a| 
+保持するバックアップファイルバージョンの数を設定します。デフォルトでは、この設定が有効になっていない場合でも、最新バージョンが自動的にバックアップされます。
+| デフォルトでは 20 に設定されています  a| 
+* Microsoft SharePoint Online
+* Microsoft OneDrive for Business の場合
+* Microsoft 365 グループ
+
+
+|===
+
+
+== バックアップ設定を更新しています
+
+.手順
+. 左側のナビゲーションペインで [*Services] をクリックします。
++
+image:services.gif["サービスボタンのスクリーンショット"]
+
+. [Microsoft 365] をクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. [ サービスの管理 ] で、 [ バックアップ設定 ] アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] をクリックします。選択したサービスで使用できるバックアップ設定のリストが表示されます。
+. 目的のバックアップ設定を選択します。
+. [* 確認 *] をクリックします。
+

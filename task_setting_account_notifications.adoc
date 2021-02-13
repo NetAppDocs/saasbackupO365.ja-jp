@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_setting_account_notifications.html 
+keywords: netapp, saas backup, microsoft 365, setting, account, notifications, notification, management, adding 
+summary: NetApp SaaS Backup for Microsoft 365 では、サービスアカウントの管理、新たに追加されたアカウントの検出、アカウント通知の設定を行うことができます。 
+---
+= 通知を設定します
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+アカウント通知にユーザを追加し、各ユーザに通知を送信する特定の通知を選択できます。たとえば、リストアの失敗が発生するたびにユーザに E メール通知を送信するように設定できます。
+
+.手順
+. 「 * アカウント設定 * 」をクリックします。
+. [ 通知管理 * ] をクリックします。
+. 通知を受信するアカウントの E メールアドレスを入力します。
+. [Add Notifications] をクリックします。通知用のアカウントのリストの下にユーザが追加されます。
+. ユーザに通知する通知を選択します。
+. [ 保存（ Save ） ] をクリックします。
+

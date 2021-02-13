@@ -1,0 +1,172 @@
+---
+sidebar: sidebar 
+permalink: reference_new_saasbackupO365.html 
+keywords: what's new, features, new, release notes, enhancements 
+summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、およびバグ修正を提供する新しいリリースが定期的に導入されています。 
+---
+= 新機能とアップデート
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+今回のリリースの NetApp SaaS Backup for Microsoft 365 には、次の新機能と更新が追加されています。
+
+
+
+== 2020年12月
+
+Microsoft Azure を米国で導入した場合、お客様のデータは Microsoft 環境から移動しません。SaaS Backup for Microsoft 365 のサインアッププロセスでは、 Azure BLOB ストレージまたは独自のストレージを使用できます。
+
+link:task_signing_up_for_saasbkup_free_trial.html["無償トライアルから SaaS Backup にサインアップする"]
+
+link:task_signing_up_for_saasbkup_paid_subscription.html["有料サブスクリプションから SaaS Backup への登録"]
+
+
+
+== 2020年11月
+
+* この月からは、すべてのサービスのユーザデータを監視できます。この新機能を使用すると、 Excel ファイルをダウンロードして、電子メールまたは URL アドレス、メールボックスの種類、ライセンスの使用、検出状態、前回の検出、バックアップステータス、バックアップ階層など、複数のユーザーデータの種類を監視できます。
++
+link:task_monitoring_data.html["ユーザデータを監視しています"]
+
+* Microsoft Office 365 グループを別のグループに復元できるようになりました。
++
+link:task_performing_high_level_restore.html["高レベルのリストアを実行する"]
+
+* OneDrive for Business のライセンス所有者は、制限なくライセンスをリリースし、ユーザーをパージできます。
++
+link:task_releasing_a_user_license.html["ユーザライセンスを解放する"]
+link:task_purging.html["パージ"]
+
+* ジョブ履歴ログで検索する際に、ジョブタイプ、サービス、開始時間、終了時間に加えて、ジョブの完了ステータスでフィルタリングできるようになりました。
++
+link:task_viewing_history_and_activity.html["ジョブ履歴を表示します"]
+
+
+
+
+
+== 2020 年 6 月
+
+* SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、ユーザは、バックアップデータの過去 6 カ月間に、メールボックスの個々のアイテム、共有アイテム、アーカイブアイテムを検索できます。
++
+link:task_performing_search.html["検索を実行する"]
+
++
+この機能を有効にするには、に進みます link:https://mysupport.netapp.com/["サポート"] をクリックしてリクエストを送信します。
+
++
+SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com から E メールでお問い合わせいただくこともできます。
+
+
+
+
+
+== 2020 年 3 月 / 4 月
+
+* 次に、保護対象のユーザの Microsoft 365 Exchange 、 SharePoint 、 OneDrive for Business 、およびグループのバックアップを参照する時間範囲を選択します。
++
+image:date_range_browse_feature.gif["バックアップを参照するための時間範囲オプションを示す図"]
+
++
+link:task_browsing_backups.html["バックアップを参照する"]
+
+* SaaS Backup for Microsoft 365 で、 Microsoft TeamsChat へのバックアップがサポートされるようになりました。この新機能を使用すると、 Microsoft TeamsChat の会話、チャネル、タブ、添付ファイル、メンバー、および設定をバックアップして復元できます。
++
+link:task_performing_immediate_backup_of_service.html["サービスの即時バックアップを実行する"]
+
++
+この機能を有効にするには、に進みます link:https://mysupport.netapp.com/["サポート"] をクリックしてリクエストを送信します。
+
++
+SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com から E メールでお問い合わせいただくこともできます。
+
+
+
+
+
+== 2020年1月
+
+* プロビジョニング解除されたメールボックス、サイト、 MySites 、グループ、またはアカウントを表示できるようになりました。link:task_viewing_deprovisioned.html["プロビジョニング解除された項目を表示する"]
+* ユーザーライセンスは、アカウントがパージされてから 7 日後に自動的にリリースされるようになりました。7 日以内にパージされるようにスケジュールされているアイテムのリストと ' すでにパージされているアイテムのリストを表示できますlink:task_viewing_deprovisioned.html["パージされたデータのリストを表示します"]
+* Microsoft SharePoint Online と OneDrive for Business で、 Microsoft OneNote ノートブックのバックアップがサポートされるようになりました。link:task_enabling_onenote_backups.html["OneNote のバックアップを有効にする"]
+
+
+
+
+== 2019 年 9 月
+
+* SaaS Backup の有料サブスクリプションのサポートをアクティブ化できるようになりました。サポートをアクティブにすると、電話、オンラインチャット、または Web チケット発行システム経由でテクニカルサポートにアクセスできます。
++
+<<task_activate_support.adoc#activating-support,サポートのアクティブ化>>
+
+
+
+
+
+== 2019 年 6 月
+
+* SaaS Backup for Microsoft 365 で、 Microsoft SharePoint Online と Microsoft OneDrive for Business のコピー先機能を使用して作成したアイテムのバックアップとリストアがサポートされるようになりました。
+* リストアのサイズ、リストア先、およびその他のコメントなど、リストア統計の詳細情報を追加するための機能拡張が行われました。
+
+
+
+
+== 2019 年 5 月
+
+* SaaS Backup でアドオンライセンスがサポートされるようになりました。
++
+<<task_activating_an_add_on_license.adoc#activating-an-add-on-license,アドオンライセンスをアクティブ化する>>
+
+
+
+
+
+== 2019年4月
+
+* SaaS Backup for Microsoft 365 でセキュリティグループの削除がサポートされるようになりました。
++
+<<task_deleting_security_groups.adoc#deleting-security-groups,セキュリティグループを削除する>>
+
+* 共有メールボックスはユーザライセンスを消費しません。
+
+
+
+
+== 2019 年 3 月
+
+* SaaS Backup for Microsoft 365 で、サポートされているリージョンごとに複数のバックアップ先を使用できるようになりました。
++
+データバックアップのサイトとして、選択したリージョン内の使用可能な場所を選択できるようになりました。データの場所に地理的に最も近い場所を選択することを推奨します。SaaS Backup で推奨される場所は、オプションのリストで「 * preferred * 」とマークされています。
+
++
+
+NOTE: 試用版からアップグレードしていて、試用版で使用されている場所とは異なるバックアップの場所を選択した場合、試用版のデータは保持されません。
+
++
+<<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription,試用版サブスクリプションからアップグレードする>>
+
+* ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<<task_releasing_a_user_license.adoc#releasing-a-user-license,ユーザライセンスを解放する>>
+
+
+
+
+== 2019年2月
+
+* SaaS Backup for Microsoft 365 では、次の機能がサポートされるようになりました。
++
+** アーカイブメールボックスのバックアップとリストア
+** Microsoft Office Exchange Online 、 SharePoint 、 OneDrive for Business のバックアップとリストアに関する統計情報が強化されました。
+
+
+
+
+
+
+== アーカイブ済み
+
+をクリックします link:reference_new_archived.html["こちらをご覧ください"] をクリックします

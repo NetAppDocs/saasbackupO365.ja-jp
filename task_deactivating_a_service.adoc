@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: task_deactivating_a_service.html 
+keywords: netapp, saas backup, microsoft 365, service, deactivating 
+summary: サービスを非アクティブ化すると、そのサービスに関連付けられているすべてのスケジュールが削除され、それ以上のバックアップは実行されません。非アクティブ化の前に実行された最後のバックアップを表示して、リストアを実行することもできます。 
+---
+= サービスを非アクティブにします
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスを非アクティブ化できます。サービスを非アクティブ化すると、そのサービスに関連付けられているすべてのスケジュールが削除され、それ以上のバックアップは実行されません。非アクティブ化の前に実行された最後のバックアップを表示して、リストアを実行することもできます。
+
+.手順
+. をクリックします image:services.gif["サービスボタンのスクリーンショット"] 左側のナビゲーションペインから、
+. [Microsoft 365] リンクをクリックします。
++
+image:mso365_settings.gif["Microsoft 365 ボタンのスクリーンショット"]
+
+. をクリックします image:deactivate.gif["非アクティブ化ボタンのスクリーンショット"] をクリックします。
+. [* 確認 *] をクリックします。
+

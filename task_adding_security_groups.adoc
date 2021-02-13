@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_adding_security_groups.html 
+keywords: netapp, saas backup, microsoft 365, security, groups, adding, creating 
+summary: セキュリティグループをフィルタリングオプションとして使用して、データを表示したりルールを作成したりできます。 
+---
+= セキュリティグループの追加
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+セキュリティグループをフィルタリングオプションとして使用して、データを表示したりルールを作成したりできます。
+
+セキュリティグループは 3 つまで追加できます。その後、 SaaS Backup のフィルタリングオプションとしてセキュリティグループを使用できます。
+
+新しいセキュリティグループを追加する前に、 AutoSync または手動同期によって新しいセキュリティグループを検出する必要があります。https://docs.microsoft.com/en-us/office365/admin/email/create-edit-or-delete-a-security-group?view=o365-worldwide["管理センターでセキュリティグループを作成、編集、または削除します"]。
+
+.手順
+. 「 * アカウント設定 * 」をクリックします。
+. セキュリティグループ * をクリックします。
+. 検索フィールドに、追加するセキュリティグループの名前を入力します。
+. [ 追加（ Add ） ] をクリックします。
+

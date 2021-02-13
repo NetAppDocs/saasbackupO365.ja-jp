@@ -1,0 +1,32 @@
+---
+sidebar: sidebar 
+permalink: task_purging.html 
+keywords: netapp, saas backup, microsoft 365, purge, purging, site collection, groups 
+summary: NetApp SaaS Backup では、新しいサービスのアクティブ化、既存のサービスの非アクティブ化、データのパージ、ジョブのキャンセルなど、さまざまな方法でサービスを管理できます。 
+---
+= ユーザー、サイトコレクション、または Microsoft 365 グループをパージする
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ユーザ、サイトコレクション、または Microsoft 365 グループに関連付けられているすべてのデータを完全に削除することができます。パージされたデータは 7 日間リカバリ可能です。7 日後、データは完全に削除され、ユーザライセンスが自動的に解放されます。
+
+.手順
+. 設定アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] をクリックします。
+. 「 * アカウント設定 * 」を選択します。
+. [* retain and purge] をクリックします。
+. [ データのパージ * ] で、ドロップダウン・メニューから [ サービスの種類 * ] （ Exchange 、 OneDrive 、 SharePoint ）を選択します。
+. パージするユーザー、サイトコレクション、または Microsoft 365 グループを検索します。Microsoft Exchange Online または OneDrive for Business の場合は、ユーザー名または Microsoft 365 グループ名を入力します。SharePoint Online の場合は、サイトコレクション名を入力します。+ 注：ユーザにアーカイブメールボックスがある場合は、アーカイブメールボックスのユーザ名の先頭に「インプレースアーカイブ」が付きます。
+. 検索結果が表示されたら、をクリックします image:bluecircle_icon.gif["青のプラス記号アイコン"] をクリックして、ユーザー、サイトコレクション、または Microsoft 365 グループを選択します。
+. [ 保存（ Save ） ] をクリックします。
+. 「 * はい * 」をクリックして、データをパージすることを確認します。
+

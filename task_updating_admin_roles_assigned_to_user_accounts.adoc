@@ -1,0 +1,30 @@
+---
+sidebar: sidebar 
+permalink: task_updating_admin_roles_assigned_to_user_accounts.html 
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, updating, changing 
+summary: ユーザの管理ロールが更新されると、そのユーザは自動的に SaaS Backup for Microsoft 365 からログアウトされます。ユーザが再度ログインすると、管理者ロールの更新がユーザアカウントに反映されます。 
+---
+= ユーザアカウントに割り当てられている管理ロールを更新しています
+:toc: macro
+:hardbreaks:
+:toclevels: 1
+:toc: 
+:toclevels: 1
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+:toc-position: content
+
+
+[role="lead"]
+ユーザの管理ロールが更新されると、そのユーザは自動的に SaaS Backup for Microsoft 365 からログアウトされます。ユーザが再度ログインすると、管理者ロールの更新がユーザアカウントに反映されます。
+
+.手順
+. 設定アイコンをクリックします image:configure_icon.gif["設定アイコンのスクリーンショット"] 画面左上のユーザー ID の横に表示されます。
+. 「 * アカウント設定 * 」をクリックします。
+. [* 役割管理 * ] をクリックします。
+. 更新するユーザー名の横にある [ ユーザーの更新 ] をクリックします。
+. ドロップダウンメニューをクリックして、ロールを選択します。ユーザには 1 つ以上のロールを割り当てることができます。
+. [* 確認 *] をクリックします。
+
