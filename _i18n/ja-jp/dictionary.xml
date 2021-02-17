@@ -1008,7 +1008,6 @@
   <block id="1bdac635ce4139030bb822472e615a6d" category="summary">SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。</block>
   <block id="654288c4b92196c4260398308e550672" category="doc">無償トライアルアクティベーションコードを登録しています</block>
   <block id="33802f42e0a28dafca8f766c0830bd74" category="paragraph">SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。アクティベーションコードは、チャネルパートナーまたは営業担当者から提供されている場合があります。登録されていない場合は、登録して受信する必要があります。</block>
-  <block id="4579fc9fc43a198735c4244d7290f090" category="list-text">をクリックします<block ref="923ee6c4d0cc654a78207135a66ddca8" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
   <block id="a189a1df7360b047444647d114f49f87" category="list-text">必要な登録情報を入力し、 * Submit * をクリックします。無料トライアルのアクティベーションコードが記載された電子メールが届きます。</block>
   <block id="403962516343d0a8b5bc16966c2d402b" category="doc">SaaS Backup for の無償トライアルにご登録ください Microsoft 365</block>
   <block id="ce6dbcecdec9970c6d1c39ba22028307" category="section-title">Microsoft 365 の無償トライアルにサインアップします サービスアカウント</block>
@@ -1267,4 +1266,5 @@
   <block id="1a2247516bc3b8a91577c4db58817642" category="sidebar">パージされたデータを表示する</block>
   <block id="8d20b47477e03528996e16a1b4eda8b5" category="sidebar">データをダウンロードしています</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
+  <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">をクリックします<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
 </blocks>

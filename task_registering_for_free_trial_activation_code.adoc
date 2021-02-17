@@ -22,6 +22,6 @@ SaaS Backup for Microsoft 365 の無償トライアルに登録するには、�
 
 手順
 
-. をクリックします https://www.netapp.com/us/products/cloud-storage/saas-backup-office-365.aspx["こちらをご覧ください"] をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。
+. をクリックします https://www.netapp.com/forms/saas-backup-ms-365-30-day-trial/["こちらをご覧ください"] をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。
 . 必要な登録情報を入力し、 * Submit * をクリックします。無料トライアルのアクティベーションコードが記載された電子メールが届きます。
 
