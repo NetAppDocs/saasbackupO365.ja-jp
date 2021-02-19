@@ -1087,7 +1087,6 @@
   <block id="eb729008daf8b3603cdc161bd528d76c" category="paragraph">別のサイトにリストアする場合は、検索フィールドにデスティネーションサイトを入力する必要があります。検索フィールドにサイトの一部を入力すると、一致するサイトの自動検索を開始できます。</block>
   <block id="9f4e67a899612efbb024bcba557762f9" category="paragraph">データをエクスポートする場合は、データをダウンロードする必要があります。左側のメニューの「 * Reporting * 」に移動します。エクスポートデータジョブを検索します。[ 合計フォルダー（ Total Folders ） ] をクリックします。次に、 [* Export Data Download Link] をクリックします。zip ファイルがダウンロードされます。zip ファイルを開き、データを抽出します。</block>
   <block id="c81cd01ae243c25c6c476879c6db1451" category="summary">SaaS Backup for Microsoft 365 の無償トライアルアカウントを使用するには、無償トライアルアクティベーションコードと Microsoft 365 テストアカウントをお持ちで、サインアッププロセスを完了する必要があります。</block>
-  <block id="43b46f822f02b3a7d95c9da7efd89a2b" category="doc">SaaS の無償トライアルを開始するためのワークフロー Microsoft 365 向けのバックアップ</block>
   <block id="503b74ce08000ed04b7e1367ab725d60" category="paragraph">SaaS Backup for Microsoft 365 の無償トライアルを利用するには、次の手順を実行する必要があります。</block>
   <block id="e5b83f3bd74f57bedec7051b3edc0cea" category="inline-link-macro">無償トライアルの制限</block>
   <block id="072c8570727097dca3420a9c7c649846" category="list-text">に注意してください <block ref="e46da3c007b7c38fba9f43f9695924e1" category="inline-link-macro-rx"></block>。</block>
@@ -1271,5 +1270,9 @@
   <block id="afe1726d53042cd31bac4c0da81ad743" category="list-text">Microsoft 365 サービスアカウントにログインします。</block>
   <block id="eb21eff2ec724134a8bb2117fadc526d" category="paragraph"><block ref="eb21eff2ec724134a8bb2117fadc526d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9ed4e8ed2266c74a2f1baf6a935a3c44" category="paragraph"><block ref="26d24b44fbf37fad7a1bc4f2bd668ad1" category="inline-image-macro-rx" type="image"></block>新しいウィンドウが表示されます</block>
-  <block id="155b822e6b9041d1cd7a35b9d40b160b" category="list-text"><block ref="d615cc5d3d86f9e06cc0c85460172b97" category="inline-link-macro-rx"></block>。</block>
+  <block id="a53495d623868aa543845636677455d7" category="doc">SaaS の無償トライアルを開始するためのワークフロー Microsoft 365 向けのバックアップ</block>
+  <block id="49f65f305bd3302abd16a6ba325b65d3" category="inline-link-macro">Microsoft Exchange Online の偽装を設定します</block>
+  <block id="983360d0def6e102424fc3613cf2d572" category="list-text"><block ref="64ea1e8fc4e2b8d9ec6fc411042ab0e1" category="inline-link-macro-rx"></block>。</block>
+  <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
+  <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
 </blocks>
