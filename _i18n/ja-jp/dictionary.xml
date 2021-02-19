@@ -14,28 +14,24 @@
   <block id="1587302f361278e6e8f58e4089765634" category="paragraph"><block ref="1587302f361278e6e8f58e4089765634" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1bb1174e1fd4bf448666d9f46f3d55e1" category="paragraph">サービスの権限が検出された場合は、オプションを active にしてサービスが表示されます。</block>
   <block id="9a1e3ad881f27238be3ba18022725f9d" category="summary">SaaS Backup for Microsoft 365 の導入にあたっては、データのバックアップに使用するストレージのタイプの決定、関連情報の収集、 Microsoft 365 サービスアカウントの作成、ユーザ権限の割り当てなどを行います。</block>
-  <block id="eda50a5212f2c4caef4c527a7131e130" category="doc">Microsoft Exchange Online の偽装を設定しています</block>
   <block id="6b8c83c9898d85caa045d0de469c77db" category="paragraph">Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。偽装を使用すると、 Microsoft 365 サービスアカウントがユーザーアカウントを偽装し、関連するアクセス許可にアクセスできるようになります。</block>
   <block id="57debcbf47f9e2b54371eb912e644cce" category="section-title">偽装を自動的に構成します</block>
   <block id="b07e7a5409779d1bd7057ab63b67afbb" category="inline-link">MSDN PowerShell コマンドです</block>
   <block id="1f777bbd5f4402e8fcf8a9acae76f986" category="paragraph">偽装を自動的に構成するには、を実行します<block ref="1f915facb5399ad0dfe75907e9cfd076" category="inline-link-rx"></block>。</block>
   <block id="a70e0ef8f37f80cddf7966ac76d94303" category="section-title">偽装を手動で設定する</block>
   <block id="d183af63e5075dca403caa74f094cfa3" category="paragraph">偽装を手動で構成するには、次の手順に従います。</block>
-  <block id="3887bca8ffbcf100c6c0f3dffd475c2f" category="list-text">Exchange Admin Center または管理者アカウントを使用して、 Microsoft 365 サービスアカウントにログインします。</block>
   <block id="63bf294804ca9de414a867bb9b26bc4c" category="list-text">[*Exchange] タブを選択します。</block>
   <block id="48ddabdcbc3578e3c15ba84216de335f" category="list-text">左側の [ ダッシュボード ] で、 [* アクセス許可 *] を選択します。</block>
   <block id="24af6d3288de00e11d451bfa51f65b8e" category="list-text">[ 管理者ロール ] をクリックします。</block>
   <block id="f6ff089a34ba3a9ca6157779670dc8ff" category="list-text">右側のペインでダブルクリックして、 [* Discovery management* （検出管理 * ） ] を選択します。</block>
   <block id="bfb1e7d573c9eb6bc643431408176da6" category="list-text">[* 役割 ] の下で、 * + * 記号をクリックします。</block>
   <block id="3caa63f7f910d62a644b5d3376872c13" category="inline-image-macro">偽装を構成するときのライトスコープウィンドウのスクリーンショット Microsoft Exchange Online の略</block>
-  <block id="acd0714adf94468dcc9bcbef31634527" category="paragraph"><block ref="acd0714adf94468dcc9bcbef31634527" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1ba2cb3fa2d6e2e30f0337bca64ecb58" category="list-text">ドロップダウンメニューから * ApplicationImpersonation * を選択します。</block>
   <block id="7dee7e783d13b6d5d415926ce0bfc306" category="list-text">[ 追加（ Add ） ] をクリックします。</block>
   <block id="a72cc47fad7d1846d19b085d2e77e5ba" category="list-text">[OK] をクリックします。</block>
   <block id="e6615ebb2db3d5d089acfb86aca50296" category="list-text">* 役割 * の下に * ApplicationImpersonation * が追加されていることを確認します。</block>
   <block id="0e8a3989d4ad94d273a0d1398b9b3eec" category="list-text">メンバー（ Members ）で、 * + * 記号をクリックします。</block>
   <block id="a0d3673f1eee1f2f61833d5c66bdbc24" category="inline-image-macro">Microsoft の偽装を構成するときのメンバーウィンドウのスクリーンショット Exchange Online</block>
-  <block id="0b8be6205de594b5f9b2575db5fcd4e6" category="paragraph"><block ref="a4ac24c19efee3a410dc8f6e8d72322e" category="inline-image-macro-rx" type="image"></block>新しいウィンドウが表示されます</block>
   <block id="86b53e93fc72969f6072b06e701a35f2" category="list-text">ユーザ名を選択します。</block>
   <block id="ffe2341c7c5a0ffbc3bd02556159c301" category="list-text">ユーザー名が * Members * （メンバー * ）セクションに表示されていることを確認します。</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">[ 保存（ Save ） ] をクリックします。</block>
@@ -1269,4 +1265,11 @@
   <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">をクリックします<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
   <block id="a3a63ad3dda4259c258cb6c2ebe29421" category="list-text">Exchange Online には、次の制限事項があります。</block>
   <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。</block>
+  <block id="2366a80c7e9969775e6e87113d8bd6b9" category="summary">Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。</block>
+  <block id="ac67a804e01713d24a3b80b009ba740f" category="inline-link-macro">グローバル権限を持つ Microsoft 365 サービスアカウントを作成する</block>
+  <block id="475081efa8c55d5207fd6ebf2c8211d0" category="paragraph">偽装は、 Microsoft 365 管理者アカウントを使用して手動で構成することも、 SaaS Backup に Microsoft 365 サービスアカウントを追加して構成することもできます。Microsoft 365 サービスアカウントの詳細については、を参照してください <block ref="1ec45c32bd2c8bfc7bfdde982598c029" category="inline-link-macro-rx"></block></block>
+  <block id="afe1726d53042cd31bac4c0da81ad743" category="list-text">Microsoft 365 サービスアカウントにログインします。</block>
+  <block id="eb21eff2ec724134a8bb2117fadc526d" category="paragraph"><block ref="eb21eff2ec724134a8bb2117fadc526d" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9ed4e8ed2266c74a2f1baf6a935a3c44" category="paragraph"><block ref="26d24b44fbf37fad7a1bc4f2bd668ad1" category="inline-image-macro-rx" type="image"></block>新しいウィンドウが表示されます</block>
+  <block id="155b822e6b9041d1cd7a35b9d40b160b" category="list-text"><block ref="d615cc5d3d86f9e06cc0c85460172b97" category="inline-link-macro-rx"></block>。</block>
 </blocks>

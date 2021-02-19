@@ -25,7 +25,7 @@ SaaS Backup for Microsoft 365 の無償トライアルを利用するには、�
 . 必要に応じて、 link:task_signing_up_for_o365_free_trial.html["Microsoft 365 テストアカウントにサインアップします"]。
 . link:task_creating_msservice_account_with_global_permissions.html["グローバル権限を持つ MS Office サービスアカウントを作成します"]。
 . SaaS Backup が提供する Amazon S3 と Azure Blob Storage のどちらを使用するかを決定します。
-. 必要に応じて、 link:task_configuring_impersonation.html["Microsoft Exchange Online の偽装を設定します"]。
+. link:task_configuring_impersonation.html["Microsoft Exchange Online の偽装を設定します"]。
 . link:task_signing_up_for_saasbkup_free_trial.html["SaaS Backup for Microsoft 365 に登録"] Microsoft 365 アカウントまたはネットアップの SSO アカウントを使用する。
 . link:task_scheduling_first_backup.html["最初のバックアップのスケジュールを設定します"]
 . link:task_performing_immediate_backup_of_policy.html["オプション：データをすぐにバックアップ"]
