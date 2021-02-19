@@ -12,6 +12,11 @@ summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、お�
 :imagesdir: ./media/
 
 
+* Exchange Online には、次の制限事項があります。
++
+** SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。
+
+
 * Microsoft 365 サービスアカウントを使用してサインアップするすべてのユーザーに次の制限があります。
 +
 ** SaaS Backup でサポートされているのは基本認証のみです。

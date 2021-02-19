@@ -1267,4 +1267,6 @@
   <block id="8d20b47477e03528996e16a1b4eda8b5" category="sidebar">データをダウンロードしています</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
   <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">をクリックします<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
+  <block id="a3a63ad3dda4259c258cb6c2ebe29421" category="list-text">Exchange Online には、次の制限事項があります。</block>
+  <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。</block>
 </blocks>
