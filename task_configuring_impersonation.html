@@ -9,7 +9,7 @@
   <meta property="og:title" content="Microsoft Exchange Online の偽装を設定しています | NetApp Cloud Docs" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ja-jp/saasbackupO365/task_configuring_impersonation.html" />
-	<meta property="og:description" content="SaaS Backup for Microsoft 365 の導入にあたっては、データのバックアップに使用するストレージのタイプの決定、関連情報の収集、 Microsoft 365 サービスアカウントの作成、ユーザ権限の割り当てなどを行います。" />
+	<meta property="og:description" content="Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。" />
   <meta property="og:image" content="https://docs.netapp.com/ja-jp/saasbackupO365/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="SaaS Backup for Microsoft 365 の導入にあたっては、データのバックアップに使用するストレージのタイプの決定、関連情報の収集、 Microsoft 365 サービスアカウントの作成、ユーザ権限の割り当てなどを行います。">
+  <meta name="description" content="Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。">
   <meta name="keywords" content=" netapp, saas backup, microsoft 365, getting started, configuring, impersonation, assigning, permissions, impersonate, user, accounts,">
   
   
@@ -1277,7 +1277,7 @@
 <p class="page-details">
   
     
-    <time datetime="2021-02-13 02:34:12 +0000">02/13/2021</time>
+    <time datetime="2021-02-19 20:40:56 +0000">02/19/2021</time>
     
   
 
@@ -1310,13 +1310,6 @@
 </p>
 
 
-<div id="toc" class="toc">
-<div id="toctitle">目次</div>
-<ul class="sectlevel1">
-<li><a href="#偽装を自動的に構成します">偽装を自動的に構成します</a></li>
-<li><a href="#偽装を手動で設定する">偽装を手動で設定する</a></li>
-</ul>
-</div>
 <div id="preamble">
 <div class="sectionbody">
 <div class="paragraph lead">
@@ -1336,13 +1329,16 @@
 <h2 id="偽装を手動で設定する">偽装を手動で設定する</h2>
 <div class="sectionbody">
 <div class="paragraph">
+<p>偽装は、 Microsoft 365 管理者アカウントを使用して手動で構成することも、 SaaS Backup に Microsoft 365 サービスアカウントを追加して構成することもできます。Microsoft 365 サービスアカウントの詳細については、を参照してください <a href="task_creating_msservice_account_with_global_permissions.html">"グローバル権限を持つ Microsoft 365 サービスアカウントを作成する"</a></p>
+</div>
+<div class="paragraph">
 <p>偽装を手動で構成するには、次の手順に従います。</p>
 </div>
 <div class="olist arabic">
 <div class="title">手順</div>
 <ol class="arabic">
 <li>
-<p>Exchange Admin Center または管理者アカウントを使用して、 Microsoft 365 サービスアカウントにログインします。</p>
+<p>Microsoft 365 サービスアカウントにログインします。</p>
 </li>
 <li>
 <p>[*Exchange] タブを選択します。</p>
@@ -1359,7 +1355,7 @@
 <li>
 <p>[* 役割 ] の下で、 * + * 記号をクリックします。</p>
 <div class="paragraph">
-<p><span class="image"><img src="./media/screen_shot_write_scope.gif" alt="偽装を構成するときのライトスコープウィンドウのスクリーンショット Microsoft Exchange Online の略"></span></p>
+<p><span class="image"><img src="./media/365_discovery_management_impersonation_setup_roles.jpg" alt="偽装を構成するときのライトスコープウィンドウのスクリーンショット Microsoft Exchange Online の略"></span></p>
 </div>
 </li>
 <li>
@@ -1377,7 +1373,7 @@
 <li>
 <p>メンバー（ Members ）で、 * + * 記号をクリックします。</p>
 <div class="paragraph">
-<p><span class="image"><img src="./media/screen_shot_members.gif" alt="Microsoft の偽装を構成するときのメンバーウィンドウのスクリーンショット Exchange Online"></span>新しいウィンドウが表示されます</p>
+<p><span class="image"><img src="./media/365_discovery_management_impersonation_setup_members.jpg" alt="Microsoft の偽装を構成するときのメンバーウィンドウのスクリーンショット Exchange Online"></span>新しいウィンドウが表示されます</p>
 </div>
 </li>
 <li>
