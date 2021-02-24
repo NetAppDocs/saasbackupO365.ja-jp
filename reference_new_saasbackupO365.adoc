@@ -120,7 +120,7 @@ SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com か�
 
 * SaaS Backup でアドオンライセンスがサポートされるようになりました。
 +
-link:task_upgrading_from_trial.html["試用版サブスクリプションからアップグレードする"]
+link:task_updating_subscription_information.html["サブスクリプション情報を更新しています"]
 
 
 

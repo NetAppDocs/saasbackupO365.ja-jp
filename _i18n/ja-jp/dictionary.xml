@@ -1268,5 +1268,5 @@
   <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
   <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
   <block id="bcd69943752734c53a18c52e97e56165" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> SaaS Backup へのサインアップに使用するアカウント。サインアップ中に、有効な Microsoft Office 365 ライセンスを持つグローバル管理権限が必要です。バックアップとリストアの処理に使用できます。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> *zzzCCconfigacct* は、 Office 365 グループを検出するためのサービスアカウントとして自動的に作成されます。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> サービスアカウントを追加すると、バックアップおよびリストア処理のパフォーマンスを向上させることができます。</block>
-  <block id="13f0bc9c8d8908066e49bf46546212b4" category="paragraph"><block ref="13f0bc9c8d8908066e49bf46546212b4" category="inline-link-macro-rx"></block></block>
+  <block id="5f0bfceeb0937709ec772abe713ab0e3" category="paragraph"><block ref="5f0bfceeb0937709ec772abe713ab0e3" category="inline-link-macro-rx"></block></block>
 </blocks>
