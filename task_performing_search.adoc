@@ -5,16 +5,11 @@ keywords: netapp, saas backup, microsoft 365, search, searching, advanced search
 summary: インライン検索を使用して、特定のコンテンツを検索できます。 
 ---
 = 検索を実行する
-:toc: macro
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

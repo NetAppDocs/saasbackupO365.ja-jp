@@ -120,7 +120,7 @@ SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com か�
 
 * SaaS Backup でアドオンライセンスがサポートされるようになりました。
 +
-<<task_activating_an_add_on_license.adoc#activating-an-add-on-license,アドオンライセンスをアクティブ化する>>
+link:task_upgrading_from_trial.html["試用版サブスクリプションからアップグレードする"]
 
 
 
