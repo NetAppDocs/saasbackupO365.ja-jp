@@ -394,35 +394,13 @@
   <block id="72d7a07f71d29741a440a6ccd3420924" category="paragraph">新しいセキュリティグループを追加する前に、 AutoSync または手動同期によって新しいセキュリティグループを検出する必要があります。<block ref="5773e7c53afca7373ca53d4316d577c4" category="inline-link-rx"></block>。</block>
   <block id="c56e0bf3df88870012e054d6d8888966" category="list-text">検索フィールドに、追加するセキュリティグループの名前を入力します。</block>
   <block id="2813f127dc58929fb553bc32684c2e46" category="doc">既知の問題および制限</block>
-  <block id="01c249e2f862e4d35ebefcdc900239e8" category="list-text">Microsoft 365 サービスアカウントを使用してサインアップするすべてのユーザーに次の制限があります。</block>
-  <block id="d6770628964f371c2f152263aeff74c2" category="list-text">SaaS Backup でサポートされているのは基本認証のみです。</block>
-  <block id="267a5846e9fb37812a9065b5f62d7e0c" category="list-text">Microsoft Office 365 チームのチャネルリストアには、次の制限事項があります。</block>
   <block id="3ae90eaf5bfb44951f5e8d213a509b80" category="list-text">チャネル構成は復元されますが、コンテンツと会話は復元されません。</block>
-  <block id="c6ffa31d0e756b8a5d5356440653f7da" category="list-text">無償トライアルユーザには次の制限があります。</block>
   <block id="23bf76c3ad78237ef4e199168c220afe" category="list-text">1 つのサービスで最大 10 個のリストアを 24 時間で実行できます。</block>
-  <block id="5d27ff528139611f74f10e76d3215866" category="list-text">ライセンスを持つユーザには、次の制限があります。</block>
   <block id="c7f60a696ecccd62f0e9e25cd5a34555" category="list-text">エクスポートデータのリストアは、 1 サービスあたり 24 時間以内に 10 回まで実行できます。その他のリストアオプションには制限はありません。</block>
-  <block id="bc5ea96b106aff96f7deabcb75c3dce7" category="list-text">OneDrive for Business には次の制限があります。</block>
   <block id="6346662e0704c71f9315c98ae046d219" category="list-text">新しく追加したドライブは、サービスの同期を手動で完了するまで検出されません。</block>
-  <block id="b1bcecd9dfae60fc0295f50ad559714f" category="list-text">バックアップ設定で高度な検索を有効にする場合は、次の制限事項があります。</block>
-  <block id="6b2c347858b1f831114634dc717dcc24" category="list-text">この機能は、 Microsoft Exchange Online でのみ使用できます。</block>
-  <block id="d4a0db870daac18173c6fa58f12b7a56" category="list-text">この設定は、デフォルトでは無効になっています。この機能を有効にするよう、お客様から依頼を受ける必要があります。[ 高度な検索を有効にする ] 設定を有効にした後、管理者は個々のユーザーに対して手動で検索機能を有効にする必要があります。</block>
-  <block id="bb43ade4736b9b9ade9b4cb4606c14d1" category="list-text">TeamsChat には次の制限事項があります。</block>
-  <block id="68ae70408e658ab4edb0d099e1706dbb" category="list-text">絵文字および GIF のバックアップまたは復元はサポートされていません。</block>
-  <block id="978c16f5feca0f64112a353c968cc277" category="list-text">API の制限により、 SaaS Backup ではパブリックチャネルとプライベートチャネルを区別できません。</block>
   <block id="624442c799e4e89cb608e21d94dd9e38" category="list-text">高レベルのリストアでは、メールボックスおよび SharePoint データのみがリストアされ、会話はリストアされません。</block>
-  <block id="f9572beb184cf0f3181a50913a7a8a51" category="list-text">チームチャットの会話のみエクスポートオプションは HTML にエクスポートです。</block>
-  <block id="b76344a349d5727ae78b5f22e59424ea" category="paragraph">会話に投稿された添付ファイルリンクは、 HTML ドキュメントには表示されません。</block>
-  <block id="b6284016c3f6640ed2b20ddfd1c40931" category="list-text">OneNote には次の制限があります。</block>
   <block id="78c84ad1cca9922872a03826b4f4ba13" category="list-text">データにエクスポートすることはできません。</block>
-  <block id="30e97d8a9fc0a6f4da51434fca4af5c7" category="list-text">インクリメンタル・バックアップ・ジョブが失敗し ' 部分的な失敗というエラー・メッセージが表示される場合がありますOneNote セクションのいくつかをバックアップできませんでした</block>
-  <block id="1104b3231554bfe659fccb29face1503" category="list-text">OneDrive のバックアップには、 .onebak ファイルのバックアップが含まれます。</block>
   <block id="f9a2d354ea1790dcf9c2db418f193cf6" category="list-text">リストア統計はダウンロードできません。</block>
-  <block id="0c38823b8cde726ac1caf1fe182ba93c" category="list-text">サイトコレクショングループの復元のためのジョブステータスの一部失敗サイトコレクショングループ全体が削除された場合、コレクション内のプライベートグループの復元に失敗し、リストアジョブのステータスが「 Partially failed 」になります。 この場合、 GUI からサイトにアクセスできません。</block>
-  <block id="7a76fd4047fd218c0592fa9a4370ffb3" category="list-text">OneNote では、次の機能はサポートされていません。</block>
-  <block id="a276a6837b3d9e654b87fc95530ead3b" category="list-text">データのエクスポート</block>
-  <block id="cab75b20e2bfcbb4e026dc8ca512905d" category="list-text">データ消去</block>
-  <block id="f5321702427eadbf317246fbab5b527c" category="list-text">「部分的な障害。OneNote の一部のセクションをバックアップできませんでした。」</block>
   <block id="bd0e9f65e5502f75a4a32e0c53f61df1" category="summary">デフォルトでは、最新のバックアップのみがリストアに使用できます。</block>
   <block id="8a4ab2bb9b495040fdb7c88debb397b5" category="doc">以前のバックアップからのリストア</block>
   <block id="58aacc02460b3e3da762722a417d4812" category="list-text">ダッシュボードで、リストアを実行するサービスの [ 保護されている * ] ボックスの上の番号をクリックします。</block>
@@ -1254,7 +1232,6 @@
   <block id="8d20b47477e03528996e16a1b4eda8b5" category="sidebar">データをダウンロードしています</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
   <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">をクリックします<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
-  <block id="a3a63ad3dda4259c258cb6c2ebe29421" category="list-text">Exchange Online には、次の制限事項があります。</block>
   <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。</block>
   <block id="2366a80c7e9969775e6e87113d8bd6b9" category="summary">Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。</block>
   <block id="ac67a804e01713d24a3b80b009ba740f" category="inline-link-macro">グローバル権限を持つ Microsoft 365 サービスアカウントを作成する</block>
@@ -1269,4 +1246,26 @@
   <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
   <block id="bcd69943752734c53a18c52e97e56165" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> SaaS Backup へのサインアップに使用するアカウント。サインアップ中に、有効な Microsoft Office 365 ライセンスを持つグローバル管理権限が必要です。バックアップとリストアの処理に使用できます。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> *zzzCCconfigacct* は、 Office 365 グループを検出するためのサービスアカウントとして自動的に作成されます。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> サービスアカウントを追加すると、バックアップおよびリストア処理のパフォーマンスを向上させることができます。</block>
   <block id="5f0bfceeb0937709ec772abe713ab0e3" category="paragraph"><block ref="5f0bfceeb0937709ec772abe713ab0e3" category="inline-link-macro-rx"></block></block>
+  <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
+  <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
+  <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下は、 SaaS Backup for Microsoft 365 のアプリケーションレベルにおける既知の制限事項です。</block>
+  <block id="d266d57bea866579e901ba09197d761c" category="section-title">Microsoft 365 OneDrive for Business の場合</block>
+  <block id="df10152b8f1b0d5caabc4567bb3ea98e" category="section-title">Microsoft 365 Exchange Online の場合</block>
+  <block id="c660261b9ac7314f7438891eb314e00e" category="list-text">* 詳細検索 * は Exchange Online でのみ使用できます。この設定は、デフォルトでは無効になっています。この機能を有効にするよう、お客様から依頼を受ける必要があります。[ 高度な検索を有効にする ] 設定を有効にした後、管理者は個々のユーザーに対して手動で検索機能を有効にする必要があります。</block>
+  <block id="4f3cb2778fd6f32cc95e653723c2094a" category="section-title">Microsoft 365 チームの場合</block>
+  <block id="344380bbdcd6e472f74897190dc6aedf" category="list-text">API の制限により、 SaaS Backup ではパブリックチャネルとプライベートチャネルを区別できません。</block>
+  <block id="d5b9bcd91341381d4f9facf62e69a760" category="list-text">Teams Chat では、絵文字および GIF のバックアップまたは復元はサポートされていません。</block>
+  <block id="2e6df5bd869e8c255a210d03f781c2a2" category="list-text">チームチャットの会話のみエクスポートオプションは HTML にエクスポートです。会話に投稿された添付ファイルリンクは、 HTML ドキュメントには表示されません。</block>
+  <block id="db24901a0eed559545f127f9968c1c18" category="section-title">Microsoft 365 OneNote の場合</block>
+  <block id="e9c7dd5d31fad4f1fecc238f1b5cec74" category="list-text">インクリメンタル・バックアップ・ジョブが失敗し ' 部分的な失敗というエラー・メッセージが表示される場合がありますOneNote セクションのいくつかをバックアップできませんでした</block>
+  <block id="cba4e4936570a5f6cd9e636d453ee2df" category="list-text">OneDrive のバックアップには、 .onebak ファイルのバックアップが含まれます。</block>
+  <block id="e7c2efd0bfa0260184087f86122e8b75" category="list-text">データのエクスポートとパージはサポートされていません。</block>
+  <block id="09278d595eba2b1b6b3244e86b371f47" category="section-title">その他の問題および制限事項</block>
+  <block id="32310e00614d51c5c61fc82cc5a79a3f" category="paragraph">次の既知の問題および制限は、 1 つのアプリケーションに限定されていません。</block>
+  <block id="8d8b65656fcc19c1e36d5965880e2fd5" category="paragraph">無償トライアルユーザの場合：</block>
+  <block id="367955ddc3f4870ab77b4bd7a25a6368" category="paragraph">ライセンスユーザーの場合：</block>
+  <block id="7730a1bb36658e50b78927fef6f0a050" category="paragraph">サイト・コレクション・グループのリストアの場合：</block>
+  <block id="efd287cdc753601d5107130525c91ace" category="list-text">サイトコレクショングループ全体が削除されると、コレクション内のプライベートグループの復元に失敗し、リストアジョブのステータスが「一部失敗」になります。 この場合、 GUI からサイトにアクセスできません。</block>
+  <block id="4c16b0a23d0e5246d2604fb46b891dab" category="paragraph">詳細検索 * の場合：</block>
+  <block id="1c90154d49e9e74aec0cd7ad23f32b3c" category="list-text">検索ジョブは、 24 時間以内に最大 10 件まで指定できます。</block>
 </blocks>
