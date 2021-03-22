@@ -19,6 +19,10 @@ Microsoft 365 サービスアカウントまたはネットアップの SSO ア�
 
 == Microsoft 365 の無償トライアルにサインアップします サービスアカウント
 
+Microsoft 365 サービスアカウントで無償トライアルに登録するユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。
+
+link:https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online["最新の認証を無効にする方法について説明します"]
+
 .手順
 . Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[""]
 . 地域を選択します。選択した領域にテナンシーが作成されます。データはそのデータセンターの場所に保存され、あとで変更することはできません。

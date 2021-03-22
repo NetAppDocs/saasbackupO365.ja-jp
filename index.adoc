@@ -37,6 +37,5 @@ NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレー�
 * link:task_providing_feedback.html["フィードバックを提供する"]
 * link:concept_get_help_find_info.html["ヘルプを参照したり、詳細情報を参照したりするには"]
 * link:https://cloud.netapp.com/saas-backup["製品ページ"]
-* link:https://cloud.netapp.com/hubfs/NetApp%20SaaS%20Backup%20for%20Microsoft%20365.pdf?hsCtaTracking=486aae2e-33b3-489b-89c0-aff2c8adf7d1%7C37e522a7-0826-4a5f-8a79-85f565ff4592["ソリューション概要"]
-* link:https://docs.netapp.com/us-en/salesforce/["SaaS Backup for Salesforce のドキュメント"]
+* link:https://www.netapp.com/pdf.html?item=/media/21210-SB-3831-1220-NetApp-SaaS-Backup.pdf["ソリューション概要"]
 

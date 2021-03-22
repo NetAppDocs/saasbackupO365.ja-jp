@@ -171,7 +171,6 @@
   <block id="59bd9482937af8863abf9e7f4229fc09" category="list-text">設定を確認し、 * Save * をクリックします。</block>
   <block id="8a1b5520b65d8ce096df57e907189a55" category="summary">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合、試用版データは、バックアップストレージの保存先を変更しない限り保持されません。</block>
   <block id="9ee418bc8ef32fea9c5ea74351427bf6" category="doc">試用版サブスクリプションからアップグレードする</block>
-  <block id="4126701e69dedb4956afabb842a401f5" category="paragraph">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合は、同じバックアップストレージのデスティネーションタイプと同じバックアップストレージ領域を使用している場合にのみ、試用版データが保持されます。</block>
   <block id="db72319f07f059d0101b823975192491" category="paragraph">* バックアップ保存先タイプを変更すると、トライアルデータは失われます。バックアップ先のリージョンが変更されると、も変更されます データ損失。 *</block>
   <block id="6d3431ba560ac6c34d8e0942ff6d8c92" category="cell">トライアル契約のバックアップ先</block>
   <block id="324d0dbc5778b0d30ae9a3b0951b61dd" category="cell">ライセンス契約のバックアップ先</block>
@@ -192,7 +191,6 @@
   <block id="9b3369a34fd50984e123108049658865" category="list-text">デスティネーションストレージのタイプとデスティネーションストレージのリージョンを同じにする場合は、設定を確認して、「 * 保存 * 」をクリックします。</block>
   <block id="cdae03da0a493105e582628ed22abda8" category="list-text">「 * aws * 」、「 * AppDirect * 」、または「 * StreamOne * 」を選択した場合：</block>
   <block id="156fd6b635ab0e98b2c9cd4880457909" category="list-text">リンクをクリックして、選択した Marketplace に移動します。</block>
-  <block id="ea63eac2587a5d5cdcfcef22a6d27d70" category="list-text">Marketplace の指示に従います。</block>
   <block id="ef4cf7726ccc45c89cb5272cb949b7d8" category="admonition">AWS Marketplace でのライセンスサブスクリプションは、 SaaS Backup が提供する Amazon S3 ストレージのみを使用できます。</block>
   <block id="72a99821c0a5134095e1c4e5ac9cead3" category="list-text">Microsoft 365 アカウントで SaaS Backup for Microsoft 365 にサインインします。</block>
   <block id="c048d463d7b37f486fe72b64be4e6f80" category="list-text">[Microsoft 365 設定 ] アイコンをクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block>。</block>
@@ -790,9 +788,6 @@
   <block id="235e8d1a54ecddcf1d3ff533331ed416" category="inline-link">製品ページ</block>
   <block id="8656d7c0c01b2d64d35ced199a5e32e8" category="list-text"><block ref="8656d7c0c01b2d64d35ced199a5e32e8" category="inline-link-rx"></block></block>
   <block id="8c0b7124c43b10c0d456f666884deded" category="inline-link">ソリューション概要</block>
-  <block id="cd82dec68e0fb69113f1bbea5c6f12aa" category="list-text"><block ref="cd82dec68e0fb69113f1bbea5c6f12aa" category="inline-link-rx"></block></block>
-  <block id="17d7ad1abff9a6ab1dd48e2e10b8747f" category="inline-link">SaaS Backup for Salesforce のドキュメント</block>
-  <block id="c396d21846c0da8821d4a3b1730525e6" category="list-text"><block ref="c396d21846c0da8821d4a3b1730525e6" category="inline-link-rx"></block></block>
   <block id="1ec574257b8a9d0b57e964b4eba66ddf" category="summary">パージされたメールボックスまたはユーザアカウントのリストを表示できます。</block>
   <block id="1caa902112b42d538aa48a404aed49df" category="list-text">設定アイコンをクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="ff0244144bc03606b2edcb1e3bcd4350" category="list-text">「 * アカウント設定 * 」を選択します。</block>
@@ -1268,4 +1263,14 @@
   <block id="efd287cdc753601d5107130525c91ace" category="list-text">サイトコレクショングループ全体が削除されると、コレクション内のプライベートグループの復元に失敗し、リストアジョブのステータスが「一部失敗」になります。 この場合、 GUI からサイトにアクセスできません。</block>
   <block id="4c16b0a23d0e5246d2604fb46b891dab" category="paragraph">詳細検索 * の場合：</block>
   <block id="1c90154d49e9e74aec0cd7ad23f32b3c" category="list-text">検索ジョブは、 24 時間以内に最大 10 件まで指定できます。</block>
+  <block id="32fd1bb5491f4bdb59730a837e0eeef2" category="paragraph">Microsoft 365 サービスアカウントで有料サブスクリプションにサインアップするユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。</block>
+  <block id="3f0ac65c6641811fb6979108b4ae4db1" category="inline-link">最新の認証を無効にする方法について説明します</block>
+  <block id="db6769770b54cd48ea827fed88aa688f" category="paragraph"><block ref="db6769770b54cd48ea827fed88aa688f" category="inline-link-rx"></block></block>
+  <block id="f5e9bed4dbcf49e81329348b6cfec692" category="paragraph">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合は、同じバックアップストレージのデスティネーションタイプと同じバックアップストレージ領域を使用している場合にのみ、試用版データが保持されます。アップグレード時にライセンスを正しいテナントアカウントに関連付けるには、試用版とライセンス版の両方のサブスクリプションに同じ E メールアドレスを使用します。</block>
+  <block id="e7d38d663fcbde00fbe5e72dec66dab4" category="list-text">Marketplace の指示に従います。ライセンスを正しいテナントアカウントに関連付けるには、無償トライアルで使用しているものと同じ E メールアドレスを使用します。</block>
+  <block id="cd35b18e9c73b7753bbce41116add383" category="cell">有料サブスクリプションが終了してからの日数</block>
+  <block id="3b1482aa22733fab359963f1e198cc38" category="paragraph">Microsoft 365 サービスアカウントを使用してサインアップしたすべてのユーザーに対して、次の手順を実行します。</block>
+  <block id="d6770628964f371c2f152263aeff74c2" category="list-text">SaaS Backup でサポートされているのは基本認証のみです。</block>
+  <block id="94c4d110d7d7c45d9f0401f3e894e286" category="list-text"><block ref="94c4d110d7d7c45d9f0401f3e894e286" category="inline-link-rx"></block></block>
+  <block id="a77d2ddc9e5b2a10c6306021816e1292" category="paragraph">Microsoft 365 サービスアカウントで無償トライアルに登録するユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。</block>
 </blocks>
