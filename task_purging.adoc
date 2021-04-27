@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_purging.html 
-keywords: netapp, saas backup, microsoft 365, purge, purging, site collection, groups 
+keywords: netapp, saas backup, microsoft 365, purge, purged, purging, site collection, groups 
 summary: NetApp SaaS Backup では、新しいサービスのアクティブ化、既存のサービスの非アクティブ化、データのパージ、ジョブのキャンセルなど、さまざまな方法でサービスを管理できます。 
 ---
-= ユーザー、サイトコレクション、または Microsoft 365 グループをパージする
-:toc: macro
+= ユーザー、サイトコレクション、または Microsoft 365 グループをパージします
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

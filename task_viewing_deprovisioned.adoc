@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_viewing_deprovisioned.html 
-keywords: netapp, saas backup, microsoft 365, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned, deleted, accounts, mailboxes, sites, mysites 
 summary: 削除されたメールボックスまたはユーザアカウントのリストを表示できます。 
 ---
 = プロビジョニング解除された項目のリストを表示します

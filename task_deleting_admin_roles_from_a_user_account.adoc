@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_deleting_admin_roles_from_a_user_account.html 
-keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, deleting, removing 
+keywords: netapp, saas backup, microsoft 365, delete, deleted, deleting, role-based accounts, administrative roles, privileges, removing 
 summary: ユーザのアカウントからすべての管理者ロールが削除されると、そのユーザは自動的に SaaS Backup for Microsoft 365 からログアウトされます。 
 ---
-= ユーザアカウントからすべての管理ロールを削除する
-:toc: macro
+= ユーザアカウントからすべての管理ロールを削除します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

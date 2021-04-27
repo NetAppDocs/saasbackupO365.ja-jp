@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_scheduling_backup_or_changing_frequency.html 
-keywords: netapp, saas backup, microsoft 365, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, microsoft 365, schedule, scheduling, backup policies, changing backup policies, canceling job, immediate backup, SharePoint Online templates, shared mailboxes, archive mailboxes, archive, archive, shared, mailboxes 
 summary: 新しいバックアップのスケジュールを設定する場合も、現在のバックアップの頻度に変更する場合も、同じ手順で行います。 
 ---
-= バックアップのスケジュール設定またはバックアップ頻度の変更
-:toc: macro
+= バックアップのスケジュール設定やバックアップ頻度の変更
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

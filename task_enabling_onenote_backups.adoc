@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_enabling_onenote_backups.html 
-keywords: netapp, saas backup, microsoft 365, backup, setting, enabling, onenote 
+keywords: netapp, saas backup, microsoft 365, backup, setting, enable, enabling, onenote 
 summary: OneNote ノートブックのバックアップを有効にすることができます。 
 ---
-= OneNote のバックアップを有効にする
+= OneNote のバックアップを有効にします
 :hardbreaks:
 :nofooter: 
 :icons: font

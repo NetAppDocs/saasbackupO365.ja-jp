@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_downloading_data.html 
-keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, downloading 
+keywords: netapp, saas backup, microsoft 365, jobs, history, activity, log, download, downloading 
 summary: SaaS Backup のアクティビティとジョブ履歴のログを表示またはダウンロードできます。 
 ---
-= ログをダウンロードしています
-:toc: macro
+= ログをダウンロードします
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
@@ -22,7 +17,7 @@ SaaS Backup for Microsoft 365 では、ジョブ履歴のログが SaaS Backup �
 
 
 
-== アクティビティログのダウンロード
+== アクティビティログをダウンロードします
 
 SaaS Backup for Microsoft 365 内で発生するすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは .csv ファイルにダウンロードできます。
 
@@ -34,7 +29,7 @@ SaaS Backup for Microsoft 365 内で発生するすべてのアクティビテ�
 
 
 
-== 完了したジョブのログをダウンロードしています
+== 完了したジョブのログをダウンロードします
 
 正常に完了したジョブの Excel スプレッドシートをダウンロードできます。
 

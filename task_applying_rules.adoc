@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_applying_rules.html 
-keywords: netapp, saas backup, microsoft 365, creating, rules, managing, adding, applying 
+keywords: netapp, saas backup, microsoft 365, creating, rules, managing, adding, apply, applied, applying 
 summary: 保護されていない項目に既存のルールを適用したり、ルールが適用される順序を変更したり、ルールを削除したりできます。 
 ---
 = 既存のルールを適用する
-:toc: macro
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

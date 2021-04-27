@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="1a6c0852bc4cf3c92e38de75f70af41c" category="summary">NetApp SaaS Backup for Microsoft 365 では、 Azure Active Directory を使用して権限を管理できます。</block>
-  <block id="01022d5da434cb7e3f0e50711da6a0d8" category="doc">ユーザ権限を Azure Active Directory と同期する</block>
   <block id="90ad7a12c47aa1f3742250d3a05db8ce" category="paragraph">SaaS Backup for Microsoft 365 から、ユーザ権限を Azure Active Directory と手動で同期できます。</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">手順</block>
   <block id="4caf2a417fda014d9642d15608a05642" category="inline-image-macro">サービスボタンのスクリーンショット</block>
@@ -15,10 +14,8 @@
   <block id="1bb1174e1fd4bf448666d9f46f3d55e1" category="paragraph">サービスの権限が検出された場合は、オプションを active にしてサービスが表示されます。</block>
   <block id="9a1e3ad881f27238be3ba18022725f9d" category="summary">SaaS Backup for Microsoft 365 の導入にあたっては、データのバックアップに使用するストレージのタイプの決定、関連情報の収集、 Microsoft 365 サービスアカウントの作成、ユーザ権限の割り当てなどを行います。</block>
   <block id="6b8c83c9898d85caa045d0de469c77db" category="paragraph">Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。偽装を使用すると、 Microsoft 365 サービスアカウントがユーザーアカウントを偽装し、関連するアクセス許可にアクセスできるようになります。</block>
-  <block id="57debcbf47f9e2b54371eb912e644cce" category="section-title">偽装を自動的に構成します</block>
   <block id="b07e7a5409779d1bd7057ab63b67afbb" category="inline-link">MSDN PowerShell コマンドです</block>
   <block id="1f777bbd5f4402e8fcf8a9acae76f986" category="paragraph">偽装を自動的に構成するには、を実行します<block ref="1f915facb5399ad0dfe75907e9cfd076" category="inline-link-rx"></block>。</block>
-  <block id="a70e0ef8f37f80cddf7966ac76d94303" category="section-title">偽装を手動で設定する</block>
   <block id="d183af63e5075dca403caa74f094cfa3" category="paragraph">偽装を手動で構成するには、次の手順に従います。</block>
   <block id="63bf294804ca9de414a867bb9b26bc4c" category="list-text">[*Exchange] タブを選択します。</block>
   <block id="48ddabdcbc3578e3c15ba84216de335f" category="list-text">左側の [ ダッシュボード ] で、 [* アクセス許可 *] を選択します。</block>
@@ -36,15 +33,12 @@
   <block id="ffe2341c7c5a0ffbc3bd02556159c301" category="list-text">ユーザー名が * Members * （メンバー * ）セクションに表示されていることを確認します。</block>
   <block id="4cc186df234138a57b2e8c5d8e5f7f8d" category="list-text">[ 保存（ Save ） ] をクリックします。</block>
   <block id="5a916052a81a1188c4b5c7a8c9b8f57c" category="summary">サービスを非アクティブ化すると、そのサービスに関連付けられているすべてのスケジュールが削除され、それ以上のバックアップは実行されません。非アクティブ化の前に実行された最後のバックアップを表示して、リストアを実行することもできます。</block>
-  <block id="41ea48f3b8ed37926f1bdfedaa745c0c" category="doc">サービスを非アクティブにします</block>
   <block id="10fab75dabb94cc751cbc585c4033a73" category="paragraph">必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスを非アクティブ化できます。サービスを非アクティブ化すると、そのサービスに関連付けられているすべてのスケジュールが削除され、それ以上のバックアップは実行されません。非アクティブ化の前に実行された最後のバックアップを表示して、リストアを実行することもできます。</block>
   <block id="72fbcfb365b58ea3e04253c83ae7be8f" category="inline-image-macro">非アクティブ化ボタンのスクリーンショット</block>
   <block id="a934446538191824083af8a8ceeffd53" category="list-text">をクリックします <block ref="7a2df93b9d06827856a796e9d39efc33" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="8183c9dbb2354fb933c18a1e36501526" category="list-text">[* 確認 *] をクリックします。</block>
   <block id="acbb1f4785507a3281441e4a4d68c2cc" category="summary">SaaS Backup for Microsoft 365 を使用すると、 Microsoft OneDrive for Business でハイレベルかつきめ細かなリストアを実行できます。</block>
-  <block id="f8de6142ec6640db436dbfd698a4dbf3" category="doc">Microsoft OneDrive for Business で詳細レベルのリストアを実行します</block>
   <block id="d23cc6f5e569225d12d5cdee886dac91" category="paragraph">Microsoft OneDrive for Business では、個々のフォルダやファイルなどの詳細なアイテムをリストやライブラリにリストアできます。OneNote ノートブックまたはグループを復元することもできます。</block>
-  <block id="5e0c2ffba2e42946c6cea0aef687ed9a" category="paragraph">デフォルトでは、最新のバックアップのみがリストアに使用できます。バックアップ設定を更新して、個々のファイルの指定数のバックアップバージョンを維持できます。バックアップに指定した数よりも多くのバージョンのファイルがある場合、リストアに使用できるのは指定したバージョン数だけです。</block>
   <block id="61d6d9cdb505aceb7d54415f3c9d7708" category="paragraph">次の表は、 OneDrive for Business の細かなレベルの項目でサポートされるリストアオプションを示しています。</block>
   <block id="b739e39d2ac5533c519af082ff2d48e4" category="cell">項目のタイプ</block>
   <block id="b44cb0a6ed7f30f99a01005eae6383ba" category="cell">同じ個人用サイトにリストアします</block>
@@ -91,7 +85,6 @@
   <block id="fca24f68b0a283e4a4e35cde4dfa0a3a" category="cell">31 日以上</block>
   <block id="f698dce7cb7262aee1c5f6bbe5519878" category="cell">Deleted ：すべてのデータが削除され、テナントアカウントが削除されます。</block>
   <block id="3a3c17a3d9770667859bdcd66c4a99a5" category="summary">削除したアイテムを [ サービスの設定 ] からオンにすると、すべてのサービスから削除したアイテムを表示できます。</block>
-  <block id="dcf2c8ac20f25f5cf70151388697d262" category="doc">削除されたアイテムを表示する</block>
   <block id="0e2f0e976aaeb091f6ae728602d424e1" category="paragraph">[ サービス設定 ] で [ 削除されたアイテムを表示する *] をオンにすると、すべてのサービスで削除されたアイテムをいつでも表示できます。これにより、時間を節約できます。削除したアイテムを別のバックアップで参照する代わりに、スイッチをオンにして、削除したアイテムをすぐに検索することができます。</block>
   <block id="31c3a6fb19eaa75f19d3d4cf4c7cc0f3" category="paragraph">デフォルトでは、スイッチはオフになっています。</block>
   <block id="f26fcdd98806ea6214fcadf06f10cfd1" category="list-text">左側のナビゲーションペインで [*SERVICES *] をクリックします。</block>
@@ -105,7 +98,6 @@
   <block id="fb946ac62826c08c09ffa9bd4bdf1e4a" category="list-text">左側のナビゲーションペインで [* ジョブ ] をクリックします。</block>
   <block id="12e0aa55694b8ac667fc94104d1a6f89" category="list-text">最新のバックアップを開いて、削除済みアイテムを確認します。</block>
   <block id="32554193fa248d429a5c303d9f299cb5" category="summary">保護されていない項目に既存のルールを適用したり、ルールが適用される順序を変更したり、ルールを削除したりできます。</block>
-  <block id="9894f50858a3fe6d755d216a065400fb" category="doc">既存のルールを適用する</block>
   <block id="afa4a3e5d1b7ea0bb4463dbc220816cd" category="paragraph">ルールを使用すると、事前に選択した条件に基づいてユーザを自動的にバックアップ階層に移動できます。</block>
   <block id="bb735796521a9288c104ac4da6e8319b" category="list-text">ダッシュボードで、ルールを作成するサービスのボックスで、上の * 非保護 * の番号をクリックします。</block>
   <block id="92255e0954cb3755ebcf92c8861747e3" category="paragraph"><block ref="92255e0954cb3755ebcf92c8861747e3" category="inline-image-macro-rx" type="image"></block></block>
@@ -115,7 +107,6 @@
   <block id="f757be9dd327b424b244847b06036431" category="list-text">* ルール * をクリックします。既存のルールが表示されます。</block>
   <block id="78386b15f34158b994f4ab5cd8644568" category="list-text">[ 今すぐ適用 ] をクリックして、既存の非保護項目にルールを適用します。</block>
   <block id="e167007d1e03b72505e28867f91075ca" category="summary">ユーザの管理ロールが更新されると、そのユーザは自動的に SaaS Backup for Microsoft 365 からログアウトされます。ユーザが再度ログインすると、管理者ロールの更新がユーザアカウントに反映されます。</block>
-  <block id="71bbb904e8a531b9888e789b7366fd8f" category="doc">ユーザアカウントに割り当てられている管理ロールを更新しています</block>
   <block id="5ace6f088ad9ed4c2fc20561712be550" category="inline-image-macro">設定アイコンのスクリーンショット</block>
   <block id="77e568ce24fa92de1ba7644fce6ab87a" category="list-text">設定アイコンをクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> 画面左上のユーザー ID の横に表示されます。</block>
   <block id="fe31ae091ef6472576514f4b01733356" category="list-text">「 * アカウント設定 * 」をクリックします。</block>
@@ -123,7 +114,6 @@
   <block id="dda542577d68335a63e6b1756f5db314" category="list-text">更新するユーザー名の横にある [ ユーザーの更新 ] をクリックします。</block>
   <block id="5d267101ea44f1e416644b36ba62ae84" category="list-text">ドロップダウンメニューをクリックして、ロールを選択します。ユーザには 1 つ以上のロールを割り当てることができます。</block>
   <block id="d7b83a62db242748835c90954a9d55e8" category="summary">管理者ロールをユーザアカウントに割り当てて、選択したユーザに 1 つ以上のサービスに対する管理者権限を付与できます。</block>
-  <block id="694117556d8eaa493db21673e81df1ba" category="doc">ユーザアカウントに管理ロールを割り当てます</block>
   <block id="4c665c7201419346e367eb3ce862ec37" category="paragraph">ユーザには次のロールを割り当てることができます。</block>
   <block id="9fa9d36d0c4d6feb0d7259e07602be2e" category="list-text">グローバルテナント：すべてのサービス、ストレージターゲット、およびライセンスの更新（更新 / アップグレード）に管理権限を付与します。</block>
   <block id="3985ad78fd7f871485ccbc9ddb94ef4b" category="list-text">Exchange Administrator ： Microsoft Exchange Online のみに管理者権限を付与します。他のサービスは表示または変更できません。</block>
@@ -133,8 +123,6 @@
   <block id="24d840a6e20f36b1beec3234a60d54fd" category="list-text">をクリックします <block ref="697713931a36b5ecf8304836cd65b0c5" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="a5a0d4b8cb743abdecacdbf223875b2b" category="list-text">追加するユーザの E メールアドレスを入力します。</block>
   <block id="14ed5b6705ccff3400fb356b735cde29" category="summary">Microsoft 365 サービスアカウントまたはネットアップの SSO アカウントを使用して、 SaaS Backup for Microsoft 365 にサインアップできます。</block>
-  <block id="374b8d1b5f6ff063880919c0b304b8a4" category="doc">SaaS Backup for の有料サブスクリプションへの登録 Microsoft 365</block>
-  <block id="436b748c54cb8174710ed10cfaac7680" category="section-title">Microsoft 365 で有料サブスクリプションに登録する サービスアカウント</block>
   <block id="abdc55eb1eb7165f452a2b5dc6896999" category="list-text">Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。<block ref="69b8c2567294d7944fbc4c95e2c3c422" category="inline-link-rx"></block></block>
   <block id="fb40144187e6d6dfbb31bfddd7c8be12" category="list-text">地域を選択します。選択した領域にテナンシーが作成されます。データはそのデータセンターの場所に保存され、あとで変更することはできません。</block>
   <block id="40de166a0206734afd1816e330dbd1b2" category="list-text">ランディング・ページの下部にある [* サインアップ * ] をクリックします。</block>
@@ -151,7 +139,6 @@
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">こちらをご覧ください</block>
   <block id="72a04102d99fa44df4341d63f3022cc4" category="list-text">ネットアップからライセンスを購入した場合は、サブスクリプションタイプが Click と表示されます <block ref="29d288af4a2f7810b289a90a6051b818" category="inline-link-macro-rx"></block> を参照してください。</block>
   <block id="d14a2834a29f6ebee06ab6889bd6bd74" category="list-text">AWS などのクラウドマーケットプレイスからライセンスを購入した場合は、ライセンス情報が表示されます。をクリックします <block ref="e00c2ebec443939398eec77b9bc8acde" category="inline-link-macro-rx"></block> を参照してください。</block>
-  <block id="7adf2ad19f67e1ea6f047049007299dd" category="section-title">NetApp SSO での有料サブスクリプションへの登録 アカウント</block>
   <block id="abbc26a9920ffcb14ff167578b11c9f7" category="list-text">ランディングページの下部にある [ サインアップ ] をクリックします。</block>
   <block id="69e152d69f8d4373acc95d74926b0a61" category="inline-image-macro">SaaS Backup のサインインボタンのスクリーンショット ネットアップの SSO アカウントを使用した Microsoft 365</block>
   <block id="a2f89bcf524d24746643e4d9c04e36eb" category="list-text">[*Sign Up with NetApp SSO* （ NetApp SSO でサインアップ） ] をクリックし<block ref="481c2d7848531f12a7fd6f119c471514" category="inline-image-macro-rx" type="image"></block></block>
@@ -214,7 +201,6 @@
   <block id="4310668c648943854ce73d240f05e8cc" category="list-text">フィルタをさらに追加する場合は、 [ フィルタを追加（ Add Filter ） ] をクリックし、選択を行います。</block>
   <block id="a46e7abdc6a472f6bd7866496cff5225" category="list-text">[ フィルタを適用（ Apply Filter ） ] をクリックする。フィルタ結果が表示されます。</block>
   <block id="502181d06604b40a7bc5780586e1047a" category="summary">SaaS Backup for Microsoft 365 をセットアップすると、デフォルトではデータは保護されず、バックアップのスケジュールは設定されません。最初のバックアップを開始するには、データを保護された階層に移動する必要があります。</block>
-  <block id="6a23862f35bb1c43877ea52d2236752c" category="doc">最初のバックアップのスケジュール設定</block>
   <block id="a305a1c21b0ea9da7bdc7fe8b3239ff0" category="paragraph">SaaS Backup for Microsoft 365 を設定すると、デフォルトではデータは保護されません。選択した階層のスケジュールされた次回のバックアップ時にデータがバックアップされるように、保護されていない階層から保護されている階層のいずれかにデータを移動する必要があります。</block>
   <block id="66481d00d93eff0b31dd17194ddbb356" category="list-text">ダッシュボードで、保護されていないデータが含まれているサービスを選択します。</block>
   <block id="4fb44d8692ad90bf2755340b177db1a0" category="list-text">保護されていないメールボックス ' 個人用サイト ' サイト ' グループの数の横にある *view* をクリックします</block>
@@ -224,7 +210,6 @@
   <block id="f29af97513bb1a8e1b5d4a0b681250d4" category="inline-link-macro">バックアップポリシー</block>
   <block id="b406dcf2d30712d6e126b3826a5ca331" category="list-text">割り当てるバックアップポリシーの * 階層 * を選択します。を参照してください <block ref="00b2f8924defbf1ee2f308ef72378b6f" category="inline-link-macro-rx"></block> バックアップポリシー階層の説明。</block>
   <block id="400fae8e788b3721b9ac25fe01f04f50" category="list-text">[ 適用（ Apply ） ] をクリックします。</block>
-  <block id="19fa781771740e12cf11ffa182fdb746" category="doc">特定のバックアップポリシーの即時バックアップを実行する</block>
   <block id="628c8f272a9c1367ff9309cbf3ac2e39" category="paragraph">SaaS Backup for Microsoft 365 をセットアップすると、デフォルトですべてのデータが保護されなくなります。保護された階層にデータを移動すると、その階層のデータの移動先のバックアップをすぐに実行できるようになります。これにより、最初にスケジュールを設定したバックアップが実行されるまでデータにリスクが生じることを防止できます。最初にスケジュールされたバックアップを待つことができる場合は、すぐにバックアップを実行する必要はありません。</block>
   <block id="4be6e634687171d296ff9689efef1fa4" category="paragraph">データ保護に必要と判断した場合は、いつでも即座にバックアップを実行できます。SaaS Backup for Microsoft 365 の試用版を実行している場合、 1 日に実行できるバックアップはサービスごとに 3 つまでです。</block>
   <block id="b21aade20be3aa52fbd7e19d44d95f15" category="list-text">ダッシュボードで、即時バックアップを実行するサービスを選択します。</block>
@@ -236,19 +221,12 @@
   <block id="021d5924e971c9212d3d219972054d52" category="list-text">[* 確認 *] をクリックします。バックアップジョブが作成されたことを示すメッセージが表示されます。</block>
   <block id="5307eda3f04b27eefef8e7482983dc2b" category="list-text">[ * ジョブの進捗状況の表示 * ] をクリックして、バックアップの進行状況を監視します。</block>
   <block id="d0237117579def0f9ce41ac02e334a5a" category="summary">リストアしたファイルおよびフォルダのタイトルと場所のログをダウンロードできます。</block>
-  <block id="dbec683524703d44f005154e56879c4a" category="doc">リストアされたファイルを検索します</block>
-  <block id="7299e3d495e1f3ca063f2a910f0282fc" category="paragraph">一部のファイルまたはフォルダがリストアされると、新しく作成されたリストアフォルダに格納されます。復元されたアイテムを簡単に識別できるように、復元されたファイルとフォルダの名前と場所を含む Excel ファイルをダウンロードできます。</block>
   <block id="95b7f4d6a198fdf63d26ec910aefe409" category="inline-image-macro">ジョブボタンのスクリーンショット</block>
   <block id="f0997eb0d9eac290b2d22c536116679c" category="list-text">をクリックします <block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="6fd64f207f0e6134860235423954cfc2" category="list-text">「最近完了したジョブ」で、復元されたファイルを検索するジョブをクリックします。</block>
   <block id="f978b75b2595eb7b23b77cfcf1faf1d7" category="list-text">右上の「 * ダウンロード」をクリックします。Excel ファイルは、特定のジョブのリストアされたファイルの名前と場所を含むローカルにダウンロードされます。</block>
   <block id="b9edeb03bae560ed54e9938540c9a244" category="summary">SaaS Backup のアクティビティとジョブ履歴のログを表示またはダウンロードできます。</block>
-  <block id="e9333e0ddf0888b6ca03e2c620ccfa30" category="doc">ジョブ履歴とアクティビティログを表示する</block>
   <block id="66ded934122f399530ce8733141f4ba9" category="paragraph">SaaS Backup for Microsoft 365 には、ジョブ履歴のログと、 SaaS Backup 内で実行されたすべてのアクティビティのログが格納されます。</block>
-  <block id="7b81630095a84d28135291376eda841f" category="section-title">ジョブ履歴の表示</block>
-  <block id="21e29b761d2f8ffea04d9b4791f2979b" category="paragraph">NetApp SaaS Backup for Microsoft 365 には、ジョブタイプ、サービス、開始時間、終了時間、完了ステータスを含むすべてのジョブのログが格納されます。</block>
-  <block id="c197e589689dddf620aa80e7ab2ec337" category="paragraph">SaaS Backup for Microsoft Office 365 では、ジョブ履歴とすべてのアクティビティのレポートを表示またはダウンロードできます。</block>
-  <block id="f7cfd094e99a69926f7e79be8153b7a8" category="paragraph">= ジョブ履歴を表示する NetApp SaaS Backup for Office 365 で、すべてのジョブ履歴のレポートを表示またはダウンロードできます。ジョブタイプ、サービス、開始時間、終了時間、および完了ステータスで検索をフィルタリングできます。</block>
   <block id="999bcd77c4e33a6918284c583271b071" category="list-text">左側のナビゲーションペインで、 *Reporting* をクリックします。すべての SaaS Backup ジョブのリストが、 ［ * ジョブ履歴 * ］ タブに表示されます。</block>
   <block id="aeeacd02195ea6f4b02483630b5e0a23" category="list-text">結果を絞り込むには、 * フィルター * をクリックします。</block>
   <block id="71e041aaf292122c8fb7eb01ecfd1b22" category="list-text">[ * Select * ] ドロップダウンメニューをクリックして、フィルタを選択します。フィルタには、ポリシー、サービス、タイプ、またはステータスを使用できます。フィルタを選択すると、検索フィールドが表示されます。</block>
@@ -256,7 +234,6 @@
   <block id="83c095514d5c435c03dec828a320deff" category="inline-image-macro">[ フィルタの適用 ] ボタンのスクリーンショット</block>
   <block id="de99d80b1e1d514510bdd4d6ca077947" category="list-text">をクリックします <block ref="7641632d8ed1b80cf3c36daf5e0d736d" category="inline-image-macro-rx" type="image"></block>フィルタ結果が表示されます。</block>
   <block id="75503e061f60e8b69f3aa7e19a8d1fea" category="list-text">任意のジョブをクリックすると、表示が展開され、ジョブの詳細が表示されます。</block>
-  <block id="db727a5ed0e0604ca02afeb8e9ec7e39" category="paragraph">= アクティビティログの表示 SaaS Backup for Microsoft 365 内で発生したすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは、サービスおよびイベントでフィルタできます。たとえば、 Microsoft Exchange Online で発生したすべてのリストア処理を表示する必要がある場合は、アクティビティログをフィルタリングしてそれらの具体的な結果を表示できます。</block>
   <block id="153d602c1f68a3d111864d674bca8233" category="list-text">左側のナビゲーションペインで、 *Reporting* をクリックします。</block>
   <block id="a98816c0ba5cdc990c24c73fd169f615" category="list-text">[ アクティビティログ * （ Activity Log * ） ] タブをクリックします。すべての SaaS Backup for Microsoft 365 アクティビティのリストが表示されます。</block>
   <block id="303ba20d6cda77d4c350c34e272105d9" category="list-text">[ * Select * ] ドロップダウンメニューをクリックして、フィルタを選択します。サービスまたはイベントでフィルタできます。フィルタを選択すると、検索フィールドが表示されます。</block>
@@ -270,7 +247,6 @@
   <block id="50fc34bbfebbd150a1cb0b6892317c19" category="cell">Deactivated ：管理者は SaaS Backup ポータルにアクセスできません。この期間にサブスクリプションが更新された場合は、データを再アクティブ化できます。</block>
   <block id="33a738ddb5dfef5ce776090768e77555" category="cell">61 日以上</block>
   <block id="b58854b8b60a93adfa442564c982e5ae" category="summary">必要に応じて、アカウントを追加してバックアップのパフォーマンスを向上させることができます。サービスアカウントは、同時にバックアップを効率的に実行するために使用されます。</block>
-  <block id="f6e9a9691a2e4b90509a93933079077e" category="doc">サービスアカウントを追加しています</block>
   <block id="5389efabc2aaccb0d177f57e3e10fcee" category="paragraph">必要に応じて、サービスアカウントを追加してバックアップのパフォーマンスを向上させることができます。サービスアカウントは、同時にバックアップを効率的に実行するために使用されます。</block>
   <block id="08c237a72d1fe465d2e31132c49e3c6d" category="list-text">管理者権限を持つアカウントで Microsoft 365 管理ポータルにログインします。</block>
   <block id="0ff659b3cc13c913cf5af44c0ddfe785" category="list-text">アプリ起動ツールのアイコンをクリックし、 * 管理者 * をクリックします。</block>
@@ -386,7 +362,6 @@
   <block id="e749efd4835fdf339ee73d6ab5a9587c" category="paragraph"><block ref="e749efd4835fdf339ee73d6ab5a9587c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8bda9e61afc89be886f94a386ef3171b" category="paragraph">選択したサービスがバックアップのジョブキューに登録されることを示すメッセージが表示されます。</block>
   <block id="0f638f48553fda495650e517cecc05b2" category="summary">セキュリティグループをフィルタリングオプションとして使用して、データを表示したりルールを作成したりできます。</block>
-  <block id="b7d0cfba4758039e9c53a262d0a5bee1" category="doc">セキュリティグループの追加</block>
   <block id="0f9443e6e2ae0748eadaf4c71d113455" category="paragraph">セキュリティグループは 3 つまで追加できます。その後、 SaaS Backup のフィルタリングオプションとしてセキュリティグループを使用できます。</block>
   <block id="3293e39cea32d292601ae293cef7ecba" category="inline-link">管理センターでセキュリティグループを作成、編集、または削除します</block>
   <block id="72d7a07f71d29741a440a6ccd3420924" category="paragraph">新しいセキュリティグループを追加する前に、 AutoSync または手動同期によって新しいセキュリティグループを検出する必要があります。<block ref="5773e7c53afca7373ca53d4316d577c4" category="inline-link-rx"></block>。</block>
@@ -400,7 +375,6 @@
   <block id="78c84ad1cca9922872a03826b4f4ba13" category="list-text">データにエクスポートすることはできません。</block>
   <block id="f9a2d354ea1790dcf9c2db418f193cf6" category="list-text">リストア統計はダウンロードできません。</block>
   <block id="bd0e9f65e5502f75a4a32e0c53f61df1" category="summary">デフォルトでは、最新のバックアップのみがリストアに使用できます。</block>
-  <block id="8a4ab2bb9b495040fdb7c88debb397b5" category="doc">以前のバックアップからのリストア</block>
   <block id="58aacc02460b3e3da762722a417d4812" category="list-text">ダッシュボードで、リストアを実行するサービスの [ 保護されている * ] ボックスの上の番号をクリックします。</block>
   <block id="6d9653c6364c67e9540ed73b28a04b91" category="list-text">共有メールボックスの場合は、 * shared * タブをクリックします。</block>
   <block id="cdaa60ce381ae758f03680ef5200eee4" category="list-text">アーカイブメールボックスの場合は、 *ARCHIVE * タブをクリックします。注：アーカイブメールボックスは、ユーザの通常のメールボックスにリストアされます。</block>
@@ -430,23 +404,19 @@
   <block id="25b29418d9c6575969ec7daa90fcc97f" category="paragraph">リストアジョブが作成されたことを示すメッセージが表示されます。</block>
   <block id="67d991d78fa5108aec7ff0c45194bd85" category="summary">インライン検索を使用して、特定のコンテンツを検索できます。</block>
   <block id="e4b24449dd1258fcfbdc7060e73f1d2c" category="paragraph">Microsoft Exchange Online 、 Microsoft OneDrive for Business 、 Microsoft SharePoint Online のインライン検索を使用して、特定のコンテンツを検索できます。</block>
-  <block id="be904b17585233d0258d9bfc74af1360" category="section-title">Microsoft Exchange Online の検索オプション</block>
   <block id="6e80d424becc90c711a913c44e78380b" category="paragraph">インライン検索または高度な検索を実行できます。</block>
   <block id="8f0dced14acbe4affb37383302ea5f35" category="list-text"><block ref="4be11eb4ba0e1366af91f4538e832916" category="inline-xref-macro-rx"></block></block>
   <block id="f1ee10b2729c7bbd6d4ec5291a0e9368" category="list-text"><block ref="3e5ef4fe7a9cbff5bbf3a31d46d5583a" category="inline-xref-macro-rx"></block></block>
-  <block id="a35a25610f3663486efc59faa9f2629e" category="section-title">Microsoft Exchange Online 内でインライン検索を実行する</block>
   <block id="0209b494c3c03be925816338c8b7491f" category="paragraph">個別のメールボックス内でインライン検索を実行して、特定のコンテンツを検索できます。これは、 Microsoft 365 グループの一部であるメールボックスにも適用されます。</block>
   <block id="771db20ee13871b9294c0e9855ff1a9f" category="list-text">ダッシュボードで、 [ 保護されている * ] または [ 保護されていない * ] の上の番号を [ 交換時 ] ボックスでクリックします。<block ref="92255e0954cb3755ebcf92c8861747e3" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80918be0d33de59f7f1c2e1367952e2a" category="list-text">* 保護された * メールボックスを検索している場合は、検索を実行する必要がある電子メールアドレスをクリックします。</block>
   <block id="ba3d7519a5962f74c00a336c553d4f99" category="list-text">検索する必要があるカテゴリ（メール、タスク、連絡先、カレンダー、またはその他）を選択します。</block>
   <block id="57ae49c141bbc27e497c71a8408717b1" category="list-text">検索フィールドに検索文字列を入力します。検索が自動的に実行され、検索文字列が入力されると結果が表示されます。</block>
   <block id="517bea97af8c28f995beb2dc4a7abc3d" category="list-text">保護されていない * メールボックスを検索する場合は、検索するメールボックスを選択します。</block>
-  <block id="6405b45d5af025afb2add640136bbfc2" category="section-title">Microsoft Exchange Online の詳細検索を使用する</block>
   <block id="00c49197e1ad230a77a69b3c62a95960" category="paragraph">個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを元のメールボックスにリストアできます。この設定を有効にする方法については、 2020 年 6 月を参照してください <block ref="d84f7ef7df75ea4b5018dac7dc7cdf71" category="inline-link-macro-rx"></block> リリースノート</block>
   <block id="656eeadf589acae73d9136d200392f5e" category="list-text"><block ref="3169cdeb0761e30026ca3234a022ff85" category="inline-xref-macro-rx"></block></block>
   <block id="01f7c06d757216afb33d0374a5197c25" category="list-text"><block ref="decaad563b4606957565b831cc6605d8" category="inline-xref-macro-rx"></block></block>
   <block id="e85cb21871b7e7eabbc3dd6cd48cc605" category="list-text"><block ref="31ebe8bc201bd551b434065db8a82324" category="inline-xref-macro-rx"></block></block>
-  <block id="423559e5fbb0ce22dc9edde0b4a41176" category="section-title">高度な検索設定を指定します</block>
   <block id="4466a882479de04cb5c1a5ec232dacdc" category="paragraph">* 詳細検索設定 * では、検索機能を有効または無効にするオプションが提供されます。</block>
   <block id="b0eb2396acd040d98c146d201fe5307e" category="admonition">ライセンスのあるユーザとライセンスのないユーザは、高度な検索機能を使用できます（有効な場合）。</block>
   <block id="c44cc41dbd8bd91ac75451de23ec8eb6" category="list-text">ダッシュボードの左側のメニューで、「 * 高度な検索 * 」をクリックします。</block>
@@ -477,7 +447,6 @@
   <block id="c8223f247f28790aa78f28b2a7d03d7b" category="list-text">添付ファイルあり： E メールアイテムまたはアイテムに添付ファイルがある場合に選択します。</block>
   <block id="b68e3baaece85a7fd6bb5480a8b002d0" category="list-text">[* 検索（ Search ） ] をクリックする。</block>
   <block id="9b3bc7bd4ed5e46080b209bdd7facb88" category="list-text">検索ジョブを検索するには、以下の「過去の検索ジョブの検索」を参照してください。</block>
-  <block id="5567cd4cf871b6d1ea65c2b8ca4170e4" category="section-title">以前の検索ジョブを検索しています</block>
   <block id="d7b7c604c45bcddfec349d4eefd139e0" category="paragraph">詳細検索では、前の検索を検索するオプションが表示されます 以前の検索ジョブ * の下にあるジョブ</block>
   <block id="6578ea0c53e911e0fbac32ce91fa2510" category="list-text">［ * 前の検索ジョブ * ］ をクリックします。</block>
   <block id="3abb5d8ae2c022fd5c5a66b3c9f5d6f9" category="list-text">前の手順で実行した検索ジョブを探します。0 の検索結果が表示された場合は、検索に入力した条件に一致する項目がないことを意味します。</block>
@@ -487,12 +456,10 @@
   <block id="74336c770170c7097da19acb3a2c9e7c" category="paragraph"><block ref="74336c770170c7097da19acb3a2c9e7c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c338b09600084dabac11ca51f9bb51cc" category="admonition">リストアしたアイテムは、 CC_SEARCH_MM.DD_TIME という命名規則を使用して元のメールボックスに戻されます。リストア・ジョブを検索するには、左側のメニューから「 * Jobs * 」（ * ジョブ）に移動します。</block>
   <block id="8d5f80c87fb73b96182c0d6e116fa42c" category="list-text">検索結果の表示を終了するには、 [ 検索ジョブに戻る * ] をクリックします。</block>
-  <block id="e75229097d6c10532aaaeb03382fdffe" category="section-title">Microsoft OneDrive for Business 内を検索しています</block>
   <block id="de37fa449724a47959d17093ed7c0e71" category="paragraph">個別の MySite 内でインライン検索を実行して、特定のコンテンツを検索できます。</block>
   <block id="f89bd9778416e1c9b544875805d212aa" category="list-text">[ ダッシュボード ] で、 OneDrive ボックスの [ 保護されている * ] の上の数字をクリックします。</block>
   <block id="a784d4b19dd73c3e0fac0246f63ea5d6" category="list-text">検索を実行する必要がある個人用サイトをクリックします。</block>
   <block id="4430c1e4a308cf2d23897ce799e93155" category="list-text">検索する必要があるファイルをクリックします。</block>
-  <block id="3d5b9350f02bc4e198cae2a08ff52609" category="section-title">Microsoft SharePoint Online 内で検索しています</block>
   <block id="e6dc3c9f1fc2faf6f0450f04e02a0404" category="paragraph">個別の MySite 内でインライン検索を実行して、特定のコンテンツを検索できます。これは、 Microsoft 365 グループの一部であるサイトにも適用されます。</block>
   <block id="335806969970f6770282fc51f89434c7" category="list-text">[ ダッシュボード ] で、 [SharePoint で保護されている * ] ボックスの上の数字をクリックします。</block>
   <block id="f62c3598e40ee44d875e3d656303cd92" category="list-text">検索を実行するサイトをクリックします。</block>
@@ -554,14 +521,11 @@
   <block id="298f7e405df9bd70d503f666655b7a2f" category="list-text">メール、予定表、タスク、連絡先、ファイル、コンテンツ、またはその他の表示するアイテムの種類をクリックします。</block>
   <block id="428d3946534ec712b3769c0d38b438df" category="list-text">バックアップされたアイテムを参照します。</block>
   <block id="d65dba4c9f44a82f9170ce9c1703ba84" category="summary">個々の階層、メールボックス、サイト、および MySites のデータが保持される期間を、 10 年または無制限に更新することができます。</block>
-  <block id="92502b9b33c56809f4855c66da86aff5" category="doc">バックアップの保持期間を更新しています</block>
   <block id="aa378916d99a534861b26ea544bc08f6" category="paragraph">個々の階層、メールボックス、サイト、および MySites のデータが保持される期間を、 10 年または無制限に更新することができます。サブスクリプションがアクティブな場合、 SaaS Backup はバックアップデータを保持して保持期間を設定します。すべてのバックアップ階層の保持期間が同じ場合は、グローバル更新を実行してすべてのテナントの保持期間を同時に変更できます。</block>
-  <block id="3e559835f7981bf21ebe0ecf8a7bb479" category="section-title">特定の階層のバックアップ保持期間を更新しています</block>
   <block id="94216c0e12d42b92711e6a45ce7a548e" category="list-text">ダッシュボード * で、任意のサービスをクリックします。</block>
   <block id="122f65a3bb5d40b11d5ade616e9d48d0" category="list-text">[ * バックアップ・ポリシー * ] で、変更する階層の [ * 保持期間 * ] の横にあるドロップダウン・メニューをクリックします。</block>
   <block id="6b2f3cd7301fe0eaa0b99174b00619b0" category="list-text">事前定義されたリストから必要な保持期間を選択します。</block>
   <block id="ab3c12eae2f2744c9a522433f4048820" category="list-text">［ * 保持期間の更新 * ］ をクリックします。</block>
-  <block id="6697dcd45cd7a990e2f2e70ce8f3905f" category="section-title">個々のユーザとテナントのバックアップ保持期間を更新する</block>
   <block id="4d2dc1fb517faf1351e40af5c798d589" category="inline-image-macro">設定アイコン</block>
   <block id="b0993439c0d1d476bdedee08ce113e13" category="list-text">設定アイコンをクリックします <block ref="a0cde246171809ba886b58a232df6058" category="inline-image-macro-rx" type="image"></block> 左上にある SaaS Backup のユーザー ID の横に表示されます。</block>
   <block id="b4e9d8e1645ce21b7cb93c733b1a0a1c" category="list-text">[* retain and purge] をクリックします。</block>
@@ -579,7 +543,6 @@
   <block id="a7d2551510b2cd7a138c453deff4b807" category="list-text">[* テナント・レベル・データ保持ポリシー * ] で、 [ * 保持期間 * ] の横にあるドロップダウン・メニューをクリックし、プリセットされた時間のリストから期間を選択します。</block>
   <block id="243f915df66d1cc2ec089205411db8ac" category="list-text">[ 保存（ Save ） ] をクリックします。すべてのバックアップポリシー階層が、選択した保持期間に更新されます。</block>
   <block id="0292df1cde394a7f4bcde7c13f731961" category="summary">NetApp SaaS Backup for Microsoft 365 では、サービスアカウントの管理、新たに追加されたアカウントの検出、アカウント通知の設定を行うことができます。</block>
-  <block id="76924c55c4390efe2fb2db219c6e5a90" category="doc">サービスアカウントに権限を追加しています</block>
   <block id="5a4f9f1ee9d9f07650e33d5392daa03a" category="paragraph">サービスアカウントの管理、新しく追加されたアカウントの検出、およびアカウント通知の設定を行うことができます。</block>
   <block id="5f991a0983d92564555c3f91b524208c" category="paragraph">必要に応じて、サービスアカウントユーザに権限を追加できます。サービスアカウントは、同時にバックアップを効率的に実行するために使用されます。</block>
   <block id="e600994934c3fa9c4fcaca691c4214ee" category="list-text">左側のナビゲーションペインで Services をクリックします。<block ref="5dae113680257bfa8a9a9f41c78b194f" category="inline-image-macro-rx" type="image"></block></block>
@@ -596,33 +559,23 @@
   <block id="95586af4ab51839471da911204e1aa78" category="list-text">すべてのサービスで、最大 10 件のリストアが 24 時間で許可されます。</block>
   <block id="80870c06cc314ae7a248df5ab62d3f5f" category="list-text">TeamsChat バックアップはデフォルトでは無効になっており、リクエストに応じて saasbackupsupport@netapp.com の SaaS Backup Support に電子メールを送信することで有効にできます。TeamsChat を有効にするには、アクティブなチームのすべてのユーザーに SaaS Backup でライセンスが付与されている必要があります。</block>
   <block id="6717d37b6834e1656959896157ee6fcd" category="summary">必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスをアクティブ化できます。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。</block>
-  <block id="796b7c591274fb854fd6da3705e77ca5" category="doc">サービスをアクティブ化しています</block>
   <block id="4cfc0abdc343554651425620b5108cfd" category="list-text">アクティブ化するサービスの横にある [Activate *] をクリックします。</block>
   <block id="ededc6ad5e601dceeeb3a254cbfcaf3a" category="summary">SaaS Backup for Microsoft 365 を使用すると、 Microsoft Exchange Online 365 をきめ細かくリストアできます。</block>
-  <block id="e21d4824d1401f18dd1cbaa81b8cfab6" category="doc">Microsoft Exchange Online の細かな単位でのリストアを実行します</block>
   <block id="3b1b3661830c7552093c2673dc985a45" category="paragraph">Microsoft Exchange Online では、個々の E メール、タスク、連絡先、カレンダーイベントなど、単一のユーザの詳細レベルの項目をリストアできます。また、 Microsoft 365 グループメールボックスの細かな単位の項目をリストアすることもできます。</block>
-  <block id="9cc6f39a3a13db97fcd6e85c003bd61c" category="paragraph">デフォルトでは、最新のバックアップのみがリストアに使用できます。バックアップ設定を更新して、個々のファイルの指定数のバックアップバージョンを維持できます。バックアップに指定した数よりも多くのバージョンのファイルがある場合、リストアに使用できるのは指定したバージョン数だけです。</block>
   <block id="f00f10dc480c1feeccffc63cd66d98d0" category="list-text">[ ダッシュボード ] の [ 交換 ] ボックスで、 [ 保護されている * ] の上の数字をクリックします。</block>
   <block id="4cba3dae453d4a0fc72eb7583690a011" category="inline-image-macro">Exchange で保護されているインスタンスの数を示すスクリーンショット</block>
   <block id="e8ba24e9166367a3b0ff58de4dc6ae1f" category="paragraph"><block ref="e8ba24e9166367a3b0ff58de4dc6ae1f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="2846152c244d8e6fbbd8a0660b6e8361" category="list-text">リストアオプションを選択します。</block>
   <block id="1fd2f891b92fd621f712d2acbe6fa2de" category="list-text">アーカイブメールボックスの場合は、 *ARCHIVE * タブをクリックします。</block>
   <block id="ae8180380fe555e30cec3e9f3e02cc5d" category="list-text">詳細レベルのリストアを実行する必要があるメールボックスをクリックします。</block>
-  <block id="d77a1d8bdbb5ce47ac44650fcbe1ac6c" category="list-text">Microsoft Office Exchange カテゴリ全体を復元するか、カテゴリ内の特定のアイテムを復元します。Microsoft 365 グループメールボックスの場合は、メールカテゴリまたはカレンダーカテゴリからリストアするオプションのみがあります。</block>
   <block id="30cdc5fd38d012a70637e34e6a985f56" category="list-text">リストアする必要があるカテゴリ（メール、タスク、連絡先など）を選択します。</block>
   <block id="eaf3be256f5933b9ee353f265ad78f5d" category="admonition">カテゴリ内の 1 つのアイテムをリストアする場合は、カテゴリをクリックし、リストアするアイテムを選択します。</block>
   <block id="0e29911c075e29d2f52fcf8c94b9123e" category="list-text">リストアオプションを選択します。</block>
   <block id="734c77efdf03a2aa22de3b849656d08b" category="paragraph">同じメールボックスにリストアすると、デフォルトでは、バックアップコピーが格納された元のコンテンツの場所に、現在の日付とタイムスタンプが設定されたリストアフォルダが作成されます。[ 既存のコンテンツの置換 ] を選択した場合、現在のデータはバックアップに完全に置き換えられます。</block>
-  <block id="5986b452a05a0a1de30e1b5a6d5204d8" category="paragraph">Microsoft 365 グループの場合は、同じメールボックスにリストアするオプションのみがあり、既存のコンテンツを置き換えることはできません。Microsoft Exchange Online では、同じメールボックスにリストアして既存のコンテンツを置き換えることも、別のメールボックスにリストアすることもできます。</block>
-  <block id="d687019b1f9a7c2eb87cbe6e2517046f" category="list-text">* 別のメールボックスへのリストア * （ Microsoft Exchange でのみ使用可能）</block>
   <block id="f59998acaf678573d3888529543a32fb" category="paragraph">別のメールボックスにリストアする場合は、検索フィールドにデスティネーションメールボックスを入力する必要があります。検索フィールドに宛先の電子メールアドレスの一部を入力すると、一致する宛先メールボックスを自動的に検索できます。</block>
   <block id="e7ec2eb55740bd6c5031005706b6b021" category="list-text">* PST にエクスポート *</block>
   <block id="950720958846f6a74f07c4bd65d20d8b" category="paragraph">すべてのカテゴリサブフォルダを含めることができます。</block>
-  <block id="496de342b149310d796132ca1cb6ae2f" category="paragraph">PST にエクスポートすると、エクスポートが完了すると、 PST ファイルの場所を記載した通知メールが送信されます。注：このオプションは、 Microsoft 365 グループでは使用できません。</block>
   <block id="6e5d4c3475dd8385b64b8f525196abc7" category="admonition">[PST にエクスポート ] リストア・オプションを選択した場合、表示されたリンクは 7 日間有効で、事前認証されています。</block>
-  <block id="545c7d23d27aa85384f8433eb900ba4c" category="list-text">* エクスポート * （ Microsoft 365 グループでのみ使用可能）：</block>
-  <block id="31a8caaac4cb2c900aa219bb0887469c" category="paragraph">エクスポートすると、 Microsoft Exchange ファイルとともに PST ファイルが作成され、 Microsoft SharePoint サイトに .zip ファイルが作成されます。PST ファイルの場所と、 .zip ファイルの場所への認証済み URL が記載された通知メールが送信されます。</block>
-  <block id="5318fd0e6b50b3537f4327480263773f" category="admonition">エクスポートリストアオプションを選択すると、指定されたリンクは 7 日間有効で、事前認証されています。</block>
   <block id="6e1b2e76136fef4e065dc537ac7bec7d" category="paragraph">リストアジョブが作成されたことを示すメッセージが表示されます。</block>
   <block id="5cd8ed00a66ee33edca00eaad743e706" category="summary">SaaS Backup for Microsoft 365 の有料サブスクリプションを開始するには、バックアップに使用するストレージのタイプを決定し、グローバル権限を持つ Microsoft 365 サービスアカウントを作成し、サインアッププロセスを完了する必要があります。</block>
   <block id="e80ac21f1c9c2bfc1cd2b0c269ca21b1" category="doc">SaaS への有料サブスクリプションを開始するためのワークフロー Microsoft 365 向けのバックアップ</block>
@@ -658,7 +611,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link">SaaS Backup に関する注意事項</block>
   <block id="9bdc5707c114dbc5a94534cfcadd7ab0" category="paragraph"><block ref="9bdc5707c114dbc5a94534cfcadd7ab0" category="inline-link-rx"></block></block>
-  <block id="c84bf442a3e8de2e4977516f6fed5495" category="doc">Microsoft 365 の無償トライアルアカウントにサインアップします</block>
   <block id="a6cf97b63eff3ad329ddd3b42602dc2c" category="paragraph">Microsoft 365 for Business の 30 日間無償トライアルでは、 Microsoft 365 と SaaS Backup for Microsoft 365 の最新機能をご確認いただけます。</block>
   <block id="154aaf2b1abad0f9ef74679e031ff9bb" category="inline-link">Microsoft 365 for Business サイト</block>
   <block id="6d9567e09b2cc2c796d047f8b47e3ca0" category="list-text">にアクセスします<block ref="5a129d533828990ea282ed866872ff1c" category="inline-link-rx"></block> トライアル契約を開始します。</block>
@@ -690,7 +642,6 @@
   <block id="ecc13afaeb6107f3ffc2b41a5af9e195" category="list-text">［ Exchange ］ &gt; ［ User ］ &gt; ［ Mail ］ &gt; ［ Conversation History ］ &gt; ［ Team ］ の順に選択します チャット（実際の場所）</block>
   <block id="7de191b83c23da9f013bbffc9dcf53ae" category="cell">個々のユーザチャットおよびグループチャットで共有されているファイル</block>
   <block id="ad64dadeddce0a9e824b9d43c40cb699" category="paragraph">OneDrive &gt; [ ユーザー ] &gt; [ ファイル ] &gt; [Microsoft Teams Chat Files] の順に選択します</block>
-  <block id="3c179f2bbd154a6fd50e24874e614247" category="doc">新しいメールボックス、サイト、およびグループを検出しています</block>
   <block id="c3610f7768b54458847dbaecb3245abb" category="paragraph">SaaS Backup と Microsoft 365 アカウントの間で、新しいメールボックス（共有メールボックスとアーカイブメールボックスを含む）、サイト、グループ、チームが SaaS Backup で検出されるように同期する必要があります。デフォルトでは、同期は 24 時間ごとに自動的に実行されます。ただし ' 変更を加えた後 ' 次のスケジュールされた * 自動同期 * の前に検出を実行する場合は ' すぐに同期を開始できます</block>
   <block id="4aac6497c390aec3dde95c25051ad5f5" category="list-text">[Microsoft 365 設定 ] アイコンをクリックします。<block ref="f9631d5c739c4c4b4fe570c209766ce1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5711630f8e077835bf99b1b02452977e" category="list-text">同期するサービスの横にある ［ * 今すぐ同期 * ］ をクリックします。<block ref="59f685d268d02e05adc0df25fd86ae38" category="inline-image-macro-rx" type="image"></block>新しいユーザ、共有メールボックス、およびアーカイブメールボックスが検出され、保護されていない状態で追加されます。新たに検出されたユーザ、共有メールボックス、またはアーカイブメールボックスをバックアップする場合は、事前定義された階層グループのいずれかに、ユーザのバックアップポリシーを非保護から変更する必要があります。</block>
@@ -702,7 +653,6 @@
   <block id="24a68a4fec97274fd49860d020d8639f" category="inline-image-macro">削除アイコンのスクリーンショット</block>
   <block id="842ffd6f16fa78440a2dbc9058e4f93a" category="list-text">ゴミ箱をクリックします <block ref="70b6cf72f3806fee90a61a6d4710352a" category="inline-image-macro-rx" type="image"></block> ルールを削除します。ルールが以前適用されていた項目のステータスは、ルールを削除しても変更されません。</block>
   <block id="da19b7c2e291b2b5c0f2a8511e2d737a" category="summary">ご意見をお寄せください。</block>
-  <block id="03dd17d9bfb6ac47a56a2c201bab1690" category="doc">フィードバックを提供する</block>
   <block id="af22736009e4717f895610ea5e484db8" category="paragraph">NetApp SaaS Backup for Microsoft 365 製品に関するご意見をお寄せください。SaaS Backup for Microsoft 365 の情報については、こちらからご意見をお寄せください。</block>
   <block id="b94bf479616c645e1d92893ad9ee316d" category="list-text">をクリックします <block ref="745b42c40461b85675b54d346e429160" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="1c841320f46ae6c1639dc5e080e3fbf3" category="list-text">[ * フィードバック * ] を選択します。</block>
@@ -710,7 +660,6 @@
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">[Submit （送信） ] をクリックします。</block>
   <block id="6be364524b60c8ce2362d8a248ae8458" category="paragraph">GA/FCS 版の製品マニュアルの初回リリース時や既存マニュアルへの重要な変更があった場合のご案内を希望される場合は、 Twitter アカウント @NetAppDoc をフォローしてください。</block>
   <block id="118a5414cacce486de3b92817ef0fe94" category="summary">SaaS Backup for Microsoft 365 にサインアップする際は、グローバル管理者権限を持つ Microsoft 365 サービスアカウントを新規に作成することをお勧めします。</block>
-  <block id="c12c0f273cb87269a82f587acdb8d365" category="doc">新しい Microsoft Office 365 サービスアカウントを作成する</block>
   <block id="c0b7d635d4299477fcd9a13db70283b0" category="paragraph">新しい Microsoft Office 365 アカウントを作成するときは、有効で割り当てられた Microsoft Office 365 ライセンスを持つグローバル管理権限がこのアカウントに必要です。</block>
   <block id="3822205219da61e0adf663d985249229" category="paragraph">これは、 SaaS Backup for Microsoft Office 365 の管理に使用される唯一のサービスアカウントではありません。次の図は、さまざまなサービスアカウントタイプとその説明を示しています。</block>
   <block id="4a9b8df2da2aa8f729da4ec5418ad136" category="paragraph">* サービスアカウントの説明 *</block>
@@ -719,7 +668,6 @@
   <block id="8e63f7e2ba7ffa9a33982b4227a64e05" category="inline-image-macro">赤の数字 1</block>
   <block id="36800229bb8c9b166323037bb647be04" category="inline-image-macro">赤の数字 2</block>
   <block id="f8e57abf7b1ab0f1a13d1fcfa42a1bee" category="inline-image-macro">赤の数字 3</block>
-  <block id="c5c268e4475231743791963d47040455" category="section-title">グローバルで新しい Microsoft Office 365 サービスアカウントを作成します 管理者権限</block>
   <block id="77932588c3a68d6f3ee9a0a5c88c3888" category="paragraph">サインアップ中に、グローバル権限と有効な Microsoft Office 365 ライセンスを持つアカウントを作成します。サインアップが完了したら、このアカウントからグローバル管理権限とライセンスを削除できます。</block>
   <block id="1a3f62512f1649d7c2d278df12d6a29a" category="list-text">管理者権限を持つアカウントで Microsoft 365 管理ポータルにログインします。</block>
   <block id="99fe7b3fbf552951ac69f84baed6cdea" category="list-text">[* ユーザー * ] をクリックします。</block>
@@ -746,7 +694,6 @@
   <block id="504433e412c79a7932edf8db3c96d8f8" category="paragraph">SaaS Backup サブスクリプションの一部として、新しいアカウントが ZZZ CC Config [GUID] で作成されます。</block>
   <block id="b172bcbdeb6f808e9d054be90ab273cd" category="paragraph">この自動作成されたアカウントは、共有 / アーカイブメールボックスとプライベートグループの検出に使用されます。Exchange と SharePoint の権限（ O365 でカスタマイズされた管理者）が必要です。このアカウントを MFA ポリシーから除外することを推奨します。</block>
   <block id="86a7fb3ba541c1c3e32ec8023d3ae050" category="paragraph">検出またはバックアップの失敗を回避するため、このアカウントはそのまま残しておきます。</block>
-  <block id="2709a76817f0a04d3268dfc004786a6d" category="section-title">追加のサービスアカウントの作成</block>
   <block id="c011dc76cd3be918d7b58351091c0ffb" category="paragraph">SaaS Backup for Microsoft Office 365 にサービスアカウントを追加すると、お客様のバックアップパフォーマンスを向上させることができます。サービスアカウントとは、ライセンスのない Microsoft Office 365 ユーザアカウントで、バックアップとリストアの処理に使用されます。</block>
   <block id="ebe7ee976226a8fc0a086901cc35b2ec" category="paragraph">このタイプのアカウントには、次の 3 つの権限が必要です。</block>
   <block id="65745cfa854e2d246b0db140661516ba" category="list-text">Exchange 管理者</block>
@@ -775,14 +722,7 @@
   <block id="145265181362aad8bded8926b3022016" category="inline-link-macro">SaaS Backup for Microsoft 365 の新機能</block>
   <block id="b245589f19640f4ed31a299de4011e33" category="list-text"><block ref="b245589f19640f4ed31a299de4011e33" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">はじめに</block>
-  <block id="f46d219f43a0dbcc59146e4522149f2a" category="inline-link-macro">有料購読の開始</block>
-  <block id="2ed856152f856a3f4702866634c724d3" category="list-text"><block ref="2ed856152f856a3f4702866634c724d3" category="inline-link-macro-rx"></block></block>
-  <block id="494609082845b1b9570e9b12accd0270" category="inline-link-macro">無料トライアルを開始する</block>
-  <block id="c377e27a6756234e5dbc0a9ebc180b18" category="list-text"><block ref="c377e27a6756234e5dbc0a9ebc180b18" category="inline-link-macro-rx"></block></block>
-  <block id="00e94d3b24ba81ab2dfa5ff8ebd11a0a" category="inline-link-macro">無償トライアルからアップグレードしています</block>
-  <block id="37c7914f2b5550ec66e4ed3aae22c7d4" category="list-text"><block ref="37c7914f2b5550ec66e4ed3aae22c7d4" category="inline-link-macro-rx"></block></block>
   <block id="c96ecffde6280d2fa1507c88f273acb6" category="section-title">フィードバックを提供するか、ヘルプを入手するか、詳細を確認します</block>
-  <block id="5d103525a3377b97bd04e4e6de027e21" category="list-text"><block ref="5d103525a3377b97bd04e4e6de027e21" category="inline-link-macro-rx"></block></block>
   <block id="3cd12697cda279c9c99b093a265c1ba8" category="inline-link-macro">ヘルプを参照したり、詳細情報を参照したりするには</block>
   <block id="60eb37087de824a31913cb25c89ee64d" category="list-text"><block ref="60eb37087de824a31913cb25c89ee64d" category="inline-link-macro-rx"></block></block>
   <block id="235e8d1a54ecddcf1d3ff533331ed416" category="inline-link">製品ページ</block>
@@ -881,15 +821,12 @@
   <block id="aea05eb879cbace15fd2959b2ec60ef5" category="list-text">問題の追跡</block>
   <block id="ef11d90479ba66a9b7d50d6adb0da043" category="list-text">レコードライブラリ</block>
   <block id="455f6098c420b0bff4fdf54a1d28b8f0" category="list-text">リンクの共有</block>
-  <block id="656c90b5441590223c2fd2595bae3dee" category="doc">ログをダウンロードしています</block>
   <block id="71e10f307eb67cf11b3c8491ba81ada2" category="paragraph">SaaS Backup for Microsoft 365 では、ジョブ履歴のログが SaaS Backup に保存されます。ジョブ履歴と完了したジョブのリストをダウンロードできます。</block>
-  <block id="01afb9265b184039bb57b6dfbfd2e2eb" category="section-title">アクティビティログのダウンロード</block>
   <block id="683a30dcf68da19fa7d752c8a646ea55" category="paragraph">SaaS Backup for Microsoft 365 内で発生するすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは .csv ファイルにダウンロードできます。</block>
   <block id="f8c22c875f33cf292d73c2bd4b796b94" category="inline-image-macro">レポートボタンのスクリーンショット</block>
   <block id="62dfcc416a909d0b514ad9498c15b330" category="list-text">をクリックします <block ref="4d37c5c06095f49489880486f6cecedf" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="efbc204072818255ba9c14dc629ecef6" category="inline-image-macro">アクティビティログの右隅にあるダウンロードボタンのスクリーンショット</block>
   <block id="0451932b8f9f16771678dd8444b05db0" category="list-text">をクリックします <block ref="8285a9a440103314bcc682b074e144c6" category="inline-image-macro-rx" type="image"></block>。アクティビティログは .csv ファイルとしてダウンロードされます。</block>
-  <block id="7aaa0e8eeb183924aecdc2a1220c1f91" category="section-title">完了したジョブのログをダウンロードしています</block>
   <block id="206cafe50afeceb05656e65b5eeea3d1" category="paragraph">正常に完了したジョブの Excel スプレッドシートをダウンロードできます。</block>
   <block id="e34eecdbbb98f1cbc52d5ee52dd7368e" category="list-text">左側のナビゲーションペインで [* ジョブ ] をクリックします</block>
   <block id="57896efc0de0d48cea535446c297cd85" category="paragraph"><block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block></block>
@@ -931,7 +868,6 @@
   <block id="654bf677132bda977889396348f87202" category="cell">バージョンの数</block>
   <block id="13acecebbbd0ca2e6afa122ec1d4809c" category="paragraph">保持するバックアップファイルバージョンの数を設定します。デフォルトでは、この設定が有効になっていない場合でも、最新バージョンが自動的にバックアップされます。</block>
   <block id="e871c947345cf496e214e1db0324d8f7" category="cell">デフォルトでは 20 に設定されています</block>
-  <block id="1b59c5c73e03879839bfae91b259d550" category="section-title">バックアップ設定を更新しています</block>
   <block id="573e26a27d5af2a3ee2613d71b6f3bd6" category="list-text">左側のナビゲーションペインで [*Services] をクリックします。</block>
   <block id="5dae113680257bfa8a9a9f41c78b194f" category="paragraph"><block ref="5dae113680257bfa8a9a9f41c78b194f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="33989930102951f2d357835c47ab758c" category="list-text">[Microsoft 365] をクリックします。</block>
@@ -945,12 +881,10 @@
   <block id="6b09ab256ee91abfcbae14dc82d761dc" category="inline-xref">バックアップ設定</block>
   <block id="dd391d5eb69f6ac3ad69cdea778bd111" category="paragraph">を更新できます <block ref="2e592cc5a678838965aee2c9a9ecd6e7" category="inline-xref-macro-rx"></block> 各種バックアップオプションを制御するため。利用可能 <block ref="2e592cc5a678838965aee2c9a9ecd6e7" category="inline-xref-macro-rx"></block> サービスによって異なります。</block>
   <block id="279ee743f91b8d9d2e194a5cc60edf39" category="summary">NetApp SaaS Backup では、新しいサービスのアクティブ化、既存のサービスの非アクティブ化、データのパージ、ジョブのキャンセルなど、さまざまな方法でサービスを管理できます。</block>
-  <block id="63b8683aeffc5b0ea025bb57a5e44726" category="paragraph">ユーザ、サイトコレクション、または Microsoft 365 グループに関連付けられているすべてのデータを完全に削除することができます。パージされたデータは 7 日間リカバリ可能です。7 日後、データは完全に削除され、ユーザライセンスが自動的に解放されます。</block>
   <block id="0ecc794c57963be54ab37fd5945b22c4" category="list-text">[ データのパージ * ] で、ドロップダウン・メニューから [ サービスの種類 * ] （ Exchange 、 OneDrive 、 SharePoint ）を選択します。</block>
   <block id="0b8916bcfec132a5710165dd6a4cdb67" category="list-text">パージするユーザー、サイトコレクション、または Microsoft 365 グループを検索します。Microsoft Exchange Online または OneDrive for Business の場合は、ユーザー名または Microsoft 365 グループ名を入力します。SharePoint Online の場合は、サイトコレクション名を入力します。+ 注：ユーザにアーカイブメールボックスがある場合は、アーカイブメールボックスのユーザ名の先頭に「インプレースアーカイブ」が付きます。</block>
   <block id="675107b136168f3b1529cdd9e5203bf5" category="list-text">検索結果が表示されたら、をクリックします <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> をクリックして、ユーザー、サイトコレクション、または Microsoft 365 グループを選択します。</block>
   <block id="b49fdb326c966a3dd88a042831a9f144" category="list-text">「 * はい * 」をクリックして、データをパージすることを確認します。</block>
-  <block id="2d1cf5a4ba356a007149481636eb46fa" category="doc">Marketplace での有料サブスクリプションへの登録</block>
   <block id="f9c37692182ce74e92181f4147c3997b" category="paragraph">Marketplace でライセンスを購入した場合は、ライセンス情報が表示されます。次の手順に従って、サインアッププロセスを完了します。</block>
   <block id="7b6a8fe6d34ca4e7afc0b27bc3582ea0" category="list-text">ストレージタイプとして Amazon S3 * または * Azure Blob * を選択します。</block>
   <block id="f93b9215b4cf6cc65bd1c26057ee8382" category="list-text">バックアップのストレージ領域を選択します。バックアップするデータの物理的な場所に最も近いリージョンを選択してください。* Preferred * 領域はそのようにマークされています。</block>
@@ -962,21 +896,16 @@
   <block id="335667a29d4d16064c66f675b3f3c215" category="list-text">[ サブスクリプションの詳細 ] の横にある [*Update*] をクリックします。</block>
   <block id="b25e6aa4b8585ffe6e9c679b4b763d43" category="list-text">初回のサインアップ時に使用したのと同じユーザ名とパスワードを入力します。</block>
   <block id="6295a9cc66be5476ec7f7b659b57ee9f" category="summary">即時バックアップまたは即時リストアを開始したが、完了する前にキャンセルする必要がある場合は、それを行うことができます。</block>
-  <block id="8070fdc102d390da84f81bb4f3734ddc" category="doc">ジョブをキャンセルしています</block>
   <block id="c4847d7d96f65dca923f79caeb317cfd" category="list-text">をクリックします <block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block> 左側のナビゲーションペインから、</block>
   <block id="e103be6f64222dbfd978e48abb80646b" category="list-text">「最近実行したジョブ」で、キャンセルするジョブをクリックします。</block>
   <block id="14746ab9705143711849289cd0368e51" category="list-text">[ キャンセル（ Cancel ） ] をクリックします。キャンセルされたジョブの進行状況は、「最近完了したジョブ」の下に表示されます。</block>
   <block id="1bdac635ce4139030bb822472e615a6d" category="summary">SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。</block>
-  <block id="654288c4b92196c4260398308e550672" category="doc">無償トライアルアクティベーションコードを登録しています</block>
   <block id="33802f42e0a28dafca8f766c0830bd74" category="paragraph">SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。アクティベーションコードは、チャネルパートナーまたは営業担当者から提供されている場合があります。登録されていない場合は、登録して受信する必要があります。</block>
   <block id="a189a1df7360b047444647d114f49f87" category="list-text">必要な登録情報を入力し、 * Submit * をクリックします。無料トライアルのアクティベーションコードが記載された電子メールが届きます。</block>
-  <block id="403962516343d0a8b5bc16966c2d402b" category="doc">SaaS Backup for の無償トライアルにご登録ください Microsoft 365</block>
-  <block id="ce6dbcecdec9970c6d1c39ba22028307" category="section-title">Microsoft 365 の無償トライアルにサインアップします サービスアカウント</block>
   <block id="cb7275d9b71e140a3f1a91d0c6cc0747" category="list-text">Microsoft 365 のテストまたはトライアルアカウントの電子メールアドレスとパスワードを入力し、「 * サインイン * 」をクリックします。SaaS Backup for Microsoft 365 によって要求された権限のリストが表示されます。</block>
   <block id="e2dfed3093092bbfc3bed3cf01111b0a" category="list-text">サブスクリプションタイプとして「 * 無料トライアル * 」を選択します。</block>
   <block id="e7a56e29d931a374c7958199f1bafb29" category="list-text">チャネルパートナーまたは営業担当者から提供される無料トライアルアクティベーションコードを入力するか、登録メールで入手します。</block>
   <block id="e11100ed191aa6f176c829759972cfce" category="list-text">ストレージオプションを選択します。</block>
-  <block id="58cb35b48608116f84cd8f8fad3f4c96" category="section-title">NetApp SSO での無償トライアルへの登録 アカウント</block>
   <block id="69dc20d3740095eb96943daf74d8b8d7" category="list-text">[*Sign Up with NetApp SSO* （ NetApp SSO でサインアップ） ] をクリックし</block>
   <block id="481c2d7848531f12a7fd6f119c471514" category="paragraph"><block ref="481c2d7848531f12a7fd6f119c471514" category="inline-image-macro-rx" type="image"></block></block>
   <block id="cdf30a87c9430cc5bdc1044ad7e168e9" category="list-text">要求されたユーザー情報を入力し、 [ サインアップ ] をクリックします。チャネルパートナー、営業担当者、または登録メールから受け取った無料トライアルアクティベーションコードが必要です。</block>
@@ -1002,7 +931,6 @@
   <block id="98d7bf286c797b48801a0d31c2bae53c" category="section-title">BYOS のバックアップポリシー</block>
   <block id="c9830d418bce60d67ea2c8c1282b22c6" category="paragraph">BYOS は既存のお客様のみを対象としています。</block>
   <block id="545f6c2f382c04810103b3e5e6f7d841" category="cell">無制限</block>
-  <block id="c9b06f178dfa5385c73da9b84bbfe2a1" category="doc">通知を設定します</block>
   <block id="1e176ca8879f6fc670eb851ef5779172" category="paragraph">アカウント通知にユーザを追加し、各ユーザに通知を送信する特定の通知を選択できます。たとえば、リストアの失敗が発生するたびにユーザに E メール通知を送信するように設定できます。</block>
   <block id="cf46b5c723d03816ad4b8dd9fba743b9" category="list-text">[ 通知管理 * ] をクリックします。</block>
   <block id="9250b78e6a328eacd44a07c99d2a0cab" category="list-text">通知を受信するアカウントの E メールアドレスを入力します。</block>
@@ -1016,7 +944,6 @@
   <block id="9846982bfecd18e5a3a222687054cefb" category="inline-link-macro">即時バックアップ</block>
   <block id="883e688529c085dc1c7223323e70395c" category="list-text">[* 確認 *] をクリックします。ノートブックは、次のスケジュールされたバックアップに含まれます。すぐにバックアップする場合は、を実行します <block ref="1a879ada2b33330864ad3e17ea446b89" category="inline-link-macro-rx"></block>。</block>
   <block id="29361fe2d7a43657b32954e1b6bac18d" category="summary">SaaS Backup for Microsoft 365 を使用すると、 Microsoft SharePoint Online を細かなレベルでリストアできます。</block>
-  <block id="481f1d70b95adf9b1fd368c046040531" category="doc">Microsoft SharePoint Online のきめ細かなリストアを実行します</block>
   <block id="2803cf9eab93f01220a853b99db2e904" category="paragraph">Microsoft SharePoint Online では、個々のフォルダやファイルなど、単一のユーザーの詳細なアイテムをリストアできます。また、 Microsoft 365 グループサイトと OneNote ノートブックの詳細レベルのアイテムを復元することもできます。サイトのロールと権限は、リストアまたはバックアップの一環として自動的に保護されます。</block>
   <block id="aef8343d1e3fbc666a5bf3fc7e3da601" category="paragraph">次の表に、詳細レベルの項目でサポートされるリストアオプションを示します。</block>
   <block id="15cbdaca1e670ee88c1d71f87070e9a6" category="cell">同じサイトにリストアします</block>
@@ -1062,7 +989,6 @@
   <block id="ff9a805d222c3ac0916c371800a05a53" category="list-text"><block ref="c9af6193923e9dc20694b1344b3dc5c7" category="inline-link-macro-rx"></block> Microsoft 365 アカウントまたはネットアップの SSO アカウントを使用する。</block>
   <block id="46671751a991b10fda3d29f6f278422a" category="inline-image-macro">無料トライアルサインアッププロセスのワークフロー</block>
   <block id="99e38848c9b38cfadce3b630d97abdaf" category="paragraph"><block ref="99e38848c9b38cfadce3b630d97abdaf" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="9b6591d9a9f5fb5d91c4a1d052c59f1a" category="doc">新しいルールを作成しています</block>
   <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">Microsoft Exchange Online 、 OneDrive for Business 、 SharePoint Online 、 Microsoft Office 365 グループのルールを作成できます。</block>
   <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">ユーザー定義フィルタと SaaS Backup 定義フィルタの例 ルールの作成</block>
   <block id="9472fea1831b90ee514f0ee8d8f8cdd4" category="paragraph">ルールを作成する前に、データにユーザ定義フィルタを適用する必要があります。適用されたフィルタは、 * フィルタ * アイコンの下に表示されます。NetApp SaaS Backup for Microsoft 365 のデフォルトフィルタはグレーで表示されます。ユーザー定義のフィルタが薄い青で表示されます。<block ref="4197bfc4aebe6e6734416ba995e70d18" category="inline-image-macro-rx" type="image"></block></block>
@@ -1098,7 +1024,6 @@
   <block id="f9d28971c1528e28621b9e2161e06bb7" category="list-text">バックアップ用の新しいポリシー階層を選択します。</block>
   <block id="f1bf47ce5a8983718fcf0146da4072ed" category="admonition">Microsoft 365 のグループとアーカイブメールボックスは、階層 3 のポリシーにのみ移動できます。</block>
   <block id="a0ea6c6911559843552bcc56ded3944f" category="summary">ライセンスは追加またはリリースできます。</block>
-  <block id="525d8bc9874da6ea9599a960daa6c82f" category="doc">ライセンスの追加</block>
   <block id="f107403a51da9715c55c82dcbb161e3f" category="inline-xref">有料サブスクリプションを開始するためのワークフロー</block>
   <block id="c868c54ae5c3125041dc274cfd194cea" category="paragraph">有料サブスクリプションのライセンスを受け取ったばかりの場合は、以下の手順に従ってください <block ref="c5414855c6c1726b18ea39487883aef4" category="inline-xref-macro-rx"></block>。ワークフローの一環としてライセンスキーを入力します。</block>
   <block id="dc03f45708897a13fda9ad9868da3303" category="paragraph">SaaS Backup をすでに使用している場合は、次の手順に従ってライセンスを追加できます。</block>
@@ -1112,7 +1037,6 @@
   <block id="270fcb785810d0206945029bb05f4e97" category="list-text">Amazon S3</block>
   <block id="52745271323ee9ea30e3a37d0338d118" category="list-text">Azure Blob の略</block>
   <block id="7de26495523771d8cefe28297f0f8359" category="summary">Microsoft Exchange Online 、 Microsoft OneDrive for Business の MySites 、 Microsoft SharePoint Online のサイト、 Microsoft 365 グループのメールボックスの高レベルのリストアを実行する手順も同じです。</block>
-  <block id="d2907520ccd5c3dc1aaf5b7a437b60e1" category="doc">サービスの概要リストアを実行する</block>
   <block id="d1e3fe66f5e62b80b26fb1bd320ed958" category="list-text">ダッシュボードで、リストアを実行するサービスのボックスの上の * 保護されている * の数をクリックします。</block>
   <block id="256a7248dea88eb85865095b79ee3ad7" category="list-text">リストアするメールボックス、グループ、チーム、 MySite 、またはサイトの名前を選択します。</block>
   <block id="b6281bd84352e832e3d5d6140be8d0ce" category="list-text">Microsoft Exchange Online* のメールボックスをリストアする場合は、次のいずれかのオプションを選択します。</block>
@@ -1135,22 +1059,17 @@
   <block id="cd51e6f54324fe9a0b45c44457a6f627" category="list-text">別のサイトにリストアする：別のサイトにリストアする場合は、検索フィールドにリストア先のサイトを入力します。検索フィールドにデスティネーションサイトの一部を入力すると、一致するデスティネーションサイトの自動検索を開始できます。</block>
   <block id="741ca8fc0ec3acbfcb60a057541fddb1" category="list-text">データをエクスポートするエクスポートすると、サイトコレクションを含む .zip ファイルが作成されます。.zip ファイルの場所への認証された URL が記載された通知 E メールが送信されます。</block>
   <block id="14c24beebb6f641dbbf0779363a7d3c3" category="list-text">[* 確認 *] をクリックします。リストアジョブが作成されたことを示すメッセージが表示されます。</block>
-  <block id="34308dcef90749147ac3ca35fc49ba21" category="doc">有料メンバーシップでサインアップ</block>
   <block id="b9d34d658c9ce9bcdd330baf715cf1c4" category="paragraph">ネットアップからライセンスを購入した場合は、サブスクリプションタイプが表示されます。次の手順に従って、サインアッププロセスを完了します。</block>
   <block id="925e46990837a614fb2da6c0ab87e998" category="summary">ユーザのアカウントからすべての管理者ロールが削除されると、そのユーザは自動的に SaaS Backup for Microsoft 365 からログアウトされます。</block>
-  <block id="34a6794dbd969baf99f4519afd55e601" category="doc">ユーザアカウントからすべての管理ロールを削除する</block>
   <block id="43965d369bf81397d3394c94c930e27f" category="list-text">削除するユーザー名の横にある * ユーザーの削除 * をクリックします。</block>
   <block id="86ce5961ef6624058f736d93459d1889" category="list-text">「 * はい * 」をクリックします。</block>
   <block id="a92427a42a49d5f28c89b26746343201" category="summary">SaaS Backup for Microsoft 365 のグループ / チームを使用して、きめ細かなリストアを実行できます。</block>
-  <block id="f2611f06556ec5d054670bd97b24eed9" category="doc">Microsoft 365 グループ / チームのきめ細かなリストアを実行</block>
-  <block id="5cbc54456ff13b8a55dcfb7370ba341c" category="paragraph">Microsoft 365 のグループ / チーム内では、メールボックス、 SharePoint 、会話、チャネル、タブ、添付ファイルなどの詳細レベルの項目をリストアできます。</block>
   <block id="f055327f9ee8af772de45c830bfb8744" category="section-title">メールボックスのリストア</block>
   <block id="222bdf4318c1779d19d17f8d5da196d2" category="paragraph">この詳細レベルのリストアを選択すると、受信ボックス、カレンダー、および会話履歴が復元されます。</block>
   <block id="97bffa1060b6d680992b0461b9a85f68" category="list-text">ダッシュボードで、 Microsoft* 365 Groups* の * Protected * の上の数字をクリックします。</block>
   <block id="71d8eb3aadcaf34b2d8b4d10b59c210c" category="list-text">[*Teams] タブを選択します。</block>
   <block id="dc77dbe345f3f17cf3704eff2aa21b60" category="list-text">詳細レベルのリストアを実行する必要があるチームをクリックします。</block>
   <block id="0aae4c2c3d004100b3d329b383d9558f" category="inline-image-macro">強調表示されたメールボックスオプションのイメージ</block>
-  <block id="a6c1324d5750bf69f6d54604ab3c3a4b" category="list-text">メールボックスのカテゴリを選択します。<block ref="fcce7879592f679fe46e28fadafa7032" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e9500dac70654a926ec898192e52bfd8" category="inline-image-macro">強調表示されたメールオプションの画像</block>
   <block id="e6c11b9b64fe4f0269eb5d91f17a315b" category="list-text">受信トレイまたは会話履歴を同じメールボックスに復元するか、データをエクスポートするには、「 * メール * 」オプションを選択します。<block ref="bff26c3ddeb1a5b2f280be0ccf937a47" category="inline-image-macro-rx" type="image"></block></block>
   <block id="37ea2ac8fc59309b917bd13aacb7cf10" category="list-text">受信ボックスを復元するには、 * 受信トレイ * を選択し、 * 復元 * をクリックします。</block>
@@ -1161,7 +1080,6 @@
   <block id="9b250fa6692e261314c82375ce8f0505" category="inline-image-macro">強調表示された会話オプションの画像</block>
   <block id="4e4e9243bd2775e76dd61f5726eb192c" category="list-text">会話を復元するには、 [* Conversations] オプションを選択します。復元の唯一のオプションは HTML にエクスポートされます。<block ref="f03470d5b2cd03f5e545af9a3442df5b" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8f03479c260fabaff3fd9083a40b7765" category="list-text">復元する会話を選択し、 * 復元 * をクリックします。</block>
-  <block id="d1dd8b4aae005485d5eda9c90b4432ee" category="admonition">* 会話の表示 * バックアップの範囲を 5 つ以上に設定した場合にのみ、最後の 5 つのバックアップからの会話のリストが表示されます。</block>
   <block id="994847d583b132322185fd9df72456f1" category="section-title">SharePoint サイトのリストア</block>
   <block id="9b41e52e4790497525e787212a031e84" category="paragraph">タブと添付ファイルをリストアするには、この詳細レベルのリストアを選択します。</block>
   <block id="f66e84de6f78f8e89d7975442ebe2c30" category="list-text">[ * グループ * ] または [ * チーム * ] タブを選択します。</block>
@@ -1187,7 +1105,6 @@
   <block id="e490c4bc06c38e92ac709b0b47286bff" category="list-text">Microsoft Office 365 グループの場合は、保護されているグループ、保留中のグループ、または保護されていないグループの数をクリックします。</block>
   <block id="1c24e4cd44f8c150190cd0afe637d614" category="list-text">[ ダウンロード ] をクリックして、それぞれのサービスのユーザーデータの Excel ファイルをエクスポートします。</block>
   <block id="f7e61cdf1c25fcf090b1f63ffcb62715" category="summary">削除されたメールボックスまたはユーザアカウントのリストを表示できます。</block>
-  <block id="61d99c32c4d0d6334717ab47b0df43a5" category="doc">プロビジョニング解除された項目のリストを表示します</block>
   <block id="c150a355a3b55bafa8eec832496358f4" category="paragraph">プロビジョニング解除されたメールボックスまたはユーザアカウントのリストを表示できます。</block>
   <block id="221a9dc7613775b39236128c54864acf" category="list-text">必要なサービスで、保護されていない項目の数をクリックします。</block>
   <block id="b745fbebbf86b08986f5bfd2380aa485" category="list-text">[* プロビジョニング解除 * ] タブをクリックします。</block>
@@ -1197,34 +1114,12 @@
   <block id="96573196b0bc5ca16f36a7ab51440d98" category="sidebar">新機能のアーカイブ</block>
   <block id="0460583622f03a52d7693094d6fa2452" category="sidebar">概念</block>
   <block id="3b878279a04dc47d60932cb294d96259" category="sidebar">概要</block>
-  <block id="cb59b87e00d11222bfd9159d0d23836f" category="sidebar">はじめに</block>
   <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">ワークフロー</block>
-  <block id="7ba6052c16dd3753bc0ea9a526014277" category="sidebar">グローバル権限を持つ Microsoft 365 サービスアカウントを作成する</block>
-  <block id="0a68ab0237a7ebab4783b3c91919c4df" category="sidebar">Microsoft Exchange Online の偽装を設定しています</block>
-  <block id="446930b043da84a93aed13ebb181dc8f" category="sidebar">不完全なバックアップを実行しています</block>
   <block id="f683581d3e75f05f9d9215f9b4696cef" category="sidebar">アップグレード</block>
   <block id="e78ef280ac4cdaeebd76c27ebe90d653" category="sidebar">アップグレード後にサポートを有効にします</block>
   <block id="535f2a66a78c27567c974c69a4baf091" category="sidebar">有料サブスクリプションを開始する</block>
-  <block id="5ae98b55472fda0c5501987d233848d7" category="sidebar">グローバル権限を持つ MS Office サービスアカウントを作成します</block>
-  <block id="fcf694e944339e5c69959eba4db1b97c" category="sidebar">SaaS バックアップの管理</block>
-  <block id="7aa6d4d2a1435eb1bc2cc2ec881f7b79" category="sidebar">バックアップの管理</block>
-  <block id="907ae2ca5325729883590ff7c02d41c5" category="sidebar">即時バックアップを実行する</block>
-  <block id="48d7ce4328829d1948fda008bc2c4e70" category="sidebar">チームデータの検索</block>
-  <block id="bf5ab7dce0d46c7c0d5fbec69e157531" category="sidebar">リストアの管理</block>
-  <block id="05b32297ef817f9f6bf63f4510748fb0" category="sidebar">きめ細かなリストアを実行</block>
   <block id="25024e4580c1e3f5e67328bb98e2b101" category="sidebar">グループとチームの場合</block>
-  <block id="89d04a71db5a56532e97efa9210ab494" category="sidebar">復元されたファイルを検索して</block>
-  <block id="3a990b6303b424552ba0bf27c95a9ef8" category="sidebar">権限の管理</block>
-  <block id="6fd4e8162988a8dd71393f4bdf4c80b4" category="sidebar">サービスアカウントに権限を追加する</block>
-  <block id="9b7d2f090671cf0f165ca48fad944d0c" category="sidebar">ライセンスの管理</block>
-  <block id="3c3f00eeaa02f84f9af65e22eeb4ec1b" category="sidebar">ルールの管理</block>
-  <block id="4ca7982908600dcc63c9878133133cbb" category="sidebar">サービスの管理</block>
   <block id="83f88ebd41a2d4bf2440a2d134086a74" category="sidebar">サポートを有効にします</block>
-  <block id="f52c49c2dd17954ee7031eca64a31a67" category="sidebar">ロールベースアカウントアクセスの管理</block>
-  <block id="1ab39d9041bc7a96b8eea130aa5a7f9c" category="sidebar">セキュリティグループの管理</block>
-  <block id="c73860d21c3b18049dd79f53d4300814" category="sidebar">データを表示する</block>
-  <block id="1a2247516bc3b8a91577c4db58817642" category="sidebar">パージされたデータを表示する</block>
-  <block id="8d20b47477e03528996e16a1b4eda8b5" category="sidebar">データをダウンロードしています</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
   <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">をクリックします<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
   <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。</block>
@@ -1273,4 +1168,229 @@
   <block id="d6770628964f371c2f152263aeff74c2" category="list-text">SaaS Backup でサポートされているのは基本認証のみです。</block>
   <block id="94c4d110d7d7c45d9f0401f3e894e286" category="list-text"><block ref="94c4d110d7d7c45d9f0401f3e894e286" category="inline-link-rx"></block></block>
   <block id="a77d2ddc9e5b2a10c6306021816e1292" category="paragraph">Microsoft 365 サービスアカウントで無償トライアルに登録するユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。</block>
+  <block id="eafac00ae1f3bb3038f2dfec18a92f47" category="doc">ユーザ権限を Azure Active Directory と同期する</block>
+  <block id="0069bf8587752e66f58cc50f214117f4" category="section-title">偽装を自動的に構成します</block>
+  <block id="e04acd1f9cba307748f5d9735f00eda2" category="section-title">偽装を手動で構成します</block>
+  <block id="77f613867eacec10936150d3772d27d8" category="doc">サービスを非アクティブ化します</block>
+  <block id="faa0f5a1248e536d78604c8e797d3ee7" category="doc">Microsoft OneDrive for Business で詳細レベルのリストアを実行できます</block>
+  <block id="307507606358033c7b7356d64b288c58" category="paragraph">デフォルトでは、最新のバックアップのみがリストアに使用できます。その他のオプションは次のとおりです。</block>
+  <block id="3afa9ce911c7556e33f1481ed3f9f806" category="inline-image-macro">リストアに使用できるバックアップ</block>
+  <block id="cc16850ab63d07d2c68712085f701c8e" category="paragraph"><block ref="cc16850ab63d07d2c68712085f701c8e" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4a86c772020231ba354111daad8015ab" category="doc">削除した項目を表示します</block>
+  <block id="c5740bfb2b88ba0a9944eae7a1e35c50" category="doc">既存のルールを適用する</block>
+  <block id="83913e953071b43e82d99b522663debf" category="doc">ユーザアカウントに割り当てられている管理ロールを更新します</block>
+  <block id="c4e76fab6890557f793699bf217c461e" category="doc">ユーザアカウントに管理ロールを割り当てます</block>
+  <block id="5b20edb29e2e3b85bd65bb20e8c323a1" category="doc">SaaS Backup for の有料サブスクリプションに登録します Microsoft 365</block>
+  <block id="a05d453722a996742fec3c2827e30a0c" category="section-title">Microsoft 365 の有料サブスクリプションにサインアップします サービスアカウント</block>
+  <block id="0bd302878f8040f5202a735159728ec6" category="section-title">ネットアップの SSO を利用して有料サブスクリプションに登録します アカウント</block>
+  <block id="7005be9dcb2babc11145593389a5d0f0" category="doc">ユーザ定義のフィルタを作成します</block>
+  <block id="82c3ac190dfb331b36c24d2629b9a365" category="doc">特定のバックアップポリシーのバックアップをただちに実行します</block>
+  <block id="65512882fe38fcc7733153860abf51e2" category="doc">復元されたファイルを検索します</block>
+  <block id="7fe5358a31cca8be2fe9fad27bbf5dbd" category="paragraph">一部のファイルまたはフォルダがリストアされると、新しく作成されたリストアフォルダに格納されます。復元されたアイテムを簡単に見つけることができるように、復元されたファイルとフォルダの名前と場所を含む Excel ファイルをダウンロードできます。</block>
+  <block id="2423846ae54ff4d69d2a834f8a8971fc" category="doc">ジョブ履歴とアクティビティログを表示します</block>
+  <block id="49b8313eea377b0b8bbefc62a904d114" category="section-title">ジョブ履歴を表示します</block>
+  <block id="f28ed8af0cff73798f4f5cd103fd6669" category="paragraph">NetApp SaaS Backup for Office 365 では、過去のすべてのジョブ履歴のレポートを表示またはダウンロードできます。ジョブタイプ、サービス、開始時間、終了時間、および完了ステータスで検索をフィルタリングできます。</block>
+  <block id="ea5b9d4d0e5dd36b4b06b00793524d2b" category="section-title">アクティビティログを表示します</block>
+  <block id="f3a1b4d7bacb8bbf3b5dbcdd7d72273b" category="paragraph">SaaS Backup for Microsoft 365 内で発生するすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは、サービスおよびイベントでフィルタできます。たとえば、 Microsoft Exchange Online で発生したすべてのリストア処理を表示する必要がある場合は、アクティビティログをフィルタリングしてそれらの具体的な結果を表示できます。</block>
+  <block id="80000d10279f83495c8148778172b268" category="doc">サービスアカウントを追加します</block>
+  <block id="7fdea57e693b111f8b7be24d9641bb12" category="doc">セキュリティグループを削除する</block>
+  <block id="cd79b1fefb1a3097943b559178952f47" category="doc">サービスの即時バックアップを実行します</block>
+  <block id="2ffbe959edbe01c0c5cd56c90bc00d8d" category="doc">セキュリティグループを追加します</block>
+  <block id="9f2fcfa5d97760721b059c18ef5b9792" category="summary">SaaS Backup for Microsoft 365 では、各サービスのリストアオプションのレベルを細かく指定できます。</block>
+  <block id="1e718270348135e714b61bc0076312f3" category="doc">リストアについて</block>
+  <block id="e2b5ba78e3329ab5a4cbdfce0a0a04f3" category="paragraph">SaaS Backup for Microsoft 365 を使用すると、 Exchange Online 、 SharePoint Online 、 OneDrive for Business 、 Microsoft 365 のグループとチームのリストアの概要レベルと詳細レベルを確認できます。</block>
+  <block id="c525803a045e17d9d35a7cfc9cece73b" category="paragraph">細かな単位で高度なリストアを実行する方法について説明します。</block>
+  <block id="ad6991daa50b0be0ba36c8e2ba2212a6" category="inline-link-macro">高レベルのリストアを実行します</block>
+  <block id="b5adf625d57398016a2921892e61aa88" category="list-text"><block ref="b5adf625d57398016a2921892e61aa88" category="inline-link-macro-rx"></block></block>
+  <block id="d75ce65393734855fe533aacfcc7d983" category="inline-link-macro">Exchange Online について、細かな単位でリストアを実行できます</block>
+  <block id="b9db8ec0f23e492eef9298f2cd8b5051" category="list-text"><block ref="b9db8ec0f23e492eef9298f2cd8b5051" category="inline-link-macro-rx"></block></block>
+  <block id="5bb3fa910e120cd9a689d748c5654720" category="inline-link-macro">SharePoint Online で詳細なリストアを実行します</block>
+  <block id="cded0d3b4d7ca17508d11939adf092ed" category="list-text"><block ref="cded0d3b4d7ca17508d11939adf092ed" category="inline-link-macro-rx"></block></block>
+  <block id="c8898212ecbaaeefaf71fe1d609e3a8b" category="inline-link-macro">OneDrive for Business で詳細レベルのリストアを実行できます</block>
+  <block id="3933d0c349ab1ad962ae36a2672e0eb4" category="list-text"><block ref="3933d0c349ab1ad962ae36a2672e0eb4" category="inline-link-macro-rx"></block></block>
+  <block id="6d2f637ce543b5156bb3a8f036857fac" category="inline-link-macro">グループとチームについて、詳細レベルのリストアを実行します</block>
+  <block id="a9250406a7c0568aa247e286636a71f0" category="list-text"><block ref="a9250406a7c0568aa247e286636a71f0" category="inline-link-macro-rx"></block></block>
+  <block id="71d68aadf0764ae2a2c5790f9dd69d33" category="paragraph">以下の表に、各サービスでサポートされるリストアオプションの概要と、リストアされたデータを SaaS Backup で検索する場所を示します。</block>
+  <block id="c35caca31b890241f2234a0500b35f99" category="admonition">データが削除またはプロビジョニング解除されると、データを別の場所（メールボックス、サイト、 MySite 、グループ、またはチーム）にリストアしたり、データをエクスポートしたりできます。同じ場所にリストアすることはできません。</block>
+  <block id="3cec94f2c3f7bd13aed2488dadd12834" category="section-title">Exchange Online</block>
+  <block id="4181d3951004347da212263b10f49a5e" category="cell">別のメールボックスにリストアします</block>
+  <block id="c498028f45c9513d785b94168bceda23" category="cell">PST にエクスポートします</block>
+  <block id="b6c2e9d14610275b24d114ad4e420765" category="cell">SaaS Backup で検索できます</block>
+  <block id="5b8ec75733bf40e15437bf34dcba31d7" category="paragraph">シングルメールボックス</block>
+  <block id="64f1aba985433f5ae146d2cb366d1df0" category="cell">Exchange Online &gt; Mailboxes - Users/Shared/Archive （メールボックス - ユーザー / 共有 / アーカイブ）</block>
+  <block id="081efe1270b786644d36e5aa6f69fedf" category="paragraph">複数のメールボックス</block>
+  <block id="8f54d1dd77baa9497c2901783a54a1c6" category="paragraph">メールボックスの内容</block>
+  <block id="f3d00dac4ea5d988d1bed0a5e0cee71c" category="cell">Exchange Online &gt; Mailboxes - Users/Shared/Archive&gt; &lt; ユーザー名 &gt;</block>
+  <block id="27bafb3855ae4ca3df676518f2aaad5a" category="section-title">SharePoint Online</block>
+  <block id="5906c8287870270a136a93286efc561a" category="paragraph">単一の SharePoint サイト</block>
+  <block id="460eab8a130e70f36538e8b715ffa5d9" category="cell">SharePoint Online &gt; サイト</block>
+  <block id="ceea731052fe801041ec905a3c50bc1e" category="paragraph">複数の SharePoint サイト</block>
+  <block id="9cb2851f2fc40d659520409faab64fbb" category="paragraph">SharePoint サイトのコンテンツ</block>
+  <block id="f389f41006b051f2680a0b5f637ec269" category="cell">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] をクリックします</block>
+  <block id="1a0453b74ffb4afb06052a3bab317d4a" category="paragraph">リストアのみのロールが有効になっている単一の SharePoint サイト</block>
+  <block id="8b5346cfefa0c8ecaa9b72ee818bca8f" category="paragraph">単一のサブサイト</block>
+  <block id="a9441c777652d9cb5cc3e36e9e161b94" category="paragraph">複数のサブサイト</block>
+  <block id="a10de56910213f47318813bddbf1e305" category="paragraph">SharePoint サブサイトコンテンツ</block>
+  <block id="e562f371266b0a4c99fc3ee3dc00c01e" category="paragraph">リストア専用のロールが有効になっている単一のサブサイト / 複数のサブサイト</block>
+  <block id="2950e5d428cbc3f55c7aec75694f130a" category="section-title">OneDrive for Business の場合</block>
+  <block id="8de39125da3a7480f054a0db5c87f290" category="cell">OneDrive for Business &gt; [MySites] の順にクリックします</block>
+  <block id="233893ba4ef99c6ae933d99cf7284b2a" category="paragraph">1 つのドライブの内容</block>
+  <block id="ff0ba39a03cb33697cb7ff9bfec49553" category="cell">OneDrive for Business &gt; [MySites] &gt; [OneDrive ユーザー ] の順にクリックします</block>
+  <block id="a37ede293936e29279ed543129451ec3" category="section-title">グループ</block>
+  <block id="66dad12ced125ee91f6e7e1608d45379" category="paragraph">単一のグループ</block>
+  <block id="aa757fec2e3a65f0a20e30e66522437b" category="cell">[Office 365 グループ ] 、 [ グループ ] の順にクリックします</block>
+  <block id="bc8098767a42e7223a53bda7b8ba9269" category="paragraph">複数のグループ</block>
+  <block id="7e946cbd8fd8f7c1d60f897ade14b5d4" category="paragraph">コンテンツをグループ化します</block>
+  <block id="750fffdd85c2e30ad14e31f78b5cd2f9" category="cell">Office 365 の [ グループ ] 、 [ グループ ] 、 [&lt; グループ名 &gt;] の順にクリックします</block>
+  <block id="037e67b55978384379c5e4f43a47b7cf" category="cell">Office 365 の [ グループ ] &gt; [ グループ ] ( グループ電子メール ) &gt; グループ名</block>
+  <block id="87142a07bb206e902bb64ee601cb779e" category="paragraph">SharePoint コンテンツ</block>
+  <block id="2fc8fc4b7340b9ec920c38b85b0a1034" category="cell">Office 365 の [ グループ ] 、 [&lt; グループ名 &gt;] 、 [&lt; サイト名 &gt;] の順にクリックします</block>
+  <block id="1fe1b6cf4f52930c301b03e5a69c42c2" category="section-title">チーム</block>
+  <block id="3817dd3d0c55260f20f8e6529a44c8bf" category="cell">別のチームにリストアする</block>
+  <block id="31d7adc0e486b10f207e2139fa1df05e" category="paragraph">単一のチーム</block>
+  <block id="5b05cc8922e5cd4106e24a7bba87bcd9" category="cell">Office 365 の [ グループ ] 、 [ チーム ] の順にクリック</block>
+  <block id="9528d50213406c7d27b09b8bc1d32b02" category="paragraph">複数のチーム</block>
+  <block id="04c35d154f698a2cb2c9ad6e40d188e8" category="paragraph">チームのコンテンツ</block>
+  <block id="89b7be3d527b7868cb553f086da205bb" category="cell">Office 365 の [ グループ ] 、 [ チーム ] 、 [&lt; チーム名 &gt;] の順にクリックします</block>
+  <block id="b785b982567e03d86f5b6b9b5bdab0d7" category="cell">Office 365 グループ &gt; チーム &gt; ( チーム電子メール ) &gt; チーム名</block>
+  <block id="0cefe645b99a17e5dcc4913cbadeef02" category="cell">Office 365 の [ グループ ] 、 [ チーム ] 、 [&lt; チーム名 &gt;&lt; サイト名 &gt;] の順にクリックします</block>
+  <block id="14cb425d8170ed04f3d8016d5a0ccf20" category="paragraph">チャネル</block>
+  <block id="3255e277a9a04484a81db77abfbd29c2" category="cell">Office 365 グループ &gt; チーム &gt; ( チーム電子メール )</block>
+  <block id="d505a1372838988b9d892d82c774daf7" category="doc">以前のバックアップからリストアする</block>
+  <block id="3a2f74936de59dd44e27d8fa1050b443" category="section-title">Microsoft Exchange Online の検索オプション</block>
+  <block id="2c0170dd925ef06791e556326e704cbf" category="section-title">Microsoft Exchange Online 内でインライン検索を実行します</block>
+  <block id="6b23667f3cbba43813b5f6399ec4babd" category="section-title">Microsoft Exchange Online の詳細検索を使用します</block>
+  <block id="f5c6766aada2bdc229d963f2b4623af4" category="section-title">詳細検索を設定します</block>
+  <block id="eb988e6b170684f13ddc8f2e3974559a" category="section-title">検索を実行します</block>
+  <block id="57f7a88c0574298291b51b4649bf4229" category="section-title">前の検索ジョブを検索します</block>
+  <block id="f6abbad0976b811559da8b8b5d5bb51c" category="section-title">Microsoft OneDrive for Business 内を検索します</block>
+  <block id="57ba7fc59551aae5a802375bed23202d" category="section-title">Microsoft SharePoint Online 内で検索します</block>
+  <block id="c6ca0e56ba9c9a94f317ed88374773e8" category="doc">バックアップを参照する</block>
+  <block id="cc2145b869199d961affac79934fa41f" category="doc">バックアップの保持期間を更新します</block>
+  <block id="eeb31c7abe07cfdc76bcd1c687e732d4" category="section-title">特定の階層のバックアップ保持期間を更新します</block>
+  <block id="d2ace93f19f4073c24fb32ad8357d008" category="section-title">個々のユーザとテナントのバックアップ保持期間を更新する</block>
+  <block id="f53f41f69a03f1af6789acff9760015b" category="doc">サービスアカウントに権限を追加します</block>
+  <block id="411cf5e870e6c2877290b249e0c12581" category="doc">サービスをアクティブにします</block>
+  <block id="be33608724ad271a268dffbc9ce48900" category="doc">Microsoft Exchange Online で詳細レベルのリストアを実行します</block>
+  <block id="7a8dc2e013d979e0d1428c667b1195e4" category="paragraph">次の表に、 Exchange Online の細かな単位でのリストアオプションを示します。</block>
+  <block id="83e5846f13d6165a910564d76985d2f2" category="cell">PST にエクスポート / HTML にエクスポート</block>
+  <block id="7e2408f033322afc1501e88155ea97b5" category="paragraph">メール / タスク / 連絡先など</block>
+  <block id="12bbb80e602c6804dcffd389d09794ba" category="paragraph">Exchange Online &gt; Mailboxes - Users の順に選択します</block>
+  <block id="2ce2d7d52f6efd367945e8ff48b8e110" category="paragraph">単一 / 複数のメールボックスフォルダ（受信トレイ、アーカイブなど）</block>
+  <block id="6960672f6adc47e1fbc6998f84aaa937" category="admonition">会話履歴を除外します。</block>
+  <block id="4de55c0dee2da7f055099e41eb896a86" category="paragraph">Exchange Online &gt; Mailboxes -Users &gt; &lt; ユーザー名 &gt; の順にクリックします</block>
+  <block id="72af896412e5a3498896e988caeb2667" category="paragraph">[ 受信トレイ ] の下のフォルダレベル</block>
+  <block id="a654073e92e52bc895410744d3ed19aa" category="paragraph">[ 受信トレイ ] の下のサブフォルダレベル</block>
+  <block id="bf62d0beb30daa6e7b0aeb55862816e0" category="paragraph">「 Mail 」フォルダの会話履歴</block>
+  <block id="a7a7f9d318dc06cf789a581ea74dccd0" category="paragraph">単一 / 複数のアイテム・レベルのリストア</block>
+  <block id="aff1add6fd6374350e3abe25824a4473" category="paragraph">単一 / 複数のリストア・アイテムで既存のコンテンツを置換</block>
+  <block id="ade948bcfdfdfeea29a4c666ba72ebd4" category="list-text">Microsoft Office Exchange カテゴリ全体を復元するか、カテゴリ内の特定のアイテムを復元します。Microsoft 365 Groups メールボックスの場合は、メールカテゴリまたはカレンダーカテゴリからリストアするオプションのみがあります。</block>
+  <block id="d2e8213b2a4845cdbca4ccd8956414d2" category="paragraph">Microsoft 365 グループの場合は、同じメールボックスにリストアするオプションのみがあります。既存のコンテンツはデフォルトで置き換えられます。Microsoft Exchange Online では、同じメールボックスにリストアして既存のコンテンツを置き換えることも、別のメールボックスにリストアすることもできます。</block>
+  <block id="fb94e1eeb9c83823d4aa2e28278123ed" category="paragraph">PST にエクスポートすると、エクスポートが完了すると、 PST ファイルの場所を記載した通知メールが送信されます。</block>
+  <block id="58b0cd28cb714d6567c53e5db8c0b3f6" category="admonition">このオプションは Microsoft 365 グループでは使用できません。</block>
+  <block id="afbc2ecece46182264304a31e2b5da73" category="admonition">[*Export to PST*] リストア・オプションを選択した場合、提供されたリンクは 7 日間有効で、事前認証されています。</block>
+  <block id="9a4ec68ff98c2d86c487beb46f9b4659" category="list-text">* データへのエクスポート * （ Microsoft 365 グループでのみ利用可能）：</block>
+  <block id="4ce57defce9dac056d069386ab60e048" category="paragraph">エクスポートすると、 2 つの zip ファイルが作成されます。 1 つは Microsoft 365 Groups メールボックス用の zip ファイルで、もう 1 つは Microsoft 365 Groups SharePoint サイト用の zip ファイルです。PST ファイルの場所と、 .zip ファイルの場所への認証済み URL が記載された通知メールが送信されます。</block>
+  <block id="441c6e9fc22b169f47087797e47a4e78" category="admonition">[ * データにエクスポート * ] リストア・オプションを選択した場合、指定されたリンクは 7 日間有効で、事前認証されています。</block>
+  <block id="7a5993af77d1032535cb5f108e621422" category="doc">Microsoft 365 の無償トライアルアカウントに登録します</block>
+  <block id="894de4021ad5b4bf29b15a5a24d5c77b" category="doc">新しいメールボックス、サイト、グループを検出します</block>
+  <block id="fbf4587520308c39c7016ad6d101add1" category="doc">ルールを削除します</block>
+  <block id="1ae8a55f317d3b2570e79a0b4a668040" category="doc">フィードバックを提供する</block>
+  <block id="0d3e964d833bab0fc51a9de024483383" category="doc">新しい Microsoft Office 365 サービスアカウントを作成します</block>
+  <block id="351674dd4c3367ac2feb58a8a55e3f97" category="section-title">グローバルで新しい Microsoft Office 365 サービスアカウントを作成します 管理者権限</block>
+  <block id="b153d6df04986e031e8cdcee42514143" category="section-title">追加のサービスアカウントを作成します</block>
+  <block id="cf9b65815de15d6e0a7614ea04503b18" category="inline-link-macro">有料購読を開始します</block>
+  <block id="66a8e9a920b348a656e5d56c7551b93b" category="list-text"><block ref="66a8e9a920b348a656e5d56c7551b93b" category="inline-link-macro-rx"></block></block>
+  <block id="42898530241af400fda5327fc771fbaf" category="inline-link-macro">無償トライアルをお試しください</block>
+  <block id="fa56f3ca29655445c50fe3d7bcce728a" category="list-text"><block ref="fa56f3ca29655445c50fe3d7bcce728a" category="inline-link-macro-rx"></block></block>
+  <block id="6be7a975dc6dadc5a8f294312c3b83d9" category="inline-link-macro">無償トライアルからアップグレードしてください</block>
+  <block id="8363fdaf697d320c2f82579236d59eb3" category="list-text"><block ref="8363fdaf697d320c2f82579236d59eb3" category="inline-link-macro-rx"></block></block>
+  <block id="c59ff83bf11a6531408fc11e8902566c" category="list-text"><block ref="c59ff83bf11a6531408fc11e8902566c" category="inline-link-macro-rx"></block></block>
+  <block id="90d150ad765ab3f96aae750d3759c8c2" category="doc">パージされたデータのリストを表示します</block>
+  <block id="85f5c131ebbfcb67cc6ffb0efbd2ecb9" category="doc">ユーザーライセンスをリリースします</block>
+  <block id="4f77d86ba01ed01cc7689b609c3a0e0a" category="doc">共有メールボックスを有効にする権限を付与します</block>
+  <block id="2b100896fd5ace4912e319bc7463b16e" category="doc">ログをダウンロードします</block>
+  <block id="f39d5e4a0ca51b5797a15d5a59800636" category="section-title">アクティビティログをダウンロードします</block>
+  <block id="a63c048cb125925e1dea8559a15a73d2" category="section-title">完了したジョブのログをダウンロードします</block>
+  <block id="85a86867d1d4ec61a552e99542bdde26" category="section-title">バックアップ設定を更新します</block>
+  <block id="acc4fa3808d7a71e25f10c6866cdfc8c" category="doc">ユーザー、サイトコレクション、または Microsoft 365 グループをパージします</block>
+  <block id="7d735cae736c4d6f5e334d312ae9db1f" category="paragraph">ユーザ、サイトコレクション、または Microsoft 365 グループに関連付けられているすべてのデータを完全に削除することができます。パージされたデータは 7 日間リカバリ可能です。7 日後、データは完全に削除され、ユーザライセンスが自動的に解放されます。</block>
+  <block id="df86d903ec4b70625d686c38eb8daca1" category="doc">Marketplace で有料サブスクリプションに登録します</block>
+  <block id="e3a160a7cd4bc5ae0702343e9e786d15" category="doc">サブスクリプション情報を更新します</block>
+  <block id="24391a0c4e58147fa07febdb32887a1a" category="doc">ジョブをキャンセルします</block>
+  <block id="22e2acbc5d542c00c7ad5d2693661006" category="doc">無償トライアルアクティベーションコードを入手してください</block>
+  <block id="7e01d5441a2bbda36f29dd5a8d2561b7" category="doc">SaaS Backup for の無償トライアルに登録してください Microsoft 365</block>
+  <block id="c84082e63d1052aedfca36e4dd31f521" category="section-title">Microsoft 365 の無償トライアルに登録します サービスアカウント</block>
+  <block id="808117ba1d01d824c38cce84a65e2cf0" category="section-title">ネットアップの SSO で無償トライアルに登録してください アカウント</block>
+  <block id="b2b6d10003a21b40160d053ed3a00ba2" category="doc">通知を設定する</block>
+  <block id="5d3e7c02e2249ebaa04369c32c97e7e3" category="doc">OneNote のバックアップを有効にします</block>
+  <block id="d0db67ae234f058e70769c92e92dad3d" category="doc">Microsoft SharePoint Online で詳細なリストアを実行します</block>
+  <block id="69288124909bddfca867e68699b38eb1" category="doc">新しいルールを作成します</block>
+  <block id="202a038c87bf3da785fcbfe19ba95272" category="doc">バックアップのスケジュール設定やバックアップ頻度の変更</block>
+  <block id="ec01ce5d7a75843507cddc0f1e980f6a" category="doc">ライセンスを追加します</block>
+  <block id="ec35161e4b60f2239e64a0e4d77c6f33" category="doc">サービスレベルのリストアを実行します</block>
+  <block id="3e03eb30e32cbda58f94d859aef939c7" category="doc">有料サブスクリプションでサインアップします</block>
+  <block id="10aba5d6ead75cd92ab6422b8c0a09c8" category="doc">ユーザアカウントからすべての管理ロールを削除します</block>
+  <block id="04687a55cad16eeb46f2e4bfbd7dd95b" category="doc">Microsoft 365 のグループとチームについて、細かな単位でリストアを実行できます</block>
+  <block id="08a8cab38f1da1c94492a57028d46365" category="paragraph">Microsoft 365 のグループとチーム内で、メールボックス、 SharePoint 、会話、チャネル、タブなどの細かなレベルの項目をリストアできます。</block>
+  <block id="0cc249a1ff9522b5f305ab1ef65a6afe" category="paragraph">次の表に、きめ細かなリストアオプションのサポート対象となるリストアオプションと、それらを SaaS Backup で検索する場所を示します。</block>
+  <block id="f28bc3f217e602fc1f5eb4085dd42385" category="paragraph">* グループ * の場合</block>
+  <block id="bf65e3c0f451615e7d1d629a3288ad9f" category="paragraph">Office 365 の [ グループ ] 、 [ グループ ] 、 [ グループ名 ] 、 [ メールボックス ] の順にクリックします</block>
+  <block id="3882d32c66e7e768145ecd8f104b0c08" category="paragraph">受信トレイ</block>
+  <block id="00bc065dd3c71fd5d4b0086481d268cc" category="paragraph">1 つまたは複数のアイテム（ E メールまたはイベント）</block>
+  <block id="317c6e15341cbd153b04ade35a6bfaab" category="paragraph">Office 365 の [ グループ ] &gt; [ グループ ] ( グループ名 ) &gt; ［ メールボックス ］ &gt; ［ メール ］ の順に選択</block>
+  <block id="4da59e4209ff5c6096e08b048a0dd376" category="paragraph">* チーム用 *</block>
+  <block id="aba1ef02d1c3b81808de23459d88ee09" category="paragraph">単一 / 複数のフォルダ</block>
+  <block id="3cbb79dcb8ac4c162d56bf19f72f52e3" category="paragraph">Office 365 の [ グループ ] 、 [ チーム ] 、 [ チーム名 ] 、 [ メールボックス ] の順にクリックします</block>
+  <block id="5d795763df018483abcbcbd76b870443" category="paragraph">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; ［ メールボックス ］ &gt; ［ メール ］ の順に選択</block>
+  <block id="03241f4c0b0c3bb57e878f3c7f829b6b" category="paragraph">会話 / チャット</block>
+  <block id="93c8813020bc0571ed7f343c44da47e9" category="paragraph">○（ HTML のみにエクスポート）</block>
+  <block id="b811081d6ff6e1e9f6c4a27dae543f1d" category="list-text">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; ［ メールボックス ］ &gt; ［ 会話 ］ &gt; ［ チームチャット ］ の順に選択し</block>
+  <block id="4a3fbfae9983b97867ad7a017c366db7" category="list-text">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; ［ メールボックス ］ &gt; ［ メール ］ &gt; ［ 会話履歴 ］ &gt; ［ チームチャット ］ の順に選択します （実際の場所）</block>
+  <block id="75503cea14d1fde62464cd36f797cac7" category="paragraph">1 つまたは複数の会話項目</block>
+  <block id="fd6a73d4ba32ae4f3ede4ee332d84996" category="paragraph">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; ［ メールボックス ］ &gt; ［ 会話履歴 ］ &gt; ［ チームチャット ］ の順に選択します</block>
+  <block id="9c26be940e95cf4878da122d939b8784" category="paragraph">シングル / マルチチャネル</block>
+  <block id="a9ecb1e1b3e01a7620a18c19cecd31ee" category="paragraph">Office 365 の [ グループ ] 、 [ チーム ] 、 [ チーム名 ] 、 [ チャネル ] の順にクリックします</block>
+  <block id="1811384ef729e302cde74deba3948057" category="admonition">復元には、チャネル名とタブ名のみが含まれます。</block>
+  <block id="b3b725dd37253b15311071af8c23f7fe" category="paragraph">[ チャネル ] の下のタブ</block>
+  <block id="042d61a3d926d53635966eaeb6a937f7" category="paragraph">チャネル標準ドキュメント</block>
+  <block id="6b30d71b8cc2aaaeb93d0ff1f9134eb0" category="paragraph">Office 365 の [ グループ ] 、 [ チーム ] （チーム名 &gt; SharePoint サイト &gt; ドキュメント &gt; （チャネル名）</block>
+  <block id="48f6c780a94480642bedbd564750b7a2" category="paragraph">チャネルプライベートドキュメント</block>
+  <block id="1c8b0ac9b58ed797a8aa6dc307b23527" category="paragraph">SharePoint&gt; （プライベートチャネルサイト名） &gt; Documents &gt; の順に選択します （プライベートチャネル名）</block>
+  <block id="cc7c0ba37cf0f01092372b1d869e22ec" category="paragraph">OneNote のコンテンツ</block>
+  <block id="d5b7e08e324912d3ca99a4d20efa3835" category="paragraph">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; SharePoint サイト &gt; ドキュメント &gt; （チャネル名）</block>
+  <block id="50ed22c9a34ec5933b28ffc086e3dc3c" category="paragraph">Wiki のコンテンツ</block>
+  <block id="1722203907c0ea278b769a7c97a2bfa9" category="paragraph">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; SharePoint サイト &gt; チーム Wiki データ &gt; （チャネル名）</block>
+  <block id="91f3a2c0e4424c87689525da44c4db11" category="paragraph">ファイル</block>
+  <block id="3e84a960f12c9f006b87ee3ec0305678" category="paragraph">個々のユーザチャットおよびグループチャット</block>
+  <block id="4fe20a45004c9a4151dc58d964feb31f" category="admonition">Exchange Online バックアップにチャットが含まれています。</block>
+  <block id="73d50530c59e846603b0a000c8c5bd03" category="list-text">［ Exchange ］ &gt; ［ User ］ &gt; ［ Mail ］ &gt; ［ Conversation History ］ &gt; ［ Team ］ の順に選択します チャット</block>
+  <block id="6bbc5707d695de8c090582eed7caa4ba" category="paragraph">個々のユーザチャットおよびグループチャットのファイル</block>
+  <block id="5e4444bec23135343e48eda700b5f821" category="admonition">OneDrive for Business のバックアップに含まれるファイルです。</block>
+  <block id="898bf5c2d8f7a8ecf881c264543c9976" category="list-text">メールボックスのカテゴリを選択します。</block>
+  <block id="fcce7879592f679fe46e28fadafa7032" category="paragraph"><block ref="fcce7879592f679fe46e28fadafa7032" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="78676bdb287bac69a9ca2d7171159a45" category="admonition">グループの場合、 * チャネル * は使用できません。</block>
+  <block id="091e6df933ea1d7b5050e63c29a8e545" category="admonition">グループの場合、 *Conversation* は使用できません。</block>
+  <block id="edfe68b68ca01421a4609f1315fda6f4" category="admonition">* スレッドの表示 * バックアップの最後の "x" 日から過去 30 件までのすべての会話のリストが表示されます。たとえば、過去 5 日間に 7 回バックアップした場合は、過去 7 回のバックアップからの会話しか表示できません。</block>
+  <block id="6de715212b8c85391172dc81638f2bfb" category="doc">ユーザデータを監視する</block>
+  <block id="dbd42b173460f8ab5605c5aefd0802e1" category="doc">プロビジョニング解除された項目のリストを表示します</block>
+  <block id="dde2fb18b4f54ff454e49db402adbb99" category="sidebar">グローバル権限を持つ Microsoft 365 サービスアカウントを作成します</block>
+  <block id="1721af001af4943cc2771dbfd047f856" category="sidebar">不完全なバックアップを実行します</block>
+  <block id="5812c0f271e0e2c00e683f3df987dac2" category="sidebar">試用版サブスクリプションからアップグレードする</block>
+  <block id="65d964d49665477bbec39032d9f3ca8a" category="sidebar">バックアップを管理します</block>
+  <block id="3ac08b2c89424f473948e563666e5b4f" category="sidebar">即座にバックアップを実行</block>
+  <block id="d8f5449c7bac4ba96fd7bbf9776e9ae8" category="sidebar">リストアを管理します</block>
+  <block id="5bca99f8ca33bc054588b4f637748fce" category="sidebar">きめ細かなリストアを実行</block>
+  <block id="1b4fcfaacbd0ae3e24bc82f8d7a82211" category="sidebar">ユーザを管理します</block>
+  <block id="d08ccf52b4cdd08e41cfb99ec42e0b29" category="sidebar">権限</block>
+  <block id="e83cc9977425de56ff0b99c4ad631195" category="sidebar">サービスアカウントに権限を追加します</block>
+  <block id="f6aca2dcfee051b254bbcb878dc70d09" category="sidebar">ライセンス</block>
+  <block id="1f4da964f8eab62e96e8cfe406e44364" category="sidebar">ルール</block>
+  <block id="5c1fb361cb9ffba7295636a36f900f1e" category="sidebar">ロールベースアカウントアクセス</block>
+  <block id="9175bb34d0aede26315b313b9432bcbb" category="sidebar">セキュリティグループ</block>
+  <block id="3bd34394db106447b9320c76b26ddbb5" category="sidebar">サービスを管理します</block>
+  <block id="91434d2ec1694706c5f6880d6fada769" category="sidebar">データを表示します</block>
+  <block id="9b2fd4ede320a82f1a8fe3dd515a1522" category="sidebar">プロビジョニング解除された項目を表示します</block>
+  <block id="7d94efa3e76bcde3b29091804d2f1435" category="sidebar">パージされたデータを表示する</block>
+  <block id="4330b42a340140b836c42bbe9c7105be" category="sidebar">データをダウンロードします</block>
 </blocks>

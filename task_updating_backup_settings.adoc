@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_updating_backup_settings.html 
-keywords: netapp, saas backup, microsoft 365, backup, setting, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
+keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating, autosync, enable, restore, recoverable, items, backup, list, views, version, history, workflows 
 summary: バックアップ設定を更新して、さまざまなバックアップオプションを制御できます。使用可能なバックアップ設定はサービスによって異なります。 
 ---
-= バックアップ設定を更新しています
+= バックアップ設定を更新します
 :toc: macro
 :hardbreaks:
 :toclevels: 1

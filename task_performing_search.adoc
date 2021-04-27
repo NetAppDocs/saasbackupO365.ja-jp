@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_search.html 
-keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, performing, exchange, sharePoint, oneDrive, online 
+keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
 summary: インライン検索を使用して、特定のコンテンツを検索できます。 
 ---
 = 検索を実行する
@@ -27,7 +27,7 @@ Microsoft Exchange Online 、 Microsoft OneDrive for Business 、 Microsoft Shar
 
 
 
-=== Microsoft Exchange Online 内でインライン検索を実行する
+=== Microsoft Exchange Online 内でインライン検索を実行します
 
 個別のメールボックス内でインライン検索を実行して、特定のコンテンツを検索できます。これは、 Microsoft 365 グループの一部であるメールボックスにも適用されます。
 
@@ -48,7 +48,7 @@ Microsoft Exchange Online 、 Microsoft OneDrive for Business 、 Microsoft Shar
 
 
 
-=== Microsoft Exchange Online の詳細検索を使用する
+=== Microsoft Exchange Online の詳細検索を使用します
 
 個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを元のメールボックスにリストアできます。この設定を有効にする方法については、 2020 年 6 月を参照してください link:reference_new_saasbackupO365.html["新機能とアップデート"] リリースノート
 
@@ -59,7 +59,7 @@ Microsoft Exchange Online 、 Microsoft OneDrive for Business 、 Microsoft Shar
 
 
 
-==== 高度な検索設定を指定します
+==== 詳細検索を設定します
 
 * 詳細検索設定 * では、検索機能を有効または無効にするオプションが提供されます。
 
@@ -82,7 +82,7 @@ NOTE: ライセンスのあるユーザとライセンスのないユーザは�
 
 
 
-==== 検索を実行する
+==== 検索を実行します
 
 高度な検索機能を使用すると、個人または共有メールボックスアイテムの検索を実行し、これらのアイテムを * 検索を実行 * の元のメールボックスにリストアできます。
 
@@ -114,7 +114,7 @@ NOTE: ライセンスのあるユーザとライセンスのないユーザは�
 
 
 
-==== 以前の検索ジョブを検索しています
+==== 前の検索ジョブを検索します
 
 詳細検索では、前の検索を検索するオプションが表示されます 以前の検索ジョブ * の下にあるジョブ
 
@@ -136,7 +136,7 @@ NOTE: リストアしたアイテムは、 CC_SEARCH_MM.DD_TIME という命名�
 
 
 
-== Microsoft OneDrive for Business 内を検索しています
+== Microsoft OneDrive for Business 内を検索します
 
 個別の MySite 内でインライン検索を実行して、特定のコンテンツを検索できます。
 
@@ -149,7 +149,7 @@ NOTE: リストアしたアイテムは、 CC_SEARCH_MM.DD_TIME という命名�
 
 
 
-== Microsoft SharePoint Online 内で検索しています
+== Microsoft SharePoint Online 内で検索します
 
 個別の MySite 内でインライン検索を実行して、特定のコンテンツを検索できます。これは、 Microsoft 365 グループの一部であるサイトにも適用されます。
 

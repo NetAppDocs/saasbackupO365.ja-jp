@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_activate_support.html 
-keywords: netapp, saas backup, microsoft 365, activating, activate, support, entitlement, marketplace 
+keywords: netapp, saas backup, microsoft 365, activating, activate, support, upgrade, upgrading, entitlement, marketplace, free trial, SSO 
 summary: サポートをアクティブにすると、電話、オンラインチャット、または Web チケット発行システム経由でテクニカルサポートにアクセスできます。 
 ---
-= サポートのアクティブ化
-:toc: macro
+= サポートを有効にします
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_setting_account_notifications.html 
-keywords: netapp, saas backup, microsoft 365, setting, account, notifications, notification, management, adding 
+keywords: netapp, saas backup, microsoft 365, set, setting, account, notifications, notification, management, adding 
 summary: NetApp SaaS Backup for Microsoft 365 では、サービスアカウントの管理、新たに追加されたアカウントの検出、アカウント通知の設定を行うことができます。 
 ---
-= 通知を設定します
-:toc: macro
+= 通知を設定する
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_viewing_history_and_activity.html 
-keywords: netapp, saas backup, microsoft 365, viewing, jobs, history, activity, log 
+keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, history, activity, log 
 summary: SaaS Backup のアクティビティとジョブ履歴のログを表示またはダウンロードできます。 
 ---
-= ジョブ履歴とアクティビティログを表示する
+= ジョブ履歴とアクティビティログを表示します
 :hardbreaks:
 :nofooter: 
 :icons: font
@@ -17,14 +17,9 @@ SaaS Backup for Microsoft 365 には、ジョブ履歴のログと、 SaaS Backu
 
 
 
-== ジョブ履歴の表示
+== ジョブ履歴を表示します
 
-NetApp SaaS Backup for Microsoft 365 には、ジョブタイプ、サービス、開始時間、終了時間、完了ステータスを含むすべてのジョブのログが格納されます。
-
-====
-SaaS Backup for Microsoft Office 365 では、ジョブ履歴とすべてのアクティビティのレポートを表示またはダウンロードできます。
-
-= ジョブ履歴を表示する NetApp SaaS Backup for Office 365 で、すべてのジョブ履歴のレポートを表示またはダウンロードできます。ジョブタイプ、サービス、開始時間、終了時間、および完了ステータスで検索をフィルタリングできます。
+NetApp SaaS Backup for Office 365 では、過去のすべてのジョブ履歴のレポートを表示またはダウンロードできます。ジョブタイプ、サービス、開始時間、終了時間、および完了ステータスで検索をフィルタリングできます。
 
 .手順
 . 左側のナビゲーションペインで、 *Reporting* をクリックします。すべての SaaS Backup ジョブのリストが、 ［ * ジョブ履歴 * ］ タブに表示されます。
@@ -36,7 +31,11 @@ SaaS Backup for Microsoft Office 365 では、ジョブ履歴とすべてのア�
 . 任意のジョブをクリックすると、表示が展開され、ジョブの詳細が表示されます。
 
 
-= アクティビティログの表示 SaaS Backup for Microsoft 365 内で発生したすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは、サービスおよびイベントでフィルタできます。たとえば、 Microsoft Exchange Online で発生したすべてのリストア処理を表示する必要がある場合は、アクティビティログをフィルタリングしてそれらの具体的な結果を表示できます。
+
+
+== アクティビティログを表示します
+
+SaaS Backup for Microsoft 365 内で発生するすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは、サービスおよびイベントでフィルタできます。たとえば、 Microsoft Exchange Online で発生したすべてのリストア処理を表示する必要がある場合は、アクティビティログをフィルタリングしてそれらの具体的な結果を表示できます。
 
 .手順
 . 左側のナビゲーションペインで、 *Reporting* をクリックします。
@@ -50,5 +49,3 @@ SaaS Backup for Microsoft Office 365 では、ジョブ履歴とすべてのア�
 フィルタ結果が表示されます。
 
 
-
-====

@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_activating_a_service.html 
-keywords: netapp, saas backup, microsoft 365, activating, service 
+keywords: netapp, saas backup, microsoft 365, activate, activating, service, services 
 summary: 必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスをアクティブ化できます。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。 
 ---
-= サービスをアクティブ化しています
-:toc: macro
+= サービスをアクティブにします
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

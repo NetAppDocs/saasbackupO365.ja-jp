@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_immediate_backup_of_policy.html 
-keywords: netapp, saas backup, microsoft 365, getting started 
+keywords: netapp, saas backup, microsoft 365, getting started, perform, performing, immediate, backup, backup policy 
 summary: SaaS Backup for Microsoft 365 の導入にあたっては、データのバックアップに使用するストレージのタイプの決定、関連情報の収集、 Microsoft 365 サービスアカウントの作成、ユーザ権限の割り当てなどを行います。 
 ---
-= 特定のバックアップポリシーの即時バックアップを実行する
-:toc: macro
+= 特定のバックアップポリシーのバックアップをただちに実行します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

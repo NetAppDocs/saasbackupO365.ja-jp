@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_adding_security_groups.html 
-keywords: netapp, saas backup, microsoft 365, security, groups, adding, creating 
+keywords: netapp, saas backup, microsoft 365, security, groups, add, adding, creating 
 summary: セキュリティグループをフィルタリングオプションとして使用して、データを表示したりルールを作成したりできます。 
 ---
-= セキュリティグループの追加
-:toc: macro
+= セキュリティグループを追加します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

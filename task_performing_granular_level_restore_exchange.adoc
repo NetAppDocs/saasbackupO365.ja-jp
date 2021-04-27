@@ -1,27 +1,124 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_granular_level_restore_exchange.html 
-keywords: netapp, saas restores, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes 
 summary: SaaS Backup for Microsoft 365 を使用すると、 Microsoft Exchange Online 365 をきめ細かくリストアできます。 
 ---
-= Microsoft Exchange Online の細かな単位でのリストアを実行します
-:toc: macro
+= Microsoft Exchange Online で詳細レベルのリストアを実行します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 Microsoft Exchange Online では、個々の E メール、タスク、連絡先、カレンダーイベントなど、単一のユーザの詳細レベルの項目をリストアできます。また、 Microsoft 365 グループメールボックスの細かな単位の項目をリストアすることもできます。
 
-デフォルトでは、最新のバックアップのみがリストアに使用できます。バックアップ設定を更新して、個々のファイルの指定数のバックアップバージョンを維持できます。バックアップに指定した数よりも多くのバージョンのファイルがある場合、リストアに使用できるのは指定したバージョン数だけです。
+デフォルトでは、最新のバックアップのみがリストアに使用できます。その他のオプションは次のとおりです。
 
+image:backup_for_restore_availability.png["リストアに使用できるバックアップ"]
+
+次の表に、 Exchange Online の細かな単位でのリストアオプションを示します。
+
+[cols="40a,15a,15a,15a,40a"]
+|===
+| 項目のタイプ | 同じメールボックスにリストアします | 別のメールボックスにリストアします | PST にエクスポート / HTML にエクスポート | SaaS Backup で検索できます 
+
+
+ a| 
+メール / タスク / 連絡先など
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+Exchange Online > Mailboxes - Users の順に選択します
+
+
+
+ a| 
+単一 / 複数のメールボックスフォルダ（受信トレイ、アーカイブなど）
+
+
+NOTE: 会話履歴を除外します。
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+Exchange Online > Mailboxes -Users > < ユーザー名 > の順にクリックします
+
+
+
+ a| 
+[ 受信トレイ ] の下のフォルダレベル
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+Exchange Online > Mailboxes -Users > < ユーザー名 > の順にクリックします
+
+
+
+ a| 
+[ 受信トレイ ] の下のサブフォルダレベル
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+Exchange Online > Mailboxes -Users > < ユーザー名 > の順にクリックします
+
+
+
+ a| 
+「 Mail 」フォルダの会話履歴
+ a| 
+いいえ
+ a| 
+いいえ
+ a| 
+はい。
+ a| 
+Exchange Online > Mailboxes -Users > < ユーザー名 > の順にクリックします
+
+
+
+ a| 
+単一 / 複数のアイテム・レベルのリストア
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+Exchange Online > Mailboxes -Users > < ユーザー名 > の順にクリックします
+
+
+
+ a| 
+単一 / 複数のリストア・アイテムで既存のコンテンツを置換
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+いいえ
+ a| 
+Exchange Online > Mailboxes -Users > < ユーザー名 > の順にクリックします
+
+|===
 .手順
 . [ ダッシュボード ] の [ 交換 ] ボックスで、 [ 保護されている * ] の上の数字をクリックします。
 +
@@ -35,7 +132,7 @@ image:number_protected_exchange.gif["Exchange で保護されているインス�
 
 
 . 詳細レベルのリストアを実行する必要があるメールボックスをクリックします。
-. Microsoft Office Exchange カテゴリ全体を復元するか、カテゴリ内の特定のアイテムを復元します。Microsoft 365 グループメールボックスの場合は、メールカテゴリまたはカレンダーカテゴリからリストアするオプションのみがあります。
+. Microsoft Office Exchange カテゴリ全体を復元するか、カテゴリ内の特定のアイテムを復元します。Microsoft 365 Groups メールボックスの場合は、メールカテゴリまたはカレンダーカテゴリからリストアするオプションのみがあります。
 . リストアする必要があるカテゴリ（メール、タスク、連絡先など）を選択します。
 +
 
@@ -49,9 +146,9 @@ NOTE: カテゴリ内の 1 つのアイテムをリストアする場合は、�
 同じメールボックスにリストアすると、デフォルトでは、バックアップコピーが格納された元のコンテンツの場所に、現在の日付とタイムスタンプが設定されたリストアフォルダが作成されます。[ 既存のコンテンツの置換 ] を選択した場合、現在のデータはバックアップに完全に置き換えられます。
 
 +
-Microsoft 365 グループの場合は、同じメールボックスにリストアするオプションのみがあり、既存のコンテンツを置き換えることはできません。Microsoft Exchange Online では、同じメールボックスにリストアして既存のコンテンツを置き換えることも、別のメールボックスにリストアすることもできます。
+Microsoft 365 グループの場合は、同じメールボックスにリストアするオプションのみがあります。既存のコンテンツはデフォルトで置き換えられます。Microsoft Exchange Online では、同じメールボックスにリストアして既存のコンテンツを置き換えることも、別のメールボックスにリストアすることもできます。
 
-** * 別のメールボックスへのリストア * （ Microsoft Exchange でのみ使用可能）
+** * 別のメールボックスにリストア *
 +
 別のメールボックスにリストアする場合は、検索フィールドにデスティネーションメールボックスを入力する必要があります。検索フィールドに宛先の電子メールアドレスの一部を入力すると、一致する宛先メールボックスを自動的に検索できます。
 
@@ -60,19 +157,23 @@ Microsoft 365 グループの場合は、同じメールボックスにリスト
 すべてのカテゴリサブフォルダを含めることができます。
 
 +
-PST にエクスポートすると、エクスポートが完了すると、 PST ファイルの場所を記載した通知メールが送信されます。注：このオプションは、 Microsoft 365 グループでは使用できません。
+PST にエクスポートすると、エクスポートが完了すると、 PST ファイルの場所を記載した通知メールが送信されます。
 
 +
 
-NOTE: [PST にエクスポート ] リストア・オプションを選択した場合、表示されたリンクは 7 日間有効で、事前認証されています。
-
-** * エクスポート * （ Microsoft 365 グループでのみ使用可能）：
-+
-エクスポートすると、 Microsoft Exchange ファイルとともに PST ファイルが作成され、 Microsoft SharePoint サイトに .zip ファイルが作成されます。PST ファイルの場所と、 .zip ファイルの場所への認証済み URL が記載された通知メールが送信されます。
+NOTE: このオプションは Microsoft 365 グループでは使用できません。
 
 +
 
-NOTE: エクスポートリストアオプションを選択すると、指定されたリンクは 7 日間有効で、事前認証されています。
+NOTE: [*Export to PST*] リストア・オプションを選択した場合、提供されたリンクは 7 日間有効で、事前認証されています。
+
+** * データへのエクスポート * （ Microsoft 365 グループでのみ利用可能）：
++
+エクスポートすると、 2 つの zip ファイルが作成されます。 1 つは Microsoft 365 Groups メールボックス用の zip ファイルで、もう 1 つは Microsoft 365 Groups SharePoint サイト用の zip ファイルです。PST ファイルの場所と、 .zip ファイルの場所への認証済み URL が記載された通知メールが送信されます。
+
++
+
+NOTE: [ * データにエクスポート * ] リストア・オプションを選択した場合、指定されたリンクは 7 日間有効で、事前認証されています。
 
 
 

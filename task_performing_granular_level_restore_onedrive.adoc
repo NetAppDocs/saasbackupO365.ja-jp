@@ -1,30 +1,27 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_granular_level_restore_onedrive.html 
-keywords: netapp, saas restores, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, granular restores, Microsoft OneDrive for Business 
 summary: SaaS Backup for Microsoft 365 を使用すると、 Microsoft OneDrive for Business でハイレベルかつきめ細かなリストアを実行できます。 
 ---
-= Microsoft OneDrive for Business で詳細レベルのリストアを実行します
-:toc: macro
+= Microsoft OneDrive for Business で詳細レベルのリストアを実行できます
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 Microsoft OneDrive for Business では、個々のフォルダやファイルなどの詳細なアイテムをリストやライブラリにリストアできます。OneNote ノートブックまたはグループを復元することもできます。
 
-デフォルトでは、最新のバックアップのみがリストアに使用できます。バックアップ設定を更新して、個々のファイルの指定数のバックアップバージョンを維持できます。バックアップに指定した数よりも多くのバージョンのファイルがある場合、リストアに使用できるのは指定したバージョン数だけです。
+デフォルトでは、最新のバックアップのみがリストアに使用できます。その他のオプションは次のとおりです。
+
+image:backup_for_restore_availability.png["リストアに使用できるバックアップ"]
 
 次の表は、 OneDrive for Business の細かなレベルの項目でサポートされるリストアオプションを示しています。
 
-[cols="64,24a,24a,24a"]
+[cols="40,20a,20a,20a"]
 |===
 | 項目のタイプ | 同じ個人用サイトにリストアします | 別の個人用サイトにリストアします | データをエクスポートします 
 

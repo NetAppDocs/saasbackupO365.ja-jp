@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_restoring_from_previous_backup.html 
-keywords: netapp, saas restores, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas restore, restoring, microsoft 365, high-level restores, granular restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
 summary: デフォルトでは、最新のバックアップのみがリストアに使用できます。 
 ---
-= 以前のバックアップからのリストア
-:toc: macro
+= 以前のバックアップからリストアする
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

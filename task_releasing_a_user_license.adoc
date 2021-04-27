@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_releasing_a_user_license.html 
-keywords: netapp, saas backup, releasing, reassigning, user, license, shared, regular, archive, mailbox 
+keywords: netapp, saas backup, release, releasing, reassigned, user, license, shared, regular, archive, mailbox 
 summary: 保護されているか保護されていないかに関係なく、通常のメールボックスユーザまたはアーカイブメールボックスユーザがライセンスを使用します。特定のユーザに不要になったライセンスは、再割り当てできるようにリリースできます。 
 ---
-= ユーザライセンスを解放する
+= ユーザーライセンスをリリースします
 :hardbreaks:
 :nofooter: 
 :icons: font

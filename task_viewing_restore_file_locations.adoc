@@ -1,24 +1,19 @@
 ---
 sidebar: sidebar 
 permalink: task_viewing_restore_file_locations.html 
-keywords: netapp, saas backup, microsoft 365, viewing, jobs, log, restore, file, locations 
+keywords: netapp, saas backup, microsoft 365, find, viewing, jobs, log, restore, file, locations 
 summary: リストアしたファイルおよびフォルダのタイトルと場所のログをダウンロードできます。 
 ---
-= リストアされたファイルを検索します
-:toc: macro
+= 復元されたファイルを検索します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
-一部のファイルまたはフォルダがリストアされると、新しく作成されたリストアフォルダに格納されます。復元されたアイテムを簡単に識別できるように、復元されたファイルとフォルダの名前と場所を含む Excel ファイルをダウンロードできます。
+一部のファイルまたはフォルダがリストアされると、新しく作成されたリストアフォルダに格納されます。復元されたアイテムを簡単に見つけることができるように、復元されたファイルとフォルダの名前と場所を含む Excel ファイルをダウンロードできます。
 
 .手順
 . をクリックします image:jobs_button.gif["ジョブボタンのスクリーンショット"] をクリックします。

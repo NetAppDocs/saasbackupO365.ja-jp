@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_updating_backup_retention_period.html 
-keywords: netapp, saas backup, microsoft 365, backup, retention, period, updating, specific, tier, tenants 
+keywords: netapp, saas backup, microsoft 365, backup, retention, period, update, updating, specific, tier, tenants 
 summary: 個々の階層、メールボックス、サイト、および MySites のデータが保持される期間を、 10 年または無制限に更新することができます。 
 ---
-= バックアップの保持期間を更新しています
+= バックアップの保持期間を更新します
 :toc: macro
 :hardbreaks:
 :toclevels: 1
@@ -22,7 +22,7 @@ summary: 個々の階層、メールボックス、サイト、および MySites
 
 
 
-== 特定の階層のバックアップ保持期間を更新しています
+== 特定の階層のバックアップ保持期間を更新します
 
 .手順
 . ダッシュボード * で、任意のサービスをクリックします。

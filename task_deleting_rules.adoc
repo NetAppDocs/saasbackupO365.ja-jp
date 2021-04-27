@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_deleting_rules.html 
-keywords: netapp, saas backup, microsoft 365, deleting, removing, rules 
+keywords: netapp, saas backup, microsoft 365, delete, deleting, removing, rules 
 summary: 既存のルールが不要になった場合は削除できます。また、ルールで使用されているセキュリティグループを削除する必要がある場合は、事前にセキュリティグループを削除しておく必要があります。 
 ---
-= ルールを削除する
-:toc: macro
+= ルールを削除します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

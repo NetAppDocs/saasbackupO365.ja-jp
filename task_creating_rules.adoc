@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_creating_rules.html 
-keywords: netapp, saas backup, microsoft 365, creating, rules, adding, applying 
+keywords: netapp, saas backup, microsoft 365, create, creating, rules, user, users, applied 
 summary: ルールを使用すると、事前に選択した条件に基づいてユーザを自動的にバックアップ階層に移動できます。 
 ---
-= 新しいルールを作成しています
-:toc: macro
+= 新しいルールを作成します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

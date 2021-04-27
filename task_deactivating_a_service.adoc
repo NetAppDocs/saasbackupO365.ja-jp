@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_deactivating_a_service.html 
-keywords: netapp, saas backup, microsoft 365, service, deactivating 
+keywords: netapp, saas backup, microsoft 365, service, deactivate, deactivation, deactivating 
 summary: サービスを非アクティブ化すると、そのサービスに関連付けられているすべてのスケジュールが削除され、それ以上のバックアップは実行されません。非アクティブ化の前に実行された最後のバックアップを表示して、リストアを実行することもできます。 
 ---
-= サービスを非アクティブにします
-:toc: macro
+= サービスを非アクティブ化します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

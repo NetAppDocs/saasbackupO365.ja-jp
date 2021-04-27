@@ -25,9 +25,9 @@ NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレー�
 
 == はじめに
 
-* link:concept_paid_subscription_workflow.html["有料購読の開始"]
-* link:concept_free_trial_workflow.html["無料トライアルを開始する"]
-* link:task_upgrading_from_trial.html["無償トライアルからアップグレードしています"]
+* link:concept_paid_subscription_workflow.html["有料購読を開始します"]
+* link:concept_free_trial_workflow.html["無償トライアルをお試しください"]
+* link:task_upgrading_from_trial.html["無償トライアルからアップグレードしてください"]
 
 
 

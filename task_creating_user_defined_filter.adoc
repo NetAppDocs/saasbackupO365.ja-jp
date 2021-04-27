@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_creating_user_defined_filter.html 
-keywords: netapp, saas backup, microsoft 365, viewing, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
+keywords: netapp, saas backup, microsoft 365, create, creating, view, filtering, data, information, user defined filters, creating filters, search, viewing, job history, activity log, downloading log 
 summary: メールボックス、サイト、または個人用サイトの表示をフィルタリングして、特定の条件を満たす結果のみを表示できます。 
 ---
-= ユーザ定義フィルタの作成
-:toc: macro
+= ユーザ定義のフィルタを作成します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

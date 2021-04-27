@@ -1,0 +1,346 @@
+---
+sidebar: sidebar 
+permalink: reference_about_restores.html 
+keywords: netapp, saas backup, microsoft 365, restores, microsoft teams, groups, sharepoint, exchange, onedrive, teams data, teams data locations, locations, teams, email, channels, documents, channel, chat, private channel, individual user chat, group chats, files 
+summary: SaaS Backup for Microsoft 365 では、各サービスのリストアオプションのレベルを細かく指定できます。 
+---
+= リストアについて
+:hardbreaks:
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365 を使用すると、 Exchange Online 、 SharePoint Online 、 OneDrive for Business 、 Microsoft 365 のグループとチームのリストアの概要レベルと詳細レベルを確認できます。
+
+細かな単位で高度なリストアを実行する方法について説明します。
+
+* link:task_performing_high_level_restore.html["高レベルのリストアを実行します"]
+* link:task_performing_granular_level_restore_exchange.html["Exchange Online について、細かな単位でリストアを実行できます"]
+* link:task_performing_granular_level_restore_sharepoint.html["SharePoint Online で詳細なリストアを実行します"]
+* link:task_performing_granular_level_restore_onedrive.html["OneDrive for Business で詳細レベルのリストアを実行できます"]
+* link:task_performing_granular_level_restore_teams.html["グループとチームについて、詳細レベルのリストアを実行します"]
+
+
+以下の表に、各サービスでサポートされるリストアオプションの概要と、リストアされたデータを SaaS Backup で検索する場所を示します。
+
+
+NOTE: データが削除またはプロビジョニング解除されると、データを別の場所（メールボックス、サイト、 MySite 、グループ、またはチーム）にリストアしたり、データをエクスポートしたりできます。同じ場所にリストアすることはできません。
+
+
+
+== Exchange Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 項目のタイプ | 同じメールボックスにリストアします | 別のメールボックスにリストアします | PST にエクスポートします | SaaS Backup で検索できます 
+
+
+ a| 
+シングルメールボックス
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| Exchange Online > Mailboxes - Users/Shared/Archive （メールボックス - ユーザー / 共有 / アーカイブ） 
+
+
+ a| 
+複数のメールボックス
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+いいえ
+| Exchange Online > Mailboxes - Users/Shared/Archive （メールボックス - ユーザー / 共有 / アーカイブ） 
+
+
+ a| 
+メールボックスの内容
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| Exchange Online > Mailboxes - Users/Shared/Archive> < ユーザー名 > 
+|===
+
+
+== SharePoint Online
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 項目のタイプ | 同じサイトにリストアします | 別のサイトにリストアします | データをエクスポートします | SaaS Backup で検索できます 
+
+
+ a| 
+単一の SharePoint サイト
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| SharePoint Online > サイト 
+
+
+ a| 
+複数の SharePoint サイト
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+いいえ
+| SharePoint Online > サイト 
+
+
+ a| 
+SharePoint サイトのコンテンツ
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] をクリックします 
+
+
+ a| 
+リストアのみのロールが有効になっている単一の SharePoint サイト
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+いいえ
+| SharePoint Online > サイト 
+
+
+ a| 
+単一のサブサイト
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] をクリックします 
+
+
+ a| 
+複数のサブサイト
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] をクリックします 
+
+
+ a| 
+SharePoint サブサイトコンテンツ
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] をクリックします 
+
+
+ a| 
+リストア専用のロールが有効になっている単一のサブサイト / 複数のサブサイト
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+いいえ
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] をクリックします 
+|===
+
+
+== OneDrive for Business の場合
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 項目のタイプ | 同じ個人用サイトにリストアします | 別の個人用サイトにリストアします | データをエクスポートします | SaaS Backup で検索できます 
+
+
+ a| 
+シングルドライブ
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| OneDrive for Business > [MySites] の順にクリックします 
+
+
+ a| 
+複数のドライブ
+ a| 
+いいえ
+ a| 
+いいえ
+ a| 
+いいえ
+| OneDrive for Business > [MySites] の順にクリックします 
+
+
+ a| 
+1 つのドライブの内容
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| OneDrive for Business > [MySites] > [OneDrive ユーザー ] の順にクリックします 
+|===
+
+
+== グループ
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 項目のタイプ | 同じグループにリストアします | 別のグループにリストアします | データをエクスポートします | SaaS Backup で検索できます 
+
+
+ a| 
+単一のグループ
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| [Office 365 グループ ] 、 [ グループ ] の順にクリックします 
+
+
+ a| 
+複数のグループ
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+いいえ
+| [Office 365 グループ ] 、 [ グループ ] の順にクリックします 
+
+
+ a| 
+コンテンツをグループ化します
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| Office 365 の [ グループ ] 、 [ グループ ] 、 [< グループ名 >] の順にクリックします 
+
+
+ a| 
+メールボックスの内容
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+はい。
+| Office 365 の [ グループ ] > [ グループ ] ( グループ電子メール ) > グループ名 
+
+
+ a| 
+SharePoint コンテンツ
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+はい。
+| Office 365 の [ グループ ] 、 [< グループ名 >] 、 [< サイト名 >] の順にクリックします 
+|===
+
+
+== チーム
+
+[cols="15a,15a,15a,15a,40"]
+|===
+| 項目のタイプ | 同じチームにリストアする | 別のチームにリストアする | データをエクスポートします | SaaS Backup で検索できます 
+
+
+ a| 
+単一のチーム
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| Office 365 の [ グループ ] 、 [ チーム ] の順にクリック 
+
+
+ a| 
+複数のチーム
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+いいえ
+| Office 365 の [ グループ ] 、 [ チーム ] の順にクリック 
+
+
+ a| 
+チームのコンテンツ
+ a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| Office 365 の [ グループ ] 、 [ チーム ] 、 [< チーム名 >] の順にクリックします 
+
+
+ a| 
+メールボックスの内容
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+はい。
+| Office 365 グループ > チーム > ( チーム電子メール ) > チーム名 
+
+
+ a| 
+SharePoint コンテンツ
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+はい。
+| Office 365 の [ グループ ] 、 [ チーム ] 、 [< チーム名 >< サイト名 >] の順にクリックします 
+
+
+ a| 
+チャネル
+ a| 
+はい。
+ a| 
+いいえ
+ a| 
+いいえ
+| Office 365 グループ > チーム > ( チーム電子メール ) 
+|===

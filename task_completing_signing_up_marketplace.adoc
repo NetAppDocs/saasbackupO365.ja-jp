@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_completing_signing_up_marketplace.html 
-keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version 
+keywords: netapp, saas backup, microsoft 365, getting started, sign up, signing up, paid, subscription, licensed, version 
 summary: Microsoft 365 サービスアカウントまたはネットアップの SSO アカウントを使用して、 SaaS Backup for Microsoft 365 にサインアップできます。 
 ---
-= Marketplace での有料サブスクリプションへの登録
-:toc: macro
+= Marketplace で有料サブスクリプションに登録します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

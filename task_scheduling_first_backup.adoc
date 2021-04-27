@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_scheduling_first_backup.html 
-keywords: netapp, saas backup, microsoft 365, getting started, scheduling, first, performing 
+keywords: netapp, saas backup, microsoft 365, getting started, schedule, scheduling, first, performing 
 summary: SaaS Backup for Microsoft 365 をセットアップすると、デフォルトではデータは保護されず、バックアップのスケジュールは設定されません。最初のバックアップを開始するには、データを保護された階層に移動する必要があります。 
 ---
-= 最初のバックアップのスケジュール設定
-:toc: macro
+= 最初のバックアップのスケジュールを設定します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

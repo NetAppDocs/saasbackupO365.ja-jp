@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_granting_permissions_to_enable_shared_mailboxes.html 
-keywords: netapp, saas backup, microsoft 365, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
+keywords: netapp, saas backup, microsoft 365, grant, granting, permissions, enabling, shared, mailboxes, azure, grant, shared 
 summary: NetApp SaaS Backup for Microsoft 365 では、共有メールボックスを有効にする権限を付与できます。 
 ---
-= 共有メールボックスを有効にする権限を付与しています
-:toc: macro
+= 共有メールボックスを有効にする権限を付与します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -1,24 +1,21 @@
 ---
 sidebar: sidebar 
 permalink: task_completing_signing_up_ipa.html 
-keywords: netapp, saas backup, microsoft 365, getting started, signing up, paid, subscription, licensed, version 
+keywords: netapp, saas backup, microsoft 365, getting started, sign up, signing up, paid, subscription, licensed, version 
 summary: Microsoft 365 サービスアカウントまたはネットアップの SSO アカウントを使用して、 SaaS Backup for Microsoft 365 にサインアップできます。 
 ---
-= 有料メンバーシップでサインアップ
-:toc: macro
+= 有料サブスクリプションでサインアップします
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
 ネットアップからライセンスを購入した場合は、サブスクリプションタイプが表示されます。次の手順に従って、サインアッププロセスを完了します。
+
+サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます https://mysupport.netapp.com/eservice/public/now.do[""] をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。
 
 .手順
 . サブスクリプションタイプとして [*Licensed*] を選択します。

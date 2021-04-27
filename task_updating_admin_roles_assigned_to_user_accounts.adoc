@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_updating_admin_roles_assigned_to_user_accounts.html 
-keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, updating, changing 
+keywords: netapp, saas backup, microsoft 365, role-based accounts, administrative roles, privileges, update, updating, changing 
 summary: ユーザの管理ロールが更新されると、そのユーザは自動的に SaaS Backup for Microsoft 365 からログアウトされます。ユーザが再度ログインすると、管理者ロールの更新がユーザアカウントに反映されます。 
 ---
-= ユーザアカウントに割り当てられている管理ロールを更新しています
-:toc: macro
+= ユーザアカウントに割り当てられている管理ロールを更新します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

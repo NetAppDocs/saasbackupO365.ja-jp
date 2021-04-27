@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_high_level_restore.html 
-keywords: netapp, saas restores, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
 summary: Microsoft Exchange Online 、 Microsoft OneDrive for Business の MySites 、 Microsoft SharePoint Online のサイト、 Microsoft 365 グループのメールボックスの高レベルのリストアを実行する手順も同じです。 
 ---
-= サービスの概要リストアを実行する
+= サービスレベルのリストアを実行します
 :hardbreaks:
 :nofooter: 
 :icons: font
@@ -15,7 +15,9 @@ summary: Microsoft Exchange Online 、 Microsoft OneDrive for Business の MySit
 [role="lead"]
 Microsoft Exchange Online 、 Microsoft OneDrive for Business の MySites 、 Microsoft SharePoint Online のサイト、 Microsoft 365 グループのメールボックスの高レベルのリストアを実行する手順も同じです。
 
-デフォルトでは、最新のバックアップのみがリストアに使用できます。バックアップ設定を更新して、個々のファイルの指定数のバックアップバージョンを維持できます。バックアップに指定した数よりも多くのバージョンのファイルがある場合、リストアに使用できるのは指定したバージョン数だけです。
+デフォルトでは、最新のバックアップのみがリストアに使用できます。その他のオプションは次のとおりです。
+
+image:backup_for_restore_availability.png["リストアに使用できるバックアップ"]
 
 .手順
 . ダッシュボードで、リストアを実行するサービスのボックスの上の * 保護されている * の数をクリックします。

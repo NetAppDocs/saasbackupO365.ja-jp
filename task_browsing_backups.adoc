@@ -5,16 +5,11 @@ keywords: netapp, saas backup, Microsoft, microsoft 365, protected, protected in
 summary: すべての Microsoft 365 サービスでバックアップを参照できます。 
 ---
 = バックアップを参照する
-:toc: macro
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

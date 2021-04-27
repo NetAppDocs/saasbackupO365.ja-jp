@@ -1,20 +1,15 @@
 ---
 sidebar: sidebar 
 permalink: task_adding_a_license.html 
-keywords: netapp, saas backup, adding, license 
+keywords: netapp, saas backup, microsoft 365, add, adding, release, license 
 summary: ライセンスは追加またはリリースできます。 
 ---
-= ライセンスの追加
-:toc: macro
+= ライセンスを追加します
 :hardbreaks:
-:toclevels: 1
-:toc: 
-:toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]
