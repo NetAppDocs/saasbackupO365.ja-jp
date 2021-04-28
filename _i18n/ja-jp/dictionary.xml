@@ -403,68 +403,29 @@
   <block id="19cfd4ae5dac380b64b69dab1b160eb6" category="paragraph">別のサイトにリストアする場合は、デスティネーションサイトを検索フィールドに入力する必要があります。検索フィールドに宛先サイトの一部を入力して、一致するサイトの自動検索を開始できます。</block>
   <block id="25b29418d9c6575969ec7daa90fcc97f" category="paragraph">リストアジョブが作成されたことを示すメッセージが表示されます。</block>
   <block id="67d991d78fa5108aec7ff0c45194bd85" category="summary">インライン検索を使用して、特定のコンテンツを検索できます。</block>
-  <block id="e4b24449dd1258fcfbdc7060e73f1d2c" category="paragraph">Microsoft Exchange Online 、 Microsoft OneDrive for Business 、 Microsoft SharePoint Online のインライン検索を使用して、特定のコンテンツを検索できます。</block>
-  <block id="6e80d424becc90c711a913c44e78380b" category="paragraph">インライン検索または高度な検索を実行できます。</block>
-  <block id="8f0dced14acbe4affb37383302ea5f35" category="list-text"><block ref="4be11eb4ba0e1366af91f4538e832916" category="inline-xref-macro-rx"></block></block>
-  <block id="f1ee10b2729c7bbd6d4ec5291a0e9368" category="list-text"><block ref="3e5ef4fe7a9cbff5bbf3a31d46d5583a" category="inline-xref-macro-rx"></block></block>
-  <block id="0209b494c3c03be925816338c8b7491f" category="paragraph">個別のメールボックス内でインライン検索を実行して、特定のコンテンツを検索できます。これは、 Microsoft 365 グループの一部であるメールボックスにも適用されます。</block>
-  <block id="771db20ee13871b9294c0e9855ff1a9f" category="list-text">ダッシュボードで、 [ 保護されている * ] または [ 保護されていない * ] の上の番号を [ 交換時 ] ボックスでクリックします。<block ref="92255e0954cb3755ebcf92c8861747e3" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="80918be0d33de59f7f1c2e1367952e2a" category="list-text">* 保護された * メールボックスを検索している場合は、検索を実行する必要がある電子メールアドレスをクリックします。</block>
-  <block id="ba3d7519a5962f74c00a336c553d4f99" category="list-text">検索する必要があるカテゴリ（メール、タスク、連絡先、カレンダー、またはその他）を選択します。</block>
-  <block id="57ae49c141bbc27e497c71a8408717b1" category="list-text">検索フィールドに検索文字列を入力します。検索が自動的に実行され、検索文字列が入力されると結果が表示されます。</block>
-  <block id="517bea97af8c28f995beb2dc4a7abc3d" category="list-text">保護されていない * メールボックスを検索する場合は、検索するメールボックスを選択します。</block>
   <block id="00c49197e1ad230a77a69b3c62a95960" category="paragraph">個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを元のメールボックスにリストアできます。この設定を有効にする方法については、 2020 年 6 月を参照してください <block ref="d84f7ef7df75ea4b5018dac7dc7cdf71" category="inline-link-macro-rx"></block> リリースノート</block>
-  <block id="656eeadf589acae73d9136d200392f5e" category="list-text"><block ref="3169cdeb0761e30026ca3234a022ff85" category="inline-xref-macro-rx"></block></block>
-  <block id="01f7c06d757216afb33d0374a5197c25" category="list-text"><block ref="decaad563b4606957565b831cc6605d8" category="inline-xref-macro-rx"></block></block>
-  <block id="e85cb21871b7e7eabbc3dd6cd48cc605" category="list-text"><block ref="31ebe8bc201bd551b434065db8a82324" category="inline-xref-macro-rx"></block></block>
   <block id="4466a882479de04cb5c1a5ec232dacdc" category="paragraph">* 詳細検索設定 * では、検索機能を有効または無効にするオプションが提供されます。</block>
   <block id="b0eb2396acd040d98c146d201fe5307e" category="admonition">ライセンスのあるユーザとライセンスのないユーザは、高度な検索機能を使用できます（有効な場合）。</block>
   <block id="c44cc41dbd8bd91ac75451de23ec8eb6" category="list-text">ダッシュボードの左側のメニューで、「 * 高度な検索 * 」をクリックします。</block>
   <block id="8a6a52b70517fecd0af84069290395fb" category="list-text">[ 高度な検索設定 * ] をクリックします。</block>
   <block id="a9bd2ff124301f94dad1b83933f1de41" category="list-text">デフォルトでは、ライセンスを持つすべてのユーザがリストに表示されます。「すべてのユーザーを表示」と「ライセンスされたユーザーのみを表示」を切り替えて、リスト内のユーザータイプをフィルタリングします。</block>
   <block id="8fd454c9753a4c3d03fcb074d79d2f5e" category="list-text">検索ツールを使用して 3 文字以上入力し、一意のユーザーを検索します。</block>
-  <block id="87cec7b840f4e6baf53f5f318e5b1b7a" category="inline-image-macro">画像は、高度な検索設定を示しています</block>
-  <block id="cc8866d07d57a8ad96b489f22e74c492" category="list-text">「 * 詳細設定 * 」を開き、アーカイブメールボックスアイテムの検索を有効にします。<block ref="417558101f4bbb37cd1930d0c0f73037" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="57c9b7b109956f01ec6fbd27f9e51071" category="list-text">ユーザーを有効にするには、 * 詳細検索 * 列で * オン * を選択します。次回、フルバックアップまたは増分バックアップで有効にしたユーザーを保護するときに、新しい電子メールアイテムの検索を実行できます。</block>
   <block id="908850e836861356845d68c6d5d59f95" category="list-text">設定への変更を保存するには、 * 設定の保存 * をクリックします。</block>
   <block id="9d26c855a2d401584a2885908a0440b0" category="inline-link-macro">バックアップのスケジュール設定またはバックアップ頻度の変更</block>
   <block id="0af305178ed17ffd2d65f6827dd96941" category="list-text">有効なユーザをバックアップするには、に進みます <block ref="a56fa16a0623b92158e702c35634bdf7" category="inline-link-macro-rx"></block> バックアップするユーザーを選択するには、 * ユーザー * タブに残ります。</block>
-  <block id="0c2e5ae3d94f5ab3264d0cf4ddca31f3" category="paragraph">高度な検索機能を使用すると、個人または共有メールボックスアイテムの検索を実行し、これらのアイテムを * 検索を実行 * の元のメールボックスにリストアできます。</block>
   <block id="30368d13df374be30faccbf80332ec3d" category="list-text">[ 検索の実行 *] をクリックします。</block>
   <block id="d749315637e107f4e49a204009181ccf" category="inline-image-macro">図は、 2 つの必須項目を含む検索オプションの実行を示しています</block>
-  <block id="e813b98b3f94388cb5ec3255238be8fe" category="list-text">必須フィールドに赤いアスタリスクで情報を入力します。オプションのフィールド： Condition と Query Conditions<block ref="94a613604503bf5de5b1927c26f3eadc" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="b6a230478fb4ece379b21db0861e788c" category="list-text">[ ユーザー *]: ユーザー名に少なくとも 3 文字を入力して、選択するユーザーを見つけます。</block>
-  <block id="78ff39243415ecc5431aac33e79dc44b" category="list-text">検索 *: キーワードに少なくとも 3 文字入力します。フレーズを検索する場合は、引用符の中に単語を入れます（例：「 Hello world 」）。単語を個別に検索できる場合は、引用符は必要ありません。</block>
-  <block id="e82ce0a7b65d23a5152c5f6ae5200869" category="list-text">完全一致：正確なキーワードのみを検索する場合に選択します。</block>
-  <block id="e577d3aa93c35f11bbd747e4d857acb0" category="list-text">条件：</block>
-  <block id="2428f035686d8f95841eb63de3c00a77" category="list-text">アイテム：メールボックス内のすべてのアイテムを検索するアイテムを選択します。</block>
-  <block id="1ba9234ea2f7633eacc254459dead4da" category="list-text">フォルダ名：メールボックス内の特定のフォルダ内のアイテムを検索するには、フォルダ名を選択します。表示されたテキストボックスにフォルダ名を入力します。</block>
-  <block id="d1ace6f539ec473f0235c71dc7c2d34a" category="list-text">日付範囲：検索の開始日と終了日を入力するには、日付範囲ドロップダウンメニューから * 過去 7 日間 * または * カスタム範囲 * のいずれかを選択します。</block>
-  <block id="73eeebd7563c11938238b861c879d8ca" category="list-text">サイズ（バイト単位）： [ サイズ（バイト単位） ] ドロップダウンメニューから、 * 大なり（ &gt; ） * または * 小なり（ &lt; ） * のいずれかを選択します。次に、サイズをバイト単位で入力します。</block>
-  <block id="952362755d8deb382de31c3c7c1e450c" category="list-text">送信者：送信者の E メールアドレスを入力します。</block>
-  <block id="19eef9d6d1bc6da176d3c482fa57d646" category="list-text">宛先：受信者の E メールアドレスを入力します。</block>
-  <block id="1a68f6d92ec7aa8a16df3b88fd13db49" category="list-text">件名：件名でのみ検索する場合に選択します。</block>
-  <block id="c8223f247f28790aa78f28b2a7d03d7b" category="list-text">添付ファイルあり： E メールアイテムまたはアイテムに添付ファイルがある場合に選択します。</block>
   <block id="b68e3baaece85a7fd6bb5480a8b002d0" category="list-text">[* 検索（ Search ） ] をクリックする。</block>
   <block id="9b3bc7bd4ed5e46080b209bdd7facb88" category="list-text">検索ジョブを検索するには、以下の「過去の検索ジョブの検索」を参照してください。</block>
   <block id="d7b7c604c45bcddfec349d4eefd139e0" category="paragraph">詳細検索では、前の検索を検索するオプションが表示されます 以前の検索ジョブ * の下にあるジョブ</block>
   <block id="6578ea0c53e911e0fbac32ce91fa2510" category="list-text">［ * 前の検索ジョブ * ］ をクリックします。</block>
-  <block id="3abb5d8ae2c022fd5c5a66b3c9f5d6f9" category="list-text">前の手順で実行した検索ジョブを探します。0 の検索結果が表示された場合は、検索に入力した条件に一致する項目がないことを意味します。</block>
   <block id="13510659f5f468ab16f6832afdd05e17" category="list-text">検索結果の合計数をクリックして表示します。</block>
   <block id="3256acd5628ee1e52fa96f0c6a9bb5b4" category="list-text">結果表示ビューでは、項目を復元したり、ドロップダウンメニュー * Show # entries * を使用して表示するエントリ数を選択したり、検索して結果をさらに絞り込むことができます。</block>
   <block id="a400f6683b626003bec087df9811459d" category="inline-image-macro">検索結果の表示画面に、リストアのハイライト、エントリ数、検索機能が表示された図</block>
   <block id="74336c770170c7097da19acb3a2c9e7c" category="paragraph"><block ref="74336c770170c7097da19acb3a2c9e7c" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c338b09600084dabac11ca51f9bb51cc" category="admonition">リストアしたアイテムは、 CC_SEARCH_MM.DD_TIME という命名規則を使用して元のメールボックスに戻されます。リストア・ジョブを検索するには、左側のメニューから「 * Jobs * 」（ * ジョブ）に移動します。</block>
   <block id="8d5f80c87fb73b96182c0d6e116fa42c" category="list-text">検索結果の表示を終了するには、 [ 検索ジョブに戻る * ] をクリックします。</block>
-  <block id="de37fa449724a47959d17093ed7c0e71" category="paragraph">個別の MySite 内でインライン検索を実行して、特定のコンテンツを検索できます。</block>
-  <block id="f89bd9778416e1c9b544875805d212aa" category="list-text">[ ダッシュボード ] で、 OneDrive ボックスの [ 保護されている * ] の上の数字をクリックします。</block>
-  <block id="a784d4b19dd73c3e0fac0246f63ea5d6" category="list-text">検索を実行する必要がある個人用サイトをクリックします。</block>
-  <block id="4430c1e4a308cf2d23897ce799e93155" category="list-text">検索する必要があるファイルをクリックします。</block>
-  <block id="e6dc3c9f1fc2faf6f0450f04e02a0404" category="paragraph">個別の MySite 内でインライン検索を実行して、特定のコンテンツを検索できます。これは、 Microsoft 365 グループの一部であるサイトにも適用されます。</block>
-  <block id="335806969970f6770282fc51f89434c7" category="list-text">[ ダッシュボード ] で、 [SharePoint で保護されている * ] ボックスの上の数字をクリックします。</block>
-  <block id="f62c3598e40ee44d875e3d656303cd92" category="list-text">検索を実行するサイトをクリックします。</block>
-  <block id="d1d8c9e153e1aac7e8fd366fb9d5089e" category="list-text">検索する必要があるコンテンツカテゴリをクリックします。</block>
-  <block id="85a2687e9e78c62d5682e966c00bb781" category="list-text">検索フィールドに検索文字列を入力します。検索が自動的に実行され、検索文字列が入力されると結果が表示されます。</block>
   <block id="8b9765327e65c940b7ded1efe79355d8" category="doc">新機能と更新 - アーカイブされました</block>
   <block id="b635c64585c2707531086bb2986ca7d8" category="paragraph">以下は、 SaaS Backup for Microsoft 365 に追加された新機能のアーカイブ一覧です。</block>
   <block id="472471538784273d4b38b8713a92089d" category="section-title">2018年12月</block>
@@ -877,7 +838,6 @@
   <block id="2f436bac94b3ef6b8baa68dcaa3e1c00" category="doc">NetApp SaaS Backup for Microsoft 365 の概要</block>
   <block id="32796454d262148a13da4e9b1ee67147" category="paragraph">NetApp SaaS Backup for Microsoft 365 は、 Microsoft 365 データを Amazon S3 ストレージや Microsoft Azure Blob Storage にバックアップする、 Web ベースのセキュアなソフトウェアサービス（ SaaS ）です。SaaS Backup は、保存中と転送中のデータを暗号化します。</block>
   <block id="0e465002245828506a54021571ded8ad" category="inline-image-macro">SaaS Backup for Microsoft 365 のバックアップとリストアを、 Microsoft 365 から利用可能なストレージオプションまでグラフィカルに表示します。</block>
-  <block id="9c74ed7f2902726ed988acc2fe69099d" category="paragraph"><block ref="9c74ed7f2902726ed988acc2fe69099d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6b09ab256ee91abfcbae14dc82d761dc" category="inline-xref">バックアップ設定</block>
   <block id="dd391d5eb69f6ac3ad69cdea778bd111" category="paragraph">を更新できます <block ref="2e592cc5a678838965aee2c9a9ecd6e7" category="inline-xref-macro-rx"></block> 各種バックアップオプションを制御するため。利用可能 <block ref="2e592cc5a678838965aee2c9a9ecd6e7" category="inline-xref-macro-rx"></block> サービスによって異なります。</block>
   <block id="279ee743f91b8d9d2e194a5cc60edf39" category="summary">NetApp SaaS Backup では、新しいサービスのアクティブ化、既存のサービスの非アクティブ化、データのパージ、ジョブのキャンセルなど、さまざまな方法でサービスを管理できます。</block>
@@ -1117,7 +1077,6 @@
   <block id="24f47cdbe9ddba774a7cc53e51d9032e" category="sidebar">ワークフロー</block>
   <block id="f683581d3e75f05f9d9215f9b4696cef" category="sidebar">アップグレード</block>
   <block id="e78ef280ac4cdaeebd76c27ebe90d653" category="sidebar">アップグレード後にサポートを有効にします</block>
-  <block id="535f2a66a78c27567c974c69a4baf091" category="sidebar">有料サブスクリプションを開始する</block>
   <block id="25024e4580c1e3f5e67328bb98e2b101" category="sidebar">グループとチームの場合</block>
   <block id="83f88ebd41a2d4bf2440a2d134086a74" category="sidebar">サポートを有効にします</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
@@ -1161,8 +1120,6 @@
   <block id="32fd1bb5491f4bdb59730a837e0eeef2" category="paragraph">Microsoft 365 サービスアカウントで有料サブスクリプションにサインアップするユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。</block>
   <block id="3f0ac65c6641811fb6979108b4ae4db1" category="inline-link">最新の認証を無効にする方法について説明します</block>
   <block id="db6769770b54cd48ea827fed88aa688f" category="paragraph"><block ref="db6769770b54cd48ea827fed88aa688f" category="inline-link-rx"></block></block>
-  <block id="f5e9bed4dbcf49e81329348b6cfec692" category="paragraph">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合は、同じバックアップストレージのデスティネーションタイプと同じバックアップストレージ領域を使用している場合にのみ、試用版データが保持されます。アップグレード時にライセンスを正しいテナントアカウントに関連付けるには、試用版とライセンス版の両方のサブスクリプションに同じ E メールアドレスを使用します。</block>
-  <block id="e7d38d663fcbde00fbe5e72dec66dab4" category="list-text">Marketplace の指示に従います。ライセンスを正しいテナントアカウントに関連付けるには、無償トライアルで使用しているものと同じ E メールアドレスを使用します。</block>
   <block id="cd35b18e9c73b7753bbce41116add383" category="cell">有料サブスクリプションが終了してからの日数</block>
   <block id="3b1482aa22733fab359963f1e198cc38" category="paragraph">Microsoft 365 サービスアカウントを使用してサインアップしたすべてのユーザーに対して、次の手順を実行します。</block>
   <block id="d6770628964f371c2f152263aeff74c2" category="list-text">SaaS Backup でサポートされているのは基本認証のみです。</block>
@@ -1257,14 +1214,10 @@
   <block id="14cb425d8170ed04f3d8016d5a0ccf20" category="paragraph">チャネル</block>
   <block id="3255e277a9a04484a81db77abfbd29c2" category="cell">Office 365 グループ &gt; チーム &gt; ( チーム電子メール )</block>
   <block id="d505a1372838988b9d892d82c774daf7" category="doc">以前のバックアップからリストアする</block>
-  <block id="3a2f74936de59dd44e27d8fa1050b443" category="section-title">Microsoft Exchange Online の検索オプション</block>
-  <block id="2c0170dd925ef06791e556326e704cbf" category="section-title">Microsoft Exchange Online 内でインライン検索を実行します</block>
   <block id="6b23667f3cbba43813b5f6399ec4babd" category="section-title">Microsoft Exchange Online の詳細検索を使用します</block>
   <block id="f5c6766aada2bdc229d963f2b4623af4" category="section-title">詳細検索を設定します</block>
   <block id="eb988e6b170684f13ddc8f2e3974559a" category="section-title">検索を実行します</block>
   <block id="57f7a88c0574298291b51b4649bf4229" category="section-title">前の検索ジョブを検索します</block>
-  <block id="f6abbad0976b811559da8b8b5d5bb51c" category="section-title">Microsoft OneDrive for Business 内を検索します</block>
-  <block id="57ba7fc59551aae5a802375bed23202d" category="section-title">Microsoft SharePoint Online 内で検索します</block>
   <block id="c6ca0e56ba9c9a94f317ed88374773e8" category="doc">バックアップを参照する</block>
   <block id="cc2145b869199d961affac79934fa41f" category="doc">バックアップの保持期間を更新します</block>
   <block id="eeb31c7abe07cfdc76bcd1c687e732d4" category="section-title">特定の階層のバックアップ保持期間を更新します</block>
@@ -1393,4 +1346,60 @@
   <block id="9b2fd4ede320a82f1a8fe3dd515a1522" category="sidebar">プロビジョニング解除された項目を表示します</block>
   <block id="7d94efa3e76bcde3b29091804d2f1435" category="sidebar">パージされたデータを表示する</block>
   <block id="4330b42a340140b836c42bbe9c7105be" category="sidebar">データをダウンロードします</block>
+  <block id="5aa55f0093275bb98034a23ee84b73b9" category="cell">OneDrive for Business &gt; [MySites] &gt; [&lt; ドライブ名 &gt;] &gt; [ ファイル ] の順にクリックします</block>
+  <block id="8b580b7571abfc9d2a2f7d6a9eae5dc0" category="cell">OneDrive for Business &gt; [MySites] &gt; [&lt; ドライブ名 &gt;] &gt; [ ファイル ] の順にクリックします</block>
+  <block id="e662d72b26f52bc8b331814844a8878e" category="cell">OneDrive for Business &gt; [MySites] &gt; [&lt; ドライブ名 &gt;] &gt; [ ファイル ] の順にクリックします &gt; ノートブック</block>
+  <block id="60b00097e19bf88e99151e80c77dbbfd" category="paragraph">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合は、同じバックアップストレージのデスティネーションタイプと同じバックアップストレージ領域を使用している場合にのみ、試用版データが保持されます。アップグレード時にライセンスを正しい SaaS Backup アカウントに関連付けるには、試用版とライセンス版の両方のサブスクリプションに同じ E メールアドレスを使用します。</block>
+  <block id="d166b90b9550437c32346426e1991076" category="list-text">Marketplace の指示に従います。ライセンスを正しい SaaS Backup アカウントに関連付けるには、無償トライアルで使用しているものと同じ E メールアドレスを使用します。</block>
+  <block id="094b46cd4e2b4226382c342909cf9e52" category="paragraph">SaaS Backup for Microsoft 365 では、 Exchange Online 、 SharePoint Online 、 OneDrive for Business 、グループとチームのすべてのサービスで、保護されているデータを検索できます。</block>
+  <block id="5f688eec1ef4e3c2115e695b24827ad7" category="paragraph">保護されていないインスタンスを検索することはできますが、前回のバックアップが作成されている場合にのみ検索結果が表示されます。</block>
+  <block id="af1b2fc00c7e4ebce76f4d940d1bd773" category="paragraph">検索結果を絞り込むには、次の条件を使用します。</block>
+  <block id="9e41845b5c9498bfe8fa9640fbeccd46" category="list-text">最小 3 文字</block>
+  <block id="eeae9bb2017810513006bd7a795dc65f" category="admonition">3 文字以上入力すると、検索結果に 3 文字前の検索結果が残ることがあります。</block>
+  <block id="4e35c84e73e978bda99e5d5f6b941c2f" category="list-text">英数字入力</block>
+  <block id="437aed5f8f8175eba539e11090c8b0c7" category="list-text">単語、単語の文字列、または数字の完全一致を示す単一引用符。例：「 2014 年予算」。</block>
+  <block id="bbd49f27ba92316c70ba2e9b8fc6345a" category="paragraph">保護されたインスタンスを検索するには、次の手順に従います。</block>
+  <block id="56e326341f68e822099b6a8535a4f238" category="inline-image-macro">強調表示された保護インスタンスのスクリーンショット</block>
+  <block id="2ba0e310fe10f8a26c5057dc775e3b05" category="list-text">ダッシュボードで、検索するサービスの上にある [*Protected] の番号をクリックします。<block ref="82f97feb0c1bddd52cb537084c959fa9" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="a8540d7fee74b4b5a05a0881c5b538a4" category="inline-image-macro">Exchange Online の検索ボックスのスクリーンショット</block>
+  <block id="e6d5fff8340dc69b65c5c43bbcd8fbed" category="list-text">ページの右上にある検索ボックスを探します。<block ref="c3eb94c75866bdedeb3b1ece01fd1980" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="74e6ffebeb598f9cd9033c5c21aeacda" category="inline-image-macro">Exchange Online で検索プロンプトを表示する検索ボックスのスクリーンショット</block>
+  <block id="e9a9c69257da19d643cb87bcf1964fcd" category="paragraph">次に、検索ボックスに表示される「 name 」や「 email 」などの情報を入力します。<block ref="b701e8f8364dd17510b0090d64acbfc5" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="43eb3506bc40d7b3a82bb8da9d2cd119" category="list-text">Microsoft Exchange Online の名前またはメールアドレスで検索します。</block>
+  <block id="5b9debdf902cfa8c74dd5df529514aef" category="list-text">Microsoft OneDrive for Business の名前、 E メール、または MySite で検索できます。</block>
+  <block id="bcd7dd7afbb3676752c896a0b6cc7ee2" category="list-text">Microsoft SharePoint Online のサイト名または URL で検索します。</block>
+  <block id="d3db335c991cacd28296a6f1b8ab1b35" category="list-text">Microsoft 365 グループとチームのグループ名またはチーム名で検索します。</block>
+  <block id="03a94ff01c264119f35c19662738d4e1" category="list-text">検索条件に一致する検索結果が表示されます。</block>
+  <block id="ab09f98053829f456f7fa3b9633f25a9" category="paragraph">また、各サービス内でより詳細なレベルの検索を実行することもできます。検索ボックスの右側にドロップダウン・メニューが表示された場合は ' ドロップダウン・メニューから *File* または *Folder* を選択して ' 検索結果を絞り込みます</block>
+  <block id="64c73441167566d1b1f8513d0691175f" category="inline-image-macro">[ ファイル / フォルダ ] ドロップダウン・メニューのある検索ボックス</block>
+  <block id="6b76b82fa67dc740baacd3e8bbe8b1b1" category="paragraph"><block ref="40cd171e8c50f14eb30cb1efa19c6399" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="f77160ffe4f33a8c31c421430db0c1dc" category="summary">Microsoft 365 Exchange Online でアイテムを検索するには、 [ 詳細検索 ] を有効にします。</block>
+  <block id="72188549c25c8b8b3805a84f99bd8064" category="paragraph">特定のコンテンツを検索するには、 Microsoft Exchange Online の * 詳細検索 * を使用します。</block>
+  <block id="267a5275d92e0cb500ece7c264c7eafe" category="inline-image-macro">高度な検索設定のスクリーンショット</block>
+  <block id="19d5df79e54f56432e22ed468bdaa692" category="paragraph">Microsoft Exchange Online の設定で詳細検索を有効にできます。有効にすると、個々のメールボックスアイテムまたは共有メールボックスアイテムを検索できます。最初のバックアップの前に * 詳細検索 * を有効にしないと、検索結果は表示されません。<block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="35e704c59ee775fcffd3b145fd79c4bd" category="list-text"><block ref="b7c7f461808ad9eee93ae96dc9b3fd17" category="inline-xref-macro-rx"></block></block>
+  <block id="1b5251c4623800d15616db1b5ad13ddc" category="list-text"><block ref="f533942d5f67ff90ffc7ef3d110249d7" category="inline-xref-macro-rx"></block></block>
+  <block id="2e678cfb6692fccd97fdd915d5b3a27e" category="list-text"><block ref="dfaa1db65f916ed1ff476bafd651fc3a" category="inline-xref-macro-rx"></block></block>
+  <block id="9ef86ece0d6dfedbd908e23552b7988f" category="paragraph">高度な検索を使用すると、個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを * 検索を実行 * の下の元のメールボックスにリストアすることができます。</block>
+  <block id="c2f947ac394b258702e93f2950da3014" category="list-text">アスタリスク（ * ）を付けて、必須フィールドに情報を入力します。オプションのフィールド： Condition と Query Conditions<block ref="94a613604503bf5de5b1927c26f3eadc" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="7a41dfb51c4cdf013ddd679e98de9298" category="list-text">* ユーザーを選択 *: ユーザー名に少なくとも 3 文字を入力して、選択するユーザーを検索します。</block>
+  <block id="23c24dab11d24ab575fb8613517086e7" category="list-text">* 検索 *: キーワードに少なくとも 3 文字を入力します。フレーズを検索する場合は、引用符の中に単語を入れます（例：「 Hello world 」）。単語を個別に検索できる場合は、引用符は必要ありません。</block>
+  <block id="6f9f601869ed6ab8936bf0acbb2c26f9" category="list-text">* 完全一致 * ：正確なキーワードのみを検索する場合に選択します。</block>
+  <block id="f4365e4a5fca3c5860dbf2feb7544e69" category="list-text">* 条件 * ：</block>
+  <block id="d3a512d9332bf24815914af5abe76227" category="list-text">* アイテム *: メールボックス内のすべてのアイテムを検索するアイテムを選択します。</block>
+  <block id="0f5a5a4accd5a1d07ea5b18cc53c6e64" category="list-text">* フォルダ名 *: メールボックス内の特定のフォルダ内のアイテムを検索するには、フォルダ名を選択します。表示されたテキストボックスにフォルダ名を入力します。</block>
+  <block id="aec3cdf63384910a576a0fe3adedf8af" category="list-text">* 日付範囲 *: 検索の開始日と終了日を入力するには、日付範囲ドロップダウンメニューから「 * 過去 7 日間 * 」または「 * カスタム範囲 * 」を選択します。</block>
+  <block id="b45b9f14da02cd97cc8dbdab2f60f291" category="list-text">* サイズ（バイト単位） * ： [ サイズ（バイト単位） ] ドロップダウンメニューから、 * 大なり（ &gt; ） * または * 小なり（ &lt; ） * のいずれかを選択します。次に、サイズをバイト単位で入力します。</block>
+  <block id="97a92796e14587540ffb629ea37aa03e" category="list-text">* 送信者 * ：送信者の E メールアドレスを入力します。</block>
+  <block id="ee31a416b5a87739039dde2ca5307492" category="list-text">* 宛先 * ：受信者の電子メールアドレスを入力します。</block>
+  <block id="56a5c3ef7cc99d2aa813936a77ec81bd" category="list-text">* 件名 * ：件名でのみ検索する場合に選択します。</block>
+  <block id="8f2f9d84e3bf13f607b4b96381ae7c45" category="list-text">* 添付ファイルあり * ： E メールアイテムに添付ファイルがある場合に選択します。</block>
+  <block id="4b3a8290be8aa16413045effb70c314a" category="list-text">前の手順で実行した検索ジョブを検索します。0 の検索結果が表示された場合は、検索に入力した条件に一致する項目がないことを意味します。</block>
+  <block id="3ec4d128dfee87634b3996d51a3dba51" category="paragraph"><block ref="3ec4d128dfee87634b3996d51a3dba51" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4d517f410fcfc73e9fcd9fab586b2f74" category="cell">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [&lt; リスト名 &gt;] の順にクリックします</block>
+  <block id="d0a30f9796e01102efb0499abf2293ed" category="cell">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [ サブサイト ] の順にクリックします</block>
+  <block id="35384d60569b88e8facd51be6ac7ef7c" category="cell">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [&lt; リスト名 &gt;] の順にクリックします</block>
+  <block id="ef4b4b4c76d4cb53e3a763f326ace39f" category="paragraph">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [&lt; リスト名 &gt;] の順にクリックします &gt;&lt; ノートブックフォルダ &gt; をクリックします</block>
+  <block id="be8beeb687ac589bb2e32f175afe7109" category="sidebar">有料サブスクリプションを開始する</block>
+  <block id="23ad15066715d93a5dfb7d99bfb0d157" category="sidebar">設定を管理します</block>
 </blocks>

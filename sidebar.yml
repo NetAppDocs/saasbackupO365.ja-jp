@@ -62,18 +62,78 @@ entries:
       url: "/task_performing_immediate_backup_of_policy.html"
     - title: 有料サブスクリプションデータの削除
       url: "/reference_paid_subscription_data.html"
-- title: バックアップを管理します
+- title: サービスを管理します
+  entries:
+  - title: サービスをアクティブにします
+    url: "/task_activating_a_service.html"
+  - title: サービスを非アクティブ化します
+    url: "/task_deactivating_a_service.html"
+  - title: サポートを有効にします
+    url: "/task_activate_support.html"
+  - title: 通知を設定する
+    url: "/task_setting_account_notifications.html"
+  - title: 新しいメールボックス、サイト、グループを検出します
+    url: "/task_discovering_new.html"
+  - title: ユーザー、サイトコレクション、または Microsoft 365 グループをパージします
+    url: "/task_purging.html"
+- title: 設定を管理します
   entries:
   - title: バックアップポリシー
     url: "/concept_backup_policies.html"
   - title: バックアップ設定
     url: "/concept_backup_settings.html"
+  - title: 通知を設定する
+    url: "/task_setting_account_notifications.html"
+  - title: 権限
+    entries:
+    - title: サービスアカウントに権限を追加します
+      url: "/task_adding_permissions_to_service_accounts.html"
+    - title: ユーザ権限を Azure Active Directory と同期する
+      url: "/task_syncing_user_permissions_with_azure.html"
+    - title: 共有メールボックスを有効にする権限を付与します
+      url: "/task_granting_permissions_to_enable_shared_mailboxes.html"
+  - title: ロールベースアカウントアクセス
+    entries:
+    - title: ユーザアカウントに管理ロールを割り当てます
+      url: "/task_assigning_admin_roles_to_user_accounts.html"
+    - title: ユーザアカウントに割り当てられている管理ロールを更新します
+      url: "/task_updating_admin_roles_assigned_to_user_accounts.html"
+    - title: ユーザアカウントからすべての管理ロールを削除します
+      url: "/task_deleting_admin_roles_from_a_user_account.html"
+- title: ユーザを管理します
+  entries:
+  - title: ライセンス
+    entries:
+    - title: ライセンスを追加します
+      url: "/task_adding_a_license.html"
+    - title: サブスクリプション情報を更新します
+      url: "/task_updating_subscription_information.html"
+    - title: ユーザーライセンスをリリースします
+      url: "/task_releasing_a_user_license.html"
+  - title: ルール
+    entries:
+    - title: 新しいルールを作成します
+      url: "/task_creating_rules.html"
+    - title: 既存のルールを適用する
+      url: "/task_applying_rules.html"
+    - title: ルールを削除します
+      url: "/task_deleting_rules.html"
+  - title: セキュリティグループ
+    entries:
+    - title: セキュリティグループを追加します
+      url: "/task_adding_security_groups.html"
+    - title: セキュリティグループを削除する
+      url: "/task_deleting_security_groups.html"
+- title: バックアップを管理します
+  entries:
   - title: バックアップのスケジュール設定やバックアップ頻度の変更
     url: "/task_scheduling_backup_or_changing_frequency.html"
   - title: 即座にバックアップを実行
     url: "/task_performing_immediate_backup_of_service.html"
   - title: バックアップを参照する
     url: "/task_browsing_backups.html"
+  - title: ジョブをキャンセルします
+    url: "/task_canceling_job.html"
   - title: バックアップの保持期間を更新します
     url: "/task_updating_backup_retention_period.html"
   - title: OneNote のバックアップを有効にします
@@ -98,64 +158,10 @@ entries:
       url: "/task_performing_granular_level_restore_teams.html"
   - title: 以前のバックアップからリストアする
     url: "/task_restoring_from_previous_backup.html"
-  - title: 復元されたファイルを検索します
-    url: "/task_viewing_restore_file_locations.html"
-- title: ユーザを管理します
-  entries:
-  - title: 権限
-    entries:
-    - title: サービスアカウントに権限を追加します
-      url: "/task_adding_permissions_to_service_accounts.html"
-    - title: ユーザ権限を Azure Active Directory と同期する
-      url: "/task_syncing_user_permissions_with_azure.html"
-    - title: 共有メールボックスを有効にする権限を付与します
-      url: "/task_granting_permissions_to_enable_shared_mailboxes.html"
-  - title: ライセンス
-    entries:
-    - title: ライセンスを追加します
-      url: "/task_adding_a_license.html"
-    - title: サブスクリプション情報を更新します
-      url: "/task_updating_subscription_information.html"
-    - title: ユーザーライセンスをリリースします
-      url: "/task_releasing_a_user_license.html"
-  - title: ルール
-    entries:
-    - title: 新しいルールを作成します
-      url: "/task_creating_rules.html"
-    - title: 既存のルールを適用する
-      url: "/task_applying_rules.html"
-    - title: ルールを削除します
-      url: "/task_deleting_rules.html"
-  - title: ロールベースアカウントアクセス
-    entries:
-    - title: ユーザアカウントに管理ロールを割り当てます
-      url: "/task_assigning_admin_roles_to_user_accounts.html"
-    - title: ユーザアカウントに割り当てられている管理ロールを更新します
-      url: "/task_updating_admin_roles_assigned_to_user_accounts.html"
-    - title: ユーザアカウントからすべての管理ロールを削除します
-      url: "/task_deleting_admin_roles_from_a_user_account.html"
-  - title: セキュリティグループ
-    entries:
-    - title: セキュリティグループを追加します
-      url: "/task_adding_security_groups.html"
-    - title: セキュリティグループを削除する
-      url: "/task_deleting_security_groups.html"
-- title: サービスを管理します
-  entries:
-  - title: サービスをアクティブにします
-    url: "/task_activating_a_service.html"
-  - title: サービスを非アクティブ化します
-    url: "/task_deactivating_a_service.html"
-  - title: サポートを有効にします
-    url: "/task_activate_support.html"
   - title: ジョブをキャンセルします
     url: "/task_canceling_job.html"
-  - title: 通知を設定する
-    url: "/task_setting_account_notifications.html"
-  - title: 新しいメールボックス、サイト、グループを検出します
-    url: "/task_discovering_new.html"
-  - title: ユーザー、サイトコレクション、または Microsoft 365 グループをパージします
-    url: "/task_purging.html"
+  - title: 復元されたファイルを検索します
+    url: "/task_viewing_restore_file_locations.html"
 - title: データを表示します
   entries:
   - title: ユーザ定義のフィルタを作成します

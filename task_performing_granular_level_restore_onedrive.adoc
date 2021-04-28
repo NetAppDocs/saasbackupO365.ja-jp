@@ -21,9 +21,9 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 
 次の表は、 OneDrive for Business の細かなレベルの項目でサポートされるリストアオプションを示しています。
 
-[cols="40,20a,20a,20a"]
+[cols="40,20a,20a,20a,40"]
 |===
-| 項目のタイプ | 同じ個人用サイトにリストアします | 別の個人用サイトにリストアします | データをエクスポートします 
+| 項目のタイプ | 同じ個人用サイトにリストアします | 別の個人用サイトにリストアします | データをエクスポートします | SaaS Backup で検索できます 
 
 
 | シングルドライブ  a| 
@@ -32,7 +32,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 はい。
-
+| OneDrive for Business > [MySites] の順にクリックします 
 
 
 | 複数のドライブ  a| 
@@ -41,7 +41,16 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 いいえ
  a| 
 いいえ
+| OneDrive for Business > [MySites] の順にクリックします 
 
+
+| 単一 / 複数のフォルダ  a| 
+はい。
+ a| 
+はい。
+ a| 
+はい。
+| OneDrive for Business > [MySites] > [< ドライブ名 >] > [ ファイル ] の順にクリックします 
 
 
 | 単一 / 複数のファイル / アイテム  a| 
@@ -49,8 +58,8 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
  a| 
 はい。
  a| 
-はい。
-
+いいえ
+| OneDrive for Business > [MySites] > [< ドライブ名 >] > [ ファイル ] の順にクリックします 
 
 
 | OneNote 単一または複数のノートブック  a| 
@@ -59,7 +68,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 いいえ
-
+| OneDrive for Business > [MySites] > [< ドライブ名 >] > [ ファイル ] の順にクリックします > ノートブック 
 
 
 | OneNote の 1 つまたは複数のセクショングループ  a| 
@@ -68,7 +77,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 いいえ
-
+| OneDrive for Business > [MySites] > [< ドライブ名 >] > [ ファイル ] の順にクリックします > ノートブック 
 
 
 | OneNote の 1 つまたは複数のセクション  a| 
@@ -77,7 +86,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 いいえ
-
+| OneDrive for Business > [MySites] > [< ドライブ名 >] > [ ファイル ] の順にクリックします > ノートブック 
 
 
 | OneNote のページに関する注意 : セクションレベルでのセクション復元内のページ。  a| 
@@ -86,7 +95,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 いいえ
  a| 
 いいえ
-
+| OneDrive for Business > [MySites] > [< ドライブ名 >] > [ ファイル ] の順にクリックします > ノートブック 
 |===
 .手順
 . [ ダッシュボード ] で、 OneDrive ボックスの [ 保護されている * ] の上の数字をクリックします。

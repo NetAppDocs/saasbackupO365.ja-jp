@@ -18,4 +18,4 @@ summary: NetApp SaaS Backup for Microsoft 365 は、 Microsoft 365 データを 
 [role="lead"]
 NetApp SaaS Backup for Microsoft 365 は、 Microsoft 365 データを Amazon S3 ストレージや Microsoft Azure Blob Storage にバックアップする、 Web ベースのセキュアなソフトウェアサービス（ SaaS ）です。SaaS Backup は、保存中と転送中のデータを暗号化します。
 
-image:workflow_overview.gif["SaaS Backup for Microsoft 365 のバックアップとリストアを、 Microsoft 365 から利用可能なストレージオプションまでグラフィカルに表示します。"]
+image:overview_graphic.png["SaaS Backup for Microsoft 365 のバックアップとリストアを、 Microsoft 365 から利用可能なストレージオプションまでグラフィカルに表示します。"]

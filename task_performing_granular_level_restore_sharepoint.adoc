@@ -21,9 +21,9 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 
 次の表に、詳細レベルの項目でサポートされるリストアオプションを示します。
 
-[cols="40,20a,20a,20a"]
+[cols="40,20a,20a,20a,40"]
 |===
-| 項目のタイプ | 同じサイトにリストアします | 別のサイトにリストアします | データをエクスポートします 
+| 項目のタイプ | 同じサイトにリストアします | 別のサイトにリストアします | データをエクスポートします | SaaS Backup で検索できます 
 
 
 | 単一 / 複数の項目  a| 
@@ -32,7 +32,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 いいえ
-
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] > [< リスト名 >] の順にクリックします 
 
 
 | 単一 / 複数のファイル  a| 
@@ -41,7 +41,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 いいえ
-
+|  
 
 
 | 単一サイト  a| 
@@ -50,7 +50,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 はい。
-
+| SharePoint Online > サイト 
 
 
 | 複数のサイト  a| 
@@ -59,7 +59,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 いいえ
-
+| SharePoint Online > サイト 
 
 
 | 通信サイト  a| 
@@ -68,7 +68,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 いいえ
  a| 
 いいえ
-
+| SharePoint Online > サイト 
 
 
 | 単一 / 複数のサブサイト  a| 
@@ -77,7 +77,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 はい。
-
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] > [ サブサイト ] の順にクリックします 
 
 
 | 単一 / 複数のフォルダ  a| 
@@ -86,7 +86,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 はい。
-
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] > [< リスト名 >] の順にクリックします 
 
 
 | 単一または複数のリスト  a| 
@@ -95,7 +95,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 はい。
-
+| [SharePoint Online] > [ サイト ] > [< サイト名 >] をクリックします 
 
 
 | 内容  a| 
@@ -104,43 +104,34 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 はい。
  a| 
 はい。
+| OneNote 単一または複数のノートブック 
 
 
-
-| OneNote 単一または複数のノートブック  a| 
+| はい。  a| 
 はい。
  a| 
 はい。
  a| 
-いいえ
+[SharePoint Online] > [ サイト ] > [< サイト名 >] > [< リスト名 >] の順にクリックします
+| OneNote の 1 つまたは複数のセクショングループ 
 
 
-
-| OneNote の 1 つまたは複数のセクショングループ  a| 
+| はい。  a| 
 はい。
  a| 
 はい。
  a| 
-いいえ
+[SharePoint Online] > [ サイト ] > [< サイト名 >] > [< リスト名 >] の順にクリックします >< ノートブックフォルダ > をクリックします
+| OneNote の 1 つまたは複数のセクション 
 
 
-
-| OneNote の 1 つまたは複数のセクション  a| 
+| はい。  a| 
 はい。
  a| 
-はい。
- a| 
-いいえ
-
-
-
-| OneNote のページに関する注意 : セクションレベルでのセクション復元内のページ。  a| 
 いいえ
  a| 
-いいえ
- a| 
-いいえ
-
+[SharePoint Online] > [ サイト ] > [< サイト名 >] > [< リスト名 >] の順にクリックします >< ノートブックフォルダ > をクリックします
+| OneNote のページに関する注意 : セクションレベルでのセクション復元内のページ。 
 |===
 .手順
 . ダッシュボードで、 SharePoint ボックスの [ 保護されている * ] の上の数字をクリックします。
