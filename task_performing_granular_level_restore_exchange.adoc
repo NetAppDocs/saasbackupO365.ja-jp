@@ -21,7 +21,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 
 次の表に、 Exchange Online の細かな単位でのリストアオプションを示します。
 
-[cols="40a,15a,15a,15a,40a"]
+[cols="20a,15a,15a,15a,40a"]
 |===
 | 項目のタイプ | 同じメールボックスにリストアします | 別のメールボックスにリストアします | PST にエクスポート / HTML にエクスポート | SaaS Backup で検索できます 
 

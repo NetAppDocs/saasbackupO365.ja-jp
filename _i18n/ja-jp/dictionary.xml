@@ -49,11 +49,9 @@
   <block id="93cba07454f06a4a960172bbd6e2a435" category="paragraph">はい。</block>
   <block id="fa0b9f12a25cf3ea895539b7c94e44e9" category="cell">複数のドライブ</block>
   <block id="bafd7322c6e97d25b6299b5d6fe8920b" category="paragraph">いいえ</block>
-  <block id="0c75f1da043267623ea1eddf69954b7e" category="cell">単一 / 複数のファイル / アイテム</block>
   <block id="1454626645857bdf728a3d5d37f508a2" category="cell">OneNote 単一または複数のノートブック</block>
   <block id="b25709a146fc78f3504ba6471d45e64c" category="cell">OneNote の 1 つまたは複数のセクショングループ</block>
   <block id="0dd6883e574dfde9672c3e683d9650ce" category="cell">OneNote の 1 つまたは複数のセクション</block>
-  <block id="b1d2d60477794907bbd7093734749e6a" category="cell">OneNote のページに関する注意 : セクションレベルでのセクション復元内のページ。</block>
   <block id="aa035d0217f517223b6298f2cf434dff" category="list-text">[ ダッシュボード ] で、 OneDrive ボックスの [ 保護されている * ] の上の数字をクリックします。</block>
   <block id="2e47d1736eecdf1bef2489dba6c07bfd" category="list-text">リストアを実行する必要がある個人用サイトをクリックします。</block>
   <block id="c5f9ef8c43e0575336db0fc08d09df7b" category="list-text">ファイルのグループを選択します。</block>
@@ -231,13 +229,10 @@
   <block id="aeeacd02195ea6f4b02483630b5e0a23" category="list-text">結果を絞り込むには、 * フィルター * をクリックします。</block>
   <block id="71e041aaf292122c8fb7eb01ecfd1b22" category="list-text">[ * Select * ] ドロップダウンメニューをクリックして、フィルタを選択します。フィルタには、ポリシー、サービス、タイプ、またはステータスを使用できます。フィルタを選択すると、検索フィールドが表示されます。</block>
   <block id="3deda0ce819231f6e8ce22db93db3cf4" category="list-text">フィルタをさらに追加する場合は、 [ フィルタを追加（ Add Filter ） ] をクリックします。</block>
-  <block id="83c095514d5c435c03dec828a320deff" category="inline-image-macro">[ フィルタの適用 ] ボタンのスクリーンショット</block>
-  <block id="de99d80b1e1d514510bdd4d6ca077947" category="list-text">をクリックします <block ref="7641632d8ed1b80cf3c36daf5e0d736d" category="inline-image-macro-rx" type="image"></block>フィルタ結果が表示されます。</block>
   <block id="75503e061f60e8b69f3aa7e19a8d1fea" category="list-text">任意のジョブをクリックすると、表示が展開され、ジョブの詳細が表示されます。</block>
   <block id="153d602c1f68a3d111864d674bca8233" category="list-text">左側のナビゲーションペインで、 *Reporting* をクリックします。</block>
   <block id="a98816c0ba5cdc990c24c73fd169f615" category="list-text">[ アクティビティログ * （ Activity Log * ） ] タブをクリックします。すべての SaaS Backup for Microsoft 365 アクティビティのリストが表示されます。</block>
   <block id="303ba20d6cda77d4c350c34e272105d9" category="list-text">[ * Select * ] ドロップダウンメニューをクリックして、フィルタを選択します。サービスまたはイベントでフィルタできます。フィルタを選択すると、検索フィールドが表示されます。</block>
-  <block id="a1d22b48ad9b35ea596503b478f219e2" category="list-text">をクリックします <block ref="7641632d8ed1b80cf3c36daf5e0d736d" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="41955109dea41ba0ab1c9aec91534fff" category="paragraph">フィルタ結果が表示されます。</block>
   <block id="caa50fecb0dd5d31820b4c4d4babd378" category="summary">ライセンス版の SaaS Backup for Microsoft 365 を更新しない場合、サブスクリプション期間中に使用されたデータは削除されます。</block>
   <block id="6dcf112116eaaafdcd1b045888627786" category="doc">有料サブスクリプションデータの削除</block>
@@ -612,7 +607,6 @@
   <block id="916871e5e73e2a939c1c862425f924ad" category="list-text">* 新しく追加された * ユーザーは、新規ユーザーアカウントの数を示します。</block>
   <block id="1db8c4c70a2709de9241c5154d3cf441" category="summary">既存のルールが不要になった場合は削除できます。また、ルールで使用されているセキュリティグループを削除する必要がある場合は、事前にセキュリティグループを削除しておく必要があります。</block>
   <block id="24a68a4fec97274fd49860d020d8639f" category="inline-image-macro">削除アイコンのスクリーンショット</block>
-  <block id="842ffd6f16fa78440a2dbc9058e4f93a" category="list-text">ゴミ箱をクリックします <block ref="70b6cf72f3806fee90a61a6d4710352a" category="inline-image-macro-rx" type="image"></block> ルールを削除します。ルールが以前適用されていた項目のステータスは、ルールを削除しても変更されません。</block>
   <block id="da19b7c2e291b2b5c0f2a8511e2d737a" category="summary">ご意見をお寄せください。</block>
   <block id="af22736009e4717f895610ea5e484db8" category="paragraph">NetApp SaaS Backup for Microsoft 365 製品に関するご意見をお寄せください。SaaS Backup for Microsoft 365 の情報については、こちらからご意見をお寄せください。</block>
   <block id="b94bf479616c645e1d92893ad9ee316d" category="list-text">をクリックします <block ref="745b42c40461b85675b54d346e429160" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
@@ -789,13 +783,10 @@
   <block id="efbc204072818255ba9c14dc629ecef6" category="inline-image-macro">アクティビティログの右隅にあるダウンロードボタンのスクリーンショット</block>
   <block id="0451932b8f9f16771678dd8444b05db0" category="list-text">をクリックします <block ref="8285a9a440103314bcc682b074e144c6" category="inline-image-macro-rx" type="image"></block>。アクティビティログは .csv ファイルとしてダウンロードされます。</block>
   <block id="206cafe50afeceb05656e65b5eeea3d1" category="paragraph">正常に完了したジョブの Excel スプレッドシートをダウンロードできます。</block>
-  <block id="e34eecdbbb98f1cbc52d5ee52dd7368e" category="list-text">左側のナビゲーションペインで [* ジョブ ] をクリックします</block>
-  <block id="57896efc0de0d48cea535446c297cd85" category="paragraph"><block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8e8a9acf98ec7d0411283da387bff609" category="list-text">ダウンロードする最近完了したジョブをクリックします。</block>
   <block id="dc495b0a8dcf317d914282ad520f23df" category="list-text">正常に完了したジョブの数の下にある [ 成功しました ] をクリックします。</block>
   <block id="ca152ee44aaca7ea331cd6414faef3b6" category="inline-image-macro">完了したジョブのスクリーンショット</block>
   <block id="4f79d34e8a67f46e4d44fe71bfa9e224" category="paragraph"><block ref="4f79d34e8a67f46e4d44fe71bfa9e224" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="625292ad7317be9b896d49ca50ce2b10" category="list-text">右上の「 * ダウンロード」をクリックします。ログがダウンロードされます</block>
   <block id="23161a5e63c9c44494f871a1608a273d" category="summary">NetApp SaaS Backup for Microsoft 365 コミュニティフォーラムやナレッジベースの記事で、サポートを受けたり、詳しい情報を参照したりできます。</block>
   <block id="f22c49ab181fc5052dc2afb2f7870c8a" category="paragraph">これらのリソースには、ナビゲーションメニューの * Support * リンクから SaaS Backup 内でアクセスできます。</block>
   <block id="5b335e9f3b0633102d36e44b53625fd3" category="summary">バックアップ設定を更新して、さまざまなバックアップオプションを制御できます。使用可能なバックアップ設定はサービスによって異なります。</block>
@@ -852,7 +843,6 @@
   <block id="6b14bb6a1ac5ebb66d7c2a8d28adf2d1" category="doc">サブスクリプション情報を更新しています</block>
   <block id="24107a07a8c4f6a917374c7796d10911" category="paragraph">アドオンライセンスまたはサブスクリプション延長を購入した後は、 SaaS Backup でサブスクリプションの詳細を更新できます。</block>
   <block id="7901d194d9941dfce88276e12fdf81dc" category="admonition">保護されているか保護されていないかに関係なく、通常のユーザメールボックスがライセンスを消費します。共有メールボックスはライセンスを消費しません。</block>
-  <block id="47be1c5e50ea19adf7797ac3506c8be3" category="list-text">をクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> アイコンをクリックします。</block>
   <block id="335667a29d4d16064c66f675b3f3c215" category="list-text">[ サブスクリプションの詳細 ] の横にある [*Update*] をクリックします。</block>
   <block id="b25e6aa4b8585ffe6e9c679b4b763d43" category="list-text">初回のサインアップ時に使用したのと同じユーザ名とパスワードを入力します。</block>
   <block id="6295a9cc66be5476ec7f7b659b57ee9f" category="summary">即時バックアップまたは即時リストアを開始したが、完了する前にキャンセルする必要がある場合は、それを行うことができます。</block>
@@ -909,14 +899,12 @@
   <block id="15cbdaca1e670ee88c1d71f87070e9a6" category="cell">同じサイトにリストアします</block>
   <block id="b43fc1a2a417e7198af317fdf27717a1" category="cell">別のサイトにリストアします</block>
   <block id="93585961ab4a4d9fac26a01661b87a8b" category="cell">単一 / 複数の項目</block>
-  <block id="674aec4534048a2e95969d9ed0cd575c" category="cell">単一 / 複数のファイル</block>
   <block id="93681f77c8cbeadd174504a13be92ea0" category="cell">単一サイト</block>
   <block id="0ca80baaabc12b2ca734043fcb934339" category="cell">複数のサイト</block>
   <block id="0d5c33c6c54093f9ac1eee1c246b4497" category="cell">通信サイト</block>
   <block id="d295ac2d5db964c9f6cb5949a3f19f23" category="cell">単一 / 複数のサブサイト</block>
   <block id="7f6bcffecf37269d3869f221601d18c0" category="cell">単一 / 複数のフォルダ</block>
   <block id="20f26896b987d0f4b175033847c8b29b" category="cell">単一または複数のリスト</block>
-  <block id="f15c1cae7882448b3fb0404682e17e61" category="cell">内容</block>
   <block id="f03477b21f41af7e356fe3208c5f325f" category="list-text">ダッシュボードで、 SharePoint ボックスの [ 保護されている * ] の上の数字をクリックします。</block>
   <block id="457f3067cf20a637f4d13a493d51a825" category="list-text">詳細レベルのリストアを実行するサイトをクリックします。</block>
   <block id="8902cc1a61ad05ff637487a25d4f30fe" category="list-text">リストアする必要があるカテゴリを選択します。</block>
@@ -988,7 +976,6 @@
   <block id="c868c54ae5c3125041dc274cfd194cea" category="paragraph">有料サブスクリプションのライセンスを受け取ったばかりの場合は、以下の手順に従ってください <block ref="c5414855c6c1726b18ea39487883aef4" category="inline-xref-macro-rx"></block>。ワークフローの一環としてライセンスキーを入力します。</block>
   <block id="dc03f45708897a13fda9ad9868da3303" category="paragraph">SaaS Backup をすでに使用している場合は、次の手順に従ってライセンスを追加できます。</block>
   <block id="ce5e8658881b9dee19c0ca19ac36505b" category="paragraph">教育分野では、教職員用のライセンスと学生用の個別のライセンスを使用できます。</block>
-  <block id="e8df3271dcd246e0a530017e909aaa82" category="list-text">をクリックします <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> アイコンをクリックします。</block>
   <block id="a03cffdbe1f3f253a7304e56ead38182" category="list-text">ライセンス情報を入力します。</block>
   <block id="c1263ba906c5f50faf7010ae019c7c55" category="list-text">[* サブスクリプションの検証 * ] をクリックします。</block>
   <block id="f2d447d60f38aa19df0467302ecd8410" category="summary">SaaS Backup で使用できるストレージタイプ。</block>
@@ -1057,7 +1044,6 @@
   <block id="eb5e191008ef787789afcbcbf6c31c05" category="list-text">[ 別のチームに復元 ] をクリックします。 *</block>
   <block id="1e5527a860cfaaab1ea287d439954c5c" category="paragraph">別のチームを選択するには、検索ボックスで他のチームを検索します。</block>
   <block id="c2c253473c149fda2d48d5167c2d34a0" category="summary">SaaS Backup for Microsoft Office 365 では、 E メールアドレスや URL アドレス、メールボックスタイプ、ライセンス使用状況、検出状態、前回の検出、バックアップステータス、バックアップ階層など、すべてのサービスのユーザデータを監視できます。</block>
-  <block id="df5f3a3620a7f1f5696e586e04e967e9" category="list-text">[*Services] をクリックします。</block>
   <block id="2558d9db0b78845a470a13c5d27203ff" category="list-text">ユーザデータをエクスポートするサービスをクリックします。</block>
   <block id="abec412086c37030b63cbae445e65867" category="list-text">Microsoft Exchange Online の場合は、保護されているメールボックス、保留中のメールボックス、または保護されていないメールボックスの数をクリックします。</block>
   <block id="d37abdad3365fb4bfc80013704eecb74" category="list-text">Microsoft SharePoint Online の場合は、保護されているサイト、保留中のサイト、または保護されていないサイトの数をクリックします。</block>
@@ -1400,6 +1386,18 @@
   <block id="d0a30f9796e01102efb0499abf2293ed" category="cell">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [ サブサイト ] の順にクリックします</block>
   <block id="35384d60569b88e8facd51be6ac7ef7c" category="cell">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [&lt; リスト名 &gt;] の順にクリックします</block>
   <block id="ef4b4b4c76d4cb53e3a763f326ace39f" category="paragraph">[SharePoint Online] &gt; [ サイト ] &gt; [&lt; サイト名 &gt;] &gt; [&lt; リスト名 &gt;] の順にクリックします &gt;&lt; ノートブックフォルダ &gt; をクリックします</block>
-  <block id="be8beeb687ac589bb2e32f175afe7109" category="sidebar">有料サブスクリプションを開始する</block>
   <block id="23ad15066715d93a5dfb7d99bfb0d157" category="sidebar">設定を管理します</block>
+  <block id="eafc4250fe746260edca6f7954cd60c6" category="cell">ノートブックフォルダ</block>
+  <block id="f837bf7d5d37157b44ff2886f10041c3" category="cell">OneNote の単一または複数のフォルダー</block>
+  <block id="67e7e21eb8eddeed7b11c9adce8bfa65" category="cell">SaaS Backup の有料サブスクリプションの条件</block>
+  <block id="a52b681fc51c6e59255655c291a68e13" category="list-text">をクリックします <block ref="70b6cf72f3806fee90a61a6d4710352a" category="inline-image-macro-rx" type="image"></block> ルールを削除します。ルールが以前適用されていた項目のステータスは、ルールを削除しても変更されません。</block>
+  <block id="6d997e84fe0c81277b98ea3c000c76ec" category="list-text">をクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
+  <block id="dc2296bcbbf577d0c71c246ab0dc16ab" category="list-text">左側のナビゲーションペインで [* ジョブ ] をクリックします</block>
+  <block id="44a9afe6289f79f3f0b2cdf6f756c7d3" category="list-text">右上の「 * ダウンロード」をクリックします。ログがダウンロードされます</block>
+  <block id="b7408664f2049ff408a7abe1385870ea" category="list-text">をクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
+  <block id="2380a2f5b8d08ee084abd8643a19e553" category="admonition">リストアオプション * 同じサイトへのリストア * および * 別のサイトへのリストア * では、選択したサイトのサブサイトとして、「 &lt;sitename_cc_timestamp&gt; ： * Single site * 」、「 * multiple sites* 」、および「 * single / multiple lists * if 3 or more lists 」という命名規則でリストアされます。</block>
+  <block id="935f9ecad6dadf1ce20d75b6aa7ad1ef" category="list-text">をクリックします <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
+  <block id="6aaa73c1970866ed9779b298b48bd43a" category="list-text">[*Services] をクリックします。</block>
+  <block id="898566549d933366de8ad6d6a1fbff27" category="sidebar">有料サブスクリプションを開始する</block>
+  <block id="d4221ec3faf6174be7b78d60fd6fb637" category="sidebar">高度な検索を使用します</block>
 </blocks>

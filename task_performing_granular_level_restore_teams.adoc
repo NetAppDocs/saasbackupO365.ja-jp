@@ -23,7 +23,7 @@ image:backup_for_restore_availability.png["リストアに使用できるバッ�
 
 * グループ * の場合
 
-[cols="15a,15a,15a,15a,40a"]
+[cols="20a,20a,20a,20a,40a"]
 |===
 | 項目のタイプ | 同じグループにリストアします | 別のグループにリストアします | データをエクスポートします | SaaS Backup で検索できます 
 

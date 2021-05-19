@@ -70,8 +70,6 @@ entries:
     url: "/task_deactivating_a_service.html"
   - title: サポートを有効にします
     url: "/task_activate_support.html"
-  - title: 通知を設定する
-    url: "/task_setting_account_notifications.html"
   - title: 新しいメールボックス、サイト、グループを検出します
     url: "/task_discovering_new.html"
   - title: ユーザー、サイトコレクション、または Microsoft 365 グループをパージします
@@ -168,6 +166,8 @@ entries:
     url: "/task_creating_user_defined_filter.html"
   - title: 検索を実行します
     url: "/task_performing_search.html"
+  - title: 高度な検索を使用します
+    url: "/task_using_advanced_search.html"
   - title: ジョブ履歴とアクティビティログを表示します
     url: "/task_viewing_history_and_activity.html"
   - title: プロビジョニング解除された項目を表示します

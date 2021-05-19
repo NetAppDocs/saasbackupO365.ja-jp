@@ -4,7 +4,7 @@ permalink: task_performing_search.html
 keywords: netapp, saas backup, microsoft 365, search, searching, advanced search, perform, performing, exchange, sharePoint, oneDrive, online 
 summary: インライン検索を使用して、特定のコンテンツを検索できます。 
 ---
-= 検索を実行する
+= 検索を実行します
 :hardbreaks:
 :nofooter: 
 :icons: font
