@@ -24,7 +24,7 @@ Microsoft 365 サービスアカウントで無償トライアルに登録する
 link:https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online["最新の認証を無効にする方法について説明します"]
 
 .手順
-. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[""]
+. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[]
 . 地域を選択します。選択した領域にテナンシーが作成されます。データはそのデータセンターの場所に保存され、あとで変更することはできません。
 . ランディング・ページの下部にある [* サインアップ * ] をクリックします。
 . エンドユーザライセンス契約に同意します。
@@ -54,7 +54,7 @@ link:https://docs.microsoft.com/en-us/exchange/clients-and-mobile-in-exchange-on
 == ネットアップの SSO で無償トライアルに登録してください アカウント
 
 .手順
-. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[""]
+. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[]
 . ランディングページの下部にある [ サインアップ ] をクリックします。
 . エンドユーザライセンス契約に同意します。
 . [*Sign Up with NetApp SSO* （ NetApp SSO でサインアップ） ] をクリックし
