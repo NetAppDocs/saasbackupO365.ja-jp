@@ -155,7 +155,6 @@
   <block id="9b6bafc614e2d19704d12baf566961b8" category="list-text">バックアップの * AWS S3 * または * Azure Blob * リージョンを選択します。バックアップするデータの物理的な場所に最も近いリージョンを選択してください。</block>
   <block id="59bd9482937af8863abf9e7f4229fc09" category="list-text">設定を確認し、 * Save * をクリックします。</block>
   <block id="8a1b5520b65d8ce096df57e907189a55" category="summary">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合、試用版データは、バックアップストレージの保存先を変更しない限り保持されません。</block>
-  <block id="9ee418bc8ef32fea9c5ea74351427bf6" category="doc">試用版サブスクリプションからアップグレードする</block>
   <block id="db72319f07f059d0101b823975192491" category="paragraph">* バックアップ保存先タイプを変更すると、トライアルデータは失われます。バックアップ先のリージョンが変更されると、も変更されます データ損失。 *</block>
   <block id="6d3431ba560ac6c34d8e0942ff6d8c92" category="cell">トライアル契約のバックアップ先</block>
   <block id="324d0dbc5778b0d30ae9a3b0951b61dd" category="cell">ライセンス契約のバックアップ先</block>
@@ -262,29 +261,12 @@
   <block id="ce2695f1742a4173db63ce74517ac8af" category="paragraph">今回のリリースの NetApp SaaS Backup for Microsoft 365 には、次の新機能と更新が追加されています。</block>
   <block id="a5667679a016ee66ef9bc45c1a173b3b" category="section-title">2020年12月</block>
   <block id="97b4589bea0c9a0d397ec4db7260d8e0" category="paragraph">Microsoft Azure を米国で導入した場合、お客様のデータは Microsoft 環境から移動しません。SaaS Backup for Microsoft 365 のサインアッププロセスでは、 Azure BLOB ストレージまたは独自のストレージを使用できます。</block>
-  <block id="18e36daee7179fd6caf64a42a2efcea1" category="inline-link-macro">無償トライアルから SaaS Backup にサインアップする</block>
-  <block id="1f1b5ab93e59f692eec18617cf9038a4" category="paragraph"><block ref="1f1b5ab93e59f692eec18617cf9038a4" category="inline-link-macro-rx"></block></block>
-  <block id="5e27f01aa4c7ad538dac0c2bc3f19fc6" category="inline-link-macro">有料サブスクリプションから SaaS Backup への登録</block>
-  <block id="5978d5242a3db93df5e623101dcd0a24" category="paragraph"><block ref="5978d5242a3db93df5e623101dcd0a24" category="inline-link-macro-rx"></block></block>
   <block id="0e347c50a0d60b8f46cb8c37cd3b5088" category="section-title">2020年11月</block>
   <block id="ec43c120f66e40978bc7df12e1cdc086" category="list-text">この月からは、すべてのサービスのユーザデータを監視できます。この新機能を使用すると、 Excel ファイルをダウンロードして、電子メールまたは URL アドレス、メールボックスの種類、ライセンスの使用、検出状態、前回の検出、バックアップステータス、バックアップ階層など、複数のユーザーデータの種類を監視できます。</block>
-  <block id="66d99ff6b3a47ded03ebb55280dcfe57" category="inline-link-macro">ユーザデータを監視しています</block>
-  <block id="764663f7b2e67a2bdfe32e1896e4c76c" category="paragraph"><block ref="764663f7b2e67a2bdfe32e1896e4c76c" category="inline-link-macro-rx"></block></block>
   <block id="7108795963ed30e0b330aa85fa1e41d5" category="list-text">Microsoft Office 365 グループを別のグループに復元できるようになりました。</block>
-  <block id="d94beee2dba59c1db6f44af2706e6020" category="inline-link-macro">高レベルのリストアを実行する</block>
-  <block id="bd4392c7bbb82decc82943bbef1f7c80" category="paragraph"><block ref="bd4392c7bbb82decc82943bbef1f7c80" category="inline-link-macro-rx"></block></block>
   <block id="7c8ae2c9971bd58915ed46c67abeff00" category="list-text">OneDrive for Business のライセンス所有者は、制限なくライセンスをリリースし、ユーザーをパージできます。</block>
-  <block id="7b3132fc37f9e4bb4a6b957e33b010eb" category="inline-link-macro">ユーザライセンスを解放する</block>
-  <block id="c3ae9a21681039e13f85b2242fa1b6e0" category="inline-link-macro">パージ</block>
-  <block id="5ec95b3561361b2c94f9454827ca74c0" category="paragraph"><block ref="e56d042487519dce9cda67491da62113" category="inline-link-macro-rx"></block>
-<block ref="59c95116177ef1b3b0b2aad1511d6b92" category="inline-link-macro-rx"></block></block>
   <block id="f1c76c4d1313b6d0ce49a94431405b0e" category="list-text">ジョブ履歴ログで検索する際に、ジョブタイプ、サービス、開始時間、終了時間に加えて、ジョブの完了ステータスでフィルタリングできるようになりました。</block>
-  <block id="36a369f196cf70137545e71a87a40978" category="inline-link-macro">ジョブ履歴を表示します</block>
-  <block id="01904402a9319e9fc8b11b61130f3075" category="paragraph"><block ref="01904402a9319e9fc8b11b61130f3075" category="inline-link-macro-rx"></block></block>
   <block id="0c32ac23d148fcf8f103092f860ea484" category="section-title">2020 年 6 月</block>
-  <block id="1aa06d6f1119dd4400307a702b81a734" category="list-text">SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、ユーザは、バックアップデータの過去 6 カ月間に、メールボックスの個々のアイテム、共有アイテム、アーカイブアイテムを検索できます。</block>
-  <block id="4aaa0b6202d76fbadd4bb82626f82f48" category="inline-link-macro">検索を実行する</block>
-  <block id="d787b983b58df2f1b7ac9b4b863355fb" category="paragraph"><block ref="d787b983b58df2f1b7ac9b4b863355fb" category="inline-link-macro-rx"></block></block>
   <block id="db5eb84117d06047c97c9a0191b5fffe" category="inline-link">サポート</block>
   <block id="73f8dc93b283396eb2824122850199c0" category="paragraph">この機能を有効にするには、に進みます <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-rx"></block> をクリックしてリクエストを送信します。</block>
   <block id="b24ecb506263a514c17f950224cec618" category="paragraph">SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com から E メールでお問い合わせいただくこともできます。</block>
@@ -292,22 +274,10 @@
   <block id="2a4b999dd10fa40d0af653d533da89a9" category="list-text">次に、保護対象のユーザの Microsoft 365 Exchange 、 SharePoint 、 OneDrive for Business 、およびグループのバックアップを参照する時間範囲を選択します。</block>
   <block id="ab1f19cdf5662bf18316f507c72e1a53" category="inline-image-macro">バックアップを参照するための時間範囲オプションを示す図</block>
   <block id="595b5248464aaec131a614f73b852fb6" category="paragraph"><block ref="595b5248464aaec131a614f73b852fb6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="4657b7a4a2192e122bef71e7e6e34b59" category="inline-link-macro">バックアップを参照する</block>
-  <block id="4ee052eeb3926442f40e246cfdf3100d" category="paragraph"><block ref="4ee052eeb3926442f40e246cfdf3100d" category="inline-link-macro-rx"></block></block>
   <block id="9114c7c2f662b23740f680d86250a33b" category="list-text">SaaS Backup for Microsoft 365 で、 Microsoft TeamsChat へのバックアップがサポートされるようになりました。この新機能を使用すると、 Microsoft TeamsChat の会話、チャネル、タブ、添付ファイル、メンバー、および設定をバックアップして復元できます。</block>
-  <block id="c1eef963799eab4aabde954901e4a952" category="inline-link-macro">サービスの即時バックアップを実行する</block>
-  <block id="f9b56a75fddf6f526a36f740c43a18f3" category="paragraph"><block ref="f9b56a75fddf6f526a36f740c43a18f3" category="inline-link-macro-rx"></block></block>
   <block id="d835981d77534f5f20446d4648ad7e5b" category="section-title">2020年1月</block>
-  <block id="d589116531c0db43e1d7e7230f89e480" category="inline-link-macro">プロビジョニング解除された項目を表示する</block>
-  <block id="f50488df3ea3f4b36f85a8ecce78541a" category="list-text">プロビジョニング解除されたメールボックス、サイト、 MySites 、グループ、またはアカウントを表示できるようになりました。<block ref="5580eb81713f2ca69b00a39199bb775d" category="inline-link-macro-rx"></block></block>
-  <block id="e499f2091b8408388cf98ee8debd410d" category="inline-link-macro">パージされたデータのリストを表示します</block>
-  <block id="08b2a9a0c770f57eb888821b8c32fb35" category="list-text">ユーザーライセンスは、アカウントがパージされてから 7 日後に自動的にリリースされるようになりました。7 日以内にパージされるようにスケジュールされているアイテムのリストと ' すでにパージされているアイテムのリストを表示できます<block ref="abda9ea2b378508f5cb6a3cfefb4bb1e" category="inline-link-macro-rx"></block></block>
-  <block id="a658163feafb10136dab3e7b0ddfec6e" category="inline-link-macro">OneNote のバックアップを有効にする</block>
-  <block id="842bc6cfeac2021409e9070275484462" category="list-text">Microsoft SharePoint Online と OneDrive for Business で、 Microsoft OneNote ノートブックのバックアップがサポートされるようになりました。<block ref="33fd9c3b2205b4b6d93579a1dc4b4444" category="inline-link-macro-rx"></block></block>
   <block id="bbfb6d5a145f45ac380d5c56707a3b3f" category="section-title">2019 年 9 月</block>
   <block id="4509c06bbc5bd31ea1b574cc91ecd146" category="list-text">SaaS Backup の有料サブスクリプションのサポートをアクティブ化できるようになりました。サポートをアクティブにすると、電話、オンラインチャット、または Web チケット発行システム経由でテクニカルサポートにアクセスできます。</block>
-  <block id="4731ef5d04c14cffa8192d5a865a1c19" category="inline-xref">サポートのアクティブ化</block>
-  <block id="744081180ff0342481e2fe0d1d2e5192" category="paragraph"><block ref="2891eb4fcde81b2d36109276a44ac8f1" category="inline-xref-macro-rx"></block></block>
   <block id="e289ad98e91a5c5e09b44d6006fba214" category="section-title">2019 年 6 月</block>
   <block id="7d4ec3e0b5be7e315bc177db875f3c93" category="list-text">SaaS Backup for Microsoft 365 で、 Microsoft SharePoint Online と Microsoft OneDrive for Business のコピー先機能を使用して作成したアイテムのバックアップとリストアがサポートされるようになりました。</block>
   <block id="0ac7cd7b7da8ca54b63280dc76517b3c" category="list-text">リストアのサイズ、リストア先、およびその他のコメントなど、リストア統計の詳細情報を追加するための機能拡張が行われました。</block>
@@ -315,15 +285,11 @@
   <block id="75651fb4ddaf976562b98f16330919ab" category="list-text">SaaS Backup でアドオンライセンスがサポートされるようになりました。</block>
   <block id="1b34d20d5f729538f1400e856387b228" category="section-title">2019年4月</block>
   <block id="403de9a0fab25a17acf9b35e6b72c565" category="list-text">SaaS Backup for Microsoft 365 でセキュリティグループの削除がサポートされるようになりました。</block>
-  <block id="a58e587a8145ef78fd07c219508ea0a7" category="inline-xref">セキュリティグループを削除する</block>
-  <block id="0069f4227fe7616d74014b66d2bd32d8" category="paragraph"><block ref="db84b5cd0096c3000143c6c2dcd04dd7" category="inline-xref-macro-rx"></block></block>
   <block id="e08584a0fabb98372627a5763a172b44" category="list-text">共有メールボックスはユーザライセンスを消費しません。</block>
   <block id="692664770412ddd705b7f413cee7d6fb" category="section-title">2019 年 3 月</block>
   <block id="f342fec16bfb61a8dd26a7f7ee694ea0" category="list-text">SaaS Backup for Microsoft 365 で、サポートされているリージョンごとに複数のバックアップ先を使用できるようになりました。</block>
   <block id="fc450d190b34e98c0417e7cc17568f3c" category="paragraph">データバックアップのサイトとして、選択したリージョン内の使用可能な場所を選択できるようになりました。データの場所に地理的に最も近い場所を選択することを推奨します。SaaS Backup で推奨される場所は、オプションのリストで「 * preferred * 」とマークされています。</block>
   <block id="8683bf91a11e498ffd74c9c3a102487d" category="admonition">試用版からアップグレードしていて、試用版で使用されている場所とは異なるバックアップの場所を選択した場合、試用版のデータは保持されません。</block>
-  <block id="41456c9103351282aeadcdc12918a4c4" category="paragraph"><block ref="a79e64e0d800687db94fd7ff5e2b9f79" category="inline-xref-macro-rx"></block></block>
-  <block id="0f9417099e0213f10d629c81ec462904" category="list-text">ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<block ref="554cc00e8d48196137f387739a815bbe" category="inline-xref-macro-rx"></block></block>
   <block id="faae77443f7a8406deaf55c3795ace10" category="section-title">2019年2月</block>
   <block id="82caf71ab4314503cd4b4826bf47361d" category="list-text">SaaS Backup for Microsoft 365 では、次の機能がサポートされるようになりました。</block>
   <block id="154ae5da6ed22a4b973d787b66439540" category="list-text">アーカイブメールボックスのバックアップとリストア</block>
@@ -840,7 +806,6 @@
   <block id="7b6a8fe6d34ca4e7afc0b27bc3582ea0" category="list-text">ストレージタイプとして Amazon S3 * または * Azure Blob * を選択します。</block>
   <block id="f93b9215b4cf6cc65bd1c26057ee8382" category="list-text">バックアップのストレージ領域を選択します。バックアップするデータの物理的な場所に最も近いリージョンを選択してください。* Preferred * 領域はそのようにマークされています。</block>
   <block id="1add4107c561215f87879f537c668438" category="summary">ライセンスを更新、追加、または更新できます。</block>
-  <block id="6b14bb6a1ac5ebb66d7c2a8d28adf2d1" category="doc">サブスクリプション情報を更新しています</block>
   <block id="24107a07a8c4f6a917374c7796d10911" category="paragraph">アドオンライセンスまたはサブスクリプション延長を購入した後は、 SaaS Backup でサブスクリプションの詳細を更新できます。</block>
   <block id="7901d194d9941dfce88276e12fdf81dc" category="admonition">保護されているか保護されていないかに関係なく、通常のユーザメールボックスがライセンスを消費します。共有メールボックスはライセンスを消費しません。</block>
   <block id="335667a29d4d16064c66f675b3f3c215" category="list-text">[ サブスクリプションの詳細 ] の横にある [*Update*] をクリックします。</block>
@@ -1080,7 +1045,6 @@
   <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
   <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
   <block id="bcd69943752734c53a18c52e97e56165" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> SaaS Backup へのサインアップに使用するアカウント。サインアップ中に、有効な Microsoft Office 365 ライセンスを持つグローバル管理権限が必要です。バックアップとリストアの処理に使用できます。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> *zzzCCconfigacct* は、 Office 365 グループを検出するためのサービスアカウントとして自動的に作成されます。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> サービスアカウントを追加すると、バックアップおよびリストア処理のパフォーマンスを向上させることができます。</block>
-  <block id="5f0bfceeb0937709ec772abe713ab0e3" category="paragraph"><block ref="5f0bfceeb0937709ec772abe713ab0e3" category="inline-link-macro-rx"></block></block>
   <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下は、 SaaS Backup for Microsoft 365 のアプリケーションレベルにおける既知の制限事項です。</block>
@@ -1400,4 +1364,25 @@
   <block id="6aaa73c1970866ed9779b298b48bd43a" category="list-text">[*Services] をクリックします。</block>
   <block id="898566549d933366de8ad6d6a1fbff27" category="sidebar">有料サブスクリプションを開始する</block>
   <block id="d4221ec3faf6174be7b78d60fd6fb637" category="sidebar">高度な検索を使用します</block>
+  <block id="a72ba6abcd432d690074b970ea9e1e5a" category="inline-link-macro">無償トライアルで SaaS Backup に登録してください</block>
+  <block id="8f8caa92edfef6726734d704b2b67044" category="paragraph"><block ref="8f8caa92edfef6726734d704b2b67044" category="inline-link-macro-rx"></block></block>
+  <block id="86ca1026a5895f803f6cb3b59d638cdc" category="inline-link-macro">有料サブスクリプションから SaaS Backup に登録します</block>
+  <block id="d31c8900ff029d35426a6b655cf439ee" category="paragraph"><block ref="d31c8900ff029d35426a6b655cf439ee" category="inline-link-macro-rx"></block></block>
+  <block id="935dcc2d07dcf421a5d4a1a8dbe78a83" category="paragraph"><block ref="935dcc2d07dcf421a5d4a1a8dbe78a83" category="inline-link-macro-rx"></block></block>
+  <block id="ff5e1f223d92e521c6ae3a7151a6e224" category="paragraph"><block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block>
+<block ref="2a76432804ac030e271a502cdaa78dc8" category="inline-link-macro-rx"></block></block>
+  <block id="010d894e39c9b4024a2e355303134bad" category="paragraph"><block ref="010d894e39c9b4024a2e355303134bad" category="inline-link-macro-rx"></block></block>
+  <block id="1a994d51b97c344f1032b0f23926569d" category="list-text">SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、過去 6 カ月間のバックアップ・データ内で、個々のメールボックス・アイテム、共有メールボックス・アイテム、アーカイブ・メールボックス・アイテムを検索できます。</block>
+  <block id="08205b9a8b27b38dab9ac03f54bcd4bb" category="paragraph"><block ref="08205b9a8b27b38dab9ac03f54bcd4bb" category="inline-link-macro-rx"></block></block>
+  <block id="591f88ff9f4dd2e074cd1e9677419b34" category="paragraph"><block ref="591f88ff9f4dd2e074cd1e9677419b34" category="inline-link-macro-rx"></block></block>
+  <block id="c1a4e5de3e6ad0e73d8e6f95a3d92fd7" category="paragraph"><block ref="c1a4e5de3e6ad0e73d8e6f95a3d92fd7" category="inline-link-macro-rx"></block></block>
+  <block id="5f4aa1af949f13cebef477d4e0e501b1" category="list-text">プロビジョニング解除されたメールボックス、サイト、 MySites 、グループ、またはアカウントを表示できるようになりました。<block ref="83c15984a264b44dfb7bb5ab9143e339" category="inline-link-macro-rx"></block></block>
+  <block id="3927f940ec42d81c11ecbb003c68fd11" category="list-text">ユーザーライセンスは、アカウントがパージされてから 7 日後に自動的にリリースされるようになりました。7 日以内にパージされるようにスケジュールされているアイテムのリストと ' すでにパージされているアイテムのリストを表示できます<block ref="8983eb3cf0dc4aeb9f7917f42f04de11" category="inline-link-macro-rx"></block></block>
+  <block id="bf7a90919922cdd7a5a5b73fd47f5253" category="list-text">Microsoft SharePoint Online と OneDrive for Business で、 Microsoft OneNote ノートブックのバックアップがサポートされるようになりました。<block ref="f372349165bf76f8d7c8e81a2c8d818f" category="inline-link-macro-rx"></block></block>
+  <block id="c264e349beaab99a8bb6652bda3cf659" category="inline-link-macro">サポートを有効にします</block>
+  <block id="26e40bc6f1282c9623b59cd8c4ef7ecc" category="paragraph"><block ref="26e40bc6f1282c9623b59cd8c4ef7ecc" category="inline-link-macro-rx"></block></block>
+  <block id="b02b015caa6895d69dc7e8806258b548" category="paragraph"><block ref="b02b015caa6895d69dc7e8806258b548" category="inline-link-macro-rx"></block></block>
+  <block id="24a863b441948a22c2f5079750e19513" category="paragraph"><block ref="24a863b441948a22c2f5079750e19513" category="inline-link-macro-rx"></block></block>
+  <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
+  <block id="8c673911badf0bc86b25912d2c703123" category="list-text">ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -21,9 +21,9 @@ summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、お�
 
 Microsoft Azure を米国で導入した場合、お客様のデータは Microsoft 環境から移動しません。SaaS Backup for Microsoft 365 のサインアッププロセスでは、 Azure BLOB ストレージまたは独自のストレージを使用できます。
 
-link:task_signing_up_for_saasbkup_free_trial.html["無償トライアルから SaaS Backup にサインアップする"]
+link:task_signing_up_for_saasbkup_free_trial.html["無償トライアルで SaaS Backup に登録してください"]
 
-link:task_signing_up_for_saasbkup_paid_subscription.html["有料サブスクリプションから SaaS Backup への登録"]
+link:task_signing_up_for_saasbkup_paid_subscription.html["有料サブスクリプションから SaaS Backup に登録します"]
 
 
 
@@ -31,16 +31,16 @@ link:task_signing_up_for_saasbkup_paid_subscription.html["有料サブスクリ�
 
 * この月からは、すべてのサービスのユーザデータを監視できます。この新機能を使用すると、 Excel ファイルをダウンロードして、電子メールまたは URL アドレス、メールボックスの種類、ライセンスの使用、検出状態、前回の検出、バックアップステータス、バックアップ階層など、複数のユーザーデータの種類を監視できます。
 +
-link:task_monitoring_data.html["ユーザデータを監視しています"]
+link:task_monitoring_data.html["ユーザデータを監視する"]
 
 * Microsoft Office 365 グループを別のグループに復元できるようになりました。
 +
-link:task_performing_high_level_restore.html["高レベルのリストアを実行する"]
+link:task_performing_high_level_restore.html["高レベルのリストアを実行します"]
 
 * OneDrive for Business のライセンス所有者は、制限なくライセンスをリリースし、ユーザーをパージできます。
 +
-link:task_releasing_a_user_license.html["ユーザライセンスを解放する"]
-link:task_purging.html["パージ"]
+link:task_releasing_a_user_license.html["ユーザーライセンスをリリースします"]
+link:task_purging.html["ユーザー、サイトコレクション、または Microsoft 365 グループをパージします"]
 
 * ジョブ履歴ログで検索する際に、ジョブタイプ、サービス、開始時間、終了時間に加えて、ジョブの完了ステータスでフィルタリングできるようになりました。
 +
@@ -52,9 +52,9 @@ link:task_viewing_history_and_activity.html["ジョブ履歴を表示します"]
 
 == 2020 年 6 月
 
-* SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、ユーザは、バックアップデータの過去 6 カ月間に、メールボックスの個々のアイテム、共有アイテム、アーカイブアイテムを検索できます。
+* SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、過去 6 カ月間のバックアップ・データ内で、個々のメールボックス・アイテム、共有メールボックス・アイテム、アーカイブ・メールボックス・アイテムを検索できます。
 +
-link:task_performing_search.html["検索を実行する"]
+link:task_using_advanced_search.html["Microsoft Exchange Online の詳細検索を使用します"]
 
 +
 この機能を有効にするには、に進みます link:https://mysupport.netapp.com/["サポート"] をクリックしてリクエストを送信します。
@@ -77,7 +77,7 @@ link:task_browsing_backups.html["バックアップを参照する"]
 
 * SaaS Backup for Microsoft 365 で、 Microsoft TeamsChat へのバックアップがサポートされるようになりました。この新機能を使用すると、 Microsoft TeamsChat の会話、チャネル、タブ、添付ファイル、メンバー、および設定をバックアップして復元できます。
 +
-link:task_performing_immediate_backup_of_service.html["サービスの即時バックアップを実行する"]
+link:task_performing_immediate_backup_of_service.html["サービスの即時バックアップを実行します"]
 
 +
 この機能を有効にするには、に進みます link:https://mysupport.netapp.com/["サポート"] をクリックしてリクエストを送信します。
@@ -91,9 +91,9 @@ SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com か�
 
 == 2020年1月
 
-* プロビジョニング解除されたメールボックス、サイト、 MySites 、グループ、またはアカウントを表示できるようになりました。link:task_viewing_deprovisioned.html["プロビジョニング解除された項目を表示する"]
-* ユーザーライセンスは、アカウントがパージされてから 7 日後に自動的にリリースされるようになりました。7 日以内にパージされるようにスケジュールされているアイテムのリストと ' すでにパージされているアイテムのリストを表示できますlink:task_viewing_deprovisioned.html["パージされたデータのリストを表示します"]
-* Microsoft SharePoint Online と OneDrive for Business で、 Microsoft OneNote ノートブックのバックアップがサポートされるようになりました。link:task_enabling_onenote_backups.html["OneNote のバックアップを有効にする"]
+* プロビジョニング解除されたメールボックス、サイト、 MySites 、グループ、またはアカウントを表示できるようになりました。link:task_viewing_deprovisioned.html["プロビジョニング解除された項目を表示します"]
+* ユーザーライセンスは、アカウントがパージされてから 7 日後に自動的にリリースされるようになりました。7 日以内にパージされるようにスケジュールされているアイテムのリストと ' すでにパージされているアイテムのリストを表示できますlink:task_viewing_purged.html["パージされたデータのリストを表示します"]
+* Microsoft SharePoint Online と OneDrive for Business で、 Microsoft OneNote ノートブックのバックアップがサポートされるようになりました。link:task_enabling_onenote_backups.html["OneNote のバックアップを有効にします"]
 
 
 
@@ -102,7 +102,7 @@ SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com か�
 
 * SaaS Backup の有料サブスクリプションのサポートをアクティブ化できるようになりました。サポートをアクティブにすると、電話、オンラインチャット、または Web チケット発行システム経由でテクニカルサポートにアクセスできます。
 +
-<<task_activate_support.adoc#activating-support,サポートのアクティブ化>>
+link:task_activate_support.html["サポートを有効にします"]
 
 
 
@@ -120,7 +120,7 @@ SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com か�
 
 * SaaS Backup でアドオンライセンスがサポートされるようになりました。
 +
-link:task_updating_subscription_information.html["サブスクリプション情報を更新しています"]
+link:task_updating_subscription_information.html["サブスクリプション情報を更新します"]
 
 
 
@@ -130,7 +130,7 @@ link:task_updating_subscription_information.html["サブスクリプション情
 
 * SaaS Backup for Microsoft 365 でセキュリティグループの削除がサポートされるようになりました。
 +
-<<task_deleting_security_groups.adoc#deleting-security-groups,セキュリティグループを削除する>>
+link:task_deleting_security_groups.html["セキュリティグループを削除する"]
 
 * 共有メールボックスはユーザライセンスを消費しません。
 
@@ -148,9 +148,9 @@ link:task_updating_subscription_information.html["サブスクリプション情
 NOTE: 試用版からアップグレードしていて、試用版で使用されている場所とは異なるバックアップの場所を選択した場合、試用版のデータは保持されません。
 
 +
-<<task_upgrading_from_trial.adoc#upgrading-from-a-trial-subscription,試用版サブスクリプションからアップグレードする>>
+link:task_upgrading_from_trial.html["試用版サブスクリプションからアップグレードする"]
 
-* ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<<task_releasing_a_user_license.adoc#releasing-a-user-license,ユーザライセンスを解放する>>
+* ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。link:task_releasing_a_user_license.html["ユーザーライセンスをリリースします"]
 
 
 
