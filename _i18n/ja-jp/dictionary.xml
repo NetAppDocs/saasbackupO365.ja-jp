@@ -1180,7 +1180,6 @@
   <block id="7e2408f033322afc1501e88155ea97b5" category="paragraph">メール / タスク / 連絡先など</block>
   <block id="12bbb80e602c6804dcffd389d09794ba" category="paragraph">Exchange Online &gt; Mailboxes - Users の順に選択します</block>
   <block id="2ce2d7d52f6efd367945e8ff48b8e110" category="paragraph">単一 / 複数のメールボックスフォルダ（受信トレイ、アーカイブなど）</block>
-  <block id="6960672f6adc47e1fbc6998f84aaa937" category="admonition">会話履歴を除外します。</block>
   <block id="4de55c0dee2da7f055099e41eb896a86" category="paragraph">Exchange Online &gt; Mailboxes -Users &gt; &lt; ユーザー名 &gt; の順にクリックします</block>
   <block id="72af896412e5a3498896e988caeb2667" category="paragraph">[ 受信トレイ ] の下のフォルダレベル</block>
   <block id="a654073e92e52bc895410744d3ed19aa" category="paragraph">[ 受信トレイ ] の下のサブフォルダレベル</block>
@@ -1385,4 +1384,5 @@
   <block id="24a863b441948a22c2f5079750e19513" category="paragraph"><block ref="24a863b441948a22c2f5079750e19513" category="inline-link-macro-rx"></block></block>
   <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
   <block id="8c673911badf0bc86b25912d2c703123" category="list-text">ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
+  <block id="16f345c293087f19c380f130e732d040" category="paragraph">* 注：会話履歴は除外してください。</block>
 </blocks>
