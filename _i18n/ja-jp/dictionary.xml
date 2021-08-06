@@ -1253,7 +1253,6 @@
   <block id="fd6a73d4ba32ae4f3ede4ee332d84996" category="paragraph">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; ［ メールボックス ］ &gt; ［ 会話履歴 ］ &gt; ［ チームチャット ］ の順に選択します</block>
   <block id="9c26be940e95cf4878da122d939b8784" category="paragraph">シングル / マルチチャネル</block>
   <block id="a9ecb1e1b3e01a7620a18c19cecd31ee" category="paragraph">Office 365 の [ グループ ] 、 [ チーム ] 、 [ チーム名 ] 、 [ チャネル ] の順にクリックします</block>
-  <block id="1811384ef729e302cde74deba3948057" category="admonition">復元には、チャネル名とタブ名のみが含まれます。</block>
   <block id="b3b725dd37253b15311071af8c23f7fe" category="paragraph">[ チャネル ] の下のタブ</block>
   <block id="042d61a3d926d53635966eaeb6a937f7" category="paragraph">チャネル標準ドキュメント</block>
   <block id="6b30d71b8cc2aaaeb93d0ff1f9134eb0" category="paragraph">Office 365 の [ グループ ] 、 [ チーム ] （チーム名 &gt; SharePoint サイト &gt; ドキュメント &gt; （チャネル名）</block>
@@ -1265,10 +1264,8 @@
   <block id="1722203907c0ea278b769a7c97a2bfa9" category="paragraph">Office 365 グループ &gt; チーム &gt; ( チーム名 ) &gt; SharePoint サイト &gt; チーム Wiki データ &gt; （チャネル名）</block>
   <block id="91f3a2c0e4424c87689525da44c4db11" category="paragraph">ファイル</block>
   <block id="3e84a960f12c9f006b87ee3ec0305678" category="paragraph">個々のユーザチャットおよびグループチャット</block>
-  <block id="4fe20a45004c9a4151dc58d964feb31f" category="admonition">Exchange Online バックアップにチャットが含まれています。</block>
   <block id="73d50530c59e846603b0a000c8c5bd03" category="list-text">［ Exchange ］ &gt; ［ User ］ &gt; ［ Mail ］ &gt; ［ Conversation History ］ &gt; ［ Team ］ の順に選択します チャット</block>
   <block id="6bbc5707d695de8c090582eed7caa4ba" category="paragraph">個々のユーザチャットおよびグループチャットのファイル</block>
-  <block id="5e4444bec23135343e48eda700b5f821" category="admonition">OneDrive for Business のバックアップに含まれるファイルです。</block>
   <block id="898bf5c2d8f7a8ecf881c264543c9976" category="list-text">メールボックスのカテゴリを選択します。</block>
   <block id="fcce7879592f679fe46e28fadafa7032" category="paragraph"><block ref="fcce7879592f679fe46e28fadafa7032" category="inline-image-macro-rx" type="image"></block></block>
   <block id="78676bdb287bac69a9ca2d7171159a45" category="admonition">グループの場合、 * チャネル * は使用できません。</block>
@@ -1385,4 +1382,8 @@
   <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
   <block id="8c673911badf0bc86b25912d2c703123" category="list-text">ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
   <block id="16f345c293087f19c380f130e732d040" category="paragraph">* 注：会話履歴は除外してください。</block>
+  <block id="a1ab5ce0720ebbbda3918cd012a68184" category="paragraph">* 注：リストアには、チャネル名とタブ名のみが含まれます。</block>
+  <block id="e5efd2bf375c66135f8862e063b4eddf" category="paragraph">* 注：「 &lt; チーム名–プライベートチャネル名 &gt; 」という名前の別のサイトコレクションがあります。テンプレート ID:TEAMCHANNEL#0 では、これらのサイトコレクションをフィルタできます。</block>
+  <block id="8549ef96f3965f413ca1f13ece7089b8" category="paragraph">* 注： Exchange Online バックアップに含まれるチャット。</block>
+  <block id="f16b3cb45c9a49849f9defdf2c168963" category="paragraph">* 注 * ： OneDrive for Business のバックアップに含まれるファイルです。</block>
 </blocks>
