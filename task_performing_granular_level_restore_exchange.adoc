@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_granular_level_restore_exchange.html 
-keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, perform, performing, restore, microsoft 365, granular restores, Microsoft Exchange Online, archive, archive, shared, mailboxes, self service portal 
 summary: SaaS Backup for Microsoft 365 を使用すると、 Microsoft Exchange Online 365 をきめ細かくリストアできます。 
 ---
 = Microsoft Exchange Online で詳細レベルのリストアを実行します
@@ -182,3 +182,5 @@ NOTE: [ * データにエクスポート * ] リストア・オプションを�
 
 . リストアの進捗状況を監視するには、 * ジョブの進捗状況の表示 * をクリックします。
 
+
+セルフサービスポータルを使用して Microsoft Exchange Online のアイテムを復元する方法については、を参照してください link:reference_about_ssp.hmtl["セルフサービスポータルについて"]。

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task_viewing_deleted.html 
 keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deleted, items, SharePoint, Exchange, OneDrive, Groups, Teams 
-summary: 削除したアイテムを [ サービスの設定 ] からオンにすると、すべてのサービスから削除したアイテムを表示できます。 
+summary: '削除したアイテムを [ サービスの設定 ] からオンにすると、すべてのサービスから削除したアイテムを表示できます。' 
 ---
 = 削除した項目を表示します
 :hardbreaks:

@@ -19,7 +19,7 @@ Microsoft Exchange Online 、 OneDrive for Business 、 SharePoint Online 、 Mi
 
 ルールを作成する前に、データにユーザ定義フィルタを適用する必要があります。適用されたフィルタは、 * フィルタ * アイコンの下に表示されます。NetApp SaaS Backup for Microsoft 365 のデフォルトフィルタはグレーで表示されます。ユーザー定義のフィルタが薄い青で表示されます。image:rules.gif["ユーザー定義フィルタと SaaS Backup 定義フィルタの例 ルールの作成"]
 
-<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,ユーザ定義フィルタの作成>>
+<<task_creating_user_defined_filter.adoc#creating-user-defined-filter,ユーザ定義のフィルタを作成します>>
 
 複数のルールを作成できます。ルールは、 * ルールの管理 * リストに表示される順序で適用されます。
 

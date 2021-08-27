@@ -17,6 +17,19 @@ summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、お�
 
 
 
+== 2021年5月
+
+個々の Microsoft Exchange Online メールボックスアカウントのユーザーは、 SaaS Backup for Microsoft 365 のセルフサービスポータル（ SSP ）を使用して、 Microsoft Exchange Online のアイテムを検索してリストアできるようになりました。セルフサービスポータルを有効にするには、管理者に問い合わせてください。
+
+* テナントに対して Advanced Search * を有効にする必要があります。メールボックスアイテムのインデックスを作成するには、フルバックアップが必要です。
+
+* link:task_using_advanced_search.html["高度な検索を使用します"]
+* link:reference_about_ssp.html["セルフサービスポータルについて"]
+* link:task_use_ssp.html["セルフサービスポータルを使用する"]
+
+
+
+
 == 2020年12月
 
 Microsoft Azure を米国で導入した場合、お客様のデータは Microsoft 環境から移動しません。SaaS Backup for Microsoft 365 のサインアッププロセスでは、 Azure BLOB ストレージまたは独自のストレージを使用できます。
@@ -52,9 +65,9 @@ link:task_viewing_history_and_activity.html["ジョブ履歴を表示します"]
 
 == 2020 年 6 月
 
-* SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、過去 6 カ月間のバックアップ・データ内で、個々のメールボックス・アイテム、共有メールボックス・アイテム、アーカイブ・メールボックス・アイテムを検索できます。
+* SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。Advanced Search * を有効にした後で、バックアップ・データの過去 6 か月間で、個人、共有、アーカイブのメールボックス・アイテムを検索できます。
 +
-link:task_using_advanced_search.html["Microsoft Exchange Online の詳細検索を使用します"]
+link:task_using_advanced_search.html["高度な検索を使用します"]
 
 +
 この機能を有効にするには、に進みます link:https://mysupport.netapp.com/["サポート"] をクリックしてリクエストを送信します。

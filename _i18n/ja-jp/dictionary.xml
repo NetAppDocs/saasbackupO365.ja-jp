@@ -184,7 +184,6 @@
   <block id="960807b3a38d77ca1916570b1732dda1" category="inline-link-macro">サポートを有効にします</block>
   <block id="b1b8f50a4274cba58affa63d65dc6ee5" category="list-text">まだ行っていない場合は、 <block ref="e13d8583c6001789a64d81c0b2f80cf7" category="inline-link-macro-rx"></block>。</block>
   <block id="7a00bdb3c8899a6fb0c89a7109d2eb8c" category="summary">メールボックス、サイト、または個人用サイトの表示をフィルタリングして、特定の条件を満たす結果のみを表示できます。</block>
-  <block id="a61468e6beebb23c9d371299a50b287a" category="doc">ユーザ定義フィルタの作成</block>
   <block id="c9c180a3b2075f7816538aca2648b910" category="paragraph">メールボックス、サイト、または個人用サイトの表示をフィルタリングして、特定の条件を満たす結果のみを表示できます。たとえば、特定の国のメールボックスだけを表示するようにフィルタを設定したり、その国の特定の部門を表示したりできます。</block>
   <block id="28034b25c973b0f0714d803930b9d1c0" category="list-text">ダッシュボードで、フィルタを作成するサービスのボックスの上の * protected * または * unprotected * をクリックします。上記の保護されている数は、バックアップ・ポリシーによって現在保護されているメールボックス、個人用サイト、またはグループの数を示します。保護されていない上記の数は、バックアップポリシーで保護されていないメールボックス、個人用サイト、またはグループの数を示します。</block>
   <block id="6edea1d492cb6a3d40ae21df59162f0f" category="list-text">[ * Select * ] ドロップダウンメニューをクリックして、任意のフィルタを選択します。</block>
@@ -364,22 +363,18 @@
   <block id="19cfd4ae5dac380b64b69dab1b160eb6" category="paragraph">別のサイトにリストアする場合は、デスティネーションサイトを検索フィールドに入力する必要があります。検索フィールドに宛先サイトの一部を入力して、一致するサイトの自動検索を開始できます。</block>
   <block id="25b29418d9c6575969ec7daa90fcc97f" category="paragraph">リストアジョブが作成されたことを示すメッセージが表示されます。</block>
   <block id="67d991d78fa5108aec7ff0c45194bd85" category="summary">インライン検索を使用して、特定のコンテンツを検索できます。</block>
-  <block id="00c49197e1ad230a77a69b3c62a95960" category="paragraph">個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを元のメールボックスにリストアできます。この設定を有効にする方法については、 2020 年 6 月を参照してください <block ref="d84f7ef7df75ea4b5018dac7dc7cdf71" category="inline-link-macro-rx"></block> リリースノート</block>
-  <block id="4466a882479de04cb5c1a5ec232dacdc" category="paragraph">* 詳細検索設定 * では、検索機能を有効または無効にするオプションが提供されます。</block>
   <block id="b0eb2396acd040d98c146d201fe5307e" category="admonition">ライセンスのあるユーザとライセンスのないユーザは、高度な検索機能を使用できます（有効な場合）。</block>
   <block id="c44cc41dbd8bd91ac75451de23ec8eb6" category="list-text">ダッシュボードの左側のメニューで、「 * 高度な検索 * 」をクリックします。</block>
   <block id="8a6a52b70517fecd0af84069290395fb" category="list-text">[ 高度な検索設定 * ] をクリックします。</block>
   <block id="a9bd2ff124301f94dad1b83933f1de41" category="list-text">デフォルトでは、ライセンスを持つすべてのユーザがリストに表示されます。「すべてのユーザーを表示」と「ライセンスされたユーザーのみを表示」を切り替えて、リスト内のユーザータイプをフィルタリングします。</block>
   <block id="8fd454c9753a4c3d03fcb074d79d2f5e" category="list-text">検索ツールを使用して 3 文字以上入力し、一意のユーザーを検索します。</block>
   <block id="57c9b7b109956f01ec6fbd27f9e51071" category="list-text">ユーザーを有効にするには、 * 詳細検索 * 列で * オン * を選択します。次回、フルバックアップまたは増分バックアップで有効にしたユーザーを保護するときに、新しい電子メールアイテムの検索を実行できます。</block>
-  <block id="908850e836861356845d68c6d5d59f95" category="list-text">設定への変更を保存するには、 * 設定の保存 * をクリックします。</block>
   <block id="9d26c855a2d401584a2885908a0440b0" category="inline-link-macro">バックアップのスケジュール設定またはバックアップ頻度の変更</block>
   <block id="0af305178ed17ffd2d65f6827dd96941" category="list-text">有効なユーザをバックアップするには、に進みます <block ref="a56fa16a0623b92158e702c35634bdf7" category="inline-link-macro-rx"></block> バックアップするユーザーを選択するには、 * ユーザー * タブに残ります。</block>
   <block id="30368d13df374be30faccbf80332ec3d" category="list-text">[ 検索の実行 *] をクリックします。</block>
   <block id="d749315637e107f4e49a204009181ccf" category="inline-image-macro">図は、 2 つの必須項目を含む検索オプションの実行を示しています</block>
   <block id="b68e3baaece85a7fd6bb5480a8b002d0" category="list-text">[* 検索（ Search ） ] をクリックする。</block>
   <block id="9b3bc7bd4ed5e46080b209bdd7facb88" category="list-text">検索ジョブを検索するには、以下の「過去の検索ジョブの検索」を参照してください。</block>
-  <block id="d7b7c604c45bcddfec349d4eefd139e0" category="paragraph">詳細検索では、前の検索を検索するオプションが表示されます 以前の検索ジョブ * の下にあるジョブ</block>
   <block id="6578ea0c53e911e0fbac32ce91fa2510" category="list-text">［ * 前の検索ジョブ * ］ をクリックします。</block>
   <block id="13510659f5f468ab16f6832afdd05e17" category="list-text">検索結果の合計数をクリックして表示します。</block>
   <block id="3256acd5628ee1e52fa96f0c6a9bb5b4" category="list-text">結果表示ビューでは、項目を復元したり、ドロップダウンメニュー * Show # entries * を使用して表示するエントリ数を選択したり、検索して結果をさらに絞り込むことができます。</block>
@@ -397,13 +392,9 @@
   <block id="e009ac7bdbcdbe785633995714a0b763" category="list-text">データ保持ポリシーが更新され、データを 3 年間保持できるようになりました。<block ref="b297b383a2043bacbe42de60d0495a39" category="inline-xref-macro-rx"></block></block>
   <block id="9fe5b0e5e0c862102d23c193d848d031" category="section-title">2018 年 5 月</block>
   <block id="04d25e22b323711ff2c7e0f65891416c" category="list-text">NetApp Cloud Control は、 NetApp SaaS Backup for Microsoft 365 に名称が変更されました。</block>
-  <block id="691bf0ba07c22fc12821daede0da37ba" category="inline-xref">ユーザー、サイトコレクション、または Microsoft 365 グループをパージする</block>
-  <block id="02a02f61d322b139ecb84899110a94cb" category="list-text">ユーザ、サイトコレクション、 Microsoft 365 グループをパージし、関連するデータをすべて SaaS Backup for Microsoft 365 から完全に削除できるようになりました。<block ref="203aa9c68d1d58cb3ef39a1cdbd511f6" category="inline-xref-macro-rx"></block></block>
   <block id="527708d8a25b28e30c9e6ce44e6acf3b" category="list-text">SaaS Backup で、 Microsoft 365 グループのパブリックグループとプライベートグループの両方が検出されるようになりました。</block>
   <block id="87dddbc407376ab2a74d919deb8a64ec" category="section-title">2018 年 4 月</block>
   <block id="70f4045b3a240f86dcb02664a9b1e73f" category="list-text">SaaS Backup for Microsoft 365 で、 Microsoft Office Exchange Online の共有メールボックスがサポートされるようになりました。</block>
-  <block id="6ebdf2a026106b4474dac1d49df66589" category="inline-xref">共有メールボックスを有効にする権限を付与しています</block>
-  <block id="0f09e5c6a5f7d7233ba426cc2161e36b" category="paragraph">共有メールボックスは、自動的に作成されたサービスアカウントを使用して検出されます。この更新プログラムの前に Microsoft Office Exchange Online のサービスをアクティブ化していない場合、 Microsoft Office Exchange Online をアクティブ化すると、共有メールボックスの自動サービスアカウントが SaaS Backup によって作成されます。Microsoft Office Exchange Online のサービスが既に有効になっている場合は、共有メールボックスを検出してバックアップできるように、自動サービスアカウントを作成するための SaaS Backup 権限を付与する必要があります。 <block ref="5510e021d3c4d391e142d66cdb26a1f6" category="inline-xref-macro-rx"></block></block>
   <block id="79af9c777e61eb876c82eaab6feb30c9" category="inline-xref">ユーザアカウントをすぐに検出します</block>
   <block id="bbc854c334afa202e4fa88ab19866f29" category="paragraph">自動サービスアカウントが作成されると、次回のユーザーアカウントのスケジュールされた同期中に、共有メールボックスが自動的に検出されます。共有メールボックスをすぐに検出する場合は、次の操作を実行できます <block ref="2a2a1550088d658e9a3c4c85fc9ef095" category="inline-xref-macro-rx"></block>。</block>
   <block id="74620215d33d2f9ad06a873cdf9e8acc" category="section-title">2018 年 3 月</block>
@@ -411,12 +402,7 @@
   <block id="bda1de5e5163ee7832b80b7535b38b1e" category="inline-image-macro">無料トライアルが選択されている場合に、サブスクリプションページでアクティベーションコードを入力する場所を示すスクリーンショット。</block>
   <block id="ea0c837ea6662600de23d933b85b871a" category="paragraph"><block ref="ea0c837ea6662600de23d933b85b871a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="95798f037b7bacec7599a19423a6bb64" category="section-title">2018 年 2 月</block>
-  <block id="12543dd07c41e75e732bb6016f864192" category="list-text">テンプレート ID に基づくフィルタリングが Microsoft SharePoint Online で使用できるようになりました。<block ref="75d17844e9f96e1f38d69764754fd39b" category="inline-xref-macro-rx"></block></block>
-  <block id="38c3c04a063c42a8ca480029d7cad55f" category="inline-xref">アクティビティログのダウンロード</block>
-  <block id="1101b0495abc2826931c64ada66d3e15" category="list-text">SaaS Backup for Microsoft 365 のユーザアカウントアクティビティログを .csv ファイルにダウンロードできるようになりました。<block ref="3e5f0ce89fff5cc7c3bd4d866e7487e9" category="inline-xref-macro-rx"></block></block>
   <block id="f03a974f6827372e7e32c705ac474e53" category="list-text">SaaS Backup for Microsoft 365 とサービス間のユーザアカウント、サイト、グループの同期がデフォルトで有効になりました。</block>
-  <block id="d976f4b96dc9b2dd47be02254d3653c5" category="inline-xref">バックアップ設定を更新しています</block>
-  <block id="ff27d34d6284d3f1316c07ebb61d3039" category="list-text">バックアップバージョン履歴を含める機能がデフォルトで有効になりました。デフォルトのバージョン数は 20 です。<block ref="a8da49b1818056f1eb7229d54e4eb984" category="inline-xref-macro-rx"></block></block>
   <block id="effdc6a5d743a9db1cd347a2ac8d6b80" category="section-title">2018 年 1 月</block>
   <block id="d720d14f2d2d410fd9c3739a82251fc8" category="list-text">アクティビティログに、 SaaS Backup for Microsoft 365 で実行された各アクションに関連付けられたユーザ ID の名前が表示されるようになりました。</block>
   <block id="2dbd22cce387627a3ae78ddf49e08841" category="list-text">SaaS Backup for Microsoft 365 から、ユーザ権限と Azure Active Directory を手動で同期できるようになりました。</block>
@@ -426,8 +412,6 @@
   <block id="75bc60f2c6a36004500066ff7275c3f3" category="list-text">SaaS Backup for Microsoft 365 で、バックアップとリストア用に Microsoft 365 グループがサポートされるようになりました。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。Microsoft 365 グループは、階層 3 のバックアップポリシーでのみ保護できます。</block>
   <block id="fb94c7f8627886d1f63dc1c58ca7a99e" category="list-text">Microsoft Exchange Online では、メールボックスレベルでのリストアのために PST へのエクスポートがサポートされるようになりました。</block>
   <block id="af77dfd404964d21108cf737bd810e11" category="section-title">2017 年 10 月</block>
-  <block id="f8d6553092d20497172f5b0fa93ca408" category="inline-xref">ルールの作成</block>
-  <block id="0bfdbcc57bced91ca95d4b66188649fd" category="list-text">事前に選択した条件に基づいて、ユーザを自動的にバックアップ階層に移動するルールを作成できます。Microsoft Exchange Online と Microsoft OneDrive for Business のルールを作成できます。Microsoft SharePoint Online のルールは作成できません。<block ref="05582bd283c32c418e99a68447f03def" category="inline-xref-macro-rx"></block></block>
   <block id="7e1669d62449aae995a5fc99102a986d" category="summary">すべての Microsoft 365 サービスでバックアップを参照できます。</block>
   <block id="4c56bf9d3c6d21d59223de5a3e265bb1" category="paragraph">保護されたインスタンスは、最新のバックアップで参照することも、 Microsoft 365 Exchange 、 SharePoint 、 OneDrive for Business 、 Groups のすべてのバックアップで参照することもできます。</block>
   <block id="7d2cab41c99baa3618cdc771cf23af02" category="admonition">デフォルトの参照設定は、 *Showing Last 5 Days Backup* です。5 日を選択した場合は、過去 5 日間にバックアップされたアイテムのみが表示されます。期間は必要に応じて変更できます。</block>
@@ -905,7 +889,6 @@
   <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">Microsoft Exchange Online 、 OneDrive for Business 、 SharePoint Online 、 Microsoft Office 365 グループのルールを作成できます。</block>
   <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">ユーザー定義フィルタと SaaS Backup 定義フィルタの例 ルールの作成</block>
   <block id="9472fea1831b90ee514f0ee8d8f8cdd4" category="paragraph">ルールを作成する前に、データにユーザ定義フィルタを適用する必要があります。適用されたフィルタは、 * フィルタ * アイコンの下に表示されます。NetApp SaaS Backup for Microsoft 365 のデフォルトフィルタはグレーで表示されます。ユーザー定義のフィルタが薄い青で表示されます。<block ref="4197bfc4aebe6e6734416ba995e70d18" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="666c1c2873f4cef0bfb0028beb7f0621" category="paragraph"><block ref="43443473f38da3c5b8092bdb9e9c5e15" category="inline-xref-macro-rx"></block></block>
   <block id="88e808b9882b8ca6d9c43f50b12cc131" category="paragraph">複数のルールを作成できます。ルールは、 * ルールの管理 * リストに表示される順序で適用されます。</block>
   <block id="84f0975bea0921d5118d07c306d0e814" category="inline-image-macro">ルールの作成ボタンのスクリーンショット</block>
   <block id="156041abd9a046b566b525d8a6f00ad1" category="paragraph">ユーザが作成したフィルタが適用されていない場合は、 <block ref="4b9a42856f689f56835528f6307a41f4" category="inline-image-macro-rx" type="image"></block> 表示されません。</block>
@@ -1050,7 +1033,6 @@
   <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下は、 SaaS Backup for Microsoft 365 のアプリケーションレベルにおける既知の制限事項です。</block>
   <block id="d266d57bea866579e901ba09197d761c" category="section-title">Microsoft 365 OneDrive for Business の場合</block>
   <block id="df10152b8f1b0d5caabc4567bb3ea98e" category="section-title">Microsoft 365 Exchange Online の場合</block>
-  <block id="c660261b9ac7314f7438891eb314e00e" category="list-text">* 詳細検索 * は Exchange Online でのみ使用できます。この設定は、デフォルトでは無効になっています。この機能を有効にするよう、お客様から依頼を受ける必要があります。[ 高度な検索を有効にする ] 設定を有効にした後、管理者は個々のユーザーに対して手動で検索機能を有効にする必要があります。</block>
   <block id="4f3cb2778fd6f32cc95e653723c2094a" category="section-title">Microsoft 365 チームの場合</block>
   <block id="344380bbdcd6e472f74897190dc6aedf" category="list-text">API の制限により、 SaaS Backup ではパブリックチャネルとプライベートチャネルを区別できません。</block>
   <block id="d5b9bcd91341381d4f9facf62e69a760" category="list-text">Teams Chat では、絵文字および GIF のバックアップまたは復元はサポートされていません。</block>
@@ -1165,7 +1147,6 @@
   <block id="3255e277a9a04484a81db77abfbd29c2" category="cell">Office 365 グループ &gt; チーム &gt; ( チーム電子メール )</block>
   <block id="d505a1372838988b9d892d82c774daf7" category="doc">以前のバックアップからリストアする</block>
   <block id="6b23667f3cbba43813b5f6399ec4babd" category="section-title">Microsoft Exchange Online の詳細検索を使用します</block>
-  <block id="f5c6766aada2bdc229d963f2b4623af4" category="section-title">詳細検索を設定します</block>
   <block id="eb988e6b170684f13ddc8f2e3974559a" category="section-title">検索を実行します</block>
   <block id="57f7a88c0574298291b51b4649bf4229" category="section-title">前の検索ジョブを検索します</block>
   <block id="c6ca0e56ba9c9a94f317ed88374773e8" category="doc">バックアップを参照する</block>
@@ -1319,14 +1300,9 @@
   <block id="ab09f98053829f456f7fa3b9633f25a9" category="paragraph">また、各サービス内でより詳細なレベルの検索を実行することもできます。検索ボックスの右側にドロップダウン・メニューが表示された場合は ' ドロップダウン・メニューから *File* または *Folder* を選択して ' 検索結果を絞り込みます</block>
   <block id="64c73441167566d1b1f8513d0691175f" category="inline-image-macro">[ ファイル / フォルダ ] ドロップダウン・メニューのある検索ボックス</block>
   <block id="6b76b82fa67dc740baacd3e8bbe8b1b1" category="paragraph"><block ref="40cd171e8c50f14eb30cb1efa19c6399" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f77160ffe4f33a8c31c421430db0c1dc" category="summary">Microsoft 365 Exchange Online でアイテムを検索するには、 [ 詳細検索 ] を有効にします。</block>
-  <block id="72188549c25c8b8b3805a84f99bd8064" category="paragraph">特定のコンテンツを検索するには、 Microsoft Exchange Online の * 詳細検索 * を使用します。</block>
   <block id="267a5275d92e0cb500ece7c264c7eafe" category="inline-image-macro">高度な検索設定のスクリーンショット</block>
-  <block id="19d5df79e54f56432e22ed468bdaa692" category="paragraph">Microsoft Exchange Online の設定で詳細検索を有効にできます。有効にすると、個々のメールボックスアイテムまたは共有メールボックスアイテムを検索できます。最初のバックアップの前に * 詳細検索 * を有効にしないと、検索結果は表示されません。<block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="35e704c59ee775fcffd3b145fd79c4bd" category="list-text"><block ref="b7c7f461808ad9eee93ae96dc9b3fd17" category="inline-xref-macro-rx"></block></block>
   <block id="1b5251c4623800d15616db1b5ad13ddc" category="list-text"><block ref="f533942d5f67ff90ffc7ef3d110249d7" category="inline-xref-macro-rx"></block></block>
   <block id="2e678cfb6692fccd97fdd915d5b3a27e" category="list-text"><block ref="dfaa1db65f916ed1ff476bafd651fc3a" category="inline-xref-macro-rx"></block></block>
-  <block id="9ef86ece0d6dfedbd908e23552b7988f" category="paragraph">高度な検索を使用すると、個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを * 検索を実行 * の下の元のメールボックスにリストアすることができます。</block>
   <block id="c2f947ac394b258702e93f2950da3014" category="list-text">アスタリスク（ * ）を付けて、必須フィールドに情報を入力します。オプションのフィールド： Condition と Query Conditions<block ref="94a613604503bf5de5b1927c26f3eadc" category="inline-image-macro-rx" type="image"></block></block>
   <block id="7a41dfb51c4cdf013ddd679e98de9298" category="list-text">* ユーザーを選択 *: ユーザー名に少なくとも 3 文字を入力して、選択するユーザーを検索します。</block>
   <block id="23c24dab11d24ab575fb8613517086e7" category="list-text">* 検索 *: キーワードに少なくとも 3 文字を入力します。フレーズを検索する場合は、引用符の中に単語を入れます（例：「 Hello world 」）。単語を個別に検索できる場合は、引用符は必要ありません。</block>
@@ -1368,8 +1344,6 @@
   <block id="ff5e1f223d92e521c6ae3a7151a6e224" category="paragraph"><block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block>
 <block ref="2a76432804ac030e271a502cdaa78dc8" category="inline-link-macro-rx"></block></block>
   <block id="010d894e39c9b4024a2e355303134bad" category="paragraph"><block ref="010d894e39c9b4024a2e355303134bad" category="inline-link-macro-rx"></block></block>
-  <block id="1a994d51b97c344f1032b0f23926569d" category="list-text">SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。有効にすると、過去 6 カ月間のバックアップ・データ内で、個々のメールボックス・アイテム、共有メールボックス・アイテム、アーカイブ・メールボックス・アイテムを検索できます。</block>
-  <block id="08205b9a8b27b38dab9ac03f54bcd4bb" category="paragraph"><block ref="08205b9a8b27b38dab9ac03f54bcd4bb" category="inline-link-macro-rx"></block></block>
   <block id="591f88ff9f4dd2e074cd1e9677419b34" category="paragraph"><block ref="591f88ff9f4dd2e074cd1e9677419b34" category="inline-link-macro-rx"></block></block>
   <block id="c1a4e5de3e6ad0e73d8e6f95a3d92fd7" category="paragraph"><block ref="c1a4e5de3e6ad0e73d8e6f95a3d92fd7" category="inline-link-macro-rx"></block></block>
   <block id="5f4aa1af949f13cebef477d4e0e501b1" category="list-text">プロビジョニング解除されたメールボックス、サイト、 MySites 、グループ、またはアカウントを表示できるようになりました。<block ref="83c15984a264b44dfb7bb5ab9143e339" category="inline-link-macro-rx"></block></block>
@@ -1386,4 +1360,33 @@
   <block id="e5efd2bf375c66135f8862e063b4eddf" category="paragraph">* 注：「 &lt; チーム名–プライベートチャネル名 &gt; 」という名前の別のサイトコレクションがあります。テンプレート ID:TEAMCHANNEL#0 では、これらのサイトコレクションをフィルタできます。</block>
   <block id="8549ef96f3965f413ca1f13ece7089b8" category="paragraph">* 注： Exchange Online バックアップに含まれるチャット。</block>
   <block id="f16b3cb45c9a49849f9defdf2c168963" category="paragraph">* 注 * ： OneDrive for Business のバックアップに含まれるファイルです。</block>
+  <block id="0933d4dd2ad52707372be6b67b620890" category="section-title">2021年5月</block>
+  <block id="936c71bdf886a51aec9f1e7f00ed205b" category="paragraph">個々の Microsoft Exchange Online メールボックスアカウントのユーザーは、 SaaS Backup for Microsoft 365 のセルフサービスポータル（ SSP ）を使用して、 Microsoft Exchange Online のアイテムを検索してリストアできるようになりました。セルフサービスポータルを有効にするには、管理者に問い合わせてください。</block>
+  <block id="cf20237c6268b98b1bd327699e5ac704" category="paragraph">* テナントに対して Advanced Search * を有効にする必要があります。メールボックスアイテムのインデックスを作成するには、フルバックアップが必要です。</block>
+  <block id="16ec1a94d324268e23458158820f2793" category="list-text"><block ref="16ec1a94d324268e23458158820f2793" category="inline-link-macro-rx"></block></block>
+  <block id="013131a779f73f268793ce1212aee294" category="inline-link-macro">セルフサービスポータルについて</block>
+  <block id="b51bb0ef6b11f946c31f52683a5d978b" category="list-text"><block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block></block>
+  <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="inline-link-macro">セルフサービスポータルを使用する</block>
+  <block id="41fd28f7f33d08bb911d51e29c0847a6" category="list-text"><block ref="41fd28f7f33d08bb911d51e29c0847a6" category="inline-link-macro-rx"></block></block>
+  <block id="60a93d0f13a60df4d4419601c9c70515" category="list-text">SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。Advanced Search * を有効にした後で、バックアップ・データの過去 6 か月間で、個人、共有、アーカイブのメールボックス・アイテムを検索できます。</block>
+  <block id="ec33cc053523746b10689885a6465e31" category="list-text">* 詳細検索 * は Exchange Online でのみ使用できます。この設定は、デフォルトでは無効になっています。この機能を有効にするよう、お客様から依頼を受ける必要があります。[ 高度な検索を有効にする *] 設定を有効にした後、管理者は個々のユーザーに対して手動で検索機能を有効にする必要があります。</block>
+  <block id="622447dc867aa23b63cae41916056ae1" category="list-text">ユーザ、サイトコレクション、 Microsoft 365 グループをパージし、関連するデータをすべて SaaS Backup for Microsoft 365 から完全に削除できるようになりました。<block ref="2c1b64681ee9fe134c90ce77d1ff786d" category="inline-xref-macro-rx"></block></block>
+  <block id="f9569ca41d9da19d9a56e76d830b4a8c" category="paragraph">共有メールボックスは、自動的に作成されたサービスアカウントを使用して検出されます。この更新プログラムの前に Microsoft Office Exchange Online のサービスをアクティブ化していない場合、 Microsoft Office Exchange Online をアクティブ化すると、共有メールボックスの自動サービスアカウントが SaaS Backup によって作成されます。Microsoft Office Exchange Online のサービスが既に有効になっている場合は、共有メールボックスを検出してバックアップできるように、自動サービスアカウントを作成するための SaaS Backup 権限を付与する必要があります。 <block ref="49cc502480062aea72351d71aa6fc0eb" category="inline-xref-macro-rx"></block></block>
+  <block id="dd231ac29bcd790907ea07e095722043" category="list-text">テンプレート ID に基づくフィルタリングが Microsoft SharePoint Online で使用できるようになりました。<block ref="60c93e3eb02a5ebd9becaf0a6ec969cc" category="inline-xref-macro-rx"></block></block>
+  <block id="58a346df6bb63f8d5fb48a94c94519e3" category="list-text">SaaS Backup for Microsoft 365 のユーザアカウントアクティビティログを .csv ファイルにダウンロードできるようになりました。<block ref="72d5ffc4d998a8df41a3d69f31aa4e91" category="inline-link-macro-rx"></block></block>
+  <block id="55a0cf1cf2bb1cfdcff0aad9cfde49d9" category="list-text">バックアップバージョン履歴を含める機能がデフォルトで有効になりました。デフォルトのバージョン数は 20 です。<block ref="f2a3d5933a5e0372cc2c185633f396b8" category="inline-link-macro-rx"></block></block>
+  <block id="524c45aec514e36f1f014df22714824e" category="list-text">事前に選択した条件に基づいて、ユーザを自動的にバックアップ階層に移動するルールを作成できます。Microsoft Exchange Online と Microsoft OneDrive for Business のルールを作成できます。Microsoft SharePoint Online のルールは作成できません。<block ref="ce9deed384e0076de61405537c2a5dbd" category="inline-xref-macro-rx"></block></block>
+  <block id="41b34773b64b2abaab2984b716ed65b0" category="summary">高度な検索を有効にすると、 Microsoft 365 Exchange Online でバックアップされたアイテムを検索できます。</block>
+  <block id="23e9dcfa8b97aaea186eaaeb1177dea4" category="paragraph">Microsoft Exchange Online の * 詳細検索 * を使用すると、個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを元のメールボックスにリストアできます。</block>
+  <block id="c7f1896c455334213518b5df2a860b44" category="paragraph">管理者は、にアクセスして、 * 詳細検索 * を有効にできます <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> リクエストを送信します。SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com から E メールでお問い合わせいただくこともできます。</block>
+  <block id="4c6fa9a7d2c0c345bf057d6d3e77c80a" category="paragraph">[ 高度な検索 * ] を有効にすると、個々のテナントに対してセルフサービスポータル（ SSP ）を有効にできます。最初のバックアップの前に * 詳細検索 * を有効にしないと、検索結果は表示されません。セルフサービスポータルの詳細については、を参照してください <block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block>。</block>
+  <block id="4c1d3f657745aa4fa7c5b961a2f7a82f" category="paragraph"><block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="6e1c6cab6487c8b15e4140bfb0d5fd69" category="list-text"><block ref="7d190c308c24e5fb4e4af67edbc1dd47" category="inline-xref-macro-rx"></block></block>
+  <block id="5e23ff9d9c602cb7300fedbed1382b43" category="section-title">高度な検索を有効にします</block>
+  <block id="2bea3c3804042a7b5ec982475df525c9" category="paragraph">高度な検索設定では、 * 高度な検索 * 機能を有効にすることができます。</block>
+  <block id="14242c99845a0bf338d45c648e061643" category="list-text">[ 設定の保存 *] をクリックします。</block>
+  <block id="6b2edf93f90ba6f21a0eae49dddc7440" category="paragraph">個々のメールボックスアイテムまたは共有メールボックスアイテムを検索し、これらのアイテムを * 検索を実行 * の下の元のメールボックスにリストアできます。</block>
+  <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">以前の検索ジョブは、「 * 過去の検索ジョブ * 」にあります。</block>
+  <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">セルフサービスポータルを使用して Microsoft Exchange Online のアイテムを復元する方法については、を参照してください <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
+  <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
 </blocks>
