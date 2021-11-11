@@ -516,7 +516,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link">SaaS Backup に関する注意事項</block>
-  <block id="9bdc5707c114dbc5a94534cfcadd7ab0" category="paragraph"><block ref="9bdc5707c114dbc5a94534cfcadd7ab0" category="inline-link-rx"></block></block>
   <block id="a6cf97b63eff3ad329ddd3b42602dc2c" category="paragraph">Microsoft 365 for Business の 30 日間無償トライアルでは、 Microsoft 365 と SaaS Backup for Microsoft 365 の最新機能をご確認いただけます。</block>
   <block id="154aaf2b1abad0f9ef74679e031ff9bb" category="inline-link">Microsoft 365 for Business サイト</block>
   <block id="6d9567e09b2cc2c796d047f8b47e3ca0" category="list-text">にアクセスします<block ref="5a129d533828990ea282ed866872ff1c" category="inline-link-rx"></block> トライアル契約を開始します。</block>
@@ -1031,13 +1030,9 @@
   <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下は、 SaaS Backup for Microsoft 365 のアプリケーションレベルにおける既知の制限事項です。</block>
-  <block id="d266d57bea866579e901ba09197d761c" category="section-title">Microsoft 365 OneDrive for Business の場合</block>
-  <block id="df10152b8f1b0d5caabc4567bb3ea98e" category="section-title">Microsoft 365 Exchange Online の場合</block>
-  <block id="4f3cb2778fd6f32cc95e653723c2094a" category="section-title">Microsoft 365 チームの場合</block>
   <block id="344380bbdcd6e472f74897190dc6aedf" category="list-text">API の制限により、 SaaS Backup ではパブリックチャネルとプライベートチャネルを区別できません。</block>
   <block id="d5b9bcd91341381d4f9facf62e69a760" category="list-text">Teams Chat では、絵文字および GIF のバックアップまたは復元はサポートされていません。</block>
   <block id="2e6df5bd869e8c255a210d03f781c2a2" category="list-text">チームチャットの会話のみエクスポートオプションは HTML にエクスポートです。会話に投稿された添付ファイルリンクは、 HTML ドキュメントには表示されません。</block>
-  <block id="db24901a0eed559545f127f9968c1c18" category="section-title">Microsoft 365 OneNote の場合</block>
   <block id="e9c7dd5d31fad4f1fecc238f1b5cec74" category="list-text">インクリメンタル・バックアップ・ジョブが失敗し ' 部分的な失敗というエラー・メッセージが表示される場合がありますOneNote セクションのいくつかをバックアップできませんでした</block>
   <block id="cba4e4936570a5f6cd9e636d453ee2df" category="list-text">OneDrive のバックアップには、 .onebak ファイルのバックアップが含まれます。</block>
   <block id="e7c2efd0bfa0260184087f86122e8b75" category="list-text">データのエクスポートとパージはサポートされていません。</block>
@@ -1360,14 +1355,8 @@
   <block id="e5efd2bf375c66135f8862e063b4eddf" category="paragraph">* 注：「 &lt; チーム名–プライベートチャネル名 &gt; 」という名前の別のサイトコレクションがあります。テンプレート ID:TEAMCHANNEL#0 では、これらのサイトコレクションをフィルタできます。</block>
   <block id="8549ef96f3965f413ca1f13ece7089b8" category="paragraph">* 注： Exchange Online バックアップに含まれるチャット。</block>
   <block id="f16b3cb45c9a49849f9defdf2c168963" category="paragraph">* 注 * ： OneDrive for Business のバックアップに含まれるファイルです。</block>
-  <block id="0933d4dd2ad52707372be6b67b620890" category="section-title">2021年5月</block>
-  <block id="936c71bdf886a51aec9f1e7f00ed205b" category="paragraph">個々の Microsoft Exchange Online メールボックスアカウントのユーザーは、 SaaS Backup for Microsoft 365 のセルフサービスポータル（ SSP ）を使用して、 Microsoft Exchange Online のアイテムを検索してリストアできるようになりました。セルフサービスポータルを有効にするには、管理者に問い合わせてください。</block>
-  <block id="cf20237c6268b98b1bd327699e5ac704" category="paragraph">* テナントに対して Advanced Search * を有効にする必要があります。メールボックスアイテムのインデックスを作成するには、フルバックアップが必要です。</block>
   <block id="16ec1a94d324268e23458158820f2793" category="list-text"><block ref="16ec1a94d324268e23458158820f2793" category="inline-link-macro-rx"></block></block>
   <block id="013131a779f73f268793ce1212aee294" category="inline-link-macro">セルフサービスポータルについて</block>
-  <block id="b51bb0ef6b11f946c31f52683a5d978b" category="list-text"><block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block></block>
-  <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="inline-link-macro">セルフサービスポータルを使用する</block>
-  <block id="41fd28f7f33d08bb911d51e29c0847a6" category="list-text"><block ref="41fd28f7f33d08bb911d51e29c0847a6" category="inline-link-macro-rx"></block></block>
   <block id="60a93d0f13a60df4d4419601c9c70515" category="list-text">SaaS Backup for Microsoft 365 で、 Exchange Online ユーザー向けの高度な検索機能がサポートされるようになりました。Advanced Search * を有効にした後で、バックアップ・データの過去 6 か月間で、個人、共有、アーカイブのメールボックス・アイテムを検索できます。</block>
   <block id="ec33cc053523746b10689885a6465e31" category="list-text">* 詳細検索 * は Exchange Online でのみ使用できます。この設定は、デフォルトでは無効になっています。この機能を有効にするよう、お客様から依頼を受ける必要があります。[ 高度な検索を有効にする *] 設定を有効にした後、管理者は個々のユーザーに対して手動で検索機能を有効にする必要があります。</block>
   <block id="622447dc867aa23b63cae41916056ae1" category="list-text">ユーザ、サイトコレクション、 Microsoft 365 グループをパージし、関連するデータをすべて SaaS Backup for Microsoft 365 から完全に削除できるようになりました。<block ref="2c1b64681ee9fe134c90ce77d1ff786d" category="inline-xref-macro-rx"></block></block>
@@ -1389,4 +1378,10 @@
   <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">以前の検索ジョブは、「 * 過去の検索ジョブ * 」にあります。</block>
   <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">セルフサービスポータルを使用して Microsoft Exchange Online のアイテムを復元する方法については、を参照してください <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
   <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
+  <block id="6e7db500b108f92653337520430f1623" category="paragraph">SaaS Backup では、アーカイブされた SharePoint サイトのバックアップはサポートされていません。</block>
+  <block id="69cadd9afb18beaf638480ee96474d8d" category="section-title">OneDrive for Business の場合</block>
+  <block id="6e56d85b59ed18494624e5efc9118118" category="section-title">Exchange Online の場合</block>
+  <block id="04fe5f6086035badbfe6f17afc8b1812" category="section-title">チームのために</block>
+  <block id="725eb4a545d53ed127b237f8677c348e" category="section-title">OneNote の場合</block>
+  <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
 </blocks>
