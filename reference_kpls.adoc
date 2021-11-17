@@ -17,7 +17,7 @@ summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、お�
 
 
 
-== SharePoint の場合
+== SharePoint Online の場合
 
 SaaS Backup では、アーカイブされた SharePoint サイトのバックアップはサポートされていません。
 

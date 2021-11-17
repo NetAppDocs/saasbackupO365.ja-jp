@@ -564,15 +564,12 @@
   <block id="4b5d2dd70af718ebe67bfea5b43d8667" category="list-text">[Submit （送信） ] をクリックします。</block>
   <block id="6be364524b60c8ce2362d8a248ae8458" category="paragraph">GA/FCS 版の製品マニュアルの初回リリース時や既存マニュアルへの重要な変更があった場合のご案内を希望される場合は、 Twitter アカウント @NetAppDoc をフォローしてください。</block>
   <block id="118a5414cacce486de3b92817ef0fe94" category="summary">SaaS Backup for Microsoft 365 にサインアップする際は、グローバル管理者権限を持つ Microsoft 365 サービスアカウントを新規に作成することをお勧めします。</block>
-  <block id="c0b7d635d4299477fcd9a13db70283b0" category="paragraph">新しい Microsoft Office 365 アカウントを作成するときは、有効で割り当てられた Microsoft Office 365 ライセンスを持つグローバル管理権限がこのアカウントに必要です。</block>
-  <block id="3822205219da61e0adf663d985249229" category="paragraph">これは、 SaaS Backup for Microsoft Office 365 の管理に使用される唯一のサービスアカウントではありません。次の図は、さまざまなサービスアカウントタイプとその説明を示しています。</block>
   <block id="4a9b8df2da2aa8f729da4ec5418ad136" category="paragraph">* サービスアカウントの説明 *</block>
   <block id="0eff159375ae2a355a3eeb4485038d4d" category="inline-image-macro">サービスアカウントタイプ</block>
   <block id="45c8d220d9eea59e8b41b248063dcd0a" category="paragraph"><block ref="45c8d220d9eea59e8b41b248063dcd0a" category="inline-image-macro-rx" type="image"></block></block>
   <block id="8e63f7e2ba7ffa9a33982b4227a64e05" category="inline-image-macro">赤の数字 1</block>
   <block id="36800229bb8c9b166323037bb647be04" category="inline-image-macro">赤の数字 2</block>
   <block id="f8e57abf7b1ab0f1a13d1fcfa42a1bee" category="inline-image-macro">赤の数字 3</block>
-  <block id="77932588c3a68d6f3ee9a0a5c88c3888" category="paragraph">サインアップ中に、グローバル権限と有効な Microsoft Office 365 ライセンスを持つアカウントを作成します。サインアップが完了したら、このアカウントからグローバル管理権限とライセンスを削除できます。</block>
   <block id="1a3f62512f1649d7c2d278df12d6a29a" category="list-text">管理者権限を持つアカウントで Microsoft 365 管理ポータルにログインします。</block>
   <block id="99fe7b3fbf552951ac69f84baed6cdea" category="list-text">[* ユーザー * ] をクリックします。</block>
   <block id="e8a3f369f7aea8805d660e7fad0cec5f" category="inline-image-macro">ユーザアイコンのスクリーンショット</block>
@@ -594,18 +591,11 @@
   <block id="7c69695c5fae4b8a30117ad3da3b34b0" category="list-text">SharePoint 管理者</block>
   <block id="cde8b2b845367a9ef3323f0b1321e90d" category="list-text">アプリケーションの偽装ロール</block>
   <block id="8c8883c0392732f098d638ca9570adf3" category="paragraph">これは、グローバル管理者ロールの個々のライセンスを制限する場合に特に重要です。</block>
-  <block id="457d4f101995b5a981b7b55330166532" category="section-title">zzz 設定アカウント</block>
-  <block id="504433e412c79a7932edf8db3c96d8f8" category="paragraph">SaaS Backup サブスクリプションの一部として、新しいアカウントが ZZZ CC Config [GUID] で作成されます。</block>
-  <block id="b172bcbdeb6f808e9d054be90ab273cd" category="paragraph">この自動作成されたアカウントは、共有 / アーカイブメールボックスとプライベートグループの検出に使用されます。Exchange と SharePoint の権限（ O365 でカスタマイズされた管理者）が必要です。このアカウントを MFA ポリシーから除外することを推奨します。</block>
-  <block id="86a7fb3ba541c1c3e32ec8023d3ae050" category="paragraph">検出またはバックアップの失敗を回避するため、このアカウントはそのまま残しておきます。</block>
-  <block id="c011dc76cd3be918d7b58351091c0ffb" category="paragraph">SaaS Backup for Microsoft Office 365 にサービスアカウントを追加すると、お客様のバックアップパフォーマンスを向上させることができます。サービスアカウントとは、ライセンスのない Microsoft Office 365 ユーザアカウントで、バックアップとリストアの処理に使用されます。</block>
   <block id="ebe7ee976226a8fc0a086901cc35b2ec" category="paragraph">このタイプのアカウントには、次の 3 つの権限が必要です。</block>
   <block id="65745cfa854e2d246b0db140661516ba" category="list-text">Exchange 管理者</block>
   <block id="ec564c8443249a8ff6ea69218134ff74" category="list-text">SharePoint 管理者</block>
   <block id="a42a9d9d8fadbaec0e1d4229ccab3f7d" category="list-text">アプリケーションの偽装ロール</block>
-  <block id="abf9b2d034585f7ce99f13431ed35fa4" category="paragraph">サービスアカウントを追加するには、 Microsoft Office 365 環境にサービスアカウントが存在している必要があります。既存のアカウントがない場合は、アカウントを作成します。</block>
   <block id="8d9cbf036fe97b0df26a68a540b482a8" category="admonition">パフォーマンスを最適化するには、 Office 365 の 1000 ユーザーごとに 1 つのサービスアカウントを追加することをお勧めします。</block>
-  <block id="aa609a5b0ac0dabd9c93c931370c7ace" category="list-text">SaaS Backup for Microsoft Office 365 にログインします。</block>
   <block id="631cb6d0304ba6853f2f328d341ededc" category="inline-image-macro">「 Settings （設定）」ギヤアイコン</block>
   <block id="8753946956023dc5b9115512b60b950c" category="list-text">をクリックします <block ref="b1edfb541d9b2da7c3aa3ac273577864" category="inline-image-macro-rx" type="image"></block>。</block>
   <block id="893a8ddaf0af1dc163da6dcc1f26a639" category="list-text">[ サービス設定 *] をクリックします。</block>
@@ -618,7 +608,6 @@
   <block id="a8e2f7769bc8afae460acb597b749db7" category="paragraph">確認メッセージが表示されます。</block>
   <block id="3fe77a73bf9ea3e704bc6cbed44832f8" category="inline-image-macro">新しいサービスアカウントのポップアップ確認メッセージを追加します</block>
   <block id="41cb17958d9becc3c217a565cd39ed37" category="paragraph"><block ref="41cb17958d9becc3c217a565cd39ed37" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="3c0c36c4d191f655bad518b43e31597c" category="list-text">Microsoft Office 365 のサインインページで、前述のサービスアカウントの資格情報を入力して SaaS Backup に追加します。</block>
   <block id="471dec26ded6b7c1186f46ab9997db3c" category="summary">NetApp SaaS Backup for Microsoft 365 のドキュメントポータルへようこそ。</block>
   <block id="d6caea3522b7366df1ef706e69eb7090" category="doc">NetApp SaaS Backup for Microsoft 365 のドキュメント</block>
   <block id="4b90c0fa551e1b95c98ebe0691603d94" category="paragraph">NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレージと Microsoft Azure Blob Storage にバックアップする、 Web ベースのセキュアなソフトウェアサービス（ SaaS ）です。</block>
@@ -1026,7 +1015,6 @@
   <block id="983360d0def6e102424fc3613cf2d572" category="list-text"><block ref="64ea1e8fc4e2b8d9ec6fc411042ab0e1" category="inline-link-macro-rx"></block>。</block>
   <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
   <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
-  <block id="bcd69943752734c53a18c52e97e56165" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> SaaS Backup へのサインアップに使用するアカウント。サインアップ中に、有効な Microsoft Office 365 ライセンスを持つグローバル管理権限が必要です。バックアップとリストアの処理に使用できます。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> *zzzCCconfigacct* は、 Office 365 グループを検出するためのサービスアカウントとして自動的に作成されます。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> サービスアカウントを追加すると、バックアップおよびリストア処理のパフォーマンスを向上させることができます。</block>
   <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下は、 SaaS Backup for Microsoft 365 のアプリケーションレベルにおける既知の制限事項です。</block>
@@ -1044,14 +1032,10 @@
   <block id="efd287cdc753601d5107130525c91ace" category="list-text">サイトコレクショングループ全体が削除されると、コレクション内のプライベートグループの復元に失敗し、リストアジョブのステータスが「一部失敗」になります。 この場合、 GUI からサイトにアクセスできません。</block>
   <block id="4c16b0a23d0e5246d2604fb46b891dab" category="paragraph">詳細検索 * の場合：</block>
   <block id="1c90154d49e9e74aec0cd7ad23f32b3c" category="list-text">検索ジョブは、 24 時間以内に最大 10 件まで指定できます。</block>
-  <block id="32fd1bb5491f4bdb59730a837e0eeef2" category="paragraph">Microsoft 365 サービスアカウントで有料サブスクリプションにサインアップするユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。</block>
-  <block id="3f0ac65c6641811fb6979108b4ae4db1" category="inline-link">最新の認証を無効にする方法について説明します</block>
-  <block id="db6769770b54cd48ea827fed88aa688f" category="paragraph"><block ref="db6769770b54cd48ea827fed88aa688f" category="inline-link-rx"></block></block>
   <block id="cd35b18e9c73b7753bbce41116add383" category="cell">有料サブスクリプションが終了してからの日数</block>
   <block id="3b1482aa22733fab359963f1e198cc38" category="paragraph">Microsoft 365 サービスアカウントを使用してサインアップしたすべてのユーザーに対して、次の手順を実行します。</block>
   <block id="d6770628964f371c2f152263aeff74c2" category="list-text">SaaS Backup でサポートされているのは基本認証のみです。</block>
   <block id="94c4d110d7d7c45d9f0401f3e894e286" category="list-text"><block ref="94c4d110d7d7c45d9f0401f3e894e286" category="inline-link-rx"></block></block>
-  <block id="a77d2ddc9e5b2a10c6306021816e1292" category="paragraph">Microsoft 365 サービスアカウントで無償トライアルに登録するユーザーは、 Basic Authentication で SaaS Backup を使用できるようにする必要があります。SaaS Backup でサポートされているのは基本認証のみです。Microsoft 365 テナントが 2020 年 10 月から作成され、使用量が記録されていない場合、認証に失敗することがあります。Microsoft 365 サービスアカウントの最新認証を無効にします。</block>
   <block id="eafac00ae1f3bb3038f2dfec18a92f47" category="doc">ユーザ権限を Azure Active Directory と同期する</block>
   <block id="0069bf8587752e66f58cc50f214117f4" category="section-title">偽装を自動的に構成します</block>
   <block id="e04acd1f9cba307748f5d9735f00eda2" category="section-title">偽装を手動で構成します</block>
@@ -1174,8 +1158,6 @@
   <block id="894de4021ad5b4bf29b15a5a24d5c77b" category="doc">新しいメールボックス、サイト、グループを検出します</block>
   <block id="fbf4587520308c39c7016ad6d101add1" category="doc">ルールを削除します</block>
   <block id="1ae8a55f317d3b2570e79a0b4a668040" category="doc">フィードバックを提供する</block>
-  <block id="0d3e964d833bab0fc51a9de024483383" category="doc">新しい Microsoft Office 365 サービスアカウントを作成します</block>
-  <block id="351674dd4c3367ac2feb58a8a55e3f97" category="section-title">グローバルで新しい Microsoft Office 365 サービスアカウントを作成します 管理者権限</block>
   <block id="b153d6df04986e031e8cdcee42514143" category="section-title">追加のサービスアカウントを作成します</block>
   <block id="cf9b65815de15d6e0a7614ea04503b18" category="inline-link-macro">有料購読を開始します</block>
   <block id="66a8e9a920b348a656e5d56c7551b93b" category="list-text"><block ref="66a8e9a920b348a656e5d56c7551b93b" category="inline-link-macro-rx"></block></block>
@@ -1378,10 +1360,51 @@
   <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">以前の検索ジョブは、「 * 過去の検索ジョブ * 」にあります。</block>
   <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">セルフサービスポータルを使用して Microsoft Exchange Online のアイテムを復元する方法については、を参照してください <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
   <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
-  <block id="6e7db500b108f92653337520430f1623" category="paragraph">SaaS Backup では、アーカイブされた SharePoint サイトのバックアップはサポートされていません。</block>
   <block id="69cadd9afb18beaf638480ee96474d8d" category="section-title">OneDrive for Business の場合</block>
   <block id="6e56d85b59ed18494624e5efc9118118" category="section-title">Exchange Online の場合</block>
   <block id="04fe5f6086035badbfe6f17afc8b1812" category="section-title">チームのために</block>
   <block id="725eb4a545d53ed127b237f8677c348e" category="section-title">OneNote の場合</block>
   <block id="6adebe2fbffbd6dcb646696cd1bfc9ee" category="paragraph"><block ref="6adebe2fbffbd6dcb646696cd1bfc9ee" category="inline-link-macro-rx"></block></block>
+  <block id="62783f5d69cb5d3cb22b077c1d2b8777" category="section-title">2021年11月</block>
+  <block id="57b21864f834adb69b95deb6d906d488" category="inline-link-macro">Basic Authentication and Exchange Online - 2021 年 9 月の更新です</block>
+  <block id="31cc60edfc700178b3b3efacb6ed562e" category="paragraph">Microsoft 365 は、 2021 年 10 月を Exchange Online の基本認証の廃止を目標としています。詳細については、を参照してください <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。廃止後、 Microsoft 365 グループ、および共有メールボックスとアーカイブメールボックスで検出エラーが発生する可能性があります。これらのエラーを回避するために、いつでも最新の認証を有効にすることができます。</block>
+  <block id="5e72ee82630f471af2db622957d8d623" category="paragraph">新規のお客様の場合、サインアップ時に [ 最新の認証 ] が有効になります。対処は不要です。</block>
+  <block id="6d41bf53975c37a371e0a61c24d9701d" category="inline-link-macro">現代の認証を有効にします</block>
+  <block id="b32bf445c8b684008c9fd9cf380eb985" category="paragraph">既存のお客様で、最新の認証を有効にしていない場合は、対処する必要があります。を参照してください <block ref="718d39ae8b1f35b36dc8c2837eb10373" category="inline-link-macro-rx"></block>。</block>
+  <block id="0d58f13cf59b3acb936d22fbb195c797" category="section-title">SharePoint Online の場合</block>
+  <block id="0df29440fd1f5817998dad2145c5d66f" category="paragraph">SaaS Backup では、アーカイブされた SharePoint サイトのバックアップはサポートされていません。</block>
+  <block id="7c655a6168c9e197c82ded816cff150b" category="doc">新しい Microsoft 365 サービスアカウントを作成します</block>
+  <block id="4bd45d06f9871744e10e2123eb1797cb" category="paragraph">新しい Microsoft 365 アカウントを作成するときは、有効で割り当てられた Microsoft Office 365 ライセンスを持つグローバル管理権限がこのアカウントに必要です。</block>
+  <block id="48c466a3b30139c9596b9b755f86d608" category="paragraph">これは、 SaaS Backup for Microsoft 365 の管理に使用される唯一のサービスアカウントではありません。次の図は、さまざまなサービスアカウントタイプとその説明を示しています。</block>
+  <block id="c0afe19b37d8d68ab2805eb365e8f569" category="paragraph"><block ref="3f6ca1eadf75a5bc523be0ab0decd8d3" category="inline-image-macro-rx" type="image"></block> SaaS Backup へのサインアップに使用するアカウント。サインアップ中に有効な Microsoft 365 ライセンスを持つグローバル管理権限が必要です。バックアップとリストアの処理に使用できます。<block ref="a4880b4ac8004f3fc5430fe64280d54f" category="inline-image-macro-rx" type="image"></block> *zzzCCconfigacct* は、 Microsoft 365 グループを検出するためのサービスアカウントとして自動的に作成されます。モダン認証が有効な場合、 ZZZ 設定サービスアカウントはありません。<block ref="6c9ad94934e447521fdd01be977df60c" category="inline-image-macro-rx" type="image"></block> サービスアカウントを追加すると、バックアップおよびリストア処理のパフォーマンスを向上させることができます。</block>
+  <block id="17ec37f7e4cb59380aa0ce4555554bf3" category="section-title">グローバル管理者権限を持つ新しい Microsoft 365 サービスアカウントを作成します</block>
+  <block id="751a71d636892cbf66cfcaa823fb51ba" category="paragraph">サインアップ中に、グローバル権限と有効な Microsoft 365 ライセンスを持つアカウントを作成します。サインアップが完了したら、このアカウントからグローバル管理権限とライセンスを削除できます。</block>
+  <block id="4a08e661e1b50d206e4d343f8bddae4d" category="section-title">zzz Config サービスアカウント</block>
+  <block id="93cbfc166ef53f05a312ae934dca3120" category="paragraph">zzz Config サービスアカウントは、基本認証を使用する場合に、共有 / アーカイブメールボックスおよびプライベートグループを検出するために使用される自動作成アカウントです。Exchange と SharePoint の権限（ M365 でカスタマイズされた管理者）が必要です。このアカウントを MFA ポリシーから除外することを推奨します。検出またはバックアップの失敗を回避するため、このアカウントはそのまま残しておきます。</block>
+  <block id="8a473533f223a2aaaff4bb0dee2e40f8" category="paragraph">モダン認証を有効にすると、 ZZZ 設定サービスアカウントが削除されます。</block>
+  <block id="b1704dfbe6f842e95ceaea412c2f3141" category="paragraph">新しいお客様には、 ZZZ Config サービスアカウントはありません。</block>
+  <block id="71f827eb8de41b274dee83ee2a67caab" category="paragraph">SaaS Backup for Microsoft 365 にサービスアカウントを追加すると、お客様のバックアップパフォーマンスを向上させることができます。サービスアカウントとは、ライセンスのない Microsoft 365 ユーザアカウントで、バックアップとリストアの処理に使用されます。</block>
+  <block id="0d75fdd856c16738b2215a01a4769262" category="paragraph">サービスアカウントを追加するには、 Microsoft 365 環境にサービスアカウントが存在している必要があります。既存のアカウントがない場合は、アカウントを作成します。</block>
+  <block id="55ad18c25923fabae2ed0e076bec70fe" category="list-text">SaaS Backup for Microsoft 365 にログインします。</block>
+  <block id="6d9c1757137522dd3b832ee1850c5c89" category="list-text">Microsoft 365 のサインインページで、前述のサービスアカウントのクレデンシャルを入力して SaaS Backup に追加します。</block>
+  <block id="a73aba6b88b96c2312c0f9347ee50d78" category="summary">最新の SaaS Backup for Microsoft 365 認証を有効にすると、 Microsoft 365 グループおよび共有メールボックスとアーカイブメールボックスの検出エラーを回避できます。</block>
+  <block id="bcb28a2f4ed645ef8a3af04a404a1502" category="paragraph">Microsoft 365 は、 2021 年 10 月を Exchange Online の基本認証の廃止を目標としています。廃止後、 Microsoft 365 グループ、および共有メールボックスとアーカイブメールボックスで検出エラーが発生する可能性があります。</block>
+  <block id="ebab51f38b25f119a54799f747a554df" category="paragraph">最新の認証はいつでも有効にできます。</block>
+  <block id="c1b811bd592235c61fa6ca7a4cdbe483" category="paragraph">新規のお客様は何もする必要はありません。サインアップすると、 [ 最新の認証 ] が有効になります。</block>
+  <block id="6a35f3193356ceb62195e1a17a1d97ca" category="paragraph">既存のお客様が対処する必要がある。最新の認証を有効にするには、次の手順に従います。</block>
+  <block id="151c0e26b68569274cc8fb7865536967" category="list-title">オプション 1 の手順</block>
+  <block id="5473646de43d33b966a040592c55e080" category="inline-image-macro">最新の認証読み取りを有効にするためのポップアップメッセージ Microsoft Basic 認証はまもなく無効になります。Microsoft 365 グループ、アーカイブメールボックス、および共有メールボックスでの検出エラーを回避するには、最新の認証を有効にしてください。今すぐ有効にしますか？</block>
+  <block id="d0f07db1e4f0dafbc370c2184e7fc993" category="list-text">SaaS Backup for Microsoft 365 にサインインします。次のメッセージが表示されます。<block ref="c54e32c72d16546d42f4bb610328d6c2" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33961fdc55682584a2105cfe37dc4e80" category="list-text">[*Confirm*] を選択して、モダン認証を有効にします。</block>
+  <block id="719de1e44f12917b51d01d1d500b55e8" category="list-text">すべての権限を受け入れます。これで、モダン認証が有効になりました。ZZZ 設定サービスアカウントが削除されました。</block>
+  <block id="73450abe3754a721d825055685e2494c" category="list-title">オプション 2 の手順</block>
+  <block id="92eef66d548ce3ad6566a41eb934f2c6" category="inline-image-macro">歯車アイコン</block>
+  <block id="7381e66861ab2b549db3d647f53aab18" category="inline-image-macro">Microsoft 365 のサービス設定を指す矢印</block>
+  <block id="00c3259ed9a379b2339d2dd0fb266c2d" category="list-text">SaaS Backup for Microsoft 365 で、「設定」に移動します <block ref="764992d715ceb3d3bca0b58ec17502cd" category="inline-image-macro-rx" type="image"></block>&gt; ［ サービス設定 ］ &gt; ［ Microsoft 365 サービス設定 ］ の順に選択します。<block ref="c7c697ce9aa35ee14da9549d094faec6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="528b9600eae8c6e11b0a8204cac006c1" category="inline-image-macro">[ サービス設定 ] から [ 最新認証を有効にする ] を選択します</block>
+  <block id="eaac380992bfb558c7f33ad5263a09cd" category="list-text">[ 最新認証を有効にする *] を選択します。<block ref="44637b2c161d4bd1a3f03826b4b97ec3" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="659923b56097fde7f7e16f9938f8cee7" category="paragraph">エラー通知を受信した場合は、再試行して最新の認証を有効にできます。</block>
+  <block id="c211ffba805191487d78c4b7cc83885c" category="paragraph">サポートについては、 saasbackupsupport@netapp.com まで E メールでお問い合わせください。</block>
+  <block id="079fc4b41d453223328c8289d6f6ee23" category="paragraph">詳細については、を参照してください <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。</block>
+  <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">セルフサービスポータルを使用する</block>
 </blocks>

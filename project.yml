@@ -84,6 +84,8 @@ sidebar:
       url: "/task_discovering_new.html"
     - title: ユーザー、サイトコレクション、または Microsoft 365 グループをパージします
       url: "/task_purging.html"
+    - title: 現代の認証を有効にします
+      url: "/task_enable_modern_authentication.html"
   - title: 設定を管理します
     entries:
     - title: バックアップポリシー
