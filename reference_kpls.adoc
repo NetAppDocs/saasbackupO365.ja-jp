@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: reference_kpls.html 
-keywords: what's new, features, new, release notes, known, problems, limitations, application 
+keywords: 'what"s new, features, new, release notes, known, problems, limitations, application' 
 summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、およびバグ修正を提供する新しいリリースが定期的に導入されています。 
 ---
 = 既知の問題および制限

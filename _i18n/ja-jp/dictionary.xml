@@ -1407,4 +1407,5 @@
   <block id="c211ffba805191487d78c4b7cc83885c" category="paragraph">サポートについては、 saasbackupsupport@netapp.com まで E メールでお問い合わせください。</block>
   <block id="079fc4b41d453223328c8289d6f6ee23" category="paragraph">詳細については、を参照してください <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。</block>
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">セルフサービスポータルを使用する</block>
+  <block id="986fd8fd4a9ddabca0d89b5e7da5ba20" category="admonition">最新の認証を有効にするには、テナントアカウントのクレデンシャルを使用してログインします。アカウント名は Microsoft 365 サービスの設定で確認できます（下記の「 * オプション 2 の手順 * 」を参照）。グローバル管理者ロールがこのアカウントに割り当てられていることを確認します。最新の認証が正常に有効になったら、管理者ユーザーからグローバル管理者ロールを削除できます。</block>
 </blocks>
