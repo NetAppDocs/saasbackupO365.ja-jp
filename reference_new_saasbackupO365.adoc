@@ -50,7 +50,7 @@ link:task_performing_high_level_restore.html["高レベルのリストアを実�
 * OneDrive for Business のライセンス所有者は、制限なくライセンスをリリースし、ユーザーをパージできます。
 +
 link:task_releasing_a_user_license.html["ユーザーライセンスをリリースします"]
-
+link:task_purging.html["ユーザー、サイトコレクション、または Microsoft 365 グループをパージします"]
 
 * ジョブ履歴ログで検索する際に、ジョブタイプ、サービス、開始時間、終了時間に加えて、ジョブの完了ステータスでフィルタリングできるようになりました。
 +

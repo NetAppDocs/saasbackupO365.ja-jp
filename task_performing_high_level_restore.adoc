@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: task_performing_high_level_restore.html 
-keywords: netapp, saas backup, perform, performing, restore, microsoft 365, high-level restores, Microsoft Exchange Online, Microsoft OneDrive for Business, Microsoft SharePoint Online, archive, archive, shared, mailboxes 
+keywords: netapp, saas backup, perform, high-level restore, microsoft 365, Exchange, OneDrive 
 summary: Microsoft Exchange Online 、 Microsoft OneDrive for Business の MySites 、 Microsoft SharePoint Online のサイト、 Microsoft 365 グループのメールボックスの高レベルのリストアを実行する手順も同じです。 
 ---
 = サービスレベルのリストアを実行します
