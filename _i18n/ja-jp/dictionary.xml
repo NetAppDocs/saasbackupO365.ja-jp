@@ -1409,4 +1409,6 @@
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">セルフサービスポータルを使用する</block>
   <block id="986fd8fd4a9ddabca0d89b5e7da5ba20" category="admonition">最新の認証を有効にするには、テナントアカウントのクレデンシャルを使用してログインします。アカウント名は Microsoft 365 サービスの設定で確認できます（下記の「 * オプション 2 の手順 * 」を参照）。グローバル管理者ロールがこのアカウントに割り当てられていることを確認します。最新の認証が正常に有効になったら、管理者ユーザーからグローバル管理者ロールを削除できます。</block>
   <block id="bab00dea1cabe9c56b693bc0180cbb13" category="list-text">140 MB を超えるメッセージが含まれているメールボックスのリストアでは、アップロードに失敗します。</block>
+  <block id="3268b398df77a34bc3dc7c2eee28b5d5" category="inline-link-macro">Microsoft Exchange Online の制限 : メッセージの制限</block>
+  <block id="6567b22ffc8f6ae02aa92f63c67f763a" category="admonition">140 MB を超えるメッセージを含むメールボックスをリストアすると、サーバへのアップロードに失敗することがあります。Export to PST （ PST にエクスポート）オプションを使用して、高レベルのリストアを実行することを推奨します。詳細については、を参照してください <block ref="005c12c4f12807842a060236e5445890" category="inline-link-macro-rx"></block>。</block>
 </blocks>

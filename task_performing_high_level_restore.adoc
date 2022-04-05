@@ -30,6 +30,10 @@ NOTE: [PST にエクスポート ] リストア・オプションを選択した
 +
 .. Microsoft Exchange Online* のメールボックスをリストアする場合は、次のいずれかのオプションを選択します。
 +
+
+NOTE: 140 MB を超えるメッセージを含むメールボックスをリストアすると、サーバへのアップロードに失敗することがあります。Export to PST （ PST にエクスポート）オプションを使用して、高レベルのリストアを実行することを推奨します。詳細については、を参照してください link:https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#message-limits["Microsoft Exchange Online の制限 : メッセージの制限"]。
+
++
 *** 同じメールボックスにリストアします
 *** PST にエクスポート PST にエクスポートした場合は、エクスポートが完了すると、 PST ファイルの場所を記載した通知メールが送信されます。
 *** 別のメールボックスにリストアする：別のメールボックスにリストアする場合は、検索フィールドにデスティネーションメールボックスを入力する必要があります。検索フィールドに宛先の電子メールアドレスの一部を入力すると、一致する宛先メールボックスを自動的に検索できます。
