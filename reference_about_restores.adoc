@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 では、各サービスのリストア�
 ---
 = リストアについて
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

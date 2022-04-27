@@ -8,6 +8,7 @@ summary: 個々の階層、メールボックス、サイト、および MySites
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

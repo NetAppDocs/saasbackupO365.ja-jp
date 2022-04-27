@@ -67,20 +67,12 @@
   <block id="48d90378be01b2e385520fa18e6b71cf" category="paragraph">データをエクスポートする場合は、データをダウンロードする必要があります。左側のメニューの [ レポート ] に移動します。エクスポートデータジョブを検索します。[ 合計フォルダー（ Total Folders ） ] をクリックします。次に、 [* Export Data Download Link] をクリックします。zip ファイルがダウンロードされます。zip ファイルを開き、データを抽出します。</block>
   <block id="45c370720bd5903ae015d8bc9114b227" category="admonition">[* データのエクスポート ] リストア・オプションを選択した場合、指定されたリンクは 7 日間有効で、事前認証されています。</block>
   <block id="db0a14d5142d27cd10a1a5a3853bad29" category="list-text">リストアの進捗状況を監視するには、 * ジョブの進捗状況の表示 * をクリックします。</block>
-  <block id="7f25d4d65b1003453bc7e1329a9c178d" category="summary">ライセンス版の SaaS Backup for Microsoft 365 にアップグレードしない場合、無償トライアル期間中に使用されたデータは削除されます。</block>
   <block id="4946cdf19ac5285412e4b530ede0f075" category="doc">無料トライアルデータの削除</block>
-  <block id="a420949a90cbed96b9c03780a9cb9e9c" category="paragraph">ライセンス版の SaaS Backup for Microsoft 365 にアップグレードしない場合、無償トライアル期間中に使用されたデータは次のように削除されます。</block>
-  <block id="20a399ea47f7779f35a917d5bfc35871" category="cell">SaaS Backup の無償トライアル</block>
-  <block id="e6180df64654cd45d8f372d6b33c4870" category="cell">トライアル終了後の日数</block>
   <block id="eec1e6e91c656e3f608e6d1c55f15f99" category="cell">データは ...</block>
   <block id="24fe48030f7d3097d5882535b04c3fa8" category="cell">期限切れ</block>
-  <block id="951502ee7afce1344e61a10b86aaa1f9" category="cell">1 ～ 15 日</block>
   <block id="afd64a17a7c36e9153991fbe0eda0f76" category="cell">Available ：管理者は通常アクセスが可能で、手動によるバックアップおよびリストアを実行できます。SaaS Backup では引き続きアラートが表示され、通知が送信されます。</block>
   <block id="b9f5c797ebbf55adccdd8539a65a0241" category="cell">無効</block>
-  <block id="d1c185ec36277c99c073ca28fa167601" category="cell">16 ～ 30 日</block>
-  <block id="f9d9979b8e9789483bcdf131846b8078" category="cell">Deactivated ：管理者は SaaS Backup ポータルにアクセスできません。この期間にサブスクリプションが更新された場合は、データを再アクティブ化できます。</block>
   <block id="04ae8e08c8997b56dd2db946fffa8577" category="cell">プロビジョニング解除</block>
-  <block id="fca24f68b0a283e4a4e35cde4dfa0a3a" category="cell">31 日以上</block>
   <block id="f698dce7cb7262aee1c5f6bbe5519878" category="cell">Deleted ：すべてのデータが削除され、テナントアカウントが削除されます。</block>
   <block id="3a3c17a3d9770667859bdcd66c4a99a5" category="summary">削除したアイテムを [ サービスの設定 ] からオンにすると、すべてのサービスから削除したアイテムを表示できます。</block>
   <block id="0e2f0e976aaeb091f6ae728602d424e1" category="paragraph">[ サービス設定 ] で [ 削除されたアイテムを表示する *] をオンにすると、すべてのサービスで削除されたアイテムをいつでも表示できます。これにより、時間を節約できます。削除したアイテムを別のバックアップで参照する代わりに、スイッチをオンにして、削除したアイテムをすぐに検索することができます。</block>
@@ -154,33 +146,6 @@
   <block id="88e4ec1e84b90b2fc6e010dc8df45a8c" category="list-text">Amazon S3 * または * Azure Blob * ストレージオプションを選択します。</block>
   <block id="9b6bafc614e2d19704d12baf566961b8" category="list-text">バックアップの * AWS S3 * または * Azure Blob * リージョンを選択します。バックアップするデータの物理的な場所に最も近いリージョンを選択してください。</block>
   <block id="59bd9482937af8863abf9e7f4229fc09" category="list-text">設定を確認し、 * Save * をクリックします。</block>
-  <block id="8a1b5520b65d8ce096df57e907189a55" category="summary">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合、試用版データは、バックアップストレージの保存先を変更しない限り保持されません。</block>
-  <block id="db72319f07f059d0101b823975192491" category="paragraph">* バックアップ保存先タイプを変更すると、トライアルデータは失われます。バックアップ先のリージョンが変更されると、も変更されます データ損失。 *</block>
-  <block id="6d3431ba560ac6c34d8e0942ff6d8c92" category="cell">トライアル契約のバックアップ先</block>
-  <block id="324d0dbc5778b0d30ae9a3b0951b61dd" category="cell">ライセンス契約のバックアップ先</block>
-  <block id="a1d5b6f135cfdcf368902b34a7c67653" category="cell">試用版のデータ</block>
-  <block id="89a2e465348431f47e582a4849441f73" category="cell">Amazon S3 が SaaS Backup で提供されます</block>
-  <block id="5e837ef81141bf040b588faa5a333683" category="cell">維持されます</block>
-  <block id="762629ddfec1b2200ebd930a34724a2d" category="cell">SaaS Backup が提供する Azure Blob です</block>
-  <block id="edbb20a6e7cdb96d29783e5e345acc35" category="inline-image-macro">アップグレードボタンのスクリーンショット</block>
-  <block id="b1c6657efb7ee8df4147c5f3c92f4518" category="list-text">[ サブスクリプションの詳細 * ] で、をクリックします <block ref="8acf61206d4ef3b293cfe7fbda26dca3" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="448cfeb23734ca99042411b683043ed7" category="list-text">アップグレードオプションを選択し、 * 次へ * をクリックします。AWS Marketplace から購入する場合は、「 * AWS Marketplace * 」を選択します。それ以外の場合は、「 * NetApp License * 」を選択します。</block>
-  <block id="a5498ae2941cdd5f1215760fa2e12384" category="list-text">「 * NetApp License * 」を選択した場合：</block>
-  <block id="29ed462a73716fdf1c7f1eacd848ca13" category="list-text">ライセンス情報を入力し、 * サブスクリプションの検証 * をクリックします。ライセンス情報の確認が表示されます。</block>
-  <block id="345c7ed27f22014f4b831498263f4675" category="list-text">「 * 次へ * 」をクリックします。サブスクリプションストレージの情報が表示され、ストレージのデスティネーションとリージョンが表示されます。</block>
-  <block id="e569f7d422f6e3473c1844500796643f" category="list-text">デスティネーションストレージタイプまたはデスティネーションストレージ領域を変更する場合は、次の手順を実行します。</block>
-  <block id="49b7b6152331d564c852838e9361eb68" category="list-text">新しいデスティネーションストレージのタイプまたはリージョンを選択します。</block>
-  <block id="1d020a6c2d7ad417747e14912e67842b" category="admonition">ストレージまたはデスティネーションリージョンを変更した場合、 NetApp SaaS Backup for Microsoft 365 で試用版データは移行されません。続行するには同意する必要があります。</block>
-  <block id="a8e71ae66530a126555358a4d6b483c0" category="list-text">保存先のストレージタイプを変更する場合は、必要な情報を入力し、 * 接続のテスト * をクリックします。</block>
-  <block id="9b3369a34fd50984e123108049658865" category="list-text">デスティネーションストレージのタイプとデスティネーションストレージのリージョンを同じにする場合は、設定を確認して、「 * 保存 * 」をクリックします。</block>
-  <block id="cdae03da0a493105e582628ed22abda8" category="list-text">「 * aws * 」、「 * AppDirect * 」、または「 * StreamOne * 」を選択した場合：</block>
-  <block id="156fd6b635ab0e98b2c9cd4880457909" category="list-text">リンクをクリックして、選択した Marketplace に移動します。</block>
-  <block id="ef4cf7726ccc45c89cb5272cb949b7d8" category="admonition">AWS Marketplace でのライセンスサブスクリプションは、 SaaS Backup が提供する Amazon S3 ストレージのみを使用できます。</block>
-  <block id="72a99821c0a5134095e1c4e5ac9cead3" category="list-text">Microsoft 365 アカウントで SaaS Backup for Microsoft 365 にサインインします。</block>
-  <block id="c048d463d7b37f486fe72b64be4e6f80" category="list-text">[Microsoft 365 設定 ] アイコンをクリックします <block ref="92b2090f67667b3cc14920419b32a5f9" category="inline-image-macro-rx" type="image"></block>。</block>
-  <block id="4c3ccc7944a6d3fed16c9b3438b8b58c" category="inline-image-macro">アクティブ化ボタンのスクリーンショット</block>
-  <block id="252c1d7e40e06ab870f43d29e7812c49" category="list-text">[ サブスクリプションの詳細 ] で、をクリックします <block ref="3297805c3f9b82ac60ec16cc4fdd244a" category="inline-image-macro-rx" type="image"></block>。トライアルサブスクリプションとは異なるバックアップストレージを選択した場合は、警告が表示されます。SaaS Backup for Microsoft 365 では、試用版データは新しい移行先に移行されません。続行するには同意する必要があります。</block>
-  <block id="dae11a171c86478e146e6d260683618f" category="admonition">ライセンスサブスクリプションのユーザー数をトライアルサブスクリプションのユーザー数よりも少なくすることを選択した場合、ライセンスサブスクリプションがアクティブ化されると、すべてのユーザーアカウントが保護されていない階層に移動します。アクティブ化したら、目的のアカウントを保護された階層に手動で移動する必要があります。</block>
   <block id="960807b3a38d77ca1916570b1732dda1" category="inline-link-macro">サポートを有効にします</block>
   <block id="b1b8f50a4274cba58affa63d65dc6ee5" category="list-text">まだ行っていない場合は、 <block ref="e13d8583c6001789a64d81c0b2f80cf7" category="inline-link-macro-rx"></block>。</block>
   <block id="7a00bdb3c8899a6fb0c89a7109d2eb8c" category="summary">メールボックス、サイト、または個人用サイトの表示をフィルタリングして、特定の条件を満たす結果のみを表示できます。</block>
@@ -455,15 +420,7 @@
   <block id="38462566187b9e0b2e5f497a5502130b" category="list-text">[Microsoft 365] リンクをクリックします。<block ref="f9631d5c739c4c4b4fe570c209766ce1" category="inline-image-macro-rx" type="image"></block></block>
   <block id="c6734135d9ae05c120de2cd4d857a7c4" category="list-text">サービスアカウントの管理 * の横にある * + * アイコンをクリックします。</block>
   <block id="137b6252ec3ba5ac3a49061c09729ac4" category="list-text">Microsoft 365 のサインインページにリダイレクトして権限を付与するには、 [* 確認 ] をクリックします。</block>
-  <block id="def516b1e747f5af311be3853f89bb66" category="summary">無償トライアルアカウントに適用される一定の制限事項を理解しておく必要があります。</block>
   <block id="30b2123030b8a0f2633415ae646de89b" category="doc">無償トライアルの制限</block>
-  <block id="9e2588b7501cf6b0c88398471f593e95" category="paragraph">無料トライアルアカウントには、次の制限事項が適用されます。</block>
-  <block id="32b69c2d83d1e70344bd1f17306f9077" category="list-text">Microsoft Exchange Online では最大 25 ユーザー、 Microsoft SharePoint Online では最大 25 サイトコレクション。</block>
-  <block id="0b5853ebc3db5edeef95409b7ec43107" category="list-text">1 日に最大 3 つの即時バックアップを作成できます。</block>
-  <block id="e5a3f64eb2def107afdd1de4d946b7fc" category="list-text">最初の 30 日間だけバックアップを自動化。</block>
-  <block id="c536ed29020f22f1c1b14efa4cdbb75d" category="list-text">無償トライアル終了後の 15 日間の猶予期間中は、スケジュールされたバックアップは実行できません。</block>
-  <block id="95586af4ab51839471da911204e1aa78" category="list-text">すべてのサービスで、最大 10 件のリストアが 24 時間で許可されます。</block>
-  <block id="80870c06cc314ae7a248df5ab62d3f5f" category="list-text">TeamsChat バックアップはデフォルトでは無効になっており、リクエストに応じて saasbackupsupport@netapp.com の SaaS Backup Support に電子メールを送信することで有効にできます。TeamsChat を有効にするには、アクティブなチームのすべてのユーザーに SaaS Backup でライセンスが付与されている必要があります。</block>
   <block id="6717d37b6834e1656959896157ee6fcd" category="summary">必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サービスをアクティブ化できます。Microsoft 365 グループをアクティブにするには、 Microsoft Exchange Online または Microsoft SharePoint Online をアクティブにする必要があります。</block>
   <block id="4cfc0abdc343554651425620b5108cfd" category="list-text">アクティブ化するサービスの横にある [Activate *] をクリックします。</block>
   <block id="ededc6ad5e601dceeeb3a254cbfcaf3a" category="summary">SaaS Backup for Microsoft 365 を使用すると、 Microsoft Exchange Online 365 をきめ細かくリストアできます。</block>
@@ -484,8 +441,6 @@
   <block id="6e5d4c3475dd8385b64b8f525196abc7" category="admonition">[PST にエクスポート ] リストア・オプションを選択した場合、表示されたリンクは 7 日間有効で、事前認証されています。</block>
   <block id="6e1b2e76136fef4e065dc537ac7bec7d" category="paragraph">リストアジョブが作成されたことを示すメッセージが表示されます。</block>
   <block id="5cd8ed00a66ee33edca00eaad743e706" category="summary">SaaS Backup for Microsoft 365 の有料サブスクリプションを開始するには、バックアップに使用するストレージのタイプを決定し、グローバル権限を持つ Microsoft 365 サービスアカウントを作成し、サインアッププロセスを完了する必要があります。</block>
-  <block id="e80ac21f1c9c2bfc1cd2b0c269ca21b1" category="doc">SaaS への有料サブスクリプションを開始するためのワークフロー Microsoft 365 向けのバックアップ</block>
-  <block id="247c11bc66df531c09cff7db883f88a8" category="paragraph">SaaS Backup for Microsoft 365 の有料サブスクリプションを開始するには、次の手順を実行する必要があります。</block>
   <block id="ea04a30a00c78442cf07b930689cf146" category="list-text">SaaS Backup が提供する Amazon S3 と Azure Blob Storage のどちらを使用するかを決定します。</block>
   <block id="d1277819211cde3f869b987ea578960e" category="inline-link-macro">SaaS Backup で使用できるストレージタイプ</block>
   <block id="4cd94590bb8488a413e6a427480d3251" category="paragraph"><block ref="df8d60faebfd1140c689d69f47bd9ce6" category="inline-link-macro-rx"></block>。</block>
@@ -516,11 +471,6 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">オープンソース</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知ファイルには、ネットアップソフトウェアで使用されるサードパーティの著作権およびライセンスに関する情報が記載されています。</block>
   <block id="af482b62e5f593026c0e1f3b25e33b22" category="inline-link">SaaS Backup に関する注意事項</block>
-  <block id="a6cf97b63eff3ad329ddd3b42602dc2c" category="paragraph">Microsoft 365 for Business の 30 日間無償トライアルでは、 Microsoft 365 と SaaS Backup for Microsoft 365 の最新機能をご確認いただけます。</block>
-  <block id="154aaf2b1abad0f9ef74679e031ff9bb" category="inline-link">Microsoft 365 for Business サイト</block>
-  <block id="6d9567e09b2cc2c796d047f8b47e3ca0" category="list-text">にアクセスします<block ref="5a129d533828990ea282ed866872ff1c" category="inline-link-rx"></block> トライアル契約を開始します。</block>
-  <block id="0bed8b88d6fa9d144dd46e0009bce73c" category="list-text">「 * 1 ヶ月間無料でお試しください * 」をクリックします。</block>
-  <block id="4d994d333f3504b3b25b3aa88931961b" category="list-text">画面に表示される手順に従って、 Microsoft 365 の無償トライアルアカウントを作成します。</block>
   <block id="74524ae37b19d9cf62712abd2b11085c" category="summary">テーブルリファレンスに、 SaaS Backup でチームデータをどこに配置するかが示されています。</block>
   <block id="15ed07498534e492570fb7e8050ae853" category="doc">データの場所をチーム化</block>
   <block id="28cb7fa26b2eed860a1681734c1aea62" category="paragraph">Microsoft のデータチームごとに、 SaaS Backup for Microsoft 365 の場所は異なります。</block>
@@ -611,9 +561,6 @@
   <block id="471dec26ded6b7c1186f46ab9997db3c" category="summary">NetApp SaaS Backup for Microsoft 365 のドキュメントポータルへようこそ。</block>
   <block id="d6caea3522b7366df1ef706e69eb7090" category="doc">NetApp SaaS Backup for Microsoft 365 のドキュメント</block>
   <block id="4b90c0fa551e1b95c98ebe0691603d94" category="paragraph">NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレージと Microsoft Azure Blob Storage にバックアップする、 Web ベースのセキュアなソフトウェアサービス（ SaaS ）です。</block>
-  <block id="1fde0727b387439572ade83eecff4f68" category="section-title">新機能をご紹介します</block>
-  <block id="145265181362aad8bded8926b3022016" category="inline-link-macro">SaaS Backup for Microsoft 365 の新機能</block>
-  <block id="b245589f19640f4ed31a299de4011e33" category="list-text"><block ref="b245589f19640f4ed31a299de4011e33" category="inline-link-macro-rx"></block></block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="section-title">はじめに</block>
   <block id="c96ecffde6280d2fa1507c88f273acb6" category="section-title">フィードバックを提供するか、ヘルプを入手するか、詳細を確認します</block>
   <block id="3cd12697cda279c9c99b093a265c1ba8" category="inline-link-macro">ヘルプを参照したり、詳細情報を参照したりするには</block>
@@ -786,20 +733,6 @@
   <block id="c4847d7d96f65dca923f79caeb317cfd" category="list-text">をクリックします <block ref="57896efc0de0d48cea535446c297cd85" category="inline-image-macro-rx" type="image"></block> 左側のナビゲーションペインから、</block>
   <block id="e103be6f64222dbfd978e48abb80646b" category="list-text">「最近実行したジョブ」で、キャンセルするジョブをクリックします。</block>
   <block id="14746ab9705143711849289cd0368e51" category="list-text">[ キャンセル（ Cancel ） ] をクリックします。キャンセルされたジョブの進行状況は、「最近完了したジョブ」の下に表示されます。</block>
-  <block id="1bdac635ce4139030bb822472e615a6d" category="summary">SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。</block>
-  <block id="33802f42e0a28dafca8f766c0830bd74" category="paragraph">SaaS Backup for Microsoft 365 の無償トライアルに登録するには、アクティベーションコードが必要です。アクティベーションコードは、チャネルパートナーまたは営業担当者から提供されている場合があります。登録されていない場合は、登録して受信する必要があります。</block>
-  <block id="a189a1df7360b047444647d114f49f87" category="list-text">必要な登録情報を入力し、 * Submit * をクリックします。無料トライアルのアクティベーションコードが記載された電子メールが届きます。</block>
-  <block id="cb7275d9b71e140a3f1a91d0c6cc0747" category="list-text">Microsoft 365 のテストまたはトライアルアカウントの電子メールアドレスとパスワードを入力し、「 * サインイン * 」をクリックします。SaaS Backup for Microsoft 365 によって要求された権限のリストが表示されます。</block>
-  <block id="e2dfed3093092bbfc3bed3cf01111b0a" category="list-text">サブスクリプションタイプとして「 * 無料トライアル * 」を選択します。</block>
-  <block id="e7a56e29d931a374c7958199f1bafb29" category="list-text">チャネルパートナーまたは営業担当者から提供される無料トライアルアクティベーションコードを入力するか、登録メールで入手します。</block>
-  <block id="e11100ed191aa6f176c829759972cfce" category="list-text">ストレージオプションを選択します。</block>
-  <block id="69dc20d3740095eb96943daf74d8b8d7" category="list-text">[*Sign Up with NetApp SSO* （ NetApp SSO でサインアップ） ] をクリックし</block>
-  <block id="481c2d7848531f12a7fd6f119c471514" category="paragraph"><block ref="481c2d7848531f12a7fd6f119c471514" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="cdf30a87c9430cc5bdc1044ad7e168e9" category="list-text">要求されたユーザー情報を入力し、 [ サインアップ ] をクリックします。チャネルパートナー、営業担当者、または登録メールから受け取った無料トライアルアクティベーションコードが必要です。</block>
-  <block id="d5d752284cf9b3813c6cb75800200063" category="list-text">をクリックします <block ref="033e893069dbe1c51622ec6c06fe3419" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
-  <block id="fedadd6f719e834650ca6c6945b6f6dd" category="list-text">をクリックします <block ref="b6f2e54c54e3104f5cb63e0dad75def5" category="inline-image-macro-rx" type="image"></block> SaaS サービスを選択します。</block>
-  <block id="531c29ba69b5ebe332db5b68278c5add" category="list-text">サブスクリプションタイプとして「 * 無料トライアル * 」を選択します。チャネルパートナーまたは営業担当者から提供されたアクティベーションコードを入力するか、マーケティング担当者から電子メールで入手します。</block>
-  <block id="7537f96c2f035f3bf4023172c5e1b6f7" category="list-text">バックアップストレージのオプションを選択します。</block>
   <block id="17a7f7612ee5c332c72c543bfc879c0a" category="summary">SaaS Backup for Microsoft 365 には、 3 つのバックアップポリシー階層があらかじめ定義されています。これらのポリシー階層は、 SaaS Backup のストレージと BYOS のどちらを使用しているかによって、バックアップ頻度とデータ保持期間が異なります。</block>
   <block id="a0f6625830185faf63102ac6f8475d06" category="paragraph">SaaS Backup for Microsoft 365 には、 3 つのバックアップポリシー階層があらかじめ定義されています。これらのポリシー階層は、 SaaS Backup のストレージと BYOS のどちらを使用しているかによって、バックアップ頻度とデータ保持期間が異なります。</block>
   <block id="4dc87dc04732df6a76651e7d1f0cb0e7" category="paragraph">3 つのポリシー間でデータを移動することはできますが、新しいポリシーを作成したり、事前定義された階層のパラメータを変更したりすることはできません。</block>
@@ -863,17 +796,6 @@
   <block id="d4aef45eaed5bded9ba10045d1d9f03c" category="list-text">* 別のサイトへのリストア *</block>
   <block id="eb729008daf8b3603cdc161bd528d76c" category="paragraph">別のサイトにリストアする場合は、検索フィールドにデスティネーションサイトを入力する必要があります。検索フィールドにサイトの一部を入力すると、一致するサイトの自動検索を開始できます。</block>
   <block id="9f4e67a899612efbb024bcba557762f9" category="paragraph">データをエクスポートする場合は、データをダウンロードする必要があります。左側のメニューの「 * Reporting * 」に移動します。エクスポートデータジョブを検索します。[ 合計フォルダー（ Total Folders ） ] をクリックします。次に、 [* Export Data Download Link] をクリックします。zip ファイルがダウンロードされます。zip ファイルを開き、データを抽出します。</block>
-  <block id="c81cd01ae243c25c6c476879c6db1451" category="summary">SaaS Backup for Microsoft 365 の無償トライアルアカウントを使用するには、無償トライアルアクティベーションコードと Microsoft 365 テストアカウントをお持ちで、サインアッププロセスを完了する必要があります。</block>
-  <block id="503b74ce08000ed04b7e1367ab725d60" category="paragraph">SaaS Backup for Microsoft 365 の無償トライアルを利用するには、次の手順を実行する必要があります。</block>
-  <block id="e5b83f3bd74f57bedec7051b3edc0cea" category="inline-link-macro">無償トライアルの制限</block>
-  <block id="072c8570727097dca3420a9c7c649846" category="list-text">に注意してください <block ref="e46da3c007b7c38fba9f43f9695924e1" category="inline-link-macro-rx"></block>。</block>
-  <block id="cd80e72aa996af149a742971d238d415" category="inline-link-macro">無償トライアルアクティベーションコード</block>
-  <block id="0fcc28a99a98bf0ad3a1e462c6c0d146" category="list-text">お持ちください <block ref="62811f4a6842b823647bfb89540f3517" category="inline-link-macro-rx"></block>。</block>
-  <block id="b838a93f5b20be89faad2438638eac93" category="inline-link-macro">Microsoft 365 テストアカウントにサインアップします</block>
-  <block id="3adccc1998f9398bcfb2f9e6e524bf75" category="list-text">必要に応じて、 <block ref="115851e5c51477f08693fc62491b3e9b" category="inline-link-macro-rx"></block>。</block>
-  <block id="ff9a805d222c3ac0916c371800a05a53" category="list-text"><block ref="c9af6193923e9dc20694b1344b3dc5c7" category="inline-link-macro-rx"></block> Microsoft 365 アカウントまたはネットアップの SSO アカウントを使用する。</block>
-  <block id="46671751a991b10fda3d29f6f278422a" category="inline-image-macro">無料トライアルサインアッププロセスのワークフロー</block>
-  <block id="99e38848c9b38cfadce3b630d97abdaf" category="paragraph"><block ref="99e38848c9b38cfadce3b630d97abdaf" category="inline-image-macro-rx" type="image"></block></block>
   <block id="96c5c2a6a16af4dbce3c3c185b2600d2" category="paragraph">Microsoft Exchange Online 、 OneDrive for Business 、 SharePoint Online 、 Microsoft Office 365 グループのルールを作成できます。</block>
   <block id="245a50c7f83ec336dcce1b49eaadfe92" category="inline-image-macro">ユーザー定義フィルタと SaaS Backup 定義フィルタの例 ルールの作成</block>
   <block id="9472fea1831b90ee514f0ee8d8f8cdd4" category="paragraph">ルールを作成する前に、データにユーザ定義フィルタを適用する必要があります。適用されたフィルタは、 * フィルタ * アイコンの下に表示されます。NetApp SaaS Backup for Microsoft 365 のデフォルトフィルタはグレーで表示されます。ユーザー定義のフィルタが薄い青で表示されます。<block ref="4197bfc4aebe6e6734416ba995e70d18" category="inline-image-macro-rx" type="image"></block></block>
@@ -1002,7 +924,6 @@
   <block id="25024e4580c1e3f5e67328bb98e2b101" category="sidebar">グループとチームの場合</block>
   <block id="83f88ebd41a2d4bf2440a2d134086a74" category="sidebar">サポートを有効にします</block>
   <block id="d648f2a68a54fd1b3329efc3cf24d29c" category="sidebar">法的通知</block>
-  <block id="29e9455249b19d05b4fb1352b5c216da" category="list-text">をクリックします<block ref="e8cec0ed878027a1aa2ac01b473adb49" category="inline-link-rx"></block> をクリックして、 SaaS Backup for Microsoft 365 の無償トライアルの URL にアクセスしてください。</block>
   <block id="bbab3039495eb009e7e37fddca11f420" category="list-text">SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。</block>
   <block id="2366a80c7e9969775e6e87113d8bd6b9" category="summary">Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を設定する必要があります。</block>
   <block id="ac67a804e01713d24a3b80b009ba740f" category="inline-link-macro">グローバル権限を持つ Microsoft 365 サービスアカウントを作成する</block>
@@ -1010,11 +931,7 @@
   <block id="afe1726d53042cd31bac4c0da81ad743" category="list-text">Microsoft 365 サービスアカウントにログインします。</block>
   <block id="eb21eff2ec724134a8bb2117fadc526d" category="paragraph"><block ref="eb21eff2ec724134a8bb2117fadc526d" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9ed4e8ed2266c74a2f1baf6a935a3c44" category="paragraph"><block ref="26d24b44fbf37fad7a1bc4f2bd668ad1" category="inline-image-macro-rx" type="image"></block>新しいウィンドウが表示されます</block>
-  <block id="a53495d623868aa543845636677455d7" category="doc">SaaS の無償トライアルを開始するためのワークフロー Microsoft 365 向けのバックアップ</block>
   <block id="49f65f305bd3302abd16a6ba325b65d3" category="inline-link-macro">Microsoft Exchange Online の偽装を設定します</block>
-  <block id="983360d0def6e102424fc3613cf2d572" category="list-text"><block ref="64ea1e8fc4e2b8d9ec6fc411042ab0e1" category="inline-link-macro-rx"></block>。</block>
-  <block id="2ccdff143d74916a1211dd44904e1999" category="list-text"><block ref="4820d84d1889f00f60cdb5ea07f07a07" category="inline-link-macro-rx"></block>。</block>
-  <block id="4ebc69d5d25f74d56798158e340179dc" category="list-text"><block ref="30f84fb052d031228dda8a31c47a259a" category="inline-link-macro-rx"></block>。</block>
   <block id="55d24cf7a906d1d4208622ed125d211e" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="5bd660b6b70cc7e9e5121ff01396dc31" category="paragraph">サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます<block ref="4b0df7f6652ef877e322a199d6b6edce" category="inline-link-rx"></block> をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。</block>
   <block id="dd5f8dd4f85249942624661b110d693e" category="paragraph">以下は、 SaaS Backup for Microsoft 365 のアプリケーションレベルにおける既知の制限事項です。</block>
@@ -1049,8 +966,6 @@
   <block id="83913e953071b43e82d99b522663debf" category="doc">ユーザアカウントに割り当てられている管理ロールを更新します</block>
   <block id="c4e76fab6890557f793699bf217c461e" category="doc">ユーザアカウントに管理ロールを割り当てます</block>
   <block id="5b20edb29e2e3b85bd65bb20e8c323a1" category="doc">SaaS Backup for の有料サブスクリプションに登録します Microsoft 365</block>
-  <block id="a05d453722a996742fec3c2827e30a0c" category="section-title">Microsoft 365 の有料サブスクリプションにサインアップします サービスアカウント</block>
-  <block id="0bd302878f8040f5202a735159728ec6" category="section-title">ネットアップの SSO を利用して有料サブスクリプションに登録します アカウント</block>
   <block id="7005be9dcb2babc11145593389a5d0f0" category="doc">ユーザ定義のフィルタを作成します</block>
   <block id="82c3ac190dfb331b36c24d2629b9a365" category="doc">特定のバックアップポリシーのバックアップをただちに実行します</block>
   <block id="65512882fe38fcc7733153860abf51e2" category="doc">復元されたファイルを検索します</block>
@@ -1162,9 +1077,6 @@
   <block id="cf9b65815de15d6e0a7614ea04503b18" category="inline-link-macro">有料購読を開始します</block>
   <block id="66a8e9a920b348a656e5d56c7551b93b" category="list-text"><block ref="66a8e9a920b348a656e5d56c7551b93b" category="inline-link-macro-rx"></block></block>
   <block id="42898530241af400fda5327fc771fbaf" category="inline-link-macro">無償トライアルをお試しください</block>
-  <block id="fa56f3ca29655445c50fe3d7bcce728a" category="list-text"><block ref="fa56f3ca29655445c50fe3d7bcce728a" category="inline-link-macro-rx"></block></block>
-  <block id="6be7a975dc6dadc5a8f294312c3b83d9" category="inline-link-macro">無償トライアルからアップグレードしてください</block>
-  <block id="8363fdaf697d320c2f82579236d59eb3" category="list-text"><block ref="8363fdaf697d320c2f82579236d59eb3" category="inline-link-macro-rx"></block></block>
   <block id="c59ff83bf11a6531408fc11e8902566c" category="list-text"><block ref="c59ff83bf11a6531408fc11e8902566c" category="inline-link-macro-rx"></block></block>
   <block id="90d150ad765ab3f96aae750d3759c8c2" category="doc">パージされたデータのリストを表示します</block>
   <block id="85f5c131ebbfcb67cc6ffb0efbd2ecb9" category="doc">ユーザーライセンスをリリースします</block>
@@ -1180,8 +1092,6 @@
   <block id="24391a0c4e58147fa07febdb32887a1a" category="doc">ジョブをキャンセルします</block>
   <block id="22e2acbc5d542c00c7ad5d2693661006" category="doc">無償トライアルアクティベーションコードを入手してください</block>
   <block id="7e01d5441a2bbda36f29dd5a8d2561b7" category="doc">SaaS Backup for の無償トライアルに登録してください Microsoft 365</block>
-  <block id="c84082e63d1052aedfca36e4dd31f521" category="section-title">Microsoft 365 の無償トライアルに登録します サービスアカウント</block>
-  <block id="808117ba1d01d824c38cce84a65e2cf0" category="section-title">ネットアップの SSO で無償トライアルに登録してください アカウント</block>
   <block id="b2b6d10003a21b40160d053ed3a00ba2" category="doc">通知を設定する</block>
   <block id="5d3e7c02e2249ebaa04369c32c97e7e3" category="doc">OneNote のバックアップを有効にします</block>
   <block id="d0db67ae234f058e70769c92e92dad3d" category="doc">Microsoft SharePoint Online で詳細なリストアを実行します</block>
@@ -1253,8 +1163,6 @@
   <block id="5aa55f0093275bb98034a23ee84b73b9" category="cell">OneDrive for Business &gt; [MySites] &gt; [&lt; ドライブ名 &gt;] &gt; [ ファイル ] の順にクリックします</block>
   <block id="8b580b7571abfc9d2a2f7d6a9eae5dc0" category="cell">OneDrive for Business &gt; [MySites] &gt; [&lt; ドライブ名 &gt;] &gt; [ ファイル ] の順にクリックします</block>
   <block id="e662d72b26f52bc8b331814844a8878e" category="cell">OneDrive for Business &gt; [MySites] &gt; [&lt; ドライブ名 &gt;] &gt; [ ファイル ] の順にクリックします &gt; ノートブック</block>
-  <block id="60b00097e19bf88e99151e80c77dbbfd" category="paragraph">試用版サブスクリプションからライセンスサブスクリプションにアップグレードした場合は、同じバックアップストレージのデスティネーションタイプと同じバックアップストレージ領域を使用している場合にのみ、試用版データが保持されます。アップグレード時にライセンスを正しい SaaS Backup アカウントに関連付けるには、試用版とライセンス版の両方のサブスクリプションに同じ E メールアドレスを使用します。</block>
-  <block id="d166b90b9550437c32346426e1991076" category="list-text">Marketplace の指示に従います。ライセンスを正しい SaaS Backup アカウントに関連付けるには、無償トライアルで使用しているものと同じ E メールアドレスを使用します。</block>
   <block id="094b46cd4e2b4226382c342909cf9e52" category="paragraph">SaaS Backup for Microsoft 365 では、 Exchange Online 、 SharePoint Online 、 OneDrive for Business 、グループとチームのすべてのサービスで、保護されているデータを検索できます。</block>
   <block id="5f688eec1ef4e3c2115e695b24827ad7" category="paragraph">保護されていないインスタンスを検索することはできますが、前回のバックアップが作成されている場合にのみ検索結果が表示されます。</block>
   <block id="af1b2fc00c7e4ebce76f4d940d1bd773" category="paragraph">検索結果を絞り込むには、次の条件を使用します。</block>
@@ -1311,7 +1219,6 @@
   <block id="2380a2f5b8d08ee084abd8643a19e553" category="admonition">リストアオプション * 同じサイトへのリストア * および * 別のサイトへのリストア * では、選択したサイトのサブサイトとして、「 &lt;sitename_cc_timestamp&gt; ： * Single site * 」、「 * multiple sites* 」、および「 * single / multiple lists * if 3 or more lists 」という命名規則でリストアされます。</block>
   <block id="935f9ecad6dadf1ce20d75b6aa7ad1ef" category="list-text">をクリックします <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="6aaa73c1970866ed9779b298b48bd43a" category="list-text">[*Services] をクリックします。</block>
-  <block id="898566549d933366de8ad6d6a1fbff27" category="sidebar">有料サブスクリプションを開始する</block>
   <block id="d4221ec3faf6174be7b78d60fd6fb637" category="sidebar">高度な検索を使用します</block>
   <block id="a72ba6abcd432d690074b970ea9e1e5a" category="inline-link-macro">無償トライアルで SaaS Backup に登録してください</block>
   <block id="8f8caa92edfef6726734d704b2b67044" category="paragraph"><block ref="8f8caa92edfef6726734d704b2b67044" category="inline-link-macro-rx"></block></block>
@@ -1408,7 +1315,11 @@
   <block id="079fc4b41d453223328c8289d6f6ee23" category="paragraph">詳細については、を参照してください <block ref="13656a114805a881003fbba8178f036a" category="inline-link-macro-rx"></block>。</block>
   <block id="d707bbc05400b2ce6b59ba216d70b5aa" category="sidebar">セルフサービスポータルを使用する</block>
   <block id="986fd8fd4a9ddabca0d89b5e7da5ba20" category="admonition">最新の認証を有効にするには、テナントアカウントのクレデンシャルを使用してログインします。アカウント名は Microsoft 365 サービスの設定で確認できます（下記の「 * オプション 2 の手順 * 」を参照）。グローバル管理者ロールがこのアカウントに割り当てられていることを確認します。最新の認証が正常に有効になったら、管理者ユーザーからグローバル管理者ロールを削除できます。</block>
-  <block id="bab00dea1cabe9c56b693bc0180cbb13" category="list-text">140 MB を超えるメッセージが含まれているメールボックスのリストアでは、アップロードに失敗します。</block>
   <block id="3268b398df77a34bc3dc7c2eee28b5d5" category="inline-link-macro">Microsoft Exchange Online の制限 : メッセージの制限</block>
   <block id="6567b22ffc8f6ae02aa92f63c67f763a" category="admonition">140 MB を超えるメッセージを含むメールボックスをリストアすると、サーバへのアップロードに失敗することがあります。Export to PST （ PST にエクスポート）オプションを使用して、高レベルのリストアを実行することを推奨します。詳細については、を参照してください <block ref="005c12c4f12807842a060236e5445890" category="inline-link-macro-rx"></block>。</block>
+  <block id="d58b980148cd198d6d43f285f030425c" category="doc">作業を開始するためのワークフロー</block>
+  <block id="cde2057a98d86f208770b3164aedda87" category="paragraph">SaaS Backup for Microsoft 365 を使い始めるには、次の手順を実行する必要があります。</block>
+  <block id="7be94d6ea867267b0e0652c209469b72" category="doc">データの削除</block>
+  <block id="07e38d036e9ca9a031fae0e612627b48" category="section-title">Microsoft 365 サービスアカウントでサインアップします</block>
+  <block id="8d76a8a511ee942b5420fe631ad886fb" category="section-title">ネットアップの SSO アカウントで登録します</block>
 </blocks>

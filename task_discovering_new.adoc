@@ -6,6 +6,7 @@ summary: NetApp SaaS Backup for Microsoft 365 では、サービスアカウン�
 ---
 = 新しいメールボックス、サイト、グループを検出します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

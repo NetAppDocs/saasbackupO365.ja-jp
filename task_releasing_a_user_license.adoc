@@ -6,6 +6,7 @@ summary: 保護されているか保護されていないかに関係なく、�
 ---
 = ユーザーライセンスをリリースします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

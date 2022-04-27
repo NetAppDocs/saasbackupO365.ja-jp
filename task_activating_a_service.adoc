@@ -6,6 +6,7 @@ summary: 必要に応じて、 1 つ以上の SaaS Backup for Microsoft 365 サ�
 ---
 = サービスをアクティブにします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

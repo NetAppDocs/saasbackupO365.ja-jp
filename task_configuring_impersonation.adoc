@@ -6,6 +6,7 @@ summary: Microsoft Exchange Online で SaaS Backup を使用する場合は、�
 ---
 = Microsoft Exchange Online の偽装を設定します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

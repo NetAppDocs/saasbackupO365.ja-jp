@@ -6,6 +6,7 @@ summary: サポートをアクティブにすると、電話、オンライン�
 ---
 = サポートを有効にします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

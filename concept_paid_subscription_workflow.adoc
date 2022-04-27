@@ -4,10 +4,11 @@ permalink: concept_paid_subscription_workflow.html
 keywords: netapp, saas backup, microsoft 365, getting started, paid, subscription, workflow 
 summary: SaaS Backup for Microsoft 365 の有料サブスクリプションを開始するには、バックアップに使用するストレージのタイプを決定し、グローバル権限を持つ Microsoft 365 サービスアカウントを作成し、サインアッププロセスを完了する必要があります。 
 ---
-= SaaS への有料サブスクリプションを開始するためのワークフロー Microsoft 365 向けのバックアップ
+= 作業を開始するためのワークフロー
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 
@@ -18,7 +19,7 @@ summary: SaaS Backup for Microsoft 365 の有料サブスクリプションを�
 
 
 [role="lead"]
-SaaS Backup for Microsoft 365 の有料サブスクリプションを開始するには、次の手順を実行する必要があります。
+SaaS Backup for Microsoft 365 を使い始めるには、次の手順を実行する必要があります。
 
 . SaaS Backup が提供する Amazon S3 と Azure Blob Storage のどちらを使用するかを決定します。
 +

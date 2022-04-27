@@ -6,6 +6,7 @@ summary: NetApp SaaS Backup for Microsoft 365 では、共有メールボック�
 ---
 = 共有メールボックスを有効にする権限を付与します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

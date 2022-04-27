@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 を使用すると、 Microsoft SharePoin
 ---
 = Microsoft SharePoint Online で詳細なリストアを実行します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

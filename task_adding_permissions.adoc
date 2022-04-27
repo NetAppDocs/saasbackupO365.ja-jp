@@ -6,6 +6,7 @@ summary: NetApp SaaS Backup for Microsoft 365 では、サービスアカウン�
 ---
 = サービスアカウントに権限を追加します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

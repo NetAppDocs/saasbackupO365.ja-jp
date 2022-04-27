@@ -6,6 +6,7 @@ summary: ライセンスを更新、追加、または更新できます。
 ---
 = サブスクリプション情報を更新します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 には、 3 つのバックアップポ�
 ---
 = バックアップポリシー
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

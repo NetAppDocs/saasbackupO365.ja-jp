@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 をセットアップすると、デフ�
 ---
 = 最初のバックアップのスケジュールを設定します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

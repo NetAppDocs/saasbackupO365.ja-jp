@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft Office 365 では、 E メールアドレス�
 ---
 = ユーザデータを監視する
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

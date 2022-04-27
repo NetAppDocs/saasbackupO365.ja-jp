@@ -6,6 +6,7 @@ summary: '削除したアイテムを [ サービスの設定 ] からオンに�
 ---
 = 削除した項目を表示します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: テーブルリファレンスに、 SaaS Backup でチームデータ�
 ---
 = データの場所をチーム化
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

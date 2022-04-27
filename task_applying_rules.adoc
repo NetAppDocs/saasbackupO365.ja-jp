@@ -6,6 +6,7 @@ summary: 保護されていない項目に既存のルールを適用したり�
 ---
 = 既存のルールを適用する
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

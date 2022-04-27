@@ -6,6 +6,7 @@ summary: 必要に応じて、任意の Microsoft 365 サービスのバック�
 ---
 = サービスの即時バックアップを実行します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: ライセンスは追加またはリリースできます。
 ---
 = ライセンスを追加します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

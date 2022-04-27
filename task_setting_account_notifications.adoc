@@ -6,6 +6,7 @@ summary: NetApp SaaS Backup for Microsoft 365 では、サービスアカウン�
 ---
 = 通知を設定する
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

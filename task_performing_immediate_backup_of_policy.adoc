@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 の導入にあたっては、データ�
 ---
 = 特定のバックアップポリシーのバックアップをただちに実行します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -4,8 +4,9 @@ permalink: reference_paid_subscription_data.html
 keywords: paid, subscription, data, saas, backup, microsoft 365 
 summary: ライセンス版の SaaS Backup for Microsoft 365 を更新しない場合、サブスクリプション期間中に使用されたデータは削除されます。 
 ---
-= 有料サブスクリプションデータの削除
+= データの削除
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

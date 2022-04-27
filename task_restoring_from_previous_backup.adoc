@@ -6,6 +6,7 @@ summary: デフォルトでは、最新のバックアップのみがリスト�
 ---
 = 以前のバックアップからリストアする
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

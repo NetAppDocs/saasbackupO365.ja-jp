@@ -6,6 +6,7 @@ summary: Microsoft 365 サービスアカウントまたはネットアップの
 ---
 = 有料サブスクリプションでサインアップします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

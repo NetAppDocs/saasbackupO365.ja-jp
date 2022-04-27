@@ -28,50 +28,20 @@ sidebar:
       url: "/concept_storage_types.html"
   - title: はじめに
     entries:
-    - title: 無償トライアルをお試しください
-      entries:
-      - title: ワークフロー
-        url: "/concept_free_trial_workflow.html"
-      - title: 無償トライアルの制限
-        url: "/concept_free_trial_restrictions.html"
-      - title: 無償トライアルアクティベーションコードを入手してください
-        url: "/task_registering_for_free_trial_activation_code.html"
-      - title: Microsoft 365 の無償トライアルアカウントに登録します
-        url: "/task_signing_up_for_o365_free_trial.html"
-      - title: グローバル権限を持つ Microsoft 365 サービスアカウントを作成します
-        url: "/task_creating_msservice_account_with_global_permissions.html"
-      - title: Microsoft Exchange Online の偽装を設定します
-        url: "/task_configuring_impersonation.html"
-      - title: SaaS Backup for の無償トライアルに登録してください Microsoft 365
-        url: "/task_signing_up_for_saasbkup_free_trial.html"
-      - title: 最初のバックアップのスケジュールを設定します
-        url: "/task_scheduling_first_backup.html"
-      - title: 不完全なバックアップを実行します
-        url: "/task_performing_immediate_backup_of_policy.html"
-      - title: 試用版サブスクリプションからアップグレードする
-        entries:
-        - title: アップグレード
-          url: "/task_upgrading_from_trial.html"
-        - title: アップグレード後にサポートを有効にします
-          url: "/task_activate_support.html"
-      - title: 無料トライアルデータの削除
-        url: "/reference_free_trial_data.html"
-    - title: 有料サブスクリプションを開始する
-      entries:
-      - title: ワークフロー
-        url: "/concept_paid_subscription_workflow.html"
-      - title: グローバル権限を持つ MS Office サービスアカウントを作成します
-        url: "/task_creating_msservice_account_with_global_permissions.html"
-      - title: Microsoft Exchange Online の偽装を設定します
-        url: "/task_configuring_impersonation.html"
-      - title: SaaS Backup for の有料サブスクリプションに登録します Microsoft 365
-        url: "/task_signing_up_for_saasbkup_paid_subscription.html"
-      - title: 最初のバックアップのスケジュールを設定します
-        url: "/task_scheduling_first_backup.html"
-      - title: 不完全なバックアップを実行します
-        url: "/task_performing_immediate_backup_of_policy.html"
-      - title: 有料サブスクリプションデータの削除
-        url: "/reference_paid_subscription_data.html"
+    - title: ワークフロー
+      url: "/concept_paid_subscription_workflow.html"
+    - title: グローバル権限を持つ MS Office サービスアカウントを作成します
+      url: "/task_creating_msservice_account_with_global_permissions.html"
+    - title: Microsoft Exchange Online の偽装を設定します
+      url: "/task_configuring_impersonation.html"
+    - title: SaaS Backup for Microsoft 365 に登録
+      url: "/task_signing_up_for_saasbkup_paid_subscription.html"
+    - title: 最初のバックアップのスケジュールを設定します
+      url: "/task_scheduling_first_backup.html"
+    - title: 不完全なバックアップを実行します
+      url: "/task_performing_immediate_backup_of_policy.html"
+    - title: データの削除
+      url: "/reference_paid_subscription_data.html"
   - title: サービスを管理します
     entries:
     - title: サービスをアクティブにします

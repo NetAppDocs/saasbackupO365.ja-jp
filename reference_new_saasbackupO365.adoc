@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、お�
 ---
 = 新機能とアップデート
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

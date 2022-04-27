@@ -6,6 +6,7 @@ summary: 即時バックアップまたは即時リストアを開始したが�
 ---
 = ジョブをキャンセルします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

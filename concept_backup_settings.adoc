@@ -6,6 +6,7 @@ summary: バックアップ設定を更新して、さまざまなバックア�
 ---
 = バックアップ設定
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

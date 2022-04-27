@@ -6,6 +6,7 @@ summary: Microsoft Exchange Online 、 Microsoft OneDrive for Business の MySit
 ---
 = サービスレベルのリストアを実行します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: OneNote ノートブックのバックアップを有効にすること
 ---
 = OneNote のバックアップを有効にします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ summary: ルールを使用すると、事前に選択した条件に基づい�
 ---
 = 新しいルールを作成します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

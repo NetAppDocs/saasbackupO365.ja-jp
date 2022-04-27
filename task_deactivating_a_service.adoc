@@ -6,6 +6,7 @@ summary: サービスを非アクティブ化すると、そのサービスに�
 ---
 = サービスを非アクティブ化します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

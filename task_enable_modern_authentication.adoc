@@ -6,6 +6,7 @@ summary: 最新の SaaS Backup for Microsoft 365 認証を有効にすると、 
 ---
 = 現代の認証を有効にします
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

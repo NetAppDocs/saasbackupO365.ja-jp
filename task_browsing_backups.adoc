@@ -6,6 +6,7 @@ summary: すべての Microsoft 365 サービスでバックアップを参照�
 ---
 = バックアップを参照する
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

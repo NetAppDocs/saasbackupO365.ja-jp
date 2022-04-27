@@ -6,6 +6,7 @@ summary: ユーザの管理ロールが更新されると、そのユーザは�
 ---
 = ユーザアカウントに割り当てられている管理ロールを更新します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -8,6 +8,7 @@ summary: Microsoft SharePoint Online では、特定のテンプレートとア�
 :toc: macro
 :hardbreaks:
 :toclevels: 1
+:allow-uri-read: 
 :toc: 
 :toclevels: 1
 :nofooter: 

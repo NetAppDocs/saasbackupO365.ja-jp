@@ -6,6 +6,7 @@ summary: SaaS Backup のアクティビティとジョブ履歴のログを表�
 ---
 = ジョブ履歴とアクティビティログを表示します
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

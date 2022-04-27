@@ -6,6 +6,7 @@ summary: ご意見をお寄せください。
 ---
 = フィードバックを提供する
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

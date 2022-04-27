@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 を使用すると、 Microsoft OneDrive 
 ---
 = Microsoft OneDrive for Business で詳細レベルのリストアを実行できます
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

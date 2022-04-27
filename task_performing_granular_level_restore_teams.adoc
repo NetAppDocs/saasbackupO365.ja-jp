@@ -6,6 +6,7 @@ summary: SaaS Backup for Microsoft 365 のグループ / チームを使用し�
 ---
 = Microsoft 365 のグループとチームについて、細かな単位でリストアを実行できます
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 
