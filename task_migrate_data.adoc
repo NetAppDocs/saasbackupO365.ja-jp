@@ -1,0 +1,82 @@
+---
+sidebar: sidebar 
+permalink: task_migrate_data.html 
+keywords: netapp, saas backup, microsoft office 365, sharepoint, onedrive for business, exchange, groups, migrate, data, export 
+summary: SaaS Backup for Microsoft 365のライセンスの終了に備えて、テナント所有のAmazon S3またはMicrosoft Azure Blob Storageへのデータ移行を要求できます。 
+---
+= データを移行
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+SaaS Backup for Microsoft 365のライセンスの終了に備えて、テナント所有のAmazon S3またはMicrosoft Azure Blob Storageへのデータ移行を要求できます。
+
+データ移行が完了したら、NetApp SaaS Backup Bulk Exportツールを使用してデータをエクスポートできます。にサインインします link:https://mysupport.netapp.com/site/tools["ネットアップサポートツールのページ"] NetApp SaaS Backup Bulk Exportツールを検索します。
+
+
+NOTE: データ移行はライセンス終了です。データ移行中にデータやメタデータの違いが生じないように、すべてのテナントがSaaS Backupアカウントで何らかの作業を行うことは避けてください。データ移行が完了すると、テナントに対してスケジュールされているすべてのバックアップが無効になります。
+
+*要件*：データ移行を要求するには、グローバル管理者権限でテナントアカウントのクレデンシャルを使用してログインします。他のユーザーロールは、ユーザーインターフェースの[データ移行]タブにアクセスできません。
+
+*推奨事項*：すべてのお客様のデータを格納できるだけの十分な容量でデスティネーションストレージをプロビジョニングし、メタデータストレージのバッファとして10%の容量を追加する必要があります。
+
+.手順
+. 「*アカウント設定*」に移動します image:gear_icon.png["歯車アイコン"]。
+. [*データ移行*]タブを選択します。
+. Storage Details（ストレージの詳細）*で、各フィールドに情報を入力します。
++
+[cols="20,20"]
+|===
+| Amazon S3 | Microsoft Azure 
+
+
+| バケット名 | アカウント名 
+
+
+| 地域 | コンテナ名 
+
+
+| アクセスキー | アクセスポイント 
+
+
+| シークレットキー | アクセスキー 
+
+
+|  | 地域 
+|===
++
+
+NOTE: Microsoft Azureユーザは、Storage DetailsにあるコンテナのPublicアクセスレベルを「Blob」に設定する必要があります。
+
+. [接続のテスト*]を選択します。
++
+緑のチェックマークは、接続が正常であることを示します。
+
+. [*同意する*]で、データ移行の条件に同意するボックスを選択し、[送信*]を選択します。
++
+詳細が保存されました。テナントIDが「* Migration Status *」に表示されるようになりました。
+
++
+
+TIP: テナントIDは、NetApp SaaS Backup Bulk Exportツールを使用してデータをエクスポートする場合に必要になります。
+
+
+
+* SaaS Backupでは、お客様の同意を得てAmazon S3バケット*の追加手順が提供されましたが、現在はポリシーとポリシーに関する注記が同意の下に表示されています。次の手順に従って、データ移行要求を完了します。
+
+. ポリシーを確認してコピーします。
++
+image:policy-note-variables.png["IAMユーザ変数とデスティネーション変数が強調表示されたポリシーをコピーしました"]
+
+. Amazon S3アカウントに移動します。
+. 「* Storage Details *」で指定したポリシーをAmazon S3のデスティネーションバケットに適用します。
+. SaaS Backup for Microsoft 365の* Account Settings *の* Data Migration *タブに戻ります。
+. 「* Policy Confirmation *」ボックスで、ポリシーがデスティネーションバケットにアップロードされたことを確認するボックスを選択し、「* Submit *」を選択します。緑のチェックマークは、データ移行要求が完了していて、データ移行がキューに登録されたことを示しています。
+
+
+移行の進捗状況を監視するには、「移行ステータス」を参照してください。移行時間は、データ量やライセンス数など、いくつかの要因によって異なります。
