@@ -14,7 +14,10 @@ summary: SaaS Backup for Microsoft 365のライセンスの終了に備えて、
 
 
 [role="lead"]
-SaaS Backup for Microsoft 365のライセンスの終了に備えて、テナント所有のAmazon S3またはMicrosoft Azure Blob Storageへのデータ移行を要求できます。
+SaaS Backup for Microsoft 365のライセンスの終了に備えて、Amazon S3からテナント所有のAmazon S3ストレージ、またはMicrosoft Azure Blobからテナント所有のMicrosoft Azure Blob Storageへのデータ移行を要求できます。
+
+
+NOTE: Amazon S3からMicrosoft Azure Blobストレージへ、またはMicrosoft Azure BlobからAmazon S3ストレージへのクロスマイグレーションはサポートされていません。
 
 データ移行が完了したら、NetApp SaaS Backup Bulk Exportツールを使用してデータをエクスポートできます。にサインインします link:https://mysupport.netapp.com/site/tools["ネットアップサポートツールのページ"] NetApp SaaS Backup Bulk Exportツールを検索します。
 

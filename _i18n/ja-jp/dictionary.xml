@@ -1359,4 +1359,6 @@
   <block id="ffa51d6855cca4131bdcec9c3740ad0b" category="inline-link-macro">データを移行</block>
   <block id="985be5d8f78db2bf8609a9776c400b81" category="list-text">SaaS Backup for Microsoft 365でデータ移行が可能になりました。アカウント管理者は、テナント所有のAmazon S3およびAzure Blob Storageデスティネーションバケットへのデータ移行を要求できます。方法をご確認ください <block ref="6f5fb74cdf8e0d07a2092eec0568d924" category="inline-link-macro-rx"></block>。</block>
   <block id="02dfe706c292ef8fe0db1d80bf8f89a6" category="list-text">SaaS Backup Export Utilityツールが使用可能になり、移行したデータをAmazon S3およびAzure Blob Storageのデスティネーションバケットまたはローカルストレージに簡単にエクスポートできるようになりました。にサインインします <block ref="f77ad18881805ec354217bae9bc5280f" category="inline-link-macro-rx"></block> NetApp SaaS Backup Bulk Exportツールを検索します。</block>
+  <block id="f086b6fce40b83560fe8ab80c4c78980" category="paragraph">SaaS Backup for Microsoft 365のライセンスの終了に備えて、Amazon S3からテナント所有のAmazon S3ストレージ、またはMicrosoft Azure Blobからテナント所有のMicrosoft Azure Blob Storageへのデータ移行を要求できます。</block>
+  <block id="2082bcb44a92c4c9e2b835d60c6900b8" category="admonition">Amazon S3からMicrosoft Azure Blobストレージへ、またはMicrosoft Azure BlobからAmazon S3ストレージへのクロスマイグレーションはサポートされていません。</block>
 </blocks>
