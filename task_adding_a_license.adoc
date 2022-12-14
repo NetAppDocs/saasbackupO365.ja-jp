@@ -14,7 +14,7 @@ summary: ライセンスは追加またはリリースできます。
 
 
 [role="lead"]
-有料サブスクリプションのライセンスを受け取ったばかりの場合は、以下の手順に従ってください #workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,有料サブスクリプションを開始するためのワークフロー。ワークフローの一環としてライセンスキーを入力します。
+有料サブスクリプションのライセンスを受け取ったばかりの場合は、以下の手順に従ってください <<concept_paid_subscription_workflow.adoc#workflow-for-etting-started-with-a-paid-subscription-toSaaS-Backup-for-Office-365,有料サブスクリプションを開始するためのワークフロー>>。ワークフローの一環としてライセンスキーを入力します。
 
 SaaS Backup をすでに使用している場合は、次の手順に従ってライセンスを追加できます。
 

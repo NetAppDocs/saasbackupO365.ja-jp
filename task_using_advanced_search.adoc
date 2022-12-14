@@ -22,9 +22,9 @@ Microsoft Exchange Online の * 詳細検索 * を使用すると、個々のメ
 
 image:advanced_search_settings_exchange.png["高度な検索設定のスクリーンショット"]
 
-*  Advanced Search
-*  a search
-*  previous search jobs
+* <<高度な検索を有効にします>>
+* <<検索を実行します>>
+* <<前の検索ジョブを検索します>>
 
 
 

@@ -19,7 +19,7 @@ summary: バックアップ設定を更新して、さまざまなバックア�
 
 
 [role="lead"]
-を更新できます #backup-settings,バックアップ設定 各種バックアップオプションを制御するため。利用可能 #backup-settings,バックアップ設定 サービスによって異なります。
+を更新できます <<concept_backup_settings.adoc#backup-settings,バックアップ設定>> 各種バックアップオプションを制御するため。利用可能 <<concept_backup_settings.adoc#backup-settings,バックアップ設定>> サービスによって異なります。
 
 .手順
 . 左側のナビゲーションペインで [*Services] をクリックします。
