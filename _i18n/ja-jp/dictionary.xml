@@ -253,7 +253,6 @@
   <block id="692664770412ddd705b7f413cee7d6fb" category="section-title">2019 年 3 月</block>
   <block id="f342fec16bfb61a8dd26a7f7ee694ea0" category="list-text">SaaS Backup for Microsoft 365 で、サポートされているリージョンごとに複数のバックアップ先を使用できるようになりました。</block>
   <block id="fc450d190b34e98c0417e7cc17568f3c" category="paragraph">データバックアップのサイトとして、選択したリージョン内の使用可能な場所を選択できるようになりました。データの場所に地理的に最も近い場所を選択することを推奨します。SaaS Backup で推奨される場所は、オプションのリストで「 * preferred * 」とマークされています。</block>
-  <block id="8683bf91a11e498ffd74c9c3a102487d" category="admonition">試用版からアップグレードしていて、試用版で使用されている場所とは異なるバックアップの場所を選択した場合、試用版のデータは保持されません。</block>
   <block id="faae77443f7a8406deaf55c3795ace10" category="section-title">2019年2月</block>
   <block id="82caf71ab4314503cd4b4826bf47361d" category="list-text">SaaS Backup for Microsoft 365 では、次の機能がサポートされるようになりました。</block>
   <block id="154ae5da6ed22a4b973d787b66439540" category="list-text">アーカイブメールボックスのバックアップとリストア</block>
@@ -1220,8 +1219,6 @@
   <block id="935f9ecad6dadf1ce20d75b6aa7ad1ef" category="list-text">をクリックします <block ref="196c8e0673c96199553d3e57046ae92d" category="inline-image-macro-rx" type="image"></block> をクリックします。</block>
   <block id="6aaa73c1970866ed9779b298b48bd43a" category="list-text">[*Services] をクリックします。</block>
   <block id="d4221ec3faf6174be7b78d60fd6fb637" category="sidebar">高度な検索を使用します</block>
-  <block id="a72ba6abcd432d690074b970ea9e1e5a" category="inline-link-macro">無償トライアルで SaaS Backup に登録してください</block>
-  <block id="8f8caa92edfef6726734d704b2b67044" category="paragraph"><block ref="8f8caa92edfef6726734d704b2b67044" category="inline-link-macro-rx"></block></block>
   <block id="86ca1026a5895f803f6cb3b59d638cdc" category="inline-link-macro">有料サブスクリプションから SaaS Backup に登録します</block>
   <block id="d31c8900ff029d35426a6b655cf439ee" category="paragraph"><block ref="d31c8900ff029d35426a6b655cf439ee" category="inline-link-macro-rx"></block></block>
   <block id="935dcc2d07dcf421a5d4a1a8dbe78a83" category="paragraph"><block ref="935dcc2d07dcf421a5d4a1a8dbe78a83" category="inline-link-macro-rx"></block></block>
@@ -1237,7 +1234,6 @@
   <block id="26e40bc6f1282c9623b59cd8c4ef7ecc" category="paragraph"><block ref="26e40bc6f1282c9623b59cd8c4ef7ecc" category="inline-link-macro-rx"></block></block>
   <block id="b02b015caa6895d69dc7e8806258b548" category="paragraph"><block ref="b02b015caa6895d69dc7e8806258b548" category="inline-link-macro-rx"></block></block>
   <block id="24a863b441948a22c2f5079750e19513" category="paragraph"><block ref="24a863b441948a22c2f5079750e19513" category="inline-link-macro-rx"></block></block>
-  <block id="02d42668aef32358c91e97fac3b74454" category="paragraph"><block ref="02d42668aef32358c91e97fac3b74454" category="inline-link-macro-rx"></block></block>
   <block id="8c673911badf0bc86b25912d2c703123" category="list-text">ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。<block ref="13fb5063dfdc66cecf804982b04fd9ff" category="inline-link-macro-rx"></block></block>
   <block id="16f345c293087f19c380f130e732d040" category="paragraph">* 注：会話履歴は除外してください。</block>
   <block id="a1ab5ce0720ebbbda3918cd012a68184" category="paragraph">* 注：リストアには、チャネル名とタブ名のみが含まれます。</block>
@@ -1257,7 +1253,6 @@
   <block id="41b34773b64b2abaab2984b716ed65b0" category="summary">高度な検索を有効にすると、 Microsoft 365 Exchange Online でバックアップされたアイテムを検索できます。</block>
   <block id="23e9dcfa8b97aaea186eaaeb1177dea4" category="paragraph">Microsoft Exchange Online の * 詳細検索 * を使用すると、個々のメールボックスまたは共有メールボックスアイテムを検索し、これらのアイテムを元のメールボックスにリストアできます。</block>
   <block id="c7f1896c455334213518b5df2a860b44" category="paragraph">管理者は、にアクセスして、 * 詳細検索 * を有効にできます <block ref="f87e0976e00f26ec4930aef7f830024f" category="inline-link-macro-rx"></block> リクエストを送信します。SaaS Backup のサポートチームには、 saasbackupsupport@netapp.com から E メールでお問い合わせいただくこともできます。</block>
-  <block id="4c6fa9a7d2c0c345bf057d6d3e77c80a" category="paragraph">[ 高度な検索 * ] を有効にすると、個々のテナントに対してセルフサービスポータル（ SSP ）を有効にできます。最初のバックアップの前に * 詳細検索 * を有効にしないと、検索結果は表示されません。セルフサービスポータルの詳細については、を参照してください <block ref="b51bb0ef6b11f946c31f52683a5d978b" category="inline-link-macro-rx"></block>。</block>
   <block id="4c1d3f657745aa4fa7c5b961a2f7a82f" category="paragraph"><block ref="4c1d3f657745aa4fa7c5b961a2f7a82f" category="inline-image-macro-rx" type="image"></block></block>
   <block id="6e1c6cab6487c8b15e4140bfb0d5fd69" category="list-text"><block ref="7d190c308c24e5fb4e4af67edbc1dd47" category="inline-xref-macro-rx"></block></block>
   <block id="5e23ff9d9c602cb7300fedbed1382b43" category="section-title">高度な検索を有効にします</block>
@@ -1265,7 +1260,6 @@
   <block id="14242c99845a0bf338d45c648e061643" category="list-text">[ 設定の保存 *] をクリックします。</block>
   <block id="6b2edf93f90ba6f21a0eae49dddc7440" category="paragraph">個々のメールボックスアイテムまたは共有メールボックスアイテムを検索し、これらのアイテムを * 検索を実行 * の下の元のメールボックスにリストアできます。</block>
   <block id="f6b15d7324df7c5169155143d4b34912" category="paragraph">以前の検索ジョブは、「 * 過去の検索ジョブ * 」にあります。</block>
-  <block id="38d0504911fa47808177f1d71c40e7e1" category="paragraph">セルフサービスポータルを使用して Microsoft Exchange Online のアイテムを復元する方法については、を参照してください <block ref="8bd99ae3cbd2ccc3f81def50302f803d" category="inline-link-macro-rx"></block>。</block>
   <block id="2aedef02b2ed09f1d4e2fcd6c3fae26e" category="paragraph"><block ref="c19bb902a48f13264b9ec9addfdb6c34" category="inline-xref-macro-rx"></block></block>
   <block id="69cadd9afb18beaf638480ee96474d8d" category="section-title">OneDrive for Business の場合</block>
   <block id="6e56d85b59ed18494624e5efc9118118" category="section-title">Exchange Online の場合</block>
@@ -1362,5 +1356,5 @@
   <block id="f086b6fce40b83560fe8ab80c4c78980" category="paragraph">SaaS Backup for Microsoft 365のライセンスの終了に備えて、Amazon S3からテナント所有のAmazon S3ストレージ、またはMicrosoft Azure Blobからテナント所有のMicrosoft Azure Blob Storageへのデータ移行を要求できます。</block>
   <block id="2082bcb44a92c4c9e2b835d60c6900b8" category="admonition">Amazon S3からMicrosoft Azure Blobストレージへ、またはMicrosoft Azure BlobからAmazon S3ストレージへのクロスマイグレーションはサポートされていません。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
-  <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">関連情報</block>
+  <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">[ 高度な検索 * ] を有効にすると、個々のテナントに対してセルフサービスポータル（ SSP ）を有効にできます。最初のバックアップの前に * 詳細検索 * を有効にしないと、検索結果は表示されません。</block>
 </blocks>

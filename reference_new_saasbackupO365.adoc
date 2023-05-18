@@ -40,8 +40,6 @@ Microsoft 365 は、 2021 年 10 月を Exchange Online の基本認証の廃止
 
 Microsoft Azure を米国で導入した場合、お客様のデータは Microsoft 環境から移動しません。SaaS Backup for Microsoft 365 のサインアッププロセスでは、 Azure BLOB ストレージまたは独自のストレージを使用できます。
 
-link:task_signing_up_for_saasbkup_free_trial.html["無償トライアルで SaaS Backup に登録してください"]
-
 link:task_signing_up_for_saasbkup_paid_subscription.html["有料サブスクリプションから SaaS Backup に登録します"]
 
 
@@ -161,13 +159,6 @@ link:task_deleting_security_groups.html["セキュリティグループを削除
 * SaaS Backup for Microsoft 365 で、サポートされているリージョンごとに複数のバックアップ先を使用できるようになりました。
 +
 データバックアップのサイトとして、選択したリージョン内の使用可能な場所を選択できるようになりました。データの場所に地理的に最も近い場所を選択することを推奨します。SaaS Backup で推奨される場所は、オプションのリストで「 * preferred * 」とマークされています。
-
-+
-
-NOTE: 試用版からアップグレードしていて、試用版で使用されている場所とは異なるバックアップの場所を選択した場合、試用版のデータは保持されません。
-
-+
-link:task_upgrading_from_trial.html["試用版サブスクリプションからアップグレードする"]
 
 * ユーザライセンスをリリースして、他のユーザが使用できるようにすることができるようになりました。link:task_releasing_a_user_license.html["ユーザーライセンスをリリースします"]
 

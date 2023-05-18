@@ -20,7 +20,7 @@ Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を�
 
 == 偽装を自動的に構成します
 
-偽装を自動的に構成するには、を実行します https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell コマンドです"]。
+偽装を自動的に構成するには、を実行します https://["MSDN PowerShell コマンドです"]。
 
 
 
