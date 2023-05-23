@@ -21,7 +21,7 @@ Microsoft 365 サービスアカウントまたはネットアップの SSO ア�
 == Microsoft 365 サービスアカウントでサインアップします
 
 .手順
-. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://[]
+. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[]
 . 地域を選択します。選択した領域にテナンシーが作成されます。データはそのデータセンターの場所に保存され、あとで変更することはできません。
 . ランディング・ページの下部にある [* サインアップ * ] をクリックします。
 . エンドユーザライセンス契約に同意します。
@@ -42,10 +42,10 @@ Microsoft 365 サービスアカウントまたはネットアップの SSO ア�
 == ネットアップの SSO アカウントで登録します
 
 .作業を開始する前に
-サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます https://[] をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。
+サブスクリプションを検証するには、 NetApp SSO ユーザ ID とパスワードが必要です。ネットアップの SSO アカウントがない場合は、に進みます https://mysupport.netapp.com/eservice/public/now.do[] をクリックして登録してください。要求の処理が完了すると、ネットアップの SSO クレデンシャルを含む E メール通知が送信されます。リクエストの処理と通知メールの送信には約 24 時間かかります。
 
 .手順
-. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://[]
+. Web ブラウザに SaaS Backup for Microsoft 365 の URL を入力します。https://saasbackup.netapp.com[]
 . ランディングページの下部にある [ サインアップ ] をクリックします。
 . エンドユーザライセンス契約に同意します。
 . [*Sign Up with NetApp SSO* （ NetApp SSO でサインアップ） ] をクリックしimage:sign_up_sso.gif["SaaS Backup のサインインボタンのスクリーンショット ネットアップの SSO アカウントを使用した Microsoft 365"]
