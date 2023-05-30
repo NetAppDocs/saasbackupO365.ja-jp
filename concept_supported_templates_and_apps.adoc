@@ -38,11 +38,14 @@ Microsoft SharePoint Online のバックアップでは、次のテンプレー�
 * EHS #1 （ルートサイト）
 * EHS #0 （ルートサイト）
 * SITEPAGEEPUBLISHING #0 ( 通信サイト )
-* グループ #0 ( グループサイトコレクションプレフィックス )
+* SPSPERS #10（個人用サイト）
 * STS#1 （空白サイト）
 * STS#2 （ドキュメントワークスペース）
 * STS #3 （現代チームサイト）
 * アプリケーション #0 （アプリケーションテンプレート）
+* BLANKINTERNET #0（発行サイト）
+* TEAMCHANNEL #0
+* TEAMCHANNEL #1（プライベートチームチャンネル）
 
 
 

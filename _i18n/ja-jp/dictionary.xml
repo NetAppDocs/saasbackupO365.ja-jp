@@ -619,7 +619,6 @@
   <block id="5a9fa37a8adc9079710c82bebd381be2" category="list-text">EHS #1 （ルートサイト）</block>
   <block id="a1c702db865ff7988cecde653d31e549" category="list-text">EHS #0 （ルートサイト）</block>
   <block id="e69fe81e6c14067bfa02448cc56f0d90" category="list-text">SITEPAGEEPUBLISHING #0 ( 通信サイト )</block>
-  <block id="cd6b1dceac9feb15ce679e63c41ec14b" category="list-text">グループ #0 ( グループサイトコレクションプレフィックス )</block>
   <block id="02331da6f964bf5a355bef176199392c" category="list-text">STS#1 （空白サイト）</block>
   <block id="370f28e84c7e5f280c6384763af39ff8" category="list-text">STS#2 （ドキュメントワークスペース）</block>
   <block id="bb39ae34f785130781c5d7c8f66840ca" category="list-text">STS #3 （現代チームサイト）</block>
@@ -1357,4 +1356,8 @@
   <block id="2082bcb44a92c4c9e2b835d60c6900b8" category="admonition">Amazon S3からMicrosoft Azure Blobストレージへ、またはMicrosoft Azure BlobからAmazon S3ストレージへのクロスマイグレーションはサポートされていません。</block>
   <block id="135b308ed83c53f1516b7c754566d1c4" category="paragraph-title">作業を開始する前に</block>
   <block id="afda39e1ba1136390162c552c18a5674" category="paragraph">[ 高度な検索 * ] を有効にすると、個々のテナントに対してセルフサービスポータル（ SSP ）を有効にできます。最初のバックアップの前に * 詳細検索 * を有効にしないと、検索結果は表示されません。</block>
+  <block id="ecdf921a3a6a074b60616280efaea786" category="list-text">SPSPERS #10（個人用サイト）</block>
+  <block id="f381330caab1211a505b46814d00dafe" category="list-text">BLANKINTERNET #0（発行サイト）</block>
+  <block id="b6402d0dbe2678a6ff7d1ebe657c7846" category="list-text">TEAMCHANNEL #0</block>
+  <block id="f240a6450359519ca5f7b84a102e94a3" category="list-text">TEAMCHANNEL #1（プライベートチームチャンネル）</block>
 </blocks>
