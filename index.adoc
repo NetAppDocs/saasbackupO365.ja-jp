@@ -1,6 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: index.html 
+keywords: netapp, saas backup, microsoft 365, microsoft office exchange, get started, amazon, azure 
 summary: NetApp SaaS Backup for Microsoft 365 のドキュメントポータルへようこそ。 
 ---
 = NetApp SaaS Backup for Microsoft 365 のドキュメント
@@ -10,7 +11,6 @@ summary: NetApp SaaS Backup for Microsoft 365 のドキュメントポータル�
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:keywords: netapp, saas backup, microsoft 365, microsoft office exchange, get started, amazon, azure
 
 
 NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレージと Microsoft Azure Blob Storage にバックアップする、 Web ベースのセキュアなソフトウェアサービス（ SaaS ）です。

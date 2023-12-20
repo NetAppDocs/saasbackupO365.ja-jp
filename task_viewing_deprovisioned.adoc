@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, view, viewing, jobs, deprovisioned
 summary: 削除されたメールボックスまたはユーザアカウントのリストを表示できます。 
 ---
 = プロビジョニング解除された項目のリストを表示します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

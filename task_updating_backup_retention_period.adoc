@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, retention, period, update,
 summary: 個々の階層、メールボックス、サイト、および MySites のデータが保持される期間を、 10 年または無制限に更新することができます。 
 ---
 = バックアップの保持期間を更新します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

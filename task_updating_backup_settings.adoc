@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, backup, setting, update, updating,
 summary: バックアップ設定を更新して、さまざまなバックアップオプションを制御できます。使用可能なバックアップ設定はサービスによって異なります。 
 ---
 = バックアップ設定を更新します
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

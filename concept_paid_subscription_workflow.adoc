@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, getting started, paid, subscriptio
 summary: SaaS Backup for Microsoft 365 の有料サブスクリプションを開始するには、バックアップに使用するストレージのタイプを決定し、グローバル権限を持つ Microsoft 365 サービスアカウントを作成し、サインアッププロセスを完了する必要があります。 
 ---
 = 作業を開始するためのワークフロー
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 [role="lead"]

@@ -5,17 +5,14 @@ keywords: netapp, saas backup, microsoft 365, getting started, storage, types, a
 summary: SaaS Backup で使用できるストレージタイプ。 
 ---
 = SaaS Backup で使用できるストレージタイプ
-:toc: macro
 :hardbreaks:
 :toclevels: 1
 :allow-uri-read: 
-:toc: 
 :toclevels: 1
 :nofooter: 
 :icons: font
 :linkattrs: 
 :imagesdir: ./media/
-:toc-position: content
 
 
 
