@@ -18,12 +18,14 @@ Microsoft Exchange Online で SaaS Backup を使用する場合は、偽装を�
 
 
 
+[[automatically-configure-impersonation]]
 == 偽装を自動的に構成します
 
 偽装を自動的に構成するには、を実行します https://msdn.microsoft.com/en-us/library/office/dn722376(v=exchg.150).aspx["MSDN PowerShell コマンドです"]。
 
 
 
+[[manually-configure-impersonation]]
 == 偽装を手動で構成します
 
 偽装は、 Microsoft 365 管理者アカウントを使用して手動で構成することも、 SaaS Backup に Microsoft 365 サービスアカウントを追加して構成することもできます。Microsoft 365 サービスアカウントの詳細については、を参照してください link:task_creating_msservice_account_with_global_permissions.html["グローバル権限を持つ Microsoft 365 サービスアカウントを作成する"]

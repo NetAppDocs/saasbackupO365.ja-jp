@@ -18,6 +18,7 @@ SaaS Backup for Microsoft 365 では、ジョブ履歴のログが SaaS Backup �
 
 
 
+[[download-the-activity-log]]
 == アクティビティログをダウンロードします
 
 SaaS Backup for Microsoft 365 内で発生するすべてのアクティビティのログが格納されます。ログには、実行された各アクションの日付と、アクションを実行したユーザーの名前が含まれます。アクティビティログは .csv ファイルにダウンロードできます。
@@ -30,6 +31,7 @@ SaaS Backup for Microsoft 365 内で発生するすべてのアクティビテ�
 
 
 
+[[download-a-log-of-completed-jobs]]
 == 完了したジョブのログをダウンロードします
 
 正常に完了したジョブの Excel スプレッドシートをダウンロードできます。

@@ -18,6 +18,7 @@ Microsoft 365 サービスアカウントまたはネットアップの SSO ア�
 
 
 
+[[sign-up-with-a-microsoft-365-service-account]]
 == Microsoft 365 サービスアカウントでサインアップします
 
 .手順
@@ -39,6 +40,7 @@ Microsoft 365 サービスアカウントまたはネットアップの SSO ア�
 
 
 
+[[sign-up-with-a-netapp-sso-account]]
 == ネットアップの SSO アカウントで登録します
 
 .作業を開始する前に

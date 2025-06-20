@@ -17,12 +17,14 @@ NetApp SaaS Backup は、 Microsoft 365 のデータを Amazon S3 ストレー�
 
 
 
+[[get-started]]
 == はじめに
 
 link:concept_paid_subscription_workflow.html["有料購読を開始します"]
 
 
 
+[[provide-feedback-get-help-or-find-more-information]]
 == フィードバックを提供するか、ヘルプを入手するか、詳細を確認します
 
 * link:task_providing_feedback.html["フィードバックを提供する"]

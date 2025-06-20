@@ -32,6 +32,7 @@ NOTE: データが削除またはプロビジョニング解除されると、�
 
 
 
+[[exchange-online]]
 == Exchange Online
 
 [cols="15a,15a,15a,15a,40"]
@@ -73,6 +74,7 @@ NOTE: データが削除またはプロビジョニング解除されると、�
 |===
 
 
+[[sharepoint-online]]
 == SharePoint Online
 
 [cols="15a,15a,15a,15a,40"]
@@ -169,6 +171,7 @@ SharePoint サブサイトコンテンツ
 |===
 
 
+[[onedrive-for-business]]
 == OneDrive for Business の場合
 
 [cols="15a,15a,15a,15a,40"]
@@ -210,6 +213,7 @@ SharePoint サブサイトコンテンツ
 |===
 
 
+[[groups]]
 == グループ
 
 [cols="15a,15a,15a,15a,40"]
@@ -273,6 +277,7 @@ SharePoint コンテンツ
 |===
 
 
+[[teams]]
 == チーム
 
 [cols="15a,15a,15a,15a,40"]

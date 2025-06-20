@@ -20,6 +20,7 @@ Microsoft SharePoint Online のバックアップでは、特定のテンプレ�
 
 
 
+[[supported-templates]]
 == サポートされているテンプレート
 
 Microsoft SharePoint Online のバックアップでは、次のテンプレートのみがサポートされています。
@@ -47,6 +48,7 @@ Microsoft SharePoint Online のバックアップでは、次のテンプレー�
 
 
 
+[[supported-apps]]
 == サポートされているアプリケーション
 
 Microsoft SharePoint Online のバックアップでは、次のアプリケーションがサポートされています。

@@ -20,6 +20,7 @@ SaaS Backup for Microsoft 365 には、 3 つのバックアップポリシー�
 
 
 
+[[backup-policies-for-saas-backup-provided-storage]]
 == SaaS Backup のストレージ用のバックアップポリシー
 
 |===
@@ -39,6 +40,7 @@ NOTE: 管理者は、 SaaS Backup が提供するストレージのデータ保�
 
 
 
+[[backup-policies-for-byos]]
 == BYOS のバックアップポリシー
 
 BYOS は既存のお客様のみを対象としています。

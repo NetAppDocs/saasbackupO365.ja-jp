@@ -20,6 +20,7 @@ summary: 個々の階層、メールボックス、サイト、および MySites
 
 
 
+[[update-the-backup-retention-period-for-a-specific-tier]]
 == 特定の階層のバックアップ保持期間を更新します
 
 .手順
@@ -31,6 +32,7 @@ summary: 個々の階層、メールボックス、サイト、および MySites
 
 
 
+[[update-the-backup-retention-period-for-individual-users-and-tenants]]
 == 個々のユーザとテナントのバックアップ保持期間を更新する
 
 .手順

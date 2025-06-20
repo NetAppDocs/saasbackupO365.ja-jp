@@ -17,6 +17,7 @@ summary: SaaS Backup で使用できるストレージタイプ。
 
 
 
+[[saas-backup-provided-storage]]
 == SaaS Backup のストレージ
 
 SaaS Backup には次のストレージオプションがあります。

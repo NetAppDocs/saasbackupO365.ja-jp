@@ -18,18 +18,21 @@ summary: SaaS Backup for Microsoft 365 では、新機能、拡張機能、お�
 
 
 
+[[for-sharepoint-online]]
 == SharePoint Online の場合
 
 SaaS Backup では、アーカイブされた SharePoint サイトのバックアップはサポートされていません。
 
 
 
+[[for-onedrive-for-business]]
 == OneDrive for Business の場合
 
 新しく追加したドライブは、サービスの同期を手動で完了するまで検出されません。
 
 
 
+[[for-exchange-online]]
 == Exchange Online の場合
 
 * SaaS Backup では、パブリックフォルダのバックアップはサポートされていません。
@@ -38,6 +41,7 @@ SaaS Backup では、アーカイブされた SharePoint サイトのバック�
 
 
 
+[[for-teams]]
 == チームのために
 
 * チャネル構成は復元されますが、コンテンツと会話は復元されません。
@@ -49,6 +53,7 @@ SaaS Backup では、アーカイブされた SharePoint サイトのバック�
 
 
 
+[[for-onenote]]
 == OneNote の場合
 
 * データにエクスポートすることはできません。
@@ -60,6 +65,7 @@ SaaS Backup では、アーカイブされた SharePoint サイトのバック�
 
 
 
+[[other-problems-and-limitations]]
 == その他の問題および制限事項
 
 次の既知の問題および制限は、 1 つのアプリケーションに限定されていません。
